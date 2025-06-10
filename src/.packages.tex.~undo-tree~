@@ -1,0 +1,20 @@
+(undo-tree-save-format-version . 1)
+"2ebf65058c6ba06ab9faac1ca9b0956098956179"
+[nil nil nil nil (26686 42381 764224 3000) 0 nil]
+([nil nil ((nil rear-nonsticky nil 677 . 678) (nil fontified nil 656 . 678) (656 . 678) (655 . 656) (t 26676 20011 168533 926000) 634) nil (26686 42381 764218 540000) 0 nil])
+([nil nil ((apply -3 7334 7357 undo--wrap-and-run-primitive-undo 7334 7357 ((7334 . 7337) 7349 (t 26686 42381 772866 560000)))) nil (26686 42415 31282 976000) 0 nil])
+([nil nil ((apply -3 7357 7382 undo--wrap-and-run-primitive-undo 7357 7382 ((7357 . 7360) 7372))) nil (26686 42415 31279 319000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 443 . 444) (nil fontified nil 107 . 444) (107 . 444) (#("\\usepackage{polyglossia}              % Multilingual support
+\\setmainlanguage{russian}
+\\setotherlanguages{english}
+\\defaultfontfeatures{Ligatures=TeX}
+\\setmainfont{FreeSerif}
+\\setsansfont{FreeSans}
+\\setmonofont{FreeMono}
+" 0 11 (face font-lock-keyword-face fontified t) 11 12 (fontified t) 12 23 (face font-lock-builtin-face fontified t) 23 38 (fontified t) 38 61 (face font-lock-comment-face fontified t) 61 77 (face font-lock-keyword-face fontified t) 77 87 (fontified t) 87 105 (face font-lock-keyword-face fontified t) 105 115 (fontified t) 115 135 (face font-lock-keyword-face fontified t) 135 151 (fontified t) 151 163 (face font-lock-keyword-face fontified t) 163 175 (fontified t) 175 187 (face font-lock-keyword-face fontified t) 187 198 (fontified t) 198 210 (face font-lock-keyword-face fontified t) 210 221 (fontified t)) . 107) (undo-tree-id0 . -221) (undo-tree-id1 . -198) (undo-tree-id2 . -220) (undo-tree-id3 . -198) (undo-tree-id4 . -198) 328 (t 26686 42415 32067 917000)) nil (26686 42577 707163 610000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 167 . 168) (nil fontified nil 146 . 168) (146 . 168) (#(" " 0 1 (fontified t)) . -146) (undo-tree-id13 . -1) 147 (145 . 147) (131 . 145) (t 26686 42577 714079 102000)) nil (26686 42602 771941 790000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 145) (undo-tree-id11 . -1) (undo-tree-id12 . -1)) nil (26686 42602 771939 973000) 0 nil])
+([nil nil ((293 . 314) (#("                 " 0 17 (fontified t)) . 293) (undo-tree-id7 . -17) 310 (293 . 310) (#("             " 0 13 (fontified t)) . 293) (undo-tree-id8 . -13) 306 (293 . 306) (#("         " 0 9 (fontified t)) . 293) (undo-tree-id9 . -9) 302 (293 . 302) (#("     " 0 5 (fontified t)) . 293) (undo-tree-id10 . -5) 298) nil (26686 42602 771937 304000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 312)) nil (26686 42602 771931 598000) 0 nil])
+([nil current ((#(" " 0 1 (fontified t)) . 312) (undo-tree-id5 . -1) (undo-tree-id6 . -1)) nil (26686 42602 771928 735000) 0 nil])
+nil
