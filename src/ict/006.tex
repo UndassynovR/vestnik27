@@ -1,796 +1,835 @@
-\id{МРНТИ 28.17.19}{}
+\id{МРНТИ 49.33.29}{}; 28.23.37
 
-{\bfseries ПРИМЕНЕНИЕ ЧИРПЛЕТОВ ДЛЯ ИДЕНТИФИКАЦИИ ЧЕЛОВЕКА ПО АУДИОЗАПИСЯМ}
+\begin{articleheader}
+\sectionwithauthors{}{SINGLE ANCHOR NODE POSITIONING METHOD USING ANTENNA ARRAY AND MACHINE LEARNING}
 
-{\bfseries \textsuperscript{1,2}М.С.Алиаскар}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image16}
-	\caption*{}
-\end{figure}
-{\bfseries ,
-\textsuperscript{2}Ш.А.Джомартова}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image16}
-	\caption*{}
-\end{figure}
-{\bfseries \textsuperscript{\envelope },
-\textsuperscript{2}А.Т.Мазакова}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image16}
-	\caption*{}
-\end{figure}
-{\bfseries ,
-\textsuperscript{1,2}Т.Ж.Мазаков}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image16}
-	\caption*{}
-\end{figure}
-,
-
-{\bfseries \textsuperscript{3}А.Д.Майлыбаева}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image16}
-	\caption*{}
-\end{figure}
-{\bfseries ,
-\textsuperscript{1}Н.Т.Исимов}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image16}
-	\caption*{}
-\end{figure}
-{\bfseries ,
-\textsuperscript{4}К.Б.Бегалиева}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image16}
-	\caption*{}
-\end{figure}
-{\bfseries ,
-\textsuperscript{5}А.Т.Досаналиева}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image16}
-	\caption*{}
-\end{figure}
-
-
-\textsuperscript{1}Международный инженерно-технологический университет,
-Алматы, Казахстан,
-
-\textsuperscript{2}Казахский национальный университет им. аль-Фараби,
-Алматы, Казахстан,
-
-\textsuperscript{3}Атырауский университет им. Х. Досмухамедова, Атырау,
-Казахстан,
-
-\textsuperscript{4}Казахский агротехнический исследовательский
-университет им. С. Сейфуллина, Астана, Казахстан,
-
-\textsuperscript{5}Алматинский Технологический Университет, Алматы,
-Казахстан
-
-{\bfseries \textsuperscript{\envelope }}Корреспондент-автор:
-\href{mailto:jomartova@mail.ru}{}
-
-Статья посвящена решению ряда задач, возникающих при изучении
-аудиосигналов. Предложенный алгоритм реализован на Python и применен для
-анализа аудиозаписей. Эффективность предлагаемого авторами алгоритма
-демонстрируется при обработке речевой информации для выделения
-характеристик голоса конкретного человека.
-
-Разработанный алгоритм основан на применении чирплетов к обработке
-звуковых сигналов, отличается универсальностью и возможностями быстрой
-адаптации к различным приложениям. В статье представлены результаты
-численных расчетов и оценены дальнейшие перспективы развития подобных
-систем.
-
-Представленные в работе алгоритмы могут быть применены при обработке
-сигналов различной природы физических, химических и экономических
-процессов.
-
-{\bfseries Ключевые слова:} интеллектуальная система, преобразования Фурье,
-очистка сигнала, распознавание голоса, чирплет.
-
-{\bfseries АУДИО ЖАЗБАЛАРДАН АДАМДАРДЫ АНЫҚТАУ ҮШІН CHIRPLETS ПАЙДАЛАНУ}
-
-{\bfseries \textsuperscript{1,2}М.С. Әлиаскар,
-\textsuperscript{2}Ш.А.Джомартова\textsuperscript{\envelope },
-\textsuperscript{2}Ә.Т.Мазақова, \textsuperscript{1,2}Т.Ж. Мазақов,}
-
-{\bfseries \textsuperscript{3}А.Д. Майлыбаева,
-\textsuperscript{1}Н.Т.Исимов, \textsuperscript{4}К.Б. Бегалиева,
-\textsuperscript{5}А.Т.Досаналиева}
-
-\textsuperscript{1}Халықаралық инженерлік және технология университеті,
-Алматы, Қазақстан,
-
-\textsuperscript{2}Әл-Фараби атындағы Қазақ ұлттық университеті, Алматы,
-Қазақстан
-
-\textsuperscript{3}Х.Досмұхамедов атындағы Атырау университеті, Атырау,
-Қазақстан,
-
-\textsuperscript{4}Сейфуллин атындағы Қазақ агротехникалық зерттеу
-университеті, Астана, Қазақстан,
-
-\textsuperscript{5}Алматы технологиялық университеті, Алматы, Қазақстан,
-
-e-mail: \href{mailto:jomartova@mail.ru}{}
-
-Мақала дыбыстық сигналдарды зерттеу кезінде туындайтын бірқатар
-мәселелерді шешуге арналған. Ұсынылған алгоритм Python-да енгізілген
-және аудио жазбаларды талдау үшін қолданылады. Авторлар ұсынған
-алгоритмнің тиімділігі белгілі бір адамның дауысының сипаттамаларын
-анықтау үшін сөйлеу ақпаратын өңдеуде көрсетіледі.
-
-Әзірленген алгоритм дыбыстық сигналдарды өңдеуге чирплеттерді қолдануға
-негізделген, оның әмбебаптығымен және әртүрлі қосымшаларға тез бейімделу
-мүмкіндігімен ерекшеленеді. Мақалада сандық есептеулердің нәтижелері
-берілген және мұндай жүйелердің одан әрі даму перспективалары
-бағаланады.
-
-Жұмыста ұсынылған алгоритмдер физикалық, химиялық және экономикалық
-процестердің әртүрлі сипаттағы сигналдарды өңдеуде қолданылуы мүмкін.
-
-{\bfseries Түйінді сөздер:} интеллектуалды жүйе, Фурье түрлендірулері,
-сигналды тазалау, дауысты тану, шырылдау.
-
-{\bfseries \hfill\break
+{\bfseries
+Б.Н. Жоламанов\textsuperscript{\envelope },
+М.К. Нұрғалиев,
+А.Б. Болатбек,
+Қ.Т. Көпбай,
+Д.А. Қожабек
 }
+\end{articleheader}
 
-{\bfseries Using Chirplets to Identify People from Audio Recordings}
+\begin{affiliation}
+Al-Farabi Kazakh National University, Almaty, Kazakhstan
 
-{\bfseries \textsuperscript{1,2}M.S. Aliaskar,
-\textsuperscript{2}Sh.A.Jomartova\textsuperscript{\envelope },
-\textsuperscript{2}A.T.Mazakova, \textsuperscript{1,2}Т.Zh.Mazakov,}
+\raggedright \textsuperscript{\envelope }Корреспондент-автор: \href{mailto:zholamanov.batyrbek@kaznu.kz}{\nolinkurl{zholamanov.batyrbek@kaznu.kz}}
+\end{affiliation}
 
-\begin{quote}
-{\bfseries \textsuperscript{3}A.D.Mailybayeva,
-\textsuperscript{1}N.T.Isimov, \textsuperscript{4}K.B.Begaliyeva,
-\textsuperscript{5}A.T.Dossanalyieva}
-\end{quote}
+Positioning is a fundamental process in wireless sensor networks (WSNs)
+and Internet of Things (IoT) systems to accurately track the location of
+nodes. This study presents a cost-effective and scalable single-anchor
+node positioning system integrating ZigBee technology, directional
+antennas, and machine learning (ML). The system utilizes a
+custom-designed directional antenna array and machine learning
+algorithms to process Received Signal Strength Indicator (RSSI) data,
+achieving precise localization with minimal hardware requirements.
+Experimental results confirm the superiority of the antenna array,
+demonstrating a maximum gain of 10 dBi and enhanced signal reception
+compared to monopole and single-patch antennas. The XGBoost model
+achieved high accuracy, with R² values of 97.76\% on training and
+90.95\% on test data.
 
-¹International Engineering and Technology University, Almaty,
-Kazakhstan,
+{\bfseries Keywords:} Wireless Sensor Networks, ZigBee technology, node
+positioning, RSSI, directional antenna, machine learning.
 
-²Kazakh National University named after Al-Farabi, Almaty, Kazakhstan,
+\begin{articleheader}
+{\bfseries АНТЕННА МАССИВІ МЕН МАШИНАЛЫҚ ОҚЫТУДЫ ҚОЛДАНУ АРҚЫЛЫ БІР ЯКОРЛЫ
+ТҮЙІНГЕ НЕГІЗДЕЛГЕН ПОЗИЦИЯЛАУ ӘДІСІ}
 
-\textsuperscript{3}Atyrau University named after Kh. Dosmukhambetov,
-Atyrau, Kazakhstan,
+{\bfseries
+Б.Н. Жоламанов\textsuperscript{\envelope },
+М.К. Нұрғалиев,
+А.Б. Болатбек,
+Қ.Т. Көпбай,
+Д.А. Қожабек
+}
+\end{articleheader}
 
-\textsuperscript{4}Kazakh Agrotechnical Research University named after
-S. Seifullin, Astana, Kazakhstan,
+\begin{affiliation}
+әл-Фараби атындағы Қазақ Ұлттық Университеті, Алматы, Қазақстан,
 
-\textsuperscript{5}Almaty Technological University, Almaty, Kazakhstan,
+e-mail: \href{mailto:zholamanov.batyrbek@kaznu.kz}{\nolinkurl{zholamanov.batyrbek@kaznu.kz}}
+\end{affiliation}
 
-e-mail: \href{mailto:jomartova@mail.ru}{}
+Позициялау - сымсыз сенсорлық желілердегі (WSN) және IoT жүйелеріндегі
+түйіндердің орналасуын дәл бақылау үшін негізгі процесс болып табылады.
+Зерттеу барысында ZigBee технологиясын, бағытталған антенналарды және
+машиналық оқытуды (ML) біріктіретін бір якорлық түйінді пайдаланып
+үнемді және масштабталатын позициялау әдісін ұсынылды. Жүйе ең аз жабдық
+талаптары үшін дәл орналасуды қамтамасыз ете отырып, арнайы әзірленген
+антенналық торды және машиналық оқыту алгоритмдерін қабылдайтын сигнал
+деңгейінің индикаторы (RSSI) деректерін өңдеу үшін пайдаланады.
+Эксперименттік нәтижелер монопольді және бір патч антенналарымен
+салыстырғанда, 10 дБи максималды күшейтуді және сигнал қабылдауды
+жақсартатын антенналық тордың артықшылықтарын растайды. XGBoost моделі
+оқыту деректерінде 97,76\% және тестілеу деректерінде 90,95\%
+R\textsuperscript{2} детерминант коэффициенттерімен жоғары дәлдікке қол
+жеткізді.
 
-The article is devoted to solving a number of problems that arise when
-studying audio signals. The proposed algorithm is implemented in Python
-and applied to analyze audio recordings. The efficiency of the algorithm
-proposed by the authors is demonstrated when processing speech
-information to identify the characteristics of a specific
-person' s voice.
+{\bfseries Түйін сөздер:} сымсыз сенсорлық желілер, ZigBee технологиясы,
+түйінді позициялау, RSSI, антенналық тор, машиналық оқыту.
 
-The developed algorithm is based on the use of chirplets to process
-audio signals, is universal and can be quickly adapted to various
-applications. The article presents the results of numerical calculations
-and assesses the further prospects for the development of such systems.
+\begin{articleheader}
+{\bfseries МЕТОД ПОЗИЦИОНИРОВАНИЯ НА ОСНОВЕ ОДНОГО ЯКОРНОГО УЗЛА С
+ИСПОЛЬЗОВАНИЕМ АНТЕННОЙ РЕШЕТКИ И МАШИННОГО ОБУЧЕНИЯ}
 
-The algorithms presented in the work can be used to process signals of
-various natures of physical, chemical and economic processes.
+{\bfseries
+Б.Н. Жоламанов\textsuperscript{\envelope },
+М.К. Нұрғалиев,
+А.Б. Болатбек,
+Қ.Т. Көпбай,
+Д.А. Қожабек
+}
+\end{articleheader}
 
-{\bfseries Keywords:} intelligent system, Fourier transforms, signal
-cleaning, voice recognition, chirplet.
+\begin{affiliation}
+Казахский национальный университет имени аль-Фараби, Алматы, Казахстан,
 
-{\bfseries Введение.} Технологии анализа и обработки аудиосигналов в
-последние годы приобретают всё большую актуальность в связи с ростом
-количества задач, связанных с распознаванием речи и биометрической
-идентификацией человека по голосу. Одной из ключевых проблем в этой
-области является необходимость надёжного и точного выделения
-информативных признаков речи, позволяющих отличить одного говорящего от
-другого. Классические спектральные методы не всегда обеспечивают должную
-точность при работе с нестационарными сигналами и шумами, особенно когда
-частота в сигнале меняется во времени.
+e-mail: \href{mailto:zholamanov.batyrbek@kaznu.kz}{\nolinkurl{zholamanov.batyrbek@kaznu.kz}}
+\end{affiliation}
 
-В связи с этим особый интерес представляют современные методы обработки,
-основанные на чирплет-преобразованиях (Chirplet Transform). Они сочетают
-преимущества вейвлет-анализа и возможностей по отслеживанию изменений
-частоты, позволяя более гибко анализировать сложные нестационарные
-структуры. Применение чирплет-преобразования эффективно при изучении
-речевых сигналов, где частота может варьироваться под влиянием
-особенностей речи, интонации и акцента. Кроме того, данный подход
-демонстрирует высокую универсальность и может использоваться в анализе
-различных типов данных -- от радиолокационных до биомедицинских
-{[}1-3{]}.
+Позиционирование является основным процессом в беспроводных сенсорных
+сетях (WSN) и системах Интернета вещей (IoT) для точного отслеживания
+местоположения узлов. В данном исследовании представлен экономичный и
+масштабируемый метод позиционирования с использованием одного якорного
+узла, который объединяет технологию ZigBee, направленные антенны и
+машинное обучение (ML). Система использует специально разработанную
+антенную решетку и алгоритмы машинного обучения для обработки данных
+индикатора уровня принимаемого сигнала (RSSI), обеспечивая точное
+позиционирование при минимальных требованиях к оборудованию.
+Экспериментальные результаты подтверждают преимущества антенной решетки,
+демонстрируя максимальный коэффициент усиления 10 дБи и улучшенный прием
+сигнала по сравнению с монопольными и одиночными патч-антеннами. Модель
+XGBoost достигла высокой точности с коэффициентами детерминации R²
+97,76\% на обучающих данных и 90,95\% на тестовых данных.
 
-Целью данной работы является демонстрация алгоритма, реализованного на
-языке Python и предназначенного для выделения ключевых частотных и
-амплитудных характеристик речи. С помощью предлагаемых автором методов
-можно строить системы распознавания голоса, способные автоматически
-идентифицировать человека по кратким речевым фрагментам. Подход,
-основанный на чирплет-преобразованиях, даёт перспективы для
-масштабирования и адаптации: его можно применять при исследовании
-широкого спектра сигналов, включая экономические, химические и
-биомедицинские временные ряды.
+{\bfseries Ключевые слова:} беспроводные сенсорные сети, технология ZigBee,
+позиционирование узлов, RSSI, антенная решетка, машинное обучение.
 
-В статье представлены результаты численных экспериментов, выполненных на
-речевых записях нескольких десятков дикторов. Проведённый анализ
-показывает, что чирплет-преобразования могут повысить точность
-идентификации по сравнению с традиционными методами спектрального
-анализа, особенно при наличии шума и непредсказуемых изменений в
-голосовых данных. Рассматриваются основные теоретические аспекты,
-описываются особенности реализации алгоритма в Python и обсуждаются
-возможности дальнейшего развития данной методики.
+\begin{multicols}{2}
+{\bfseries Introduction.} Wireless Sensor Networks are an integral part of
+modern applications, including environmental monitoring, disaster
+management, and the IoT. Accurate node localization is crucial for these
+applications as it directly affects the relevance and usability of the
+collected data {[}1{]}.
 
-Чирплет-преобразование является мощным инструментом для анализа
-аудиосигналов, особенно в случаях, когда частота изменяется во времени.
-Оно находит применение в обработке речи, музыкальном анализе, эхолокации
-и биомедицинских приложениях.
+In open environments and small-scale deployments, where issues like
+interference and noise are minimized, traditional methods such as GPS
+and multi-anchor node systems are widely used {[}2{]}.
 
-{\bfseries Материалы и методы.} В рамках данной работы в качестве исходных
-данных использовались аудиозаписи речи в формате WAV. Каждая запись
-представляла собой последовательность чисел от одного до десяти,
-произнесённых на русском языке. Всего было сформировано 50 таких файлов
-от студентов Международного инженерно-технологического университета (г.
-Алматы). Эксперименты также включали проверку аудио другого человека, не
-входившего в базу данных, для оценки возможности выявления «чужого»
-диктора.
+GPS-based localization offers high accuracy and global coverage but is
+often unsuitable for small-scale deployments due to its cost and energy
+consumption requirements {[}3-4{]}. Continuous operation of the GPS
+module significantly drains the battery of sensor nodes, which is a
+critical limitation in WSNs with constrained resources. Additionally,
+integrating GPS increases the size and complexity of sensor nodes,
+making it an impractical choice for compact or lightweight designs.
 
-Алгоритм обработки записей реализован на языке Python и состоит из
-нескольких основных шагов:
+The study {[}5{]} investigates 3D indoor positioning in multi-story
+buildings using Ultra-Wideband (UWB) technology, focusing on the impact
+of multiple anchors on positioning accuracy and performance improvement.
+The study {[}6{]} examines the impact of multiple anchors in 3D indoor
+positioning using UWB technology, highlighting the effectiveness of
+Particle Swarm Optimization (PSO) in reducing Non-Line-of-Sight (NLOS)
+errors from 33 cm to 10 cm and significantly enhancing system accuracy
+under NLOS conditions. Multi-anchor node systems, while effective in
+many cases, present their own challenges. The need for multiple
+stationary reference nodes increases the cost of equipment and
+deployment, even for small-scale networks. Moreover, the complexity of
+communication and data exchange between anchor nodes reduces scalability
+and performance over time. These systems may also require meticulous
+maintenance and calibration, which can be challenging in remote or open
+environments.
 
-\emph{1. Очистка сигнала от шума.}
+An alternative approach involves single-anchor node systems equipped
+with directional antennas and ML methods. Positioning systems that use
+single-anchor nodes and directional antennas have been actively studied
+to reduce hardware costs and simplify deployment compared to traditional
+multi-anchor systems. Directional antennas are advantageous as they
+provide angular information critical for position estimation. For
+instance, Yong Fu et al. proposed a real-time algorithm for WSN using an
+antenna array to estimate the direction of arrival (DoA) combined with
+RSSI values {[}7{]}. While achieving sub-meter accuracy in controlled
+environments, the method showed significant sensitivity to multipath
+interference. Other approaches, like those by Wang et al., employed
+mechanically rotating directional antennas for angular position
+calculation. However, these systems introduced latency due to mechanical
+movements and required precise synchronization, limiting their usability
+in real-time applications {[}8{]}. ML methods have also been employed to
+improve localization accuracy by identifying complex patterns in signal
+data. Groth et al. introduced a calibration-free system that used a
+random forest model with RSSI data to map spatial coordinates {[}9{]}.
+While the system was effective without extensive environmental
+calibration, it faced challenges with dynamic RSSI variations. Hybrid
+systems that combine directional antennas with advanced statistical or
+ML models aim to address these limitations. For instance, Schmidt et al.
+developed the SALOS system, which utilizes UWB signals and statistical
+propagation models to achieve high accuracy even under multipath
+propagation conditions {[}10{]}. However, its reliance on expensive UWB
+equipment has limited its broader adoption.
 
-Сначала на основе быстрого преобразования Фурье (FFT) оценивается спектр
-исходного сигнала и задаётся амплитудный порог, позволяющий удалить
-паразитные компоненты. Затем выполняется обратное преобразование Фурье,
-в результате чего получается очищенный аудиосигнал.
+Numerous studies have been conducted using ZigBee technology for indoor
+localization tasks. The paper {[}11{]} examines a localization algorithm
+for a mobile robot in complex indoor environments using a ZigBee
+wireless network. An improved algorithm based on RSSI and the least
+squares method reduced the positioning error from 1.59 m to 0.66 m. The
+paper {[}12{]} focuses on the development of an indoor localization
+system using ZigBee modules and a 3D trilateration algorithm to
+determine the positions and distances between unknown nodes. To enhance
+accuracy, a Kalman filter and signal propagation parameter optimization
+are applied, reducing the average localization error from 0.6389 m to
+0.16 m with optimal reader placement at a height of 2.5 m. The paper
+{[}13{]} introduces the MuCHLoc system, which leverages radio frequency
+fingerprints and multi-channel RSS measurements to improve localization
+accuracy. The method compensates for RSS instability by utilizing
+differences in signals across ZigBee channels, improving accuracy by
+15\% and effectively operating in dynamic environments.
 
-\emph{2. Формирование чирплет-базиса.}
+This study introduces a novel single-anchor node localization system
+that leverages ZigBee technology, directional antennas, and machine
+learning to address the limitations of traditional multi-anchor setups.
+By integrating a directional antenna array with machine learning
+algorithms, the system demonstrates significant improvements in signal
+reception and localization accuracy. The proposed approach minimizes
+hardware costs, simplifies deployment, and provides a scalable,
+energy-efficient alternative for WSN, particularly in
+resource-constrained environments.
 
-Для дальнейшего анализа строится набор (базис) чирплет-функций с разными
-параметрами масштабирования (\emph{a}), временного сдвига (\emph{b}) и
-коэффициента чирпа (\emph{k}). Базисные функции представляют собой
-модифицированные вейвлеты, позволяющие учесть изменения частоты во
-времени.
+The novelty of the system lies not in the individual use of ZigBee,
+directional antennas, or machine learning - each of which has been
+previously investigated - but in the specific combination and
+implementation of these components in a single-anchor setup. To the best
+of our knowledge, this is the first study to use a custom-designed
+four-element patch antenna array with ZigBee modules combined with
+machine learning to improve localization performance using only a single
+anchor node. Previous approaches have relied either on multiple anchors,
+mechanically rotating antennas, or expensive technologies. In contrast,
+our system offers a practical, low-cost solution that maintains high
+localization accuracy without the drawbacks of mechanical movement,
+calibration complexity, or high hardware cost, making it particularly
+suitable for scalable deployment in industrial, agricultural, or remote
+settings.
 
-\emph{3. Вычисление коэффициентов чирплет-преобразования.}
+{\bfseries Materials and methods.}
 
-Исходный сигнал проецируется (разлагается) на каждую из чирплет-функций.
-В результате получают набор комплексных коэффициентов, отражающих вклад
-соответствующих чирплет-компонент в структуру анализируемого сигнала.
+\emph{{\bfseries 2.1 Experimental setup}}
 
-4. Анализ амплитудно-частотных характеристик.
+The experiment was conducted in an open field without any obstacles to
+minimize the impact of radio wave interference, which occurs due to the
+superposition of multiple waves. Figure 1 shows the experimental area,
+demonstrating a flat, unobstructed area free from unwanted factors.
 
-Расчётные коэффициенты разделяются на амплитудную и частотную
-составляющие. Частотные значения сортируются по убыванию амплитуды,
-после чего выбирается несколько наиболее значимых гармоник (в работе
-использовалось \emph{Ka}=3). На этом этапе формируется набор
-характеристик голоса, специфичных для конкретного человека (основные
-тоны и соответствующие амплитуды).
+To measure RSSI values, the XCTU software was used in conjunction with
+XBee modules (Figure 1). One module, equipped with a monopole antenna,
+was connected to a laptop and served as the receiver. The other module,
+fitted with a directional antenna array, acted as the transmitter. After
+connecting the two devices via the XCTU interface, signal transmission
+was configured, and RSSI values received by the antenna array were
+recorded. The primary goal of the experiment was to measure RSSI at
+various distances and angular positions relative to the antenna, with
+the collected data intended for machine learning tasks.
+\end{multicols}
 
-\emph{4. Выделение и сохранение признаков.}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{media/ict/image41}
+	\caption*{Fig.1- Experimental area.1 - Transmitter module with patch
+antenna; 2 - Receiver module}
+\end{figure}
 
-Отобранные амплитудно-частотные пары сохраняются в виде вектора
-признаков (частотные коэффициенты и их амплитуды). Такой вектор далее
-можно использовать для сравнения разных образцов речи: при небольшом
-расстоянии между векторами аудиозаписи считаются принадлежащими одному
-диктору; если расстояние превышает некоторый порог, дикторы полагаются
-разными.
+\begin{multicols}{2}
+Measurements were taken at distances of 2 m, 5 m, 10 m, 15 m, and 20 m.
+The angle range varied from −10° to 190° in 10° increments, resulting in
+a total of 200 angular positions. To ensure the accuracy of the
+experiment, each angle and distance was fixed with maximum antenna
+stability.
 
-Описание результатов расчётов и графические иллюстрации (очищенного
-сигнала, чирплетных разложений, амплитудных и фазовых спектров) получены
-с помощью программы на Python, которая читает входные данные (WAV-файл),
-выполняет указанные этапы преобразования и сохраняет итоговые величины в
-текстовом файле. Систематическая проверка метода проведена на 50
-записях, при этом точность автоматического распознавания дикторов
-составила порядка 73--75\%. Для аудиозаписи, не содержащейся в базе
-данных, метод показал способность отличать её от имеющихся образцов, что
-подтверждает перспективность описанного подхода для дальнейшего развития
-систем биометрической идентификации {[}4-7{]}.
+\emph{{\bfseries 2.2. Experimental devices.}} For the experiment, Digi XBee
+wireless modules were utilized to ensure reliable connectivity and data
+transmission. XBee modules support various wireless communication
+standards, including Zigbee, 802.15.4, Wi-Fi, and cellular technologies
+such as 3G/4G/LTE, making them a versatile solution for a wide range of
+applications.
 
-Применение чирплет-анализа также представляется перспективным
-направлением.
+These modules are widely used in IoT systems, industrial automation,
+smart agriculture, home automation, and telemetry. The XBee radio module
+used in this experiment is depicted in Figure 1, and its key technical
+specifications are outlined below in table 1.
+\end{multicols}
 
-\emph{{\bfseries Теоретическая часть.}} Чирплет-преобразование (Chirplet
-Transform) представляет собой обобщение вейвлет-преобразования,
-учитывающее возможность изменения частоты анализируемого сигнала во
-времени.
-
-Существуют различные типы чирплетов:
-
-
-1. Гауссовый чирплет (Gaussian Chirplet) - основан на гауссовых
-вейвлетах;
-
-1. Фурье-чирплет (Fourier Chirplet) - базируется на преобразованиях
-Фурье;
-
-1. Вейвлет-чирплет (Wavelet Chirplet) -- модифицирует классическое
-вейвлет-преобразование, добавляя компоненту изменяющейся частоты.
-Основные преимущества чирплет-преобразования:
-
-
-- Адаптивность к изменяющимся частотам: даёт возможность анализировать
-сигналы со сложной временной и частотной структурой.
-
-- Комбинированная локализация во времени и частоте: позволяет точно
-выделять особенности сигнала, распределённые по шкале времени и
-частоты.
-
-- Универсальность: может применяться в задачах обработки акустических,
-радиолокационных и биомедицинских сигналов {[}8-10{]}.
-Чирп-сигнал можно описать следующим образом:
+{\bfseries Table 1 - Technical specifications}
 
 %% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9463}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0537}}@{}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.2663}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.7337}}@{}}
 %% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% 
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% (1)
-%% \end{minipage} \\
-%% \midrule\noalign{}
 %% \endhead
 %% \bottomrule\noalign{}
 %% \endlastfoot
+%% {\bfseries Parameter} & {\bfseries Specification} \\
+%% Data Rate & 250 Kbps for radio signals; up to 1 Mbps for analog
+%% signals \\
+%% Range & Up to 60 m in indoor/urban environments; up to 1200 m in open
+%% areas \\
+%% Transmission Power & +8 dB \\
+%% Receiver Sensitivity & −103 dB (1\% error rate) \\
+%% Supply Voltage & 2.1--3.6 V \\
+%% Current Consumption & 135 mA during transmission (19 dBm); 17 mA during
+%% reception \\
 %% \end{longtable}
 
-где: \emph{A} -- амплитуда,
---
-начальная частота, \emph{k} -- коэффициент изменения частоты во времени
-(чирп), \emph{j} -- мнимая единица
-().
+\begin{multicols}{2}
+A directional antenna array, consisting of four patch antennas, was
+chosen for this experiment. The use of such an array was essential
+because the experiment could not be performed effectively with a
+monopole antenna, like the one used in the transceiver. Monopole
+antennas provide omnidirectional radiation, which results in RSSI values
+that depend solely on the distance between the transmitter and receiver.
+This characteristic makes it impossible to determine the directional
+orientation of the transmitter relative to the directional antenna.
 
-Базисные функции чирплет-преобразования записываются как:
+To address this limitation, microstrip patch antennas with an air gap
+were designed, simulated, and subsequently fabricated for use in the
+array. These antennas were selected for their compact size and
+compatibility with modern wireless communication systems, including
+Wi-Fi, mobile networks, and satellite communication.
+
+\emph{{\bfseries 2.3. Designing a patch antenna using MATLAB antenna
+toolbox.}} The shape of a patch antenna can vary widely, taking forms
+such as square, circular, or rectangular, depending on the design goals
+and application requirements. For this experiment, the geometric
+parameters of the patch antenna were determined using the MATLAB Antenna
+Toolbox.
+
+This tool enables precise optimization of antenna dimensions to achieve
+the desired performance characteristics. Specifically, the parameters
+were chosen to minimize the \emph{S\textsubscript{11 \hspace{0pt}}}
+parameter, which represents the reflection coefficient and indicates
+efficient power transfer. Alternatively, formulas (1-5), can also be
+used to design patch antennas for specific operational frequencies. The
+geometric dimensions of the designed patch antenna are presented in
+Figure 2. The antenna was constructed from three primary components:
+
+- \emph{Conductive Patch:} The patch serves as the radiating element and
+is typically made of copper due to its high conductivity, although
+other metals may be used. The geometry of the patch directly affects
+the operating frequency, enabling customization for specific
+applications.
+
+- \emph{Dielectric Substrate:} The substrate is located beneath the
+conductive patch and isolates it from the ground plane. For this
+design, an \emph{FR-4} fiberglass epoxy laminate with a dielectric
+constant ε = 4,4 was chosen. This material influences signal
+propagation speed and impedance.
+
+- \emph{Ground Plane:} The ground plane is positioned on the opposite
+side of the substrate. It directs the radiated signal, ensuring it
+propagates in a specific direction. A coaxial feed line is used to
+provide power to the patch via the ground plane.
+To ensure compatibility with the XBee module operating under the ZigBee
+protocol, which spans a wide frequency range with 16 channels spaced 5
+MHz apart, the antenna includes an air gap to enhance performance. This
+design ensures optimal impedance matching and effective radiation across
+the required frequency bands.
+\end{multicols}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{media/ict/image42}
+	\caption*{Fig.2 - Geometrical parameters of the patch antenna}
+\end{figure}
+
+\begin{multicols}{2}
+The width of the microstrip patch antenna is calculated using Equation
+(1):
+
+\[W = \frac{c}{2f_{0}\sqrt{\frac{\varepsilon_{r} + 1}{2}}} (1)\]
+
+where:
+
+
+- \(W\): Width of the patch;
+
+- \(c\): Speed of light;
+
+- \(f_{0}\)\hspace{0pt}: Operating frequency;
+
+- \(\varepsilon_{r}\)\hspace{0pt}: Dielectric constant of the substrate.
+To calculate the length, the following intermediate parameters are
+required:
+
+
+1. \emph{Effective dielectric constant} (\(\varepsilon_{reff}\)) is
+calculated using Equation (2):
+\[\varepsilon_{reff} = \frac{\varepsilon_{r} + 1}{2} + \frac{\varepsilon_{r} - 1}{2}\left\lbrack 1 + \frac{12h}{W} \right\rbrack^{- \frac{1}{2}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (2)\]
+
+where: \(h\) - thickness of the dielectric substrate.
+
+\setcounter{enumi}{1}
+
+1. \emph{Effective length} (\(L_{eff}\)) is determined by Equation (3):
+\[L_{eff} = \frac{c}{2f_{0}\sqrt{\epsilon_{reff}}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (3)\]
+
+\setcounter{enumi}{2}
+
+1. \emph{Extension in length} (ΔL) is obtained from Equation (4):
+\[\mathrm{\Delta}L = 0.412h\frac{(\varepsilon_{reff} + 0.3)(\frac{W}{h} + 0.264)}{(\varepsilon_{reff} - 0.258)(\frac{W}{h} + 0.8)}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (4)\]
+
+\setcounter{enumi}{3}
+
+1. \emph{The actual length} (L) of the patch is computed as:
+\[L = L_{eff} - 2\mathrm{\Delta}L\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (5)\]
+
+\emph{{\bfseries 2.4. Machine learning techniques.}} After collecting the
+data, it was processed and analyzed using machine learning techniques
+like XGBoost, Random Forest, SVM and KNN.
+
+XGBoost is a powerful tool for addressing tasks involving regularized
+gradient boosting, an effective ensemble learning method designed to
+improve prediction accuracy {[}14{]}. Ensemble methods, such as gradient
+boosting, combine the outputs of multiple models to produce stable and
+accurate predictions.
+
+Random Forest is an ensemble machine learning method based on using
+multiple decision trees for classification or regression. It has high
+robustness to outliers and overfitting due to the random selection of
+features and data when constructing trees.
+
+Support Vector Machine is a method that uses a hyperplane to separate
+classes with the maximum margin between them. SVM is particularly
+effective for tasks with small datasets and works well with both
+linearly and non-linearly separable data using kernel functions.
+
+k-Nearest Neighbors (k-NN) is a method that classifies objects based on
+their proximity to the k nearest neighbors in the feature space. The
+algorithm is simple to implement but is sensitive to the sample size and
+the choice of distance metric.
+
+The performance of the model was evaluated using four key metrics: Mean
+Squared Error, Root Mean Squared Error, Coefficient of Determination and
+Mean Absolute Error.
+
+\emph{Mean Squared Error (MSE):} This loss function is used to measure
+the average squared difference between actual and predicted values, as
+shown in Equation (6):
+
+\[L\left( y,\widehat{y} \right) = \frac{1}{2}\sum_{i = 1}^{n}{{(y_{i} - {\widehat{y}}_{i})}^{2}\ }\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (6)\]
+
+where:
+
+
+- \(y_{i}\): Actual value.
+
+- \({\widehat{y}}_{i}\)\hspace{0pt}: Predicted value.
+
+- \emph{n}: Number of data points.
+\emph{Root Mean Squared Error (RMSE):} This loss function is used to
+measure the square root of the average squared difference between actual
+and predicted values, as shown in Equation (7)
+
+\[RMSE = \sqrt{\frac{1}{n}\sum_{i = 0}^{n - 1}{(y_{i} - {\widehat{y}}_{i})}^{2}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (7)\ \]
+
+where:
+
+
+- \(y_{i}\): Actual value.
+
+- \({\widehat{y}}_{i}\)\hspace{0pt}: Predicted value.
+
+- \emph{n}: Number of data points.
+\emph{Coefficient of Determination (R\textsuperscript{2}):} This metric
+evaluates how well the model explains the variance in the target
+variable. It is expressed as:
+
+\[R^{2} = 1 - \frac{{SS}_{res}}{{SS}_{tot}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (7)\]
+
+where:
+
+
+- \({SS}_{res}\) is the residual sum of squares.
+
+- \({SS}_{tot}\) is the total sum of squares.
+\emph{Mean Absolute Error (MAE):} This loss function measures the
+average absolute difference between actual and predicted values, as
+shown in Equation (8):
+
+\[MAE = \frac{1}{n}\sum_{i = 0}^{n - 1}{(|y_{i} - {\widehat{y}}_{i}|)\ }\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (8)\]
+
+where:
+
+
+- \(y_{i}\): Actual value.
+
+- \({\widehat{y}}_{i}\)\hspace{0pt}: Predicted value.
+
+- \emph{n}: Number of data points.
+{\bfseries Results and Discussion.} To improve the gain of a single patch
+antenna, an antenna array consisting of four patch antennas was
+assembled, as shown in Figure 3.
+
+During initial experiments, it was determined that the gain of a single
+patch antenna was insufficient, leading to packet loss during
+transmission and reception between isotropic and directional antennas.
+By configuring all antennas in the array to operate in phase, the
+signals emitted by each antenna constructively interfere in the desired
+direction, resulting in increased gain. Simultaneously, signals in other
+directions destructively interfere, reducing unwanted radiation.
+Achieving proper phase alignment within the array was critical to
+maximize the gain in the desired direction while minimizing signal
+strength in other directions. This was accomplished through precise
+placement and phase delay adjustments for each antenna in the array.
+\end{multicols}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{media/ict/image43}
+	\caption*{Fig.3 - The appearance of the patch antenna}
+\end{figure}
+
+\begin{multicols}{2}
+The reflection coefficient (S\textsubscript{22}) of the antenna array
+was studied in the frequency range from 2.2 to 2.7 GHz. The Figure 4
+shows that the minimum value of the reflection coefficient, equal to
+approximately -40 dB, is achieved at a frequency of 2.56 GHz, which
+indicates the best matching of the antenna at this point. At the same
+time, the reflection coefficient values \hspace{0pt}\hspace{0pt}remain
+quite low throughout the analyzed frequency range, which makes the
+antenna suitable.
+\end{multicols}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{media/ict/image44}
+	\caption*{Fig.4 - The reflection coefficient of the antenna array}
+\end{figure}
+
+\begin{multicols}{2}
+The radiation patterns of the antenna were plotted for three
+frequencies: 2.2 GHz, 2.27 GHz, and 2.4 GHz. The maximum gain reaches 10
+dBi, confirming the good directionality of the antenna. Moreover, the
+radiation patterns exhibit notable similarity across the different
+frequencies, indicating the stability of the antenna's directional
+characteristics within the analyzed range.
+\end{multicols}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{media/ict/image45}
+	\caption*{Fig.5 - The radiation patterns of the antenna}
+\end{figure}
+
+\begin{multicols}{2}
+The Figure 6 illustrates the variation in received signal strength
+(RSSI) as a function of the distance between the transmitter and
+receiver for three types of antennas: a monopole antenna (black line), a
+single patch antenna (blue line), and a patch antenna array with four
+elements (red line). The measurements were conducted with a consistent
+transmission power level of 18 dBm at a frequency of 2.4 GHz. The
+antenna array shows the best signal reception levels at all distances,
+confirming its superiority over the other antenna types. It is also
+observed that RSSI decreases with increasing distance for all antennas,
+which aligns with the expected theoretical behavior.
+\end{multicols}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{media/ict/image46}
+	\caption*{Fig.6 - The dependence of received signal power on distance for
+three different antennas: monopole antenna, patch antenna, and antenna
+array, with the same transmission power level of 18 dBm at a frequency
+of 2.4 GHz}
+\end{figure}
+
+Figure 7 and 8 illustrates the variation in RSSI values as a function of
+both distance and angular position. The graph provides a clear
+visualization of how the RSSI by the antenna array changes under
+different experimental conditions.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{media/ict/image47}
+	\caption*{Fig.7 - RSSI dependence on distance for different measurement angles}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{media/ict/image48}
+	\caption*{Fig.8 - RSSI dependence on the measurement angle for different distances}
+\end{figure}
+
+\begin{multicols}{2}
+\emph{Distance Effect:} As the distance between the transmitter and the
+antenna array increases, the RSSI value decreases consistently. This
+behavior aligns with the fundamental principles of signal attenuation
+over distance, where the signal strength weakens due to free-space path
+loss.
+
+\emph{Angle Effect:} The variation in RSSI across angular positions
+reflects the directional sensitivity of the antenna array. Constructive
+interference in the desired direction produces higher RSSI values, while
+destructive interference in other directions reduces the signal
+strength.
+
+To enhance the understanding of how the Zigbee node' s
+position can be accurately determined, machine learning techniques were
+applied to process and analyze the collected RSSI and distance data.
+During the experiments, data on RSSI values were collected at various
+distances and angular positions relative to the antenna array.
+Normalization of RSSI and distance values was performed to improve the
+stability of model training and prevent bias due to features with large
+scales. Then, a comparison of four machine learning
+algorithms---XGBoost, Random Forest, Support Vector Machine, and
+K-Nearest Neighbors - was conducted. The dataset was split into training
+and testing sets. The models'{} performance was evaluated
+using the following metrics: MAE, MSE, RMSE, and R² Score. The results
+of model training and testing are presented in Tables 2 and 3,
+respectively.
+\end{multicols}
+
+{\bfseries Table 2 -Training results}
 
 %% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9470}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0530}}@{}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2546}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1799}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2029}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1596}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2029}}@{}}
 %% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% 
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% (2)
-%% \end{minipage} \\
-%% \midrule\noalign{}
 %% \endhead
 %% \bottomrule\noalign{}
 %% \endlastfoot
+%% {\bfseries Machine learning algorithms} & {\bfseries MAE} & {\bfseries MSE} &
+%% {\bfseries RMSE} & {\bfseries R² Score} \\
+%% XGBoost & 1,0778 & 2,8780 & 1,4091 & 0,9776 \\
+%% Random Forest & 1,4786 & 3,901165 & 1,9751 & 0,9656 \\
+%% Support Vector Machine & 7,2566 & 82,3409 & 9,0741 & 0,2748 \\
+%% K-Nearest Neighbors & 2,7802 & 15,3381 & 3,9163 & 0,8649 \\
 %% \end{longtable}
 
-где:
-
-
-- 
--- базовая вейвлет-функция,
-
-- 
--- фазовый множитель, который модулирует вейвлет, добавляя эффект
-чирпа.
-Чирплет-преобразование позволяет разложить сигнал в базис, состоящий из
-чирповых сигналов разной частоты и частотного наклона.
-
-Базисные функции в чирплет-преобразовании представляют собой растянутые,
-сдвинутые и искривленные версии исходного вейвлета.
-
-Рассмотрим некоторую последовательность
-
-измерений
-.
-
-Чирплет-преобразование можно вычислять дискретно для сигнала
-\emph{s}{[}\emph{i}{]} следующим образом:
+{\bfseries Table 3 - Testing results}
 
 %% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9463}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0537}}@{}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2546}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1799}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2029}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1596}}
+%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2029}}@{}}
 %% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% 
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% (3)
-%% \end{minipage} \\
-%% \midrule\noalign{}
 %% \endhead
 %% \bottomrule\noalign{}
 %% \endlastfoot
+%% {\bfseries Machine learning algorithms} & {\bfseries MAE} & {\bfseries MSE} &
+%% {\bfseries RMSE} & {\bfseries R² Score} \\
+%% XGBoost & 2,3568 & 3,9470 & 2,9994 & 0,9095 \\
+%% Random Forest & 3,1287 & 14,2804 & 3,7789 & 0,9002 \\
+%% Support Vector Machine & 9,0774 & 115,2343 & 10,734 & 0,2754 \\
+%% K-Nearest Neighbors & 3,2321 & 17,5434 & 4,1884 & 0,8896 \\
 %% \end{longtable}
 
-где:
-
-
-- \emph{N} -- длина сигнала,
-
-- 
--- дискретные отсчёты сигнала,
-
-- 
--- дискретная чирплет-функция
-
-- \emph{a} -- масштабный параметр,
-
-- \emph{b} -- временной сдвиг,
-
-- \emph{k} -- параметр чирпа,
-
-- * -- обозначает комплексное сопряжение.
-В дискретном случае чирплет-функция может быть представлена как:
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9470}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0530}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% 
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% (4)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
-
-Алгоритм реализации чиплет-обработки исходного сигнала.
-
-Шаг 1. Пусть дана последовательность
-
-измерений
-.
-
-Выполняется фильтрация шума на основе быстрого преобразования Фурье
-(FFT). Для этого определяется амплитудный порог для удаления шума. Далее
-применяется обратное преобразование Фурье. В результате имеем очищенный
-сигнал
-
-Шаг 2. Для каждого набора параметров \emph{a,b,k} создается массив
-базисных функций
-по
-формуле (4).
-
-Шаг 3. Вычисляются коэффициенты преобразования по формуле (3)
-
-Шаг 4. Выделяем из полученного сигнала две составляющие: амплитудную и
-частотную
-
-Шаг 5. Сортируем частотную составляющую по убыванию.
-
-Шаг 6. Выбираем из отсортированного массива первые Ka элементы.
-
-В результате выполнения эого шага получим следующие частотные и
-амплитудные коэффиценты
-.
-
-\emph{{\bfseries Программная реализация}}
-
-Описанный алгоритм был реализован с использованием языка
-программирования Python.
-
-Исходные данные выбираются из текстового файла, имя которого в
-интерактивном режиме вводится пользователем.
-
-Данные вводимого из файла должны располагаться по определенным правилам.
-
-Программа сохраняет результаты численных расчетов в текстовом файле и
-отображает их в виде графика. Это позволяет наглядно представить
-полученные результаты {[}11-13{]}.
-
-\emph{{\bfseries Экспериментальная часть}}
-
-Предполагается, что исследуемая речь человека представлена в виде файла
-в формате WAV. Структура WAV-файла включает в себя два компонента:
-заголовок и сами данные. Из заголовка можно выделить: 1) размер файла,
-2) количество каналов, 3) частоту дискретизации и др.
-
-Области данных предшествует цепочка символов data.
-
-Программа написана на Python и выполняет следующие функции: 1)
-интерактивный ввод названия исследуемого файла (Isxod.wav), 2) выделение
-заголовка из файла Isxod.wav), 3) выделение информации об амплитудах
-аудиосигнала, 4) выделение и сохранение признаков, характеризующих
-конкретного человека.
-
-Ниже в соответствии с приведенным алгоритмом показаны графики обработки
-исходного сигнала.
+An analysis of the results showed that the XGBoost algorithm
+demonstrated the best performance. It achieved the lowest error values
+(MAE, MSE, RMSE) and the highest R² Score compared to the other models.
+This indicates its strong generalization ability and high prediction
+accuracy for this task. Other models, such as Random Forest, SVM, and
+KNN, also showed competitive results, but their accuracy was lower,
+especially SVM, which had the worst R² Score. Thus, XGBoost is the most
+preferable choice for predicting RSSI values in this scenario.
 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image64}
-	\caption*{}
+	\includegraphics[width=0.8\textwidth]{media/ict/image49}
+	\caption*{Fig.9 - Comparison of actual and predicted RSSI values on training data}
 \end{figure}
-
-
-{\bfseries Рис.1- Исходный аудиосигнал}
-
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image65}
-	\caption*{}
+	\includegraphics[width=0.8\textwidth]{media/ict/image50}
+	\caption*{Fig.10- Comparison of actual and predicted RSSI values on testing data}
 \end{figure}
 
+\begin{multicols}{2}
+The graphs in Figures 9 and 10 show a comparison of the actual and
+predicted RSSI values \hspace{0pt}\hspace{0pt}for the training and test
+datasets, confirming the high accuracy of the model in forecasting.
 
-{\bfseries Рис.2- Очищенный аудиосигнал}
+The decrease in RSSI values with increasing distance is a predictable
+phenomenon, described by the free-space path loss model. However,
+angular variation introduces additional complexity due to the
+directional sensitivity of the antenna array, which creates nonlinear
+dependencies.
 
+{\bfseries Conclusion.} This article presents a single-anchor node
+localization method that combines ZigBee technology, directional
+antennas, and machine learning to provide a cost-effective, scalable,
+and accurate solution for wireless sensor networks (WSNs). Experimental
+results demonstrate that the use of a directional antenna array
+significantly enhances signal reception, achieving a maximum gain of 10
+dBi and reducing packet loss compared to monopole and single-band
+antennas. The system effectively captures the relationship between RSSI,
+distance, and angular positions, as evidenced by the consistent decrease
+in RSSI values with increasing distance and their variation depending on
+angular positions.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image66}
-	\caption*{}
-\end{figure}
+The XGBoost model trained on the experimental data outperformed other
+machine learning algorithms, achieving a training R² of 97.76\% and a
+testing R² of 90.95\%, with a training MSE of 2.878 and a testing MSE of
+3.947. While the model performs well in controlled environments,
+variability in testing highlights the need for further optimization. The
+results demonstrate the potential of ZigBee-based single-anchor
+localization systems as a viable alternative to traditional multi-anchor
+setups, offering a reliable, energy-efficient, and cost-effective
+solution for IoT and WSN applications requiring accurate and scalable
+localization systems.
 
+A single-anchor node localization system can be applied in industrial
+facilities, smart buildings, medical institutions, and transportation
+hubs to improve the accuracy of tracking objects and personnel.
 
-{\bfseries Рис.3- Чирплетный аудиосигнал}
+In future research, we plan to conduct experiments in urban environments
+and indoor spaces to study the impact of various interferences, such as
+Wi-Fi and multipath signal propagation, on localization accuracy.
 
+\emph{{\bfseries Financing.}} \emph{This research has been funded by the
+Science Committee of the Ministry of Science and Higher Education of the
+Republic of Kazakhstan (Grant AP19678552).}
+\end{multicols}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image67}
-	\caption*{}
-\end{figure}
-
-
-{\bfseries Рис.4 -Амплитудный спектр чирплетного аудиосигнала}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image68}
-	\caption*{}
-\end{figure}
-
-
-{\bfseries Рис.5- Фазовый спектр чирплетного аудиосигнала}
-
-В результате обработки экспериментальных данных было вычислено, что
-достаточно вычисления трех гармоник (Ka=3). В результате обработки
-голосового файла вычисляются 6 характеристик:
-
-1) частотные коэффициенты (основные тоны) --
-;
-
-2) амплитудные коэффициенты разложения
-.
-
-Для отработки предложенного алгоритма были подготовлены аудиозаписи 50
-студентов Международного инженерно-технологического университета г.
-Алматы. Каждый студент говорил числа от единицы до десяти на русском
-языке. Затем в случайном порядке выбиралась аудиозапись и по нему
-определялся его диктор. Также исследовалась аудиозапись такого же
-содержания человека, не занесенного в базу данных. Точность
-распознавания находится в пределах 73-75\%.
-
-{\bfseries Выводы.} Разработка алгоритмов голосовой идентификации
-становится важной задачей в цифровом мире. Внедрение новых методов,
-основанных на чирплет-преобразованиях, способствует повышению точности
-распознавания речи. Дальнейшие исследования направлены на создание
-автоматизированной системы идентификации человека для различных
-приложений, включая биометрические системы безопасности.
-
-В данной статье был разработан метод распознавания голоса, основанный на
-чирплет-преобразованиях.
-
-Чирплеты представляют собой мощный инструмент в анализе нестационарных
-сигналов, объединяя преимущества вейвлетов и чирп-сигналов. Они особенно
-полезны в областях, где частотный спектр изменяется во времени.
-
-В дальнейшем, используя предложенный подход, планируется разработка
-устройства автоматического допуска человека в определенное помещение на
-основе микропроцессорной техники и автономного питания.
-
-\emph{{\bfseries Финансирование.} Работа выполнена за счет средств
-грантового финансирования научных исследований на 2023--2025 годы по
-проекту AP19678157.}
-
-{\bfseries Литература}
-
-1. Сергиенко А.Б. Цифровая обработка сигналов. - Санкт-Петербург: Питер,
-2002. - 608 с. ISBN 5-318-00666-3
-
-2. Афонский А.А., Дьяконов В.П. Цифровые анализаторы спектра, сигналов и
-логики. -- Москва: Солон-Пресс, 2009. - 248 с. ISBN 978-5-91359-049-7
-
-3. Гадзиковский В.И. Цифровая обработка сигналов. - Москва: Солон-Пресс,
-2017. - 766 с. ISBN 978-5-91359-117-3
-
-4. Сэломон Д. Сжатие данных, изображений и звука. - Москва: Техносфера,
-2004. -368 c. ISBN 978-5-94836-027-Х
-
-5. Марков Ю.В., Боков А.С. Проектирование устройств приема и обработки
-сигналов. - Екатеринбург: Изд-во Уральского ун-та, 2015. - 112 с. ISBN
-978-5-7996-1497-3
-
-6. Дворкович В.П., Дворкович А.В. Оконные функции для гармонического
-анализа сигналов. -- Москва: Техносфера, 2016. - 208 c. ISBN
-978-5-94836-432-2
-
-7. Фрик П.Г. Обработка и анализ сигналов и изображений в физических
-экспериментах. - Пермь: Пермский ГНИУ, 2023. - 115с. ISBN
-978-5-7944-4025-6
-
-8. Тульский И.Н. Повышение эффективности передачи мультимедийной
-информации методом чирплет-преобразования //Диссер. канд.техн. наук по
-спец.05.13.17 - Теоретические основы информатики, Красноярск, 2012. -
-119с
-
-9. Рогозинский Г.Г. Перцепционное сжатие звука с использованием
-вейвлетных пакетов //Диссер. канд.техн. наук по спец.05.11.18 - Приборы
-и методы преобразования изображений и звука, Санкт-Петербург, 2010. -
-118с
-
-10. Брежнев А.В. Разработка методов и средств диагностики психической
-напряженности на основе вейвлет-анализа сигнала голоса и нечеткой логики
-принятия решений //Авт. диссер. канд.техн. наук по спец.05.13.01 -
-Системный анализ, управление и обработка информации, Курск, 2005. - 24
-с.
-
-11. M. Aliaskar, T. Mazakov, A. Mazakova, S. Jomartova, T. Shormanov.
-Human voice identification based on the detection of fundamental
-harmonics // IEEE 7th International Energy Conference
-(ENERGYCON)\emph{,} 2022, pp.1-4. DOI
-10.1109/ENERGYCON53164.2022.9830471.
-
-12. Шорманов Т.С., Мазакова А.Т., Алиаскар М.С., Бургегулов А.Д.,
-Саметова А.А., Исимов Н.Т., Джомартова Ш.А., Мазаков Т.Ж.
-Программно-аппаратный комплекс дактилоскопической идентификации человека
-// Вестник КазУТБ. - Астана, 2024. - № 4(25). - C.1-7
-\href{https://doi.org/10.58805/kazutb.v.4.25-721}{DOI
-10.58805/kazutb.v.4.25-721}
-
-13. Шорманов Т.С., Мазакова А.Т., Алиаскар М.С., Джомартова Ш.А., Мазаков
-Т.Ж. Применение нейронных сетей для идентификации голоса с учетом
-казахского акцента // Вестник КазУТБ. - Астана, 2024. - № 4(25). - C.
-60-68/ DOI
-\href{https://doi.org/10.58805/kazutb.v.4.25-720}{}
-
+\begin{center}
 {\bfseries References}
+\end{center}
 
-1. Sergienko A.B. Cifrovaja obrabotka signalov. - Sankt-Peterburg: Piter,
-2002. - 608 s. ISBN 5-318-00666-3. {[}in Russian{]}
+\begin{references}
+1. Osamy, W., Khedr, A. M., Salim, A., Al Ali, A. I., \& El-Sawy, A. A.
+(2022). Coverage, deployment and localization challenges in wireless
+sensor networks based on artificial intelligence techniques: a review.
+IEEE Access.- 2022.-Vol.10.-P.30232-30257.
 
-2. Afonskij A.A., D' jakonov V.P. Cifrovye analizatory
-spektra, signalov i logiki. -- Moskva: Solon-Press, 2009. - 248 s. ISBN
-978-5-91359-049-7. {[}in Russian{]}
+\href{https://doi.org/10.1109/ACCESS.2022.3156729}{DOI
+10.1109/ACCESS.2022.3156729}
 
-3. Gadzikovskij V.I. Cifrovaja obrabotka signalov. - Moskva: Solon-Press,
-2017. - 766 s. ISBN 978-5-91359-117-3. {[}in Russian{]}
+2. Xin, T. I. A. N., Guoliang, W. E. I., \& Gannan, W. A. N. G. (2022).
+Review of wireless sensor network localization//Information and
+Control.-2022.-Vol.51(1).-P.69-87.
 
-4. Sjelomon D. Szhatie dannyh, izobrazhenij i zvuka. - Moskva:
-Tehnosfera, 2004. -368 c. ISBN 978-5-94836-027-H. {[}in Russian{]}
+DOI 10.13976/j.cnki.xk.2022.1177
 
-5. Markov Ju.V., Bokov A.S. Proektirovanie ustrojstv priema i obrabotki
-signalov. - Ekaterinburg: Izd-vo Ural' skogo un-ta, 2015.
-- 112 s. ISBN 978-5-7996-1497-3. {[}in Russian{]}
+3. Aly, H., Basalamah, A., \& Youssef, M. (2017). Accurate and
+energy-efficient GPS-less outdoor localization// ACM Transactions on
+Spatial Algorithms and Systems (TSAS).-2017.-Vol.3(2).-P.1-31.
+\href{https://doi.org/10.1145/3085575}{DOI 10.1145/3085575}
 
-6. Dvorkovich V.P., Dvorkovich A.V. Okonnye funkcii dlja garmonicheskogo
-analiza signalov. -- Moskva: Tehnosfera, 2016. - 208 c. ISBN
-978-5-94836-432-2. {[}in Russian{]}
+4.  DOI
+10.1109/iccar57134.2023.10151723
 
-7. Frik P.G. Obrabotka i analiz signalov i izobrazhenij v fizicheskih
-jeksperimentah. - Perm': Permskij GNIU, 2023. - 115s.
-ISBN 978-5-7944-4025-6. {[}in Russian{]}
+5. 
 
-8. Tul' skij I.N. Povyshenie jeffektivnosti peredachi
-mul' timedijnoj informacii metodom
-chirplet-preobrazovanija //Disser. kand.tehn. nauk po spec.05.13.17 -
-Teoreticheskie osnovy informatiki, Krasnojarsk, 2012. -- 119 s. {[}in
-Russian{]}
+Huang, Y. F., Chen, G. Y., \& Wu, H. C. (2024, July). An
+Adaptive Three-Dimensional Indoor Positioning Using Multi-Anchor UWB
+Wireless Communications. In 2024 International Conference on Consumer
+Electronics-Taiwan (ICCE-Taiwan) (pp.521-522). IEEE.
 
-9. Rogozinskij G.G. Percepcionnoe szhatie zvuka s
-ispol' zovaniem vejvletnyh paketov //Disser. kand.tehn.
-nauk po spec.05.11.18 - Pribory i metody preobrazovanija izobrazhenij i
-zvuka, Sankt-Peterburg, 2010. -- 118 s. {[}in Russian{]}
+DOI 10.1109/ICCE-Taiwan62264.2024.10674260
 
-10. Brezhnev A.V. Razrabotka metodov i sredstv diagnostiki psihicheskoj
-naprjazhennosti na osnove vejvlet-analiza signala golosa i nechetkoj
-logiki prinjatija reshenij //Avt. disser. kand.tehn. nauk po spec.
-05.13.01 - Sistemnyj analiz, upravlenie i obrabotka. {[}in Russian{]}
+7. Fu, Y. (2017). Single anchor node real-time positioning algorithm
+based on the antenna array. International journal of distributed sensor
+networks.-~2017-vol.13(5).-P.15501477177
 
-11. M. Aliaskar, T. Mazakov, A. Mazakova, S. Jomartova, T. Shormanov.
-Human voice identification based on the detection of fundamental
-harmonics // IEEE 7th International Energy Conference
-(ENERGYCON)\emph{,} 2022, pp.1-4. DOI
-10.1109/ENERGYCON53164.2022.9830471.
+DOI 10.1177/1550147717709963
 
-12. Шорманов Т.С., Мазакова А.Т., Алиаскар М.С., Бургегулов А.Д.,
-Саметова А.А., Исимов Н.Т., Джомартова Ш.А., Мазаков Т.Ж.
-Программно-аппаратный комплекс дактилоскопической идентификации человека
-// Вестник КазУТБ. - Астана, 2024. - № 4(25). - C.1-7
-\href{https://doi.org/10.58805/kazutb.v.4.25-721}{DOI
-10.58805/kazutb.v.4.25-721}. {[}in Russian{]}
+8. Wang, Ren, et al. Single-antenna super-resolution positioning with
+nonseparable toroidal pulses.// Communications
+Physicsю-2024.-Vol.7(1).-Num.356.
+DOI:\href{http://dx.doi.org/10.1038/s42005-024-01850-z}{10.1038/s42005-024-01850-z}
 
-13. Шорманов Т.С., Мазакова А.Т., Алиаскар М.С., Джомартова Ш.А., Мазаков
-Т.Ж. Применение нейронных сетей для идентификации голоса с учетом
-казахского акцента // Вестник КазУТБ. - Астана, 2024. - № 4(25). - C.
-60-68. DOI
+9. Groth, M., Nyka, K., \& Kulas, L. (2021). Calibration-free
+single-anchor indoor localization using an ESPAR antenna// Sensors.-
+2021. -Vol.21(10).- P.3431. \href{https://doi.org/10.3390/s21103431}{DOI
+10.3390/s21103431}
 
-{[}in Russian{]}
+10. Schmidt, S. O., Cimdins, M., John, F., \& Hellbrück, H. SALOS-A UWB
+Single-Anchor Indoor Localization System Based on a Statistical
+Multipath Propagation Model// Sensors.-2024.-Vol.24(8).-P.2428.
+\href{https://doi.org/10.3390/s24082428}{DOI 10.3390/s24082428}
 
-\emph{{\bfseries Сведения об авторах}}
+11. Wang, Z., Liu, M., \& Zhang, Y. (2019, October). Mobile localization
+in complex indoor environment based on ZigBee wireless network. In
+Journal of Physics: Conference Series (Vol.1314, No.1, p.012214). IOP
+Publishing. DOI 10.1088/1742-6596/1314/1/012214
 
-Әлиасқар М.С. -- старший преподаватель МИТУ, Алматы, Казахстан, e-mail:
+12. Latina, M. A. E., Reyes, A., \& Rollon, E. M. (2022, February).
+Optimization of RSSI-based Zigbee indoor localization system for
+determining distances between unknown nodes. In 2022 First International
+Conference on Electrical, Electronics, Information and Communication
+Technologies (ICEEICT) (pp.1-6). IEEE. DOI
+10.1109/ICEEICT53079.2022.9768601
 
-ORCID:
-https://orcid.org/\href{https://orcid.org/0000-0002-3013-6617}{}
+13. Kimoto, R., Ishida, S., Yamamoto, T., Tagashira, S., \& Fukuda, A.
+(2019). MuCHLoc: Indoor ZigBee localization system utilizing
+inter-channel characteristics. Sensors, 19(7), 1645. DOI
+10.3390/s19071645
 
-Джомартова Ш.А. -- доктор технических наук, доцент, КазНУ им.
-аль-Фараби, Алматы, Казахстан, e-mail:
-\href{mailto:jomartova@mail.ru}{}; ORCID:
-\href{https://orcid.org/0000-0002-5882-5588}{}
+14. Chen, T., \& Guestrin, C. (2016, August). Xgboost: A scalable tree
+boosting system. In Proceedings of the 22nd acm sigkdd international
+conference on knowledge discovery and data mining (pp.785-794). DOI
+10.1145/2939672.2939785
+\end{references}
 
-Мазақова Ә.Т. -- преподаватель КазНУ им.аль-Фараби, Алматы, Казахстан,
-e-mail: \href{mailto:aigerym97@mail.ru}{}; ORCID:
-https://orcid.org/{\bfseries 0000-0003-3019-3352}
+\begin{authorinfo}
+\emph{{\bfseries Information about the authors}}
 
-Мазаков Т.Ж. -- доктор физико-математических наук, профессор, КазНУ им.
-аль-Фараби, Алматы, Казахстан, e-mail:
-\href{mailto:tmazakov@mail.ru}{}; ORCID:
-https://orcid.org/ 0000-0001-9345-5167
+Zholamanov B.N. \emph{-} PhD student, Al-Farabi Kazakh National
+University, Almaty, Kazakhstan, e-mail:
 
-Майлыбаева А.Д. -- к.ф.-м.н., доцент кафедры «Информатика» Атырауского
-университета имени Х. Досмухамедова, Атырау, Казахстан, e-mail:
-\href{mailto:a.maylibayeva@asu.edu.kz}{};
-ORCID: 0000-0003-0598-4806
+\href{mailto:zholamanov.batyrbek@kaznu.kz}{\nolinkurl{zholamanov.batyrbek@kaznu.kz}};
 
-Н.Т. Исимов -- заведующий кафедрой МИТУ, Алматы, Казахстан, e-mail:
-
-ORCID: 0000-0003-4765-7870
-
-Бегалиева К.Б. - PhD, cт.преп. Казахский агротехнический
-исследовательский университет имени С. Сейфуллина, e-mail:
-\href{mailto:kalamkas_b@mail.ru}{};
-ORCID: 0000-0002-4216-9184
-
-ДосаналиеваА.Т. - старший преподаватель кафедры «Компьютерная инженерия»
-Алматинского Технологического Университета, Алматы, Казахстан, e-mail:
-\href{mailto:Dosanalieva1985@gmail.com}{};
-ORCID:0009-0000-2958-1935
-
-\emph{Information about the authors}
-
-Aliaskar M.S. -- Lecturer at the International University of Engineering
-and Technology, Almaty, Kazakhstan, e-mail:
-
-
-Jomartova Sh.A. - Doctor of Technical Sciences, Associate Professor,
-Al-Farabi Kazakh National University, Almaty, Kazakhstan, e-mail:
-\href{mailto:jomartova@mail.ru}{};
-
-Mazakova A.T.-Lecturer at the Al-Farabi Kazakh National University,
-Almaty, Kazakhstan, e-mail:
-\href{mailto:aigerym97@mail.ru}{};
-
-Mazakov T.Zh. -- Doctor of Physical and mathematical sciences, professor
-Al-Farabi Kazakh National University, professor at the International
-University of Engineering and Technology Almaty, Kazakhstan, e-mail:
-\href{mailto:tmazakov@mail.ru}{};
-
-Mailybayeva A.D. -- PhD, Associate Professor, Department of Computer
-Science, Atyrau University named after Kh. Dosmukhambetov, Atyrau,
+Nurgaliyev M.K. - PhD, Al-Farabi Kazakh National University, Almaty,
 Kazakhstan, e-mail:
-\href{mailto:a.maylibayeva@asu.edu.kz}{};
 
-Issimov N.T. -- Head of Department at the International University of
-Engineering and Technology, Almaty, Kazakhstan, e-mail:
+\href{mailto:madiyar.nurgaliyev@kaznu.edu.kz}{\nolinkurl{madiyar.nurgaliyev@kaznu.edu.kz}};
 
+Bolatbek A.B. - PhD student, Al-Farabi Kazakh National University,
+Almaty, Kazakhstan, e-mail:
 
-Begaliyeva K.B. -- PhD, Senior Lecturer, Kazakh Agrotechnical Research
-University named after S. Seifullin, Astana, Kazakhstan, e-mail:
-\href{mailto:kalamkas_b@mail.ru}{}
+\href{mailto:bolatbek.askhat@kaznu.kz}{\nolinkurl{bolatbek.askhat@kaznu.kz}};
 
-Dosanalieva A.T. - Senor Lecturer, Computer Engineering Department,
-Almaty Technological University, Almaty, Kazakhstan, e-mail:
-\href{mailto:Dosanalieva1985@gmail.com}{};
-ORCID:0009-0000-2958-1935\
+Kopbay K.T. - PhD student, Al-Farabi Kazakh National University, Almaty,
+Kazakhstan, e-mail:
+
+\href{mailto:kopbay_kymbat2@kaznu.edu.kz}{\nolinkurl{kopbay\_kymbat2@kaznu.edu.kz}};
+
+Kozhabek D.A. - master student, Al-Farabi Kazakh National University,
+Almaty, Kazakhstan, e-mail:
+
+\href{mailto:kozhabek_dariga1@kaznu.edu.kz}{\nolinkurl{kozhabek\_dariga1@kaznu.edu.kz}},
+
+\emph{{\bfseries Авторлар туралы мәлімет}}
+
+Жоламанов Б.Н. \emph{-} PhD студент, әл-Фараби атындағы Қазақ Ұлттық
+Университеті, Алматы, Қазақстан, e-mail:
+\href{mailto:zholamanov.batyrbek@kaznu.kz}{\nolinkurl{zholamanov.batyrbek@kaznu.kz}},
+ORCID: https://orcid.org 0000-0001-8206-7425
+
+Нұрғалиев M.K. - PhD, әл-Фараби атындағы Қазақ Ұлттық Университеті,
+Алматы, Қазақстан, e-mail:
+\href{mailto:madiyar.nurgaliyev@kaznu.edu.kz}{\nolinkurl{madiyar.nurgaliyev@kaznu.edu.kz}},
+ORCID: https://orcid.org 0000-0002-6795-5384
+
+Болатбек А.Б. - PhD студент, әл-Фараби атындағы Қазақ Ұлттық
+Университеті, Алматы, Қазақстан, e-mail:
+\href{mailto:bolatbek.askhat@kaznu.kz}{\nolinkurl{bolatbek.askhat@kaznu.kz}},
+ORCID: https://orcid.org 0009-0004-7613-5507
+
+Көпбай Қ.Т. - PhD студент, әл-Фараби атындағы Қазақ Ұлттық Университеті,
+Алматы, Қазақстан, e-mail:
+\href{mailto:kopbay_kymbat2@kaznu.edu.kz}{\nolinkurl{kopbay\_kymbat2@kaznu.edu.kz}},
+ORCID: https://orcid.org 0000-0003-1583-2099
+
+Қожабек Д.А. - магистрант, әл-Фараби атындағы Қазақ Ұлттық Университеті,
+Алматы, Қазақстан, e-mail:
+\href{mailto:kozhabek_dariga1@kaznu.edu.kz}{\nolinkurl{kozhabek\_dariga1@kaznu.edu.kz}},
+ORCID: https://orcid.org 0009-0007-8720-8734\
+\end{authorinfo}

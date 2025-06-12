@@ -1,21 +1,16 @@
 \id{IRSTI 20.01.45}{}
 
-{\bfseries ANALYZING E-LEARNING STUDENT PERFORMANCE AND FEATURE}
+\begin{articleheader}
+\sectionwithauthors{}{ANALYZING E-LEARNING STUDENT PERFORMANCE AND FEATURE IMPACT USING XGBOOST AND SHAP}
 
-{\bfseries IMPACT USING XGBOOST AND SHAP}
+{\bfseries M. Madeniyetov}
+\end{articleheader}
 
-{\bfseries M.
-Madeniyetov}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image16}
-	\caption*{}
-\end{figure}
-
-
+\begin{affiliation}
 \emph{Kazakh-British Technical University, Almaty, Kazakhstan}
 
-{\bfseries \textsuperscript{\envelope }}Corresponding author: madeniyetov@kbtu.kz
+\raggedright \textsuperscript{\envelope }Corresponding author: madeniyetov@kbtu.kz
+\end{affiliation}
 
 E-learning has become an essential part of modern education, providing
 flexibility and accessibility to students worldwide. However,
@@ -47,15 +42,17 @@ metrics, online activity logs, and psychological factors.
 XGBoost, SHAP (SHapley Additive exPlanations), Predictive modeling,
 Online education.
 
-{\bfseries XGBOOST ЖӘНЕ SHAP КӨМЕГІМЕН E-LEARNING СТУДЕНТТЕРІНІҢ}
-
-{\bfseries ӨНІМДІЛІГІ МЕН МҮМКІНДІК ӘСЕРІН ТАЛДАУ}
+\begin{articleheader}
+{\bfseries XGBOOST ЖӘНЕ SHAP КӨМЕГІМЕН E-LEARNING СТУДЕНТТЕРІНІҢ ӨНІМДІЛІГІ МЕН МҮМКІНДІК ӘСЕРІН ТАЛДАУ}
 
 {\bfseries M.Mәдениетов}
+\end{articleheader}
 
+\begin{affiliation}
 \emph{Қазақ-Британ техникалық университеті, Алматы, Қазақстан,}
 
 \emph{e-mail:madeniyetov@kbtu.kz}
+\end{affiliation}
 
 E-learning бүкіл әлем бойынша студенттерге икемділік пен қолжетімділікті
 қамтамасыз ететін заманауи білім берудің ажырамас бөлігіне айналды.
@@ -89,16 +86,17 @@ E-learning бүкіл әлем бойынша студенттерге икем�
 оқыту, XGBoost, SHAP (Shapley Additive Explainers), болжамды модельдеу,
 онлайн білім беру.
 
-{\bfseries АНАЛИЗ УСПЕВАЕМОСТИ СТУДЕНТОВ ЭЛЕКТРОННОГО ОБУЧЕНИЯ}
-
-{\bfseries И ВЛИЯНИЯ ФУНКЦИЙ С ИСПОЛЬЗОВАНИЕМ XGBOOST И SHAP}
+\begin{articleheader}
+{\bfseries АНАЛИЗ УСПЕВАЕМОСТИ СТУДЕНТОВ ЭЛЕКТРОННОГО ОБУЧЕНИЯ И ВЛИЯНИЯ ФУНКЦИЙ С ИСПОЛЬЗОВАНИЕМ XGBOOST И SHAP}
 
 {\bfseries M. Mәдениетов}
+\end{articleheader}
 
-\emph{Казахстанско-Британский технический университет, Алматы,
-Казахстан,}
+\begin{affiliation}
+\emph{Казахстанско-Британский технический университет, Алматы, Казахстан,}
 
 \emph{e-mail:madeniyetov@kbtu.kz}
+\end{affiliation}
 
 Электронное обучение стало неотъемлемой частью современного образования,
 обеспечивая гибкость и доступность для студентов по всему миру. Однако
@@ -134,6 +132,7 @@ E-learning бүкіл әлем бойынша студенттерге икем�
 машинное обучение, XGBoost, SHAP (аддитивные объяснения Шепли),
 прогностическое моделирование, онлайн-образование.
 
+\begin{multicols}{2}
 {\bfseries Introduction.} In today' s digital world,
 e-learning systems provide many benefits to both students and
 organizations. The main advantages of e-learning is the ability to allow
@@ -222,19 +221,16 @@ effectiveness of e-learning systems.
 {\bfseries Materials and methods.} This section consists of three steps:
 (1) describing the dataset, (2) analyzing the prediction, and (3)
 calculating the prediction, as shown in Figure 1.
-
+\end{multicols}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{media/ict/image17}
-	\caption*{}
+	\caption*{Fig.1 - An overview of the research methodology}
+	\caption*{\emph{Dataset Description}}
 \end{figure}
 
-
-{\bfseries Fig.1- An overview of the research methodology}
-
-\emph{{\bfseries Dataset Description}}
-
+\begin{multicols}{2}
 E-Learning student dataset from UC Irvine Machine Learning Repository
 was used for this research {[}13{]}. The dataset contains information
 about students'{} end-of-term performance in the Faculty
@@ -286,8 +282,9 @@ characteristics of high-achieving students by classifying grades A and B
 as good (1) and all other grades as not good (0). Again, we train a
 machine learning model and use SHAP to identify the features that most
 strongly influence high performance.
+\end{multicols}
 
-{\bfseries Table 1- Feature Extraction Cases}
+{\bfseries Table 1 - Feature Extraction Cases}
 
 %% \begin{longtable}[]{@{}
 %%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2886}}
@@ -323,6 +320,7 @@ strongly influence high performance.
 
 \emph{Sort features by SHAP importance and select the top 12}
 
+\begin{multicols}{2}
 The function starts by separating features from the target variable. It
 then trains an XGBoost classifier to predict grades. SHAP values are
 computed to measure the impact of each feature on the model's
@@ -371,19 +369,16 @@ Expected GPA at graduation (30), attending seminars and conferences
 (20), and last semester's GPA (29) is a strong predictor of success,
 reinforcing the idea that steady academic effort leads to better
 results.
-
+\end{multicols}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{media/ict/image18}
-	\caption*{}
+	\caption*{Fig.2 - Mean SHAP Bar Plot (top pass/fail features)}
+	\caption*{\emph{Good/Not Good Analysis}}
 \end{figure}
 
-
-{\bfseries Fig.2.- Mean SHAP Bar Plot (top pass/fail features)}
-
-\emph{{\bfseries Good/Not Good Analysis}}
-
+\begin{multicols}{2}
 Good/not good analysis' s top features are slightly
 different. As shown in Figure 3, Course ID plays a major role,
 indicating that some courses might be harder or have different grading
@@ -398,19 +393,16 @@ influence academic performance, possibly by improving discipline and
 time management or taking time away from studying. Father's occupation
 (16), Scholarship type (4), and Mother's education level (11) appear to
 impact success, possibly affecting academic and financial support.
-
+\end{multicols}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{media/ict/image19}
-	\caption*{}
+	\caption*{Fig.3 - Mean SHAP Bar Plot (top good/not good features)}
+	\caption*{\emph{Prediction Accuracies}}
 \end{figure}
 
-
-{\bfseries Fig.3 -Mean SHAP Bar Plot (top good/not good features)}
-
-\emph{{\bfseries Prediction Accuracies}}
-
+\begin{multicols}{2}
 In order to predict accuracies 6 different ML models are used. But in
 Table 1, only the highest accuracy score among them is written. Table 1
 shows the accuracy of different prediction models based on the features
@@ -427,6 +419,7 @@ the top Good/Not Good features, the accuracy is 80.07\%, which is also
 quite high. This suggests that using the right features for a specific
 type of prediction greatly improves accuracy, especially for simpler
 classifications like Pass/Fail.
+\end{multicols}
 
 {\bfseries Table 2 - Prediction Accuracies}
 
@@ -446,6 +439,7 @@ classifications like Pass/Fail.
 %% Top Good/Not Good & Good/Not Good & 80.07\% \\
 %% \end{longtable}
 
+\begin{multicols}{2}
 Our results show that prior academic performance is a strong indicator
 of future success, with last semester's GPA and expected graduation GPA
 being the most influential factors in determining whether a student
@@ -478,9 +472,13 @@ online participation, and study patterns could further enhance model
 accuracy. Additionally, investigating psychological factors like
 motivation and stress levels may provide deeper insights into student
 performance.
+\end{multicols}
 
+\begin{center}
 {\bfseries References}
+\end{center}
 
+\begin{references}
 1. P.Lam J. Lee M. Chan, C. Mcnaught Students' use of elearning
 strategies and their perceptions of elearning usefulness//Global
 Learn.-\emph{~} 2011. - P.1379--1388
@@ -579,7 +577,9 @@ DOI
 15. T. Chen, C. Guestrin, ``Xgboost: A scalable tree boosting system//
 the 22nd ACM SIGKDD International Conference.2016.- P.785-794. DOI
 \href{http://dx.doi.org/10.1145/2939672.2939785}{10.1145/2939672.2939785}
+\end{references}
 
+\begin{authorinfo}
 \emph{{\bfseries Information about authors}}
 
 Madeniyetov M. A.- Master's student in Software Engineering at the
@@ -592,4 +592,5 @@ Technical University, Almaty, Kazakhstan, e-mail:
 Мәдениетов М.А. - магистрант направления Программная инженерия Школы
 информационных технологий и инженерии Казахстанско-Британского
 технического университета, Алматы, Казахстан, е -mail:
-m\_madeniyetov@kbtu.kz.\
+m\_madeniyetov@kbtu.kz.
+\end{authorinfo}
