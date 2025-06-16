@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"f9af28d3a4124b264e7b08e72351b4ff9b74bfc5"
+"3ceea328e3d304e89564cbfb8b850936ddbfb551"
 [nil nil nil nil (26697 3008 722387 324000) 0 nil]
 ([nil nil ((#("{\\bfseries Г.Е.
 Жумалиева}
@@ -137,5 +137,11 @@ nil
 ([nil nil ((53671 . 53673) (t 26697 4077 186201 243000)) nil (26697 4094 205004 50000) 0 nil])
 ([nil nil ((54524 . 54526) (t 26697 4094 209741 935000)) nil (26697 4154 963565 630000) 0 nil])
 ([nil nil ((55493 . 55495) (t 26697 4154 970102 572000)) nil (26697 4173 733633 858000) 0 nil])
-([nil current ((57267 . 57269) (t 26697 4173 738596 184000)) nil (26697 4205 438802 901000) 0 nil])
+([nil nil ((57267 . 57269) (t 26697 4173 738596 184000)) nil (26697 4205 438802 901000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 105 . 106) (nil fontified nil 66 . 106) (66 . 106) 65 (t 26697 4205 443740 754000)) nil (26703 40193 187012 390000) 0 nil])
+([nil current ((169 . 170) (#("
+" 0 1 (fontified t)) . -169) (undo-tree-id38 . -1) (#("
+" 0 1 (rear-nonsticky t fontified t)) . -105) (undo-tree-id39 . -1) (undo-tree-id40 . -1) (undo-tree-id41 . -1) (undo-tree-id42 . -1) (undo-tree-id43 . -1) (undo-tree-id44 . -1) (undo-tree-id45 . -1) (undo-tree-id46 . -1) (undo-tree-id47 . -1) (undo-tree-id48 . -1) (undo-tree-id49 . -1) (undo-tree-id50 . -1) (undo-tree-id51 . -1) (undo-tree-id52 . -1) (undo-tree-id53 . -1) (undo-tree-id54 . -1) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1) (undo-tree-id58 . -1) (undo-tree-id59 . -1) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) 46) nil (26703 40195 66712 739000) 0 nil] [nil nil ((170 . 171) (#("
+" 0 1 (fontified t)) . -170) (undo-tree-id37 . -1) 106) ((170 . 171) (#(" " 0 1 (fontified t)) . 170)) (26703 40193 186833 624000) 0 nil])
+nil
 nil

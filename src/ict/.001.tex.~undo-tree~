@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"5b4c5046c20d2476576c753e31fcd175f59b52ec"
+"6612bf53616b0a9adccbf0f6aef440da2fe090fd"
 [nil nil nil nil (26698 26822 404900 406000) 0 nil]
 ([nil nil ((2 . 4) (#("id" 0 2 (face font-lock-keyword-face fontified t)) . 2) (undo-tree-id28 . -1) (t 26689 8840 696509 10000)) nil (26698 26822 404899 355000) 0 nil])
 ([nil nil ((1 . 239) 3) nil (26698 26822 404898 385000) 0 nil])
@@ -120,5 +120,9 @@ nil
 ([nil nil ((28987 . 28989) (t 26698 27670 113554 124000)) nil (26698 27702 983626 511000) 0 nil])
 ([nil nil ((32169 . 32171)) nil (26698 27702 983622 806000) 0 nil])
 ([nil nil ((33942 . 33943) (t 26698 27702 987682 298000)) nil (26698 27727 385103 127000) 0 nil])
-([nil current ((33941 . 33942)) nil (26698 27727 385098 827000) 0 nil])
+([nil nil ((33941 . 33942)) nil (26698 27727 385098 827000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 232 . 233) (nil fontified nil 220 . 233) (220 . 233) 219 (t 26698 27727 390035 52000)) nil (26703 39883 333610 866000) 0 nil])
+([nil nil ((233 . 235)) nil (26703 39883 333722 302000) 0 nil])
+([nil current ((nil rear-nonsticky nil 247 . 248) (nil fontified nil 235 . 248) (235 . 248) 234) nil (26703 39890 355020 493000) 0 nil] [nil nil ((#("О.Б. Байболов" 0 13 (face (bold) fontified t)) . 374) (undo-tree-id88 . -12) (undo-tree-id89 . -13) (undo-tree-id90 . -13)) ((374 . 387)) (26703 39883 333607 48000) 0 nil])
+nil
 nil

@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"70e57b57b4efbb4692669b4c6096760d6c5c637b"
+"4d9d7e095925e07967316caa629bb82c00987695"
 [nil nil nil nil (26698 30378 951979 255000) 0 nil]
 ([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 25) (undo-tree-id15 . -9) (t 26689 8840 696509 10000)) nil (26698 30378 951978 410000) 0 nil])
 ([nil nil (25) nil (26698 30378 951977 119000) 0 nil])
@@ -99,5 +99,8 @@ nil
 ([nil nil ((32938 . 32953) (32961 . 32974)) nil (26698 30520 629934 272000) 0 nil])
 ([nil nil ((32990 . 33009) (37045 . 37062)) nil (26698 30520 629933 750000) 0 nil])
 ([nil nil ((37082 . 37101) (38496 . 38513)) nil (26698 30520 629929 309000) 0 nil])
-([nil current ((5127 . 5128) (t 26698 30520 633805 734000)) nil (26698 30560 622794 279000) 0 nil])
+([nil nil ((5127 . 5128) (t 26698 30520 633805 734000)) nil (26698 30560 622794 279000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 110 . 111) (nil fontified nil 66 . 111) (66 . 111) 65 (t 26698 30560 625740 712000)) nil (26703 39965 618335 568000) 0 nil])
+([nil current ((#("
+" 0 1 (rear-nonsticky t fontified t)) . -110) (undo-tree-id40 . -1) (undo-tree-id41 . -1) (undo-tree-id42 . -1) (undo-tree-id43 . -1) (undo-tree-id44 . -1) (undo-tree-id45 . -1) (undo-tree-id46 . -1) (undo-tree-id47 . -1) (undo-tree-id48 . -1) (undo-tree-id49 . -1) (undo-tree-id50 . -1) (undo-tree-id51 . -1) (undo-tree-id52 . -1) (undo-tree-id53 . -1) (undo-tree-id54 . -1) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1) (undo-tree-id58 . -1) (undo-tree-id59 . -1) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (undo-tree-id65 . -1) (undo-tree-id66 . -1) (undo-tree-id67 . -1) (undo-tree-id68 . -1) (undo-tree-id69 . -1) (undo-tree-id70 . -1) (undo-tree-id71 . -1) (undo-tree-id72 . -1) (undo-tree-id73 . -1) (undo-tree-id74 . -1) (undo-tree-id75 . -1) (undo-tree-id76 . -1) (undo-tree-id77 . -1) (undo-tree-id78 . -1) (undo-tree-id79 . -1) 46) nil (26703 39965 618331 806000) 0 nil])
 nil

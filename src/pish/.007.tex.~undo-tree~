@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"aa64cf7dee77733a97cf4e9f7a2e11845e881695"
+"9808d463798716e343751adc1b5cd7f713c5ab23"
 [nil nil nil nil (26697 8324 26021 73000) 0 nil]
 ([nil nil ((#("{\\bfseries Г.Е.
 Жумалиева}
@@ -107,5 +107,8 @@ nil
 ([nil nil ((51179 . 51181) (t 26698 22803 931299 79000)) nil (26698 22946 537820 972000) 0 nil] [nil nil ((#("5" 0 1 (fontified t)) . 50487) (undo-tree-id237 . -1) (undo-tree-id238 . -1) (t 26697 10487 389248 956000)) ((50487 . 50488) (t 26698 22803 218318 603000)) (26698 22803 214396 119000) 0 nil])
 ([nil nil ((51373 . 51375) (#("/" 0 1 (fontified t)) . -51373) (undo-tree-id239 . -1) (#("/" 0 1 (fontified t)) . -51374) (undo-tree-id240 . -1) 51375 (51373 . 51375) (#("@" 0 1 (fontified t)) . -51373) (undo-tree-id241 . -1) (#("@" 0 1 (fontified t)) . -51374) (undo-tree-id242 . -1) 51375 (51373 . 51375) (t 26698 22946 542393 495000)) nil (26698 22961 606053 108000) 0 nil])
 nil
-([nil current ((51690 . 51692) (t 26698 22961 609980 824000)) nil (26698 22988 478055 377000) 0 nil])
+([nil nil ((51690 . 51692) (t 26698 22961 609980 824000)) nil (26698 22988 478055 377000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 120 . 121) (nil fontified nil 66 . 121) (66 . 121) 65 (t 26698 22988 483244 804000)) nil (26703 40233 600933 54000) 0 nil])
+([nil current ((#("
+" 0 1 (rear-nonsticky t fontified t)) . -120) (undo-tree-id243 . -1) (undo-tree-id244 . -1) (undo-tree-id245 . -1) (undo-tree-id246 . -1) (undo-tree-id247 . -1) (undo-tree-id248 . -1) (undo-tree-id249 . -1) (undo-tree-id250 . -1) (undo-tree-id251 . -1) (undo-tree-id252 . -1) (undo-tree-id253 . -1) (undo-tree-id254 . -1) (undo-tree-id255 . -1) (undo-tree-id256 . -1) (undo-tree-id257 . -1) (undo-tree-id258 . -1) (undo-tree-id259 . -1) (undo-tree-id260 . -1) (undo-tree-id261 . -1) (undo-tree-id262 . -1) (undo-tree-id263 . -1) (undo-tree-id264 . -1) (undo-tree-id265 . -1) (undo-tree-id266 . -1) (undo-tree-id267 . -1) (undo-tree-id268 . -1) (undo-tree-id269 . -1) (undo-tree-id270 . -1) (undo-tree-id271 . -1) (undo-tree-id272 . -1) (undo-tree-id273 . -1) (undo-tree-id274 . -1) (undo-tree-id275 . -1) (undo-tree-id276 . -1) (undo-tree-id277 . -1) 46) nil (26703 40233 600928 855000) 0 nil])
 nil

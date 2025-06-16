@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"74da7ca74336fe2b1e5b972668ca569e4445a01d"
+"a5cd712b7f716f3cf8f879b7f48374973f2a375e"
 [nil nil nil nil (26698 27816 576469 422000) 0 nil]
 ([nil nil ((#("\\begin{figure}[H]
 	\\centering
@@ -130,5 +130,6 @@ nil
 ([nil nil ((24481 . 24496) (24504 . 24517)) nil (26698 27918 713803 857000) 0 nil])
 ([nil nil ((24533 . 24552) (28518 . 28535)) nil (26698 27918 713803 289000) 0 nil])
 ([nil nil ((28555 . 28574) (29074 . 29091)) nil (26698 27918 713799 697000) 0 nil])
-([nil current ((#("\\" 0 1 (fontified t)) . 29091) (undo-tree-id124 . -1) (undo-tree-id125 . -1) (t 26698 27918 715957 750000)) nil (26698 27934 60167 406000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 29091) (undo-tree-id124 . -1) (undo-tree-id125 . -1) (t 26698 27918 715957 750000)) nil (26698 27934 60167 406000) 0 nil])
+([nil current ((nil rear-nonsticky nil 79 . 80) (nil fontified nil 66 . 80) (66 . 80) 65 (t 26698 27934 63550 266000)) nil (26703 39905 108589 178000) 0 nil])
 nil

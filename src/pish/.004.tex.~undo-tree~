@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"b1247dcb8cc128b915de70967f6dfbc29b7c9c2f"
+"ac736dfe995b37385eaed563daaacd3faebb4c04"
 [nil nil nil nil (26695 56075 137769 569000) 0 nil]
 ([nil nil ((nil rear-nonsticky nil 171 . 172) (nil fontified nil 100 . 172) (100 . 172) (#("{\\bfseries \\textsuperscript{1} Sh.B.
 Baitukenova}
@@ -180,5 +180,8 @@ nil
 " 0 1 (fontified t)) . 49365) (t 26697 2892 948152 918000)) nil (26697 2915 79063 466000) 0 nil])
 ([nil nil ((49364 . 49366)) nil (26697 2915 79062 658000) 0 nil])
 ([nil nil ((50125 . 50127)) nil (26697 2915 79059 298000) 0 nil])
-([nil current ((50634 . 50636) (t 26697 2915 82555 715000)) nil (26697 2958 769138 665000) 0 nil])
+([nil nil ((50634 . 50636) (t 26697 2915 82555 715000)) nil (26697 2958 769138 665000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 131 . 132) (nil fontified nil 66 . 132) (66 . 132) 65 (t 26697 2958 774376 874000)) nil (26703 40170 921422 320000) 0 nil])
+([nil current ((#("
+" 0 1 (rear-nonsticky t fontified t)) . -131) (undo-tree-id2 . -1) 46) nil (26703 40170 921419 379000) 0 nil])
 nil

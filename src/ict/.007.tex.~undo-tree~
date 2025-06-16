@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"d3d632827ddc1fa21d73c4fb995be2473f5d4b95"
+"70fd7be80ebdc20b712ac44481234445f74051a5"
 [nil nil nil nil (26698 31777 108238 408000) 0 nil]
 ([nil nil ((#("{\\bfseries \\textsuperscript{1,2}М.С.Алиаскар}
 
@@ -216,5 +216,8 @@ nil
 ([nil nil ((19838 . 19857) (22348 . 22365)) nil (26698 31935 43295 992000) 0 nil])
 ([nil nil ((22385 . 22400) (22408 . 22421)) nil (26698 31935 43295 472000) 0 nil])
 ([nil nil ((22437 . 22456) (25120 . 25137)) nil (26698 31935 43294 608000) 0 nil])
-([nil current ((25157 . 25176) (27998 . 28015)) nil (26698 31935 43290 810000) 0 nil])
+([nil nil ((25157 . 25176) (27998 . 28015)) nil (26698 31935 43290 810000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 189 . 190) (nil fontified nil 66 . 190) (66 . 190) 65 (t 26698 31935 47054 860000)) nil (26703 40005 64630 13000) 0 nil])
+([nil current ((#("
+" 0 1 (rear-nonsticky t fontified t)) . -189) (undo-tree-id143 . -1) (undo-tree-id144 . -1) (undo-tree-id145 . -1) (undo-tree-id146 . -1) (undo-tree-id147 . -1) (undo-tree-id148 . -1) (undo-tree-id149 . -1) (undo-tree-id150 . -1) (undo-tree-id151 . -1) (undo-tree-id152 . -1) (undo-tree-id153 . -1) (undo-tree-id154 . -1) (undo-tree-id155 . -1) (undo-tree-id156 . -1) (undo-tree-id157 . -1) (undo-tree-id158 . -1) (undo-tree-id159 . -1) (undo-tree-id160 . -1) (undo-tree-id161 . -1) (undo-tree-id162 . -1) (undo-tree-id163 . -1) (undo-tree-id164 . -1) (undo-tree-id165 . -1) (undo-tree-id166 . -1) (undo-tree-id167 . -1) (undo-tree-id168 . -1) (undo-tree-id169 . -1) (undo-tree-id170 . -1) (undo-tree-id171 . -1) (undo-tree-id172 . -1) (undo-tree-id173 . -1) (undo-tree-id174 . -1) (undo-tree-id175 . -1) (undo-tree-id176 . -1) (undo-tree-id177 . -1) (undo-tree-id178 . -1) (undo-tree-id179 . -1) (undo-tree-id180 . -1) (undo-tree-id181 . -1) (undo-tree-id182 . -1) 46) nil (26703 40005 64626 309000) 0 nil])
 nil

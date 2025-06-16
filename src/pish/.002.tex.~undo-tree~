@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"371f02d8fcc84dfa07a08f7a429d35a3a4cf2e69"
+"452ca35574f42a45e405a79c1f988a22c3754a58"
 [nil nil nil nil (26695 52893 883273 837000) 0 nil]
 ([nil nil ((#("{\\bfseries А.К.
 Суйчинов}
@@ -223,5 +223,17 @@ nil
 ([nil nil ((43959 . 43978) (46314 . 46331)) nil (26695 53289 52697 948000) 0 nil])
 ([nil nil ((32629 . 32648) (38430 . 38447) 32629) nil (26695 53289 52692 845000) 0 nil])
 ([nil nil ((#("\\textsuperscript{1}" 0 16 (face (font-lock-keyword-face bold) fontified t) 16 19 (face (bold) fontified t)) . 245) (undo-tree-id247 . -18) (undo-tree-id248 . -19) (undo-tree-id249 . -19) (t 26695 53289 58498 36000)) nil (26695 56092 418128 978000) 0 nil])
-([nil current ((#("\\textsuperscript{1}" 0 16 (face (font-lock-keyword-face bold) fontified t) 16 19 (face (bold) fontified t)) . 2253) (undo-tree-id250 . -18) (t 26695 56092 456209 192000)) nil (26695 56099 628257 358000) 0 nil])
+([nil nil ((#("\\textsuperscript{1}" 0 16 (face (font-lock-keyword-face bold) fontified t) 16 19 (face (bold) fontified t)) . 2253) (undo-tree-id250 . -18) (t 26695 56092 456209 192000)) nil (26695 56099 628257 358000) 0 nil])
+([nil nil ((327 . 328) (t 26695 56099 642016 470000)) nil (26703 40116 920455 737000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 190 . 191) (nil fontified nil 114 . 191) (114 . 191) 113) nil (26703 40116 920454 543000) 0 nil])
+([nil nil ((#("
+" 0 1 (rear-nonsticky t fontified t)) . -190) 94) nil (26703 40116 920582 437000) 0 nil])
+([nil nil ((554 . 555) (#("
+" 0 1 (fontified t)) . -554) (undo-tree-id1 . -1) (514 . 515) (#("
+" 0 1 (fontified t)) . -514) (undo-tree-id2 . -1) 496 (t 26703 40117 671679 913000)) nil (26703 40134 623766 697000) 0 nil] [nil nil ((#(" " 0 1 (fontified t)) . 629) (undo-tree-id0 . -1)) ((629 . 630)) (26703 40116 920450 464000) 0 nil])
+([nil nil ((2533 . 2534) (#("
+" 0 1 (fontified t)) . -2533) (undo-tree-id3 . -1) 2463 (t 26703 40134 628208 160000)) nil (26703 40138 530844 236000) 0 nil])
+nil
+([nil current ((4336 . 4337) (#("
+" 0 1 (fontified t)) . -4336) 4268 (t 26703 40138 537099 408000)) nil (26703 40141 706006 954000) 0 nil])
 nil

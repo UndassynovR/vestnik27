@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"d6026408e1297367a0887cdcce345815c4dfb180"
+"faaaa59af2195af0912ee45cd60071bb538ff9a7"
 [nil nil nil nil (26698 23553 365905 476000) 0 nil]
 ([nil nil ((#("{\\bfseries \\textsuperscript{1}А.Аблаева}
 \\begin{figure}[H]
@@ -194,5 +194,9 @@ nil
 " 0 1 (rear-nonsticky nil fontified nil) 1 2 (fontified nil) 2 8 (face font-lock-keyword-face fontified t) 8 9 (fontified t latex-env-pair t) 9 15 (face font-lock-function-name-face fontified t latex-env-pair t) 15 16 (fontified t latex-env-pair t) 16 17 (fontified t) 17 18 (fontified t) 18 27 (face font-lock-keyword-face fontified t) 27 38 (face (bold) fontified t) 38 40 (fontified t) 40 44 (face font-lock-keyword-face fontified nil) 44 45 (fontified nil latex-env-pair t) 45 51 (face font-lock-function-name-face fontified nil latex-env-pair t) 51 52 (fontified nil latex-env-pair t) 52 53 (fontified nil)) . 45288) (undo-tree-id114 . -1) (undo-tree-id115 . -1) (undo-tree-id116 . -52) (undo-tree-id117 . -1) (undo-tree-id118 . -1) (undo-tree-id119 . -1) (undo-tree-id120 . -1) (45340 . 45341) (nil rear-nonsticky t 45288 . 45289)) (26698 24285 346784 548000) 0 nil])
 ([nil nil ((45341 . 45360) (49903 . 49920)) nil (26698 24298 821291 638000) 0 nil])
 nil
-([nil current ((49940 . 49959) (52663 . 52680)) nil (26698 24298 821287 708000) 0 nil])
+([nil nil ((49940 . 49959) (52663 . 52680)) nil (26698 24298 821287 708000) 0 nil])
+([nil nil ((174 . 175) (t 26698 24298 826412 894000)) nil (26703 40276 833733 717000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 172 . 173) (nil fontified nil 66 . 173) (66 . 173) 65) nil (26703 40276 833732 445000) 0 nil])
+([nil current ((#("
+" 0 1 (rear-nonsticky t fontified t)) . -172) (undo-tree-id121 . -1) (undo-tree-id122 . -1) (undo-tree-id123 . -1) (undo-tree-id124 . -1) (undo-tree-id125 . -1) (undo-tree-id126 . -1) (undo-tree-id127 . -1) (undo-tree-id128 . -1) (undo-tree-id129 . -1) (undo-tree-id130 . -1) (undo-tree-id131 . -1) (undo-tree-id132 . -1) (undo-tree-id133 . -1) (undo-tree-id134 . -1) (undo-tree-id135 . -1) (undo-tree-id136 . -1) (undo-tree-id137 . -1) (undo-tree-id138 . -1) (undo-tree-id139 . -1) (undo-tree-id140 . -1) (undo-tree-id141 . -1) (undo-tree-id142 . -1) (undo-tree-id143 . -1) (undo-tree-id144 . -1) (undo-tree-id145 . -1) (undo-tree-id146 . -1) (undo-tree-id147 . -1) (undo-tree-id148 . -1) (undo-tree-id149 . -1) (undo-tree-id150 . -1) 46) nil (26703 40276 833728 535000) 0 nil])
 nil

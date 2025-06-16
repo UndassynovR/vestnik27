@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"cc018ea71543e22dcff85cea921071e66db3460e"
+"87ae8064bb2e5e398f050bee11f0f563e1f94e3b"
 [nil nil nil nil (26698 23134 683255 591000) 0 nil]
 ([nil nil ((#("{\\bfseries М.М.
 Ташыбаева}
@@ -190,5 +190,10 @@ nil
 ([nil nil ((#("/" 0 1 (fontified t)) . -29314) (undo-tree-id135 . -1) 29315 (29314 . 29315) (t 26698 23393 631146 463000)) nil (26698 23420 700828 671000) 0 nil])
 ([nil nil ((29924 . 29926)) nil (26698 23420 700817 115000) 0 nil])
 ([nil nil ((30235 . 30237) (t 26698 23420 705404 689000)) nil (26698 23431 947276 464000) 0 nil])
-([nil current ((30524 . 30526) (t 26698 23431 951096 577000)) nil (26698 23439 872005 202000) 0 nil])
+([nil nil ((30524 . 30526) (t 26698 23431 951096 577000)) nil (26698 23439 872005 202000) 0 nil])
+([nil nil ((#("," 0 1 (face (bold) fontified t)) . 203) (t 26698 23439 875879 450000)) nil (26703 40253 849537 617000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 202 . 203) (nil fontified nil 202 . 203) (202 . 203) 201) nil (26703 40253 849536 943000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 151 . 152) (nil fontified nil 76 . 152) (76 . 152) 75) nil (26703 40253 849535 820000) 0 nil])
+([nil current ((#("
+" 0 1 (rear-nonsticky t fontified t)) . -151) (undo-tree-id136 . -1) (undo-tree-id137 . -1) (undo-tree-id138 . -1) (undo-tree-id139 . -1) (undo-tree-id140 . -1) (undo-tree-id141 . -1) (undo-tree-id142 . -1) (undo-tree-id143 . -1) (undo-tree-id144 . -1) (undo-tree-id145 . -1) (undo-tree-id146 . -1) (undo-tree-id147 . -1) (undo-tree-id148 . -1) (undo-tree-id149 . -1) (undo-tree-id150 . -1) (undo-tree-id151 . -1) 56) nil (26703 40253 849532 277000) 0 nil])
 nil
