@@ -122,7 +122,7 @@ nil
 nil
 ([nil nil ((#("}" 0 1 (fontified t)) . 2867)) nil (26695 56341 30002 952000) 0 nil])
 ([nil nil ((4967 . 4998) (#("e" 0 1 (fontified t)) . 4967) (undo-tree-id92 . -1) (undo-tree-id93 . -1) (undo-tree-id94 . -1) 4968) nil (26695 56341 30002 137000) 0 nil])
-([nil nil ((#("-mail:\\href{mailto:Baytukenova75@mail.ru}{}
+([nil nil ((#("-mail:\Baytukenova75@mail.ru
 " 0 6 (fontified t) 6 11 (face font-lock-keyword-face fontified t) 11 12 (fontified t) 12 40 (face tex-verbatim fontified t) 40 44 (fontified t)) . 4998) (undo-tree-id87 . 44) (undo-tree-id88 . -43) (undo-tree-id89 . -44) (undo-tree-id90 . -44) (undo-tree-id91 . -44)) nil (26695 56341 29997 181000) 0 nil])
 ([nil nil ((#("
 " 0 1 (fontified t)) . 4967) (undo-tree-id95 . -1) (undo-tree-id96 . -1) (undo-tree-id97 . -1) (undo-tree-id98 . -1) (undo-tree-id99 . -1) (undo-tree-id100 . -1) (undo-tree-id101 . -1) (undo-tree-id102 . -1) (undo-tree-id103 . -1) (undo-tree-id104 . -1) (undo-tree-id105 . -1) (undo-tree-id106 . -1) (undo-tree-id107 . -1) (undo-tree-id108 . -1) (undo-tree-id109 . -1) (undo-tree-id110 . -1) (t 26695 56341 33539 334000)) nil (26695 56343 126006 254000) 0 nil])

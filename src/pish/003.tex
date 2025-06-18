@@ -249,68 +249,50 @@ margarine. Also, the mass fraction of fat in bakery and confectionery
 products was determined; the results of the studies are presented in
 Table 1.
 
-{\bfseries Table 1 Mass fractions of fat in bakery and confectionery products}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.0488}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3906}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2731}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2875}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% №
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Product name
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Mass fraction of fat, \%
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% ND on research methods
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% 1 & Sugar cookies & 10,6 & GOST 31902-2012 \\
-%% 2 & Oatmeal cookies & 11,2 & GOST 31902-2012 \\
-%% 3 & Crackers & 10,4 & GOST 31902-2012 \\
-%% 4 & Gingerbread & 10,7 & GOST 31902-2012 \\
-%% 5 & Prolong cookies & 10,3 & GOST 31902-2012 \\
-%% 6 & Waffles & 10,5 & GOST 31902-2012 \\
-%% 7 & Flatbreads & 9,4 & GOST 5668-2022 \\
-%% 8 & Buns & 3,5 & GOST 5668-2022 \\
-%% 9 & Fudge & 9,7 & GOST 31902-2012 \\
-%% 10 & Confectionery glaze & 11,1 & ГОСТ 31902-2012 \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries Table 1 Mass fractions of fat in bakery and confectionery products},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[44]Q[265]Q[296]Q[331]},
+  cells = {c},
+  hlines,
+  vlines,
+}
+№  & Product name        & Mass fraction of fat, \% & ND on research methods \\
+1  & Sugar cookies       & 10,6                     & GOST 31902-2012        \\
+2  & Oatmeal cookies     & 11,2                     & GOST 31902-2012        \\
+3  & Crackers            & 10,4                     & GOST 31902-2012        \\
+4  & Gingerbread         & 10,7                     & GOST 31902-2012        \\
+5  & Prolong cookies     & 10,3                     & GOST 31902-2012        \\
+6  & Waffles             & 10,5                     & GOST 31902-2012        \\
+7  & Flatbreads          & 9,4                      & GOST 5668-2022         \\
+8  & Buns                & 3,5                      & GOST 5668-2022         \\
+9  & Fudge               & 9,7                      & GOST 31902-2012        \\
+10 & Confectionery glaze & 11,1                     & ГОСТ 31902-2012        
+\end{longtblr}
 
 Analyzing Table 1, it can be established that the mass fraction of fat
 in bakery and confectionery products varied from 3.5\% to 11.2\%. The
 content of TFA in the original oil and fat products was determined, the
 results of the studies are shown in Table 2.
 
-{\bfseries Table 2 - TFA content in the original fat and oil products}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.0681}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3866}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2882}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2572}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% №
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Product name
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Mass fraction of fat, \%
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% TFA content, \%
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% 1 & Vegetable fat based on hydrogenated oil & 99,7 & 10,0 \\
-%% 2 & Margarine & 55,0 & 0,31 \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries Table 2 - TFA content in the original fat and oil products},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[40]Q[458]Q[260]Q[183]},
+  cells = {c},
+  hlines,
+  vlines,
+}
+№ & Product name                            & Mass fraction of fat, \% & TFA content, \% \\
+1 & Vegetable fat based on hydrogenated oil & 99,7                     & 10,0            \\
+2 & Margarine                               & 55,0                     & 0,31            
+\end{longtblr}
 
 The results of the studies showed that vegetable fat based on
 hydrogenated oil exceeds the 2\% standard and is not suitable for direct
@@ -332,42 +314,29 @@ Next, the content of trans-isomers of fatty acids in bakery and
 confectionery products with the addition of vegetable fat based on
 hydrogenated oil was determined; the results are presented in Table 3.
 
-{\bfseries Table 3 - Content of trans-isomers of fatty acids in bakery and
-confectionery products}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.0488}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2300}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1581}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2816}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2816}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% №
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Product name
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Mass fraction of fat, \%
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% TFA content in extracted fat, \%
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% TFA content in finished products, \%
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% 1 & Sugar cookies & 10,6 & 9,57 & 1,01 \\
-%% 2 & Oatmeal cookies & 11,2 & 7,89 & 0,88 \\
-%% 3 & Crackers & 10,4 & 9,28 & 0,97 \\
-%% 4 & Gingerbread & 10,7 & 9,27 & 0,99 \\
-%% 5 & Prolong cookies & 10,3 & 9,56 & 0,98 \\
-%% 6 & Waffles & 10,5 & 9,76 & 1,02 \\
-%% 7 & Flatbreads & 9,4 & 7,58 & 0,71 \\
-%% 8 & Buns & 3,5 & 7,82 & 0,27 \\
-%% 9 & Fudge & 9,7 & 8,63 & 0,84 \\
-%% 10 & Confectionery glaze & 11,1 & 10,48 & 1,16 \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries Table 3 - Content of trans-isomers of fatty acids in bakery and confectionery products},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[40]Q[250]Q[168]Q[252]Q[287]},
+  cells = {c},
+  hlines,
+  vlines,
+}
+№  & Product name        & Mass fraction of fat, \% & TFA content in extracted fat, \% & TFA content in finished products, \% \\
+1  & Sugar cookies       & 10,6                     & 9,57                             & 1,01                                 \\
+2  & Oatmeal cookies     & 11,2                     & 7,89                             & 0,88                                 \\
+3  & Crackers            & 10,4                     & 9,28                             & 0,97                                 \\
+4  & Gingerbread         & 10,7                     & 9,27                             & 0,99                                 \\
+5  & Prolong cookies     & 10,3                     & 9,56                             & 0,98                                 \\
+6  & Waffles             & 10,5                     & 9,76                             & 1,02                                 \\
+7  & Flatbreads          & 9,4                      & 7,58                             & 0,71                                 \\
+8  & Buns                & 3,5                      & 7,82                             & 0,27                                 \\
+9  & Fudge               & 9,7                      & 8,63                             & 0,84                                 \\
+10 & Confectionery glaze & 11,1                     & 10,48                            & 1,16                                 
+\end{longtblr}
 
 \begin{multicols}{2}
 As can be seen from Table 3, the TFA content in all the listed bakery
@@ -491,7 +460,7 @@ in the Trans Fatty Acid Elimination Roadmap // Nutrients.-2021.-Vol.
 Dalabayev A.- Master of Engineering and Technology, Senior Researcher of
 the Astana branch of «Kazakh Research Institute of Processing and Food
 Industry», Astana, Kazakhstan; e-mail:
-\href{mailto:dalabaev_askhat@mail.ru}{}.
+dalabaev\_askhat@mail.ru.
 
 \href{http://www.scopus.com/inward/authorDetails.url?authorID=56576301100&partnerID=MN8TOARS}{ID:
 57992129500}; https://orcid.org/0000-0001-7811-0697.
@@ -501,7 +470,7 @@ Industry», Astana, Kazakhstan; e-mail:
 Далабаев А.Б. -- магистр техники и технологии, старший научный сотрудник
 Астанинского филиала ТОО «Казахский научно-исследовательский институт
 перерабатывающей и пищевой промышленности», Астана, Казахстан, е-mail:
-\href{mailto:dalabaev_askhat@mail.ru}{}
+dalabaev\_askhat@mail.ru
 
 \href{http://www.scopus.com/inward/authorDetails.url?authorID=56576301100&partnerID=MN8TOARS}{ID:
 57992129500}; https://orcid.org/0000-0001-7811-0697.\
