@@ -747,53 +747,26 @@ F5=0,854*Х18
 тем больший вклад вносит главная компонента в кластеризацию (таблица 6).
 \end{multicols}
 
-{\bfseries Таблица 6 -Значения \emph{F}-критерия главных компонент за 2021-2023 годы}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2199}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1529}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1426}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1529}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1684}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1633}}@{}}
-%% \toprule\noalign{}
-%% \multirow{3}{=}{\begin{minipage}[b]{\linewidth}\raggedright
-%% Значение \emph{F}-критерия
-%% \end{minipage}} &
-%% \multicolumn{5}{>{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.7801} + 8\tabcolsep}@{}}{%
-%% \begin{minipage}[b]{\linewidth}\centering
-%% Главная компонента
-%% \end{minipage}} \\
-%% & \begin{minipage}[b]{\linewidth}\raggedright
-%% F1
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% F2
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% F3
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% F4
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% F5
-%% \end{minipage} \\
-%% & \begin{minipage}[b]{\linewidth}\raggedright
-%% 51.39
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% 58.15
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% 37.69
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% 24.08
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% 8.77
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \multicolumn{6}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{1.0000} + 10\tabcolsep}@{}}{%
-%% \emph{Примечание: Получено на основе расчета моделей F1- F5 по данным
-%% таблицы 5}} \\
-%% \end{longtable}
+\begin{table}[H]
+\caption*{Таблица 6 -Значения \emph{F}-критерия главных компонент за 2021-2023 годы}
+\centering
+\begin{tblr}{
+  width = \linewidth,
+  colspec = {Q[388]Q[113]Q[113]Q[113]Q[113]Q[92]},
+  cells = {c},
+  cell{1}{1} = {r=3}{},
+  cell{1}{2} = {c=5}{0.544\linewidth},
+  cell{4}{1} = {c=6}{0.931\linewidth},
+  vlines,
+  hline{1,4-5} = {-}{},
+  hline{2-3} = {2-6}{},
+}
+Значение \textit{F}-критерия                                                       & Главная компонента &       &       &       &      \\
+                                                                                   & F1                 & F2    & F3    & F4    & F5   \\
+                                                                                   & 51.39              & 58.15 & 37.69 & 24.08 & 8.77 \\
+\textit{Примечание: Получено на основе расчета моделей F1- F5 по данным таблицы 5} &                    &       &       &       &      
+\end{tblr}
+\end{table}
 
 \begin{multicols}{2}
 Основными переменными, определяющими группировку, явились те, что
@@ -857,53 +830,37 @@ F5=0,854*Х18
 таблице 7.
 \end{multicols}
 
-{\bfseries Таблица 7 - Характеристика логистической инфраструктуры в зависимости от выделенных кластеров РК}
-
-%% \begin{longtable}[]{@{}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1061}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1212}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2893}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.4833}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% Номер клас-тера
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Коли-
-%% 
-%% чество районов
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Характеристика производственного потенциала
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Потенциальные характеристики инфраструктуры
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% 1 & 8 & Растениеводство (картофель) и зерновые, мясо и молоко, яйца &
-%% зерно- и картофелехранилища, холодильное оборудование для молока и мяса
-%% животных и птиц \\
-%% 2 & 159 & Животноводство молочного направления, пчеловодство,
-%% растениеводство (соя, овес, кукуруза, гречиха), картофелеводство,
-%% овощеводство & зерно- и картофелехранилища, холодильное оборудование для
-%% молока и мяса животных и птиц, фрукто- и ягодохранилища,
-%% овощехранилища \\
-%% 3 & 2 & Фрукты и ягоды, овощи и бахчевые, картофель, мясо, молоко &
-%% картофелехранилища, фрукто- и ягодохранилища, овощехранилища,
-%% холодильное оборудование для молока и мяса животных \\
-%% 4 & 27 & Животноводство мясо-молочного направления, птицеводство,
-%% растениеводство (соя, пшеница, овес, кукуруза, гречиха),
-%% картофелеводство, овощеводство & зерно- и картофелехранилища,
-%% холодильное оборудование для молока и мяса животных и птиц, фрукто- и
-%% ягодохранилища \\
-%% 5 & 5 & Растениеводство (соя, овес, кукуруза, гречиха),
-%% картофелеводство, овощеводство, фрукты и ягоды, птицеводство & крупные
-%% фрукто- и ягодохранилища, овощехранилища, картофелехранилища, а также
-%% холодильное оборудование для молока и мяса животных и птиц \\
-%% 6 & 3 & Овощеводство и бахчевые & крупные овощехранилища, а также
-%% фрукто- и ягодохранилища, холодильное оборудование для молока и мяса
-%% животных \\
-%% \end{longtable}
+\begin{table}[H]
+\caption*{Таблица 7 - Характеристика логистической инфраструктуры в зависимости от выделенных кластеров РК}
+\centering
+\begin{tblr}{
+  width = \linewidth,
+  colspec = {Q[80]Q[90]Q[400]Q[450]},
+  row{1} = {c},
+  cell{2}{1} = {c},
+  cell{2}{2} = {c},
+  cell{3}{1} = {c},
+  cell{3}{2} = {c},
+  cell{4}{1} = {c},
+  cell{4}{2} = {c},
+  cell{5}{1} = {c},
+  cell{5}{2} = {c},
+  cell{6}{1} = {c},
+  cell{6}{2} = {c},
+  cell{7}{1} = {c},
+  cell{7}{2} = {c},
+  hlines,
+  vlines,
+}
+Номер клас\-тера & Коли\-чество районов & Характеристика производственного потенциала                                                                                                      & Потенциальные характеристики инфраструктуры                                                                                              \\
+1              & 8                  & Растениеводство (картофель) и зерновые, мясо и молоко, яйца                                                                                      & зерно- и картофелехранилища, холодильное оборудование для молока и мяса животных и птиц                                                  \\
+2              & 159                & Животноводство молочного направления, пчеловодство, растениеводство (соя, овес, кукуруза, гречиха), картофелеводство, овощеводство               & зерно- и картофелехранилища, холодильное оборудование для молока и мяса животных и птиц, фрукто- и ягодохранилища, овощехранилища        \\
+3              & 2                  & Фрукты и ягоды, овощи и бахчевые, картофель, мясо, молоко                                                                                        & картофелехранилища, фрукто- и ягодохранилища, овощехранилища, холодильное оборудование для молока и мяса животных                        \\
+4              & 27                 & Животноводство мясо-молочного направления, птицеводство, растениеводство (соя, пшеница, овес, кукуруза, гречиха), картофелеводство, овощеводство & зерно- и картофелехранилища, холодильное оборудование для молока и мяса животных и птиц, фрукто- и ягодохранилища                        \\
+5              & 5                  & Растениеводство (соя, овес, кукуруза, гречиха), картофелеводство, овощеводство, фрукты и ягоды, птицеводство                                     & крупные фрукто- и ягодохранилища, овощехранилища, картофелехранилища, а также холодильное оборудование для молока и мяса животных и птиц \\
+6              & 3                  & Овощеводство и бахчевые                                                                                                                          & крупные овощехранилища, а также фрукто- и ягодохранилища, холодильное оборудование для молока и мяса животных                            
+\end{tblr}
+\end{table}
 
 \begin{multicols}{2}
 Результаты классификации кластеров: 1 кластер - зерно- и
@@ -1174,13 +1131,13 @@ F3 -- для выбора ОРЦ торговли.
 \href{https://www.gov.kz/memleket/entities/mti/documents/details/61426?lang=ru}{}
 -Дата обращения: 21.11.2024.
 
-1. Государственная программа развития агропромышленного комплекса
+2. Государственная программа развития агропромышленного комплекса
 Республики Казахстан на 2017 -- 2021 годы: Постановление Правительства
 Республики Казахстан от 12 июля 2018 года № 423.
 \href{https://adilet.zan.kz/rus/docs/P1800000423-}{}
 Дата обращения: 25.11.2024.
 
-1. \href{https://www.webofscience.com/wos/author/record/34864370}{Feng
+3. \href{https://www.webofscience.com/wos/author/record/34864370}{Feng
 Y.Q}.,
 \href{https://www.webofscience.com/wos/author/record/33997583}{Liu
 Y.K}.,
@@ -1194,75 +1151,76 @@ Systems with Applications}. - 2022. - Vol.209. - P.518-531.
 \href{https://doi.org/10.1016/j.eswa.2022.118180}{DOI
 10.1016/j.eswa.2022.118180}
 
-1. Дыбская В.В. Управление складированием в цепях поставок. -
+4. Дыбская В.В. Управление складированием в цепях поставок. -
 М.:~\href{https://publications.hse.ru/books/?pb=57130529}{Альфа-Пресс},
 2009. -- 720 с. ISBN 978-5-94280-355-1
 
-1. Baker P., Canessa M. Warehouse design A structured approach //
+5. Baker P., Canessa M. Warehouse design A structured approach //
 European Journal of Operation Research. -- 2009. -- Vol.193(2). -
 P.425 -- 436. DOI
 \href{http://dx.doi.org/10.1016/j.ejor.2007.11.045}{10.1016/j.ejor.2007.11.045}
 
-1. Anil Varghese Mangalan, Sandeep Kuriakose, H. Mohamed, A. Ray. Optimal
+6. Anil Varghese Mangalan, Sandeep Kuriakose, H. Mohamed, A. Ray. Optimal
 location of warehouse using weighted MOORA approach // International
 Conference on Electrical, Electronics and Optimization Techniques
 (ICEEOT).-2016. DOI 10.1109/ICEEOT.2016.7754764
 
-1. Волхин Е.Г. Модели размещения распределительных центров // Управленец.
+7. Волхин Е.Г. Модели размещения распределительных центров // Управленец.
 - 2018. --Т.9. - №2. -- С.54 -- 60. DOI 10.29141/2218-5003-2018-9-2-9
 
-1. Daskin M. Network and Discrete Location: Models, Algorithms and
+8. Daskin M. Network and Discrete Location: Models, Algorithms and
 Applications (2nd Edition). - New York: John Wiley \& Sons Inc, 2013.
 -- 544 p. ISBN 978-0-470-90536-4
 
-1. Daskin M. Network and Discrete Location, Models, Algorithms, and
+9. Daskin M. Network and Discrete Location, Models, Algorithms, and
 Applications. -Hoboken: John Willey \& Sons Ltd, 1995.
 \href{http://dx.doi.org/10.1002/9781118032343}{DOI
 10.1002/9781118032343}
 
-1. Geoffrion A.M., Morris J., Webster S. Distribution System Design.
+10. Geoffrion A.M., Morris J., Webster S. Distribution System Design.
 Facility Location: A Survey of Applications and Methods. -- New York:
 Springer, 1995. -P.181--198. ISBN 0387945458.
 
-1. Romeijn H.E., Shu J. \& Teo C.-P. Designing Two-Echelon Supply Network
+11. Romeijn H.E., Shu J. \& Teo C.-P. Designing Two-Echelon Supply Network
 // European Journal of Operational Research. -2007. -Vol.178(2).
 -P.449--462.
 DOI 10.1016/j.ejor.2006.02.016
 
-1. Попов П. В. Методология построения логистической инфраструктуры на
+12. Попов П. В. Методология построения логистической инфраструктуры на
 территории региона / П. В. Попов, И. Ю. Мирецкий // Экономика региона.
 - 2019. - Том 15, вып.2. -С.483-492. DOI
 \href{http://dx.doi.org/10.17059/2019-2-13}{10.17059/2019-2-13}
 
-1. Erlebacher S.J., Meller R.D. The interaction of location and inventory
+13. Erlebacher S.J., Meller R.D. The interaction of location and inventory
 in designing distribution systems // IIE Transactions. -2000. -Vol.
 32. -P.155-166. DOI 10.1023/A:1007614431718
 
-1. Tuti Sarma Sinaga, Yosi Agustina Hidayat, Rachmawati Wangsaputra,
+14. Tuti Sarma Sinaga, Yosi Agustina Hidayat, Rachmawati Wangsaputra,
 Senator Nur Bahagia. The development of a conceptual rural logistics
 system model to improve products distribution in Indonesia // Journal
 of Industrial Engineering and Management. -- 2022. -- Vol.15(4). -- P.
-670-687. DOI 10.3926/jiem.4011
+670-687. DOI \\10.3926/jiem.4011
 
-1. Lu L. and Qin J. Multi-regional logistics center location algorithm
+15. Lu L. and Qin J. Multi-regional logistics center location algorithm
 based on improved K-means clustering // Computer system application --
 2019. -- Vol.28(8). -- P.251--255.
 
-1. Musolino G., Rindone C., Polimeni A. \& Vitetta A. Planning urban
+16. Musolino G., Rindone C., Polimeni A. \& Vitetta A. Planning urban
 distribution center location with variable restocking demand
 scenarios: general methodology and testing in a medium-size town //
 Transport Policy. -2019. -Vol.80. -P.157-166. DOI
 10.1016/j.tranpol.2018.04.006
 
-1. Ozmen M.Ё. and Aydo˘gan E.K. Robust multi-criteria decision making
+17. Ozmen M.Ё. and Aydo˘gan E.K. Robust multi-criteria decision making
 methodology for real life logistics center location problem //
 Artificial Intelligence Review. --2020. --Vol.53(12). -P.725-751.
 DOI 10.1007/s10462-019-09763-y
 
-1. Sharma R. \& Sungheetha A. Analysis of influencing factors of
+18. Sharma R. \& Sungheetha A. Analysis of influencing factors of
 logistics center location based on comprehensive quality training //
 Indian Journal of Public Health Research \& Development. -- 2018. --
 Vol.4(12). -- P.289-293. DOI 10.25236/ISMEEM.2019.006
+
 19. Rao C., Goh M., Zhao Y. and Zheng J. Location selection of city
 logistics centers under sustainability //
 \href{https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment}{Transportation
@@ -1278,7 +1236,7 @@ P.377-400. DOI 10.1007/s13437-021-00241-3
 \href{https://journal.oscm-forum.org/publication/article/key-food-supply-chain-challenges-a-review-of-the-literature-and-research-gaps}{Key
 Food Supply Chain Challenges: A Review of the Literature and Research
 Gaps} // Operations and Supply Chain Management. -- 2022. -- Vol.15(2).
--- Pp.441-460. DOI
+-- Pp.441-460. DOI\\
 \href{http://doi.org/10.31387/oscm0510358}{10.31387/oscm0510358}
 \end{references}
 
@@ -1295,10 +1253,9 @@ Kazahstan ot 2 marta 2020 goda.
 Data obrashhenija: 21.11.2024. {[}in Russian{]}
 
 2. Gosudarstvennaja programma razvitija agropromyshlennogo kompleksa
-Respubliki Kazahstan
-na 2017 -- 2021 gody: Postanovlenie Pravitel' stva
-Respubliki Kazahstan ot 12 ijulja 2018 goda № 423.
-https://adilet.zan.kz/rus/docs/P1800000423 -Data obrashhenija
+Respubliki Kazahstan na 2017 -- 2021 gody: Postanovlenie Pravitel' stva
+Respubliki Kazahstan ot 12 ijulja 2018 goda № 423.\\
+\href{https://adilet.zan.kz/rus/docs/P1800000423}{https://adilet.zan.kz} -Data obrashhenija
 25.11.2024. {[}in Russian{]}.
 
 3. \href{https://www.webofscience.com/wos/author/record/34864370}{Feng
@@ -1349,15 +1306,11 @@ Springer, 1995. -P.181--198. ISBN 0387945458.
 
 11. Romeijn H.E., Shu J. \& Teo C.-P. Designing Two-Echelon Supply
 Network // European Journal of Operational Research. -2007. -Vol.178(2).
--P.449--462.
-
-DOI 10.1016/j.ejor.2006.02.016
+-P.449--462. DOI 10.1016/j.ejor.2006.02.016
 
 12. Popov P. V. Metodologija postroenija logisticheskoj infrastruktury na
 territorii regiona / P. V. Popov, I. Ju. Mireckij // Jekonomika regiona.
-- 2019. -- T.15, vyp.2. -S.483-492.
-
-DOI \href{http://dx.doi.org/10.17059/2019-2-13}{10.17059/2019-2-13}.
+- 2019. -- T.15, vyp.2. -S.483-492. DOI \href{http://dx.doi.org/10.17059/2019-2-13}{10.17059/2019-2-13}.
 {[}in Russian{]}
 
 13. Erlebacher S.J., Meller R.D. The interaction of location and
@@ -1368,10 +1321,10 @@ inventory in designing distribution systems // IIE Transactions. -2000.
 Senator Nur Bahagia. The development of a conceptual rural logistics
 system model to improve products distribution in Indonesia // Journal of
 Industrial Engineering and Management. -- 2022. -- Vol.15(4). -- P.
-670-687. DOI 10.3926/jiem.4011
+670-687. DOI \\10.3926/jiem.4011
 
 15. Lu L. and Qin J. Multi-regional logistics center location algorithm
-based on improved K-means clustering // Computer system application --
+based on improved K-means \\clustering // Computer system application --
 2019. -- Vol.28(8). -- P.251--255.
 
 16. Musolino G., Rindone C., Polimeni A. \& Vitetta A. Planning urban
@@ -1404,7 +1357,7 @@ P.377-400. DOI 10.1007/s13437-021-00241-3
 \href{https://journal.oscm-forum.org/publication/article/key-food-supply-chain-challenges-a-review-of-the-literature-and-research-gaps}{Key
 Food Supply Chain Challenges: A Review of the Literature and Research
 Gaps} // Operations and Supply Chain Management. -- 2022. -- Vol.15(2).
--- Pp.441-460. DOI
+-- Pp.441-460. DOI\\
 \href{http://doi.org/10.31387/oscm0510358}{10.31387/oscm0510358}
 \end{references}
 

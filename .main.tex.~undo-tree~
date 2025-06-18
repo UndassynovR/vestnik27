@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"ce0a60ec4c1bbe506ea590246e712d68af9f2649"
+"0266f27d5f3558711a8466389671020dfb4f9fe6"
 [nil nil nil nil (26697 2977 988210 599000) 0 nil]
 ([nil nil ((apply -3 683 711 undo--wrap-and-run-primitive-undo 683 711 ((683 . 686) (t 26695 53654 19490 882000)))) nil (26697 2977 988209 353000) 0 nil])
 ([nil nil ((apply 3 711 735 undo--wrap-and-run-primitive-undo 711 735 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -711)))) nil (26697 2977 988205 712000) 0 nil])
@@ -74,5 +74,6 @@
 ([nil nil ((apply 3 1210 1234 undo--wrap-and-run-primitive-undo 1210 1234 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -1210) 1236 (t 26703 43098 21109 759000)))) nil (26703 43108 793183 850000) 0 nil])
 ([nil nil ((1238 . 1249) (#("o" 0 1 (face font-lock-comment-face fontified t)) . -1238) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (#("l" 0 1 (face font-lock-comment-face fontified t)) . -1239) (undo-tree-id65 . -1) (undo-tree-id66 . -1) (undo-tree-id67 . -1) 1240 (1235 . 1240) (#("&" 0 1 (fontified t)) . -1235) (undo-tree-id68 . -1) (#("&" 0 1 (fontified t)) . -1236) (undo-tree-id69 . -1) 1237 (1234 . 1237) (t 26703 43108 794811 755000)) nil (26703 47551 569855 638000) 0 nil])
 ([nil nil ((apply -3 1210 1253 undo--wrap-and-run-primitive-undo 1210 1253 ((1210 . 1213) 1248))) nil (26703 47551 569835 880000) 0 nil])
-([nil current ((apply 3 1253 1277 undo--wrap-and-run-primitive-undo 1253 1277 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -1253) 1279))) nil (26703 47551 569831 687000) 0 nil])
+([nil nil ((apply 3 1253 1277 undo--wrap-and-run-primitive-undo 1253 1277 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -1253) 1279))) nil (26703 47551 569831 687000) 0 nil])
+([nil current ((1287 . 1292) (#("d" 0 1 (face font-lock-comment-face fontified t)) . -1287) (undo-tree-id0 . -1) (#("o" 0 1 (face font-lock-comment-face fontified t)) . -1288) (undo-tree-id1 . -1) (#("n" 0 1 (face font-lock-comment-face fontified t)) . -1289) (undo-tree-id2 . -1) (#("e" 0 1 (face font-lock-comment-face fontified t)) . -1290) (undo-tree-id3 . -1) 1291 (1277 . 1291) (t 26703 47551 578092 900000)) nil (26706 24153 169911 496000) 0 nil])
 nil
