@@ -14,7 +14,7 @@
 \begin{affiliation}
 Астана медицина университеті КеАҚ, Астана, Қазақстан,
 
-\raggedright \textsuperscript{\envelope }Автор-корреспондент:\href{mailto:shynarai\_92@mail.ru}{\nolinkurl{shynarai\_92@mail.ru}}
+\raggedright \textsuperscript{\envelope }Корреспондент-автор: \href{mailto:shynarai\_92@mail.ru}{\nolinkurl{shynarai\_92@mail.ru}}
 \end{affiliation}
 
 Бұл мақалада күнбағыс және зығыр майларының органолептикалық және
@@ -238,25 +238,26 @@ composition
 Екі компонентті май қоспадасындағы өсімдік майларының массалық үлесін
 есептеу келесі формула бойынша анықтайды:
 
-\(\frac{m_{a} \times c_{a}^{1} + m_{b} \times c_{b}^{1}}{m_{a} \times c_{a}^{2} + m_{b} \times c_{b}^{2}}\)
-(1)
+\begin{equation}
+\frac{m_{a} \times c_{a}^{1} + m_{b} \times c_{b}^{1}}{m_{a} \times c_{a}^{2} + m_{b} \times c_{b}^{2}}
+\end{equation}
 
-m\textsubscript{a}+m\textsubscript{b}=1
+\begin{equation*}
+m_a+m_b=1
+\end{equation*}
 
 Мұндағы \(m_{a}\) - бірінші өсімдік майының массасы, кг;
 
-\({\ \ \ \ \ \ \ \ \ \ \ m}_{b}\) - екінші өсімдік майының массасы, кг;
+\(m_{b}\) - екінші өсімдік майының массасы, кг;
 
-\begin{quote}
 \(c_{a}^{1}\) - өсімдік майындағы линол қышқылының концентрациясы, \%;
-\end{quote}
 
-\({\ \ \ \ \ \ \ \ \ \ c}_{a}^{2}\) - өсімдік майындағы линол қышқылының
+\(c_{a}^{2}\) - өсімдік майындағы линол қышқылының
 концентрациясы, \%;
 
 \(c_{b}^{1}\) - өсімдік майындағы линолен қышқылының концентрациясы, \%;
 
-\(\ \ \ \ \ \ \ \ \ \ c_{b}^{2}\) - өсімдік майындағы линолен қышқылының
+\(c_{b}^{2}\) - өсімдік майындағы линолен қышқылының
 концентрациясы, \%;
 
 Теңдеулер жүйесі \(m_{a}\) және \(m_{b}\) қатысты шешіледі. Нәтижесінде
@@ -267,66 +268,26 @@ m\textsubscript{a}+m\textsubscript{b}=1
 көрсетілген.
 \end{multicols}
 
-{\bfseries 1 - кесте. Өсімдік майларының органолептикалық және физико-химиялық көрсеткіштері}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3267}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3368}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3365}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% Көрсеткіш атауы
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Күнбағыс майы
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% \begin{quote}
-%% Зығыр майы
-%% \end{quote}
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% Иісі мен дәмі & Бөгде иіс және ащы дәм жоқ, күнбағыс майына тән &
-%% \begin{minipage}[t]{\linewidth}\centering
-%% \begin{quote}
-%% Бөгде иіс және ащы дәм жоқ, зығыр майына тән
-%% \end{quote}
-%% \end{minipage} \\
-%% Түсі & Ашық-сары & \begin{minipage}[t]{\linewidth}\centering
-%% \begin{quote}
-%% Алтын түстес
-%% \end{quote}
-%% \end{minipage} \\
-%% Түстік саны, мг йод & 6 & \begin{minipage}[t]{\linewidth}\centering
-%% \begin{quote}
-%% 20
-%% \end{quote}
-%% \end{minipage} \\
-%% Қышқылдық саны, мг КОН/г, көп емес & 0,3 &
-%% \begin{minipage}[t]{\linewidth}\centering
-%% \begin{quote}
-%% 0,7
-%% \end{quote}
-%% \end{minipage} \\
-%% Тотығу саны, моль белсенді көміртегінің/кг & 4,0 &
-%% \begin{minipage}[t]{\linewidth}\centering
-%% \begin{quote}
-%% 4,0
-%% \end{quote}
-%% \end{minipage} \\
-%% Ылғал мен ұшпа заттардың массалық үлесі, \% & 0,10 &
-%% \begin{minipage}[t]{\linewidth}\centering
-%% \begin{quote}
-%% 0,10
-%% \end{quote}
-%% \end{minipage} \\
-%% Сабын(сапалы сынама) & Жоқ & \begin{minipage}[t]{\linewidth}\centering
-%% \begin{quote}
-%% Жоқ
-%% \end{quote}
-%% \end{minipage} \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries 1 - кесте. Өсімдік майларының органолептикалық және физико-химиялық көрсеткіштері},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[302]Q[327]Q[310]},
+  cells = {c},
+  hlines,
+  vlines,
+}
+Көрсеткіш атауы                             & Күнбағыс майы                                   & Зығыр майы                                   \\
+Иісі мен дәмі                               & Бөгде иіс және ащы дәм жоқ, күнбағыс майына тән & Бөгде иіс және ащы дәм жоқ, зығыр майына тән \\
+Түсі                                        & Ашық-сары                                       & Алтын түстес                                 \\
+Түстік саны, мг йод                         & 6                                               & 20                                           \\
+Қышқылдық саны, мг КОН/г, көп емес          & 0,3                                             & 0,7                                          \\
+Тотығу саны, моль белсенді көміртегінің/кг  & 4,0                                             & 4,0                                          \\
+Ылғал мен ұшпа заттардың массалық үлесі, \% & 0,10                                            & 0,10                                         \\
+Сабын(сапалы сынама)                        & Жоқ                                             & Жоқ                                          
+\end{longtblr}
 
 \begin{multicols}{2}
 Талдау нәтижесінде барлық майлар сапалы, өйткені олар белгіленген
@@ -343,28 +304,7 @@ m\textsubscript{a}+m\textsubscript{b}=1
 зығыр майларының органолептикалық және физико-химиялық көрсеткіштерін
 көрсеткен {[}9{]}.2-кестеде кестеде күнбағыс және зығыр майларының Е
 дәруменінің мөлшері көрсетілген.
-\end{multicols}
 
-{\bfseries 2 - кесте. Өсімдік майларындағы Е дәруменінің мөлшері}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4983}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5017}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% Өсімдік майының түрі
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Мөлшері (100 мл.), мг
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% Күнбағыс майы & 20,05 \\
-%% Зығыр майы & 38,08 \\
-%% \end{longtable}
-
-\begin{multicols}{2}
 Майлардың құрамындағы токоферолдардың, яғни Е витаминінің болуын атап
 өткен жөн - бұл табиғи антиоксидант болып саналады. Алимарданова М.,
 Матибаева А., Джетписбаева Б. өздерінің оқу құралдарында өсімдік
@@ -373,37 +313,48 @@ m\textsubscript{a}+m\textsubscript{b}=1
 көрсеткіштерінің талдау нәтижелері көрсетілген.
 \end{multicols}
 
-{\bfseries 3-кесте. Өсімдік майларының май қышқылдық құрамы, \%}
+\begin{longtblr}[
+  caption = {\bfseries 2 - кесте. Өсімдік майларындағы Е дәруменінің мөлшері},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[452]Q[456]},
+  cells = {c},
+  hlines,
+  vlines,
+}
+Өсімдік майының түрі & Мөлшері (100 мл.), мг \\
+Күнбағыс майы        & 20,05                 \\
+Зығыр майы           & 38,08                 
+\end{longtblr}
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2417}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1737}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3133}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2712}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% Май қышқылының атауы
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% Белгіленуі
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% Күнбағыс майының май қышқылды құрамы (май қышқылы жиынтығына)
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% Зығыр майының май қышқылды құрамы (май қышқылы жиынтығына)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \multirow{3}{=}{Қаныққан май қышқылдары} & С16:0 & 5,9 & 4,4 \\
-%% & С18:0 & 3,2 & 3,2 \\
-%% & С22:0 & 0,6 & - \\
-%% \multirow{3}{=}{Моноқанықпаған май қышқылдары} & С16:1 & 0,1 & - \\
-%% & С18:1 & 23,8 & 14,4 \\
-%% & С20:1 & - & - \\
-%% \multirow{3}{=}{Полиқанықпаған май қышқылдары} & С18:2 & 66,4 & 15,1 \\
-%% & С18:3 & - & 62,9 \\
-%% & С20:2 & - & - \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries 3-кесте. Өсімдік майларының май қышқылдық құрамы, \%},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[312]Q[104]Q[260]Q[260]},
+  cells = {c},
+  cell{2}{1} = {r=3}{},
+  cell{5}{1} = {r=3}{},
+  cell{8}{1} = {r=3}{},
+  vlines,
+  hline{1-2,5,8,11} = {-}{},
+  hline{3-4,6-7,9-10} = {2-4}{},
+}
+Май қышқылының атауы          & Белгіленуі & {Күнбағыс майының\\май қышқылды құрамы\\(май қышқылы жиынтығына)} & {Зығыр майының\\май қышқылды құрамы\\(май қышқылы жиынтығына)} \\
+Қаныққан май қышқылдары       & С16:0      & 5,9                                                               & 4,4                                                            \\
+                              & С18:0      & 3,2                                                               & 3,2                                                            \\
+                              & С22:0      & 0,6                                                               & -                                                              \\
+Моноқанықпаған май қышқылдары & С16:1      & 0,1                                                               & -                                                              \\
+                              & С18:1      & 23,8                                                              & 14,4                                                           \\
+                              & С20:1      & -                                                                 & -                                                              \\
+Полиқанықпаған май қышқылдары & С18:2      & 66,4                                                              & 15,1                                                           \\
+                              & С18:3      & -                                                                 & 62,9                                                           \\
+                              & С20:2      & -                                                                 & -                                                              
+\end{longtblr}
 
 \begin{multicols}{2}
 ω-3: ω-6 қышқылдарының қатынасы бойынша теңдестірілген өсімдік

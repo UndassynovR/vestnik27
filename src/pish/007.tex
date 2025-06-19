@@ -334,63 +334,29 @@ seed, Jerusalem artichoke; sprouted seeds, barley.
 физико-химический анализ пророщенных зерен овса и ячменя (Таблица 1).
 \end{multicols}
 
-{\bfseries Таблица 1 - Физико-химические показатели пророщенных зерен овса и ячменя}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.1719}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.0986}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.1127}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.0846}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.1127}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.0845}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.1127}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.0813}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.1413}}@{}}
-%% \toprule\noalign{}
-%% \multirow{2}{=}{\begin{minipage}[b]{\linewidth}\raggedright
-%% Проращивание ,час
-%% \end{minipage}} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.2112} + 2\tabcolsep}}{%
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% Влажность, \%
-%% \end{minipage}} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.1972} + 2\tabcolsep}}{%
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% Кислотность, \textsuperscript{0}С
-%% \end{minipage}} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.1971} + 2\tabcolsep}}{%
-%% \begin{minipage}[b]{\linewidth}\centering
-%% Длина ростков, мм
-%% \end{minipage}} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 16\tabcolsep) * \real{0.2226} + 2\tabcolsep}@{}}{%
-%% \begin{minipage}[b]{\linewidth}\centering
-%% Количество всхожих зерен, \%
-%% \end{minipage}} \\
-%% & \begin{minipage}[b]{\linewidth}\raggedright
-%% овес
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% ячмень
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% овес
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% ячмень
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% овес
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% ячмень
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% овес
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% ячмень
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% ч/з 24 & 45,5 & 45,4 & 0,28 & 0,32 & 2 & 4 & 20 & 40 \\
-%% ч/з 36 & 47,5 & 48,1 & 0,32 & 0,36 & 6 & 8 & 40 & 80 \\
-%% ч/з 48 & 47,8 & 48,3 & 0,34 & 0,43 & 8 & 10 & 75 & 95 \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries Таблица 1 - Физико-химические показатели пророщенных зерен овса и ячменя},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[179]Q[60]Q[83]Q[67]Q[94]Q[73]Q[106]Q[110]Q[158]},
+  cells = {c},
+  cell{1}{1} = {r=2}{},
+  cell{1}{2} = {c=2}{0.143\linewidth},
+  cell{1}{4} = {c=2}{0.161\linewidth},
+  cell{1}{6} = {c=2}{0.179\linewidth},
+  cell{1}{8} = {c=2}{0.268\linewidth},
+  vlines,
+  hline{1,3-6} = {-}{},
+  hline{2} = {2-9}{},
+}
+Проращивание ,час & Влажность, \% &        & Кислотность, \textsuperscript{0}С &        & Длина ростков, мм &        & Количество всхожих зерен, \% &        \\
+                  & овес          & ячмень & овес                              & ячмень & овес              & ячмень & овес                         & ячмень \\
+ч/з 24            & 45,5          & 45,4   & 0,28                              & 0,32   & 2                 & 4      & 20                           & 40     \\
+ч/з 36            & 47,5          & 48,1   & 0,32                              & 0,36   & 6                 & 8      & 40                           & 80     \\
+ч/з 48            & 47,8          & 48,3   & 0,34                              & 0,43   & 8                 & 10     & 75                           & 95     
+\end{longtblr}
 
 Исследования показали, что у пророщенных зерен ростки достигают 2-10 мм,
 а всхожесть увеличивается с 20 до 95 \% за 24-48 часов. Процесс
@@ -399,29 +365,21 @@ seed, Jerusalem artichoke; sprouted seeds, barley.
 течение 12-14 часов до влажности 10-12\%. Основные показатели
 пророщенных зерен овса и ячменя приведены в Таблице 2.
 
-{\bfseries Таблица 2 - Характеристики пророщенных зерен}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.4799}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2403}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2799}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% Показатели
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% Овес
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Ячмень
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% Влажность, \% & 10,6 & 10,3 \\
-%% Титруемая кислотность, \textsuperscript{0}Т & 0,32 & 0,41 \\
-%% Содержание белка, \% СВ & 12,64 & 11,87 \\
-%% Способность прорастания, \% & 75 & 95 \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries Таблица 2 - Характеристики пророщенных зерен},
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  hlines,
+  vlines,
+}
+Показатели                                  & Овес  & Ячмень \\
+Влажность, \%                               & 10,6  & 10,3   \\
+Титруемая кислотность, \textsuperscript{0}Т & 0,32  & 0,41   \\
+Содержание белка, \% СВ                     & 12,64 & 11,87  \\
+Способность прорастания, \%                 & 75    & 95     
+\end{longtblr}
 
 \begin{multicols}{2}
 По результатам, влажность пророщенных зерен овса и ячменя была близка:
@@ -455,231 +413,44 @@ seed, Jerusalem artichoke; sprouted seeds, barley.
 состав данных материалов (Таблица 3).
 \end{multicols}
 
-{\bfseries Таблица 3 -- Качественные показатели сырья}
-
-%% \begin{longtable}[]{@{}
-%%   >{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1214}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0201}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1177}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0321}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0102}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1143}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1353}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0558}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0807}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0479}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1144}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0269}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1233}}@{}}
-%% \toprule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \multicolumn{2}{@{}>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1415} + 2\tabcolsep}}{%
-%% Наименование показателя} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1498} + 2\tabcolsep}}{%
-%% Измельченный топинамбур} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1245} + 2\tabcolsep}}{%
-%% Овес} & Пророщенный овес &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1365} + 2\tabcolsep}}{%
-%% Ячмень} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1624} + 2\tabcolsep}}{%
-%% Пророщенный ячмень} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1501} + 2\tabcolsep}@{}}{%
-%% Корень солодки} \\
-%% \multicolumn{13}{@{}>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{1.0000} + 24\tabcolsep}@{}}{%
-%% Физико-химические показатели} \\
-%% \multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1415} + 2\tabcolsep}}{%
-%% Массовая доля белка, \%} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1600} + 4\tabcolsep}}{%
-%% 8,32±0,09} & 11,95±0,16 & 12,64±0,15 &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1365} + 2\tabcolsep}}{%
-%% 10,83±0,14} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1624} + 2\tabcolsep}}{%
-%% 11,87±0,14} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1501} + 2\tabcolsep}@{}}{%
-%% 10,48±0,12} \\
-%% \multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1415} + 2\tabcolsep}}{%
-%% Массовая доля влаги, \%} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1600} + 4\tabcolsep}}{%
-%% 9,63±0,13} & 9,89±0,17 & 6,59±0,10 &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1365} + 2\tabcolsep}}{%
-%% 10,21±0,17} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1624} + 2\tabcolsep}}{%
-%% 8,58±0.13} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1501} + 2\tabcolsep}@{}}{%
-%% 7,1±0,23} \\
-%% \multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1415} + 2\tabcolsep}}{%
-%% Массовая доля золы, \%} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1600} + 4\tabcolsep}}{%
-%% 5,17±0,02} & 3,37±0,05 & 3,35±0,04 &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1365} + 2\tabcolsep}}{%
-%% 2,77±0,03} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1624} + 2\tabcolsep}}{%
-%% 1,93±0,04} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1501} + 2\tabcolsep}@{}}{%
-%% 6,245±0,005} \\
-%% \multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1415} + 2\tabcolsep}}{%
-%% Массовая доля клетчатки,\%} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1600} + 4\tabcolsep}}{%
-%% 24,65±0,29} & 11,31±0,13 & 10,03±0,12 &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1365} + 2\tabcolsep}}{%
-%% 12,09±0,16} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1624} + 2\tabcolsep}}{%
-%% 8,62±0,10} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1501} + 2\tabcolsep}@{}}{%
-%% 3,47±0,04} \\
-%% \multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1415} + 2\tabcolsep}}{%
-%% Титруемая кислотность, \textsuperscript{0}Т} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1600} + 4\tabcolsep}}{%
-%% 0,86±0,019} & 0,422±0,005 & 0,364±0,008 &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1365} + 2\tabcolsep}}{%
-%% 0,508±0,006} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1624} + 2\tabcolsep}}{%
-%% 0,463±0,011} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1501} + 2\tabcolsep}@{}}{%
-%% 1,521±0.034} \\
-%% \multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1415} + 2\tabcolsep}}{%
-%% Посторонние примеси} &
-%% \multicolumn{11}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.8585} + 20\tabcolsep}@{}}{%
-%% Не обнаружено} \\
-%% \multicolumn{13}{@{}>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{1.0000} + 24\tabcolsep}@{}}{%
-%% Витаминный состав сырья} \\
-%% Витамин Е &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1378} + 2\tabcolsep}}{%
-%% 0,912±0,01} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1566} + 4\tabcolsep}}{%
-%% 1,554±0,02} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1910} + 2\tabcolsep}}{%
-%% 2,61±0,03} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1286} + 2\tabcolsep}}{%
-%% 1,398±0,019} & 1,01±0,01 &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1501} + 2\tabcolsep}@{}}{%
-%% 0,08±0,001} \\
-%% Витамин В\textsubscript{1} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1378} + 2\tabcolsep}}{%
-%% 0,365±0,073} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1566} + 4\tabcolsep}}{%
-%% 0,38±0,075} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1910} + 2\tabcolsep}}{%
-%% 0,472±0,094} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1286} + 2\tabcolsep}}{%
-%% 0,361±0,07} & 0,294±0.058 &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1501} + 2\tabcolsep}@{}}{%
-%% 0,413±0,082} \\
-%% Витамин В\textsubscript{2} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1378} + 2\tabcolsep}}{%
-%% 0,274±0,115} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1566} + 4\tabcolsep}}{%
-%% -} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1910} + 2\tabcolsep}}{%
-%% 0,093±0,039} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1286} + 2\tabcolsep}}{%
-%% -} & 0,114±0,047 &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1501} + 2\tabcolsep}@{}}{%
-%% 0,77±0,032} \\
-%% Витамин В\textsubscript{3} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1378} + 2\tabcolsep}}{%
-%% 8,21±1,64} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1566} + 4\tabcolsep}}{%
-%% 4,28±0,86} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1910} + 2\tabcolsep}}{%
-%% 1,38±0,27} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1286} + 2\tabcolsep}}{%
-%% 5,24±1,05} & 2,69±0,54 &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1501} + 2\tabcolsep}@{}}{%
-%% 2,15±0,43} \\
-%% Витамин В\textsubscript{6} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1378} + 2\tabcolsep}}{%
-%% -} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1566} + 4\tabcolsep}}{%
-%% 2,46±0,049} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1910} + 2\tabcolsep}}{%
-%% 0,26±0,05} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1286} + 2\tabcolsep}}{%
-%% 0,317±0,063} & 0,276±0,055 &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1501} + 2\tabcolsep}@{}}{%
-%% 0,103±0,02} \\
-%% Витамин С &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1378} + 2\tabcolsep}}{%
-%% 31,95±5,7} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1566} + 4\tabcolsep}}{%
-%% -} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1910} + 2\tabcolsep}}{%
-%% -} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1286} + 2\tabcolsep}}{%
-%% -} & - &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1501} + 2\tabcolsep}@{}}{%
-%% 2,57±0,46} \\
-%% \multicolumn{13}{@{}>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{1.0000} + 24\tabcolsep}@{}}{%
-%% Минеральные элементы,мг/100} \\
-%% Железо &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1378} + 2\tabcolsep}}{%
-%% 1,83±0,021} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1566} + 4\tabcolsep}}{%
-%% 5,61±0,07} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1910} + 2\tabcolsep}}{%
-%% 10,27±0,12} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1286} + 2\tabcolsep}}{%
-%% 5,95±0,08} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1413} + 2\tabcolsep}}{%
-%% 4,64±0,05} & 2,75±0,03 \\
-%% Магний &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1378} + 2\tabcolsep}}{%
-%% 63,89±0,76} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1566} + 4\tabcolsep}}{%
-%% 110,32±1,54} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1910} + 2\tabcolsep}}{%
-%% 126,10±1,51} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1286} + 2\tabcolsep}}{%
-%% 142,01±1,98} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1413} + 2\tabcolsep}}{%
-%% 89,61±1,07} & 27,46±0,33 \\
-%% Кальций &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1378} + 2\tabcolsep}}{%
-%% 98,77±1,18} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1566} + 4\tabcolsep}}{%
-%% 120,07±1,68} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1910} + 2\tabcolsep}}{%
-%% 109,29±1,31} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1286} + 2\tabcolsep}}{%
-%% 105,16±1,47} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1413} + 2\tabcolsep}}{%
-%% 55,48±0,66} & 80,25±0,96 \\
-%% Калий &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1378} + 2\tabcolsep}}{%
-%% 1007,44±12,09} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1566} + 4\tabcolsep}}{%
-%% 463,24±6,48} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1910} + 2\tabcolsep}}{%
-%% 393,25±4,72} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1286} + 2\tabcolsep}}{%
-%% 459,72±7,43} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1413} + 2\tabcolsep}}{%
-%% 260,97±3,13} & 315,02±3,78 \\
-%% Фосфор &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1378} + 2\tabcolsep}}{%
-%% 424,46±5,09} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1566} + 4\tabcolsep}}{%
-%% 248,16±3,47} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1910} + 2\tabcolsep}}{%
-%% 337,21±4,04} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1286} + 2\tabcolsep}}{%
-%% 292,30±4,09} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1413} + 2\tabcolsep}}{%
-%% 210,79±2,59} & 56,17±0,67 \\
-%% Йод &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1378} + 2\tabcolsep}}{%
-%% -} &
-%% \multicolumn{3}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1566} + 4\tabcolsep}}{%
-%% 0,0033±0,00001} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1910} + 2\tabcolsep}}{%
-%% 0,008±0,0001} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1286} + 2\tabcolsep}}{%
-%% 0,004±0,0001} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1413} + 2\tabcolsep}}{%
-%% 0,0059±0,0001} & 0,013±0,0001 \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries Таблица 3 - Качественные показатели сырья},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[150]Q[123]Q[129]Q[121]Q[113]Q[121]Q[113]},
+  cells = {c},
+  cell{2}{1} = {c=7}{},
+  cell{8}{2} = {c=6}{0.72\linewidth},
+  cell{9}{1} = {c=7}{0.931\linewidth},
+  cell{16}{1} = {c=7}{0.931\linewidth},
+  hlines,
+  vlines,
+}
+Наименование показателя      & {Измельчен\-ный\\топинамбур} & Овес           & Пророщен\-ный овес & Ячмень       & Пророщен\-ный ячмень & {Корень\\солодки} \\
+Физико-химические показатели &                            &                &                     &              &                       &                   \\
+Массовая доля белка, \%      & 8,32 ± 0,09                  & 11,95 ± 0,16     & 12,64 ± 0,15          & 10,83 ± 0,14   & 11,87 ± 0,14            & 10,48 ± 0,12        \\
+Массовая доля влаги, \%      & 9,63 ± 0,13                  & 9,89 ± 0,17      & 6,59 ± 0,10           & 10,21 ± 0,17   & 8,58 ± 0.13             & 7,1 ± 0,23          \\
+Массовая доля золы, \%       & 5,17 ± 0,02                  & 3,37 ± 0,05      & 3,35 ± 0,04           & 2,77 ± 0,03    & 1,93 ± 0,04             & 6,245 ± 0,005       \\
+Массовая доля клетчатки,\%   & 24,65 ± 0,29                 & 11,31 ± 0,13     & 10,03 ± 0,12          & 12,09 ± 0,16   & 8,62 ± 0,10             & 3,47 ± 0,04         \\
+Титруемая кислотность, 0Т    & 0,86 ± 0,019                 & 0,422 ± 0,005    & 0,364 ± 0,008         & 0,508 ± 0,006  & 0,463 ± 0,011           & 1,521 ± 0.034       \\
+Посторонние примеси          & Не обнаружено              &                &                     &              &                       &                   \\
+Витаминный состав сырья      &                            &                &                     &              &                       &                   \\
+Витамин Е                    & 0,912 ± 0,01                 & 1,554 ± 0,02     & 2,61 ± 0,03           & 1,398 ± 0,019  & 1,01 ± 0,01             & 0,08 ± 0,001        \\
+Витамин В1                   & 0,365 ± 0,073                & 0,38 ± 0,075     & 0,472 ± 0,094         & 0,361 ± 0,07   & 0,294 ± 0.058           & 0,413 ± 0,082       \\
+Витамин В2                   & 0,274 ± 0,115                & -              & 0,093 ± 0,039         & -            & 0,114 ± 0,047           & 0,77 ± 0,032        \\
+Витамин В3                   & 8,21 ± 1,64                  & 4,28 ± 0,86      & 1,38 ± 0,27           & 5,24 ± 1,05    & 2,69 ± 0,54             & 2,15 ± 0,43         \\
+Витамин В6                   & -                          & 2,46 ± 0,049     & 0,26 ± 0,05           & 0,317 ± 0,063  & 0,276 ± 0,055           & 0,103 ± 0,02        \\
+Витамин С                    & 31,95 ± 5,7                  & -              & -                   & -            & -                     & 2,57 ± 0,46         \\
+Минеральные элементы,мг/100  &                            &                &                     &              &                       &                   \\
+Железо                       & 1,83 ± 0,021                 & 5,61 ± 0,07      & 10,27 ± 0,12          & 5,95 ± 0,08    & 4,64 ± 0,05             & 2,75 ± 0,03         \\
+Магний                       & 63,89 ± 0,76                 & 110,32 ± 1,54    & 126,10 ± 1,51         & 142,01 ± 1,98  & 89,61 ± 1,07            & 27,46 ± 0,33        \\
+Кальций                      & 98,77 ± 1,18                 & 120,07 ± 1,68    & 109,29 ± 1,31         & 105,16 ± 1,47  & 55,48 ± 0,66            & 80,25 ± 0,96        \\
+Калий                        & 1007,44 ± 12,09              & 463,24 ± 6,48    & 393,25 ± 4,72         & 459,72 ± 7,43  & 260,97 ± 3,13           & 315,02 ± 3,78       \\
+Фосфор                       & 424,46 ± 5,09                & 248,16 ± 3,47    & 337,21 ± 4,04         & 292,30 ± 4,09  & 210,79 ± 2,59           & 56,17 ± 0,67        \\
+Йод                          & -                          & 0,0033 ± 0,00001 & 0,008 ± 0,0001        & 0,004 ± 0,0001 & 0,0059 ± 0,0001         & 0,013 ± 0,0001      
+\end{longtblr}
 
 \begin{multicols}{2}
 Таблица 3 показывает состав измельченного топинамбура, пророщенного
@@ -701,6 +472,36 @@ seed, Jerusalem artichoke; sprouted seeds, barley.
 потенциал для включения в диеты, направленные на улучшение метаболизма и
 поддержание общего здоровья, особенно для людей, имеющих дефицит этих
 микроэлементов..
+\end{multicols}
+
+\begin{longtblr}[
+  caption = {\bfseries Таблица 4 - Аминокислотный состав},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[177]Q[171]Q[94]Q[133]Q[94]Q[146]Q[113]},
+  cells = {c},
+  hlines,
+  vlines,
+}
+Наименование показателя, \% & Измельченный топинамбур & Овес        & Пророщен\-ный овес & Ячмень      & Пророщен\-ный ячмень & Корень солодки \\
+Аргинин                     & 0,964 ± 0,385             & 1,570 ± 0,628 & 1,267 ± 0,507      & 1,363 ± 0,545 & 1,097 ± 0,439        & 1,138 ± 0,455    \\
+Лизин                       & 0,450 ± 0,153             & 1,221 ± 0,415 & 1,429 ± 0,486      & 1,107 ± 0,376 & 1,426 ± 0,485        & 1,138 ± 0,387    \\
+Тирозин                     & 0,418 ± 0,125             & 0,406 ± 0,122 & 0,747 ± 0,224      & 0,426 ± 0,128 & 0,695 ± 0,208        & 0,534 ± 0,160    \\
+Фенилаланин                 & 0,610 ± 0,183             & 0,872 ± 0,262 & 0,747 ± 0,224      & 0,809 ± 0,243 & 0,621 ± 0,186        & 0,569 ± 0,171    \\
+Гистидин                    & 0,308 ± 0,154             & 0,523 ± 0,262 & 0,845 ± 0,422      & 0,468 ± 0,234 & 0,512 ± 0,256        & 0,391 ± 0,196    \\
+Лейцин + изолейцин            & 0,675 ± 0,175             & 1,090 ± 0,283 & 1,104 ± 0,287      & 1,022 ± 0,266 & 1,060 ± 0,276        & 0,889 ± 0,231    \\
+Метионин                    & 0,145 ± 0,049             & 0,148 ± 0,05  & 0,552 ± 0,188      & 0,183 ± 0,062 & 0,548 ± 0,186        & 0,462 ± 0,157    \\
+Валин                       & 0,707 ± 0,283             & 0,959 ± 0,384 & 0,975 ± 0,390      & 0,894 ± 0,358 & 0,951 ± 0,380        & 0,889 ± 0,356    \\
+Пролин                      & 1,028 ± 0,267             & 0,828 ± 0,215 & 0,747 ± 0,194      & 0,766 ± 0,199 & 0,731 ± 0,190        & 0,747 ± 0,194    \\
+Треонин                     & 0,482 ± 0,193             & 0,698 ± 0.279 & 0,845 ± 0,338      & 0,639 ± 0,255 & 0,877 ± 0,351        & 0,747 ± 0,299    \\
+Серин                       & 0,803 ± 0,209             & 0,785 ± 0.204 & 0,715 ± 0,186      & 0,724 ± 0,188 & 0,695 ± 0,181        & 0,605 ± 0,157    \\
+Аланин                      & 0,578 ± 0,150             & 0.741 ± 0,193 & 1,234 ± 0,321      & 0,681 ± 0,177 & 1,133 ± 0,295        & 1,032 ± 0,268    \\
+Глицин                      & 0,675 ± 0,229             & 0,741 ± 0,252 & 0,780 ± 0,265      & 0,681 ± 0,232 & 0,768 ± 0,261        & 0,783 ± 0,266    
+\end{longtblr}
+
+\begin{multicols}{2}
 
 Полученные данные подчеркивают значимость изученных продуктов как ценных
 источников питательных веществ, которые могут быть использованы для
@@ -715,67 +516,7 @@ seed, Jerusalem artichoke; sprouted seeds, barley.
 суточную норму (\%) на 20,06; 17,24; 6,94 и 49,3 соответственно. Таким
 образом, пророщенные овес, ячмень и корень солодки являются хорошими
 источниками клетчатки и аминокислот (таблица 4).
-\end{multicols}
 
-{\bfseries Таблица 4 -- Аминокислотный состав}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1884}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1495}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1232}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1463}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1232}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1463}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1232}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% Наименование показателя, \%
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Измельченный топинамбур
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% Овес
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% Пророщенный овес
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Ячмень
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Пророщенный ячмень
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Корень солодки
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% Аргинин & 0,964±0,385 & 1,570±0,628 & 1,267±0,507 & 1,363±0,545 &
-%% 1,097±0,439 & 1,138±0,455 \\
-%% Лизин & 0,450±0,153 & 1,221±0,415 & 1,429±0,486 & 1,107±0,376 &
-%% 1,426±0,485 & 1,138±0,387 \\
-%% Тирозин & 0,418±0,125 & 0,406±0,122 & 0,747±0,224 & 0,426±0,128 &
-%% 0,695±0,208 & 0,534±0,160 \\
-%% Фенилаланин & 0,610±0,183 & 0,872±0,262 & 0,747±0,224 & 0,809±0,243 &
-%% 0,621±0,186 & 0,569±0,171 \\
-%% Гистидин & 0,308±0,154 & 0,523±0,262 & 0,845±0,422 & 0,468±0,234 &
-%% 0,512±0,256 & 0,391±0,196 \\
-%% Лейцин+изолейцин & 0,675±0,175 & 1,090±0,283 & 1,104±0,287 & 1,022±0,266
-%% & 1,060±0,276 & 0,889±0,231 \\
-%% Метионин & 0,145±0,049 & 0,148±0,05 & 0,552±0,188 & 0,183±0,062 &
-%% 0,548±0,186 & 0,462±0,157 \\
-%% Валин & 0,707±0,283 & 0,959±0,384 & 0,975±0,390 & 0,894±0,358 &
-%% 0,951±0,380 & 0,889±0,356 \\
-%% Пролин & 1,028±0,267 & 0,828±0,215 & 0,747±0,194 & 0,766±0,199 &
-%% 0,731±0,190 & 0,747±0,194 \\
-%% Треонин & 0,482±0,193 & 0,698±0.279 & 0,845±0,338 & 0,639±0,255 &
-%% 0,877±0,351 & 0,747±0,299 \\
-%% Серин & 0,803±0,209 & 0,785±0.204 & 0,715±0,186 & 0,724±0,188 &
-%% 0,695±0,181 & 0,605±0,157 \\
-%% Аланин & 0,578±0,150 & 0.741±0,193 & 1,234±0,321 & 0,681±0,177 &
-%% 1,133±0,295 & 1,032±0,268 \\
-%% Глицин & 0,675±0,229 & 0,741±0,252 & 0,780±0,265 & 0,681±0,232 &
-%% 0,768±0,261 & 0,783±0,266 \\
-%% \end{longtable}
-
-\begin{multicols}{2}
 Аминокислотный состав, представленный в Таблице 4, демонстрирует
 значительное содержание незаменимых аминокислот в пророщенных овсе и
 ячмене, таких как лизин, валин, треонин и фенилаланин. Это делает эти
@@ -804,56 +545,25 @@ seed, Jerusalem artichoke; sprouted seeds, barley.
 (Таблица 5).
 \end{multicols}
 
-{\bfseries Таблица 5 -- Микробиологические показатели сырья}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1991}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1526}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1748}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.0880}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1556}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.0197}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1024}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1079}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% Наименование показателей, ед.изм.
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% Топинамбур
-%% 
-%% молотый
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Пророщенный овес
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Овес
-%% \end{minipage} &
-%% \multicolumn{2}{>{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1753} + 2\tabcolsep}}{%
-%% \begin{minipage}[b]{\linewidth}\centering
-%% Пророщенный ячмень
-%% \end{minipage}} & \begin{minipage}[b]{\linewidth}\centering
-%% Ячмень
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Корень солодки
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% КМАФАнМ, КОЕ/г & 3*10\textsuperscript{4} & 3*10\textsuperscript{4} &
-%% 4*10\textsuperscript{3} &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1753} + 2\tabcolsep}}{%
-%% 7*10\textsuperscript{3}} & 7*10\textsuperscript{3} &
-%% 4*10\textsuperscript{4} \\
-%% БГКП (колиформы) в 1.0 см\textsuperscript{3} продукта &
-%% \multicolumn{7}{>{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.8009} + 12\tabcolsep}@{}}{%
-%% не обнаружены} \\
-%% Дрожжи, КОЕ/г & 5 & 2 & 6 & 6 &
-%% \multicolumn{2}{>{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1221} + 2\tabcolsep}}{%
-%% 5} & 1 \\
-%% Плесени, КОЕ/г &
-%% \multicolumn{7}{>{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.8009} + 12\tabcolsep}@{}}{%
-%% не обнаружены} \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries Таблица 5 -- Микробиологические показатели сырья},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[273]Q[140]Q[148]Q[58]Q[165]Q[80]Q[121]},
+  cells = {c},
+  cell{3}{2} = {c=6}{},
+  cell{5}{2} = {c=6}{},
+  hlines,
+  vlines,
+}
+Наименование показателей, ед.изм.   & Топинамбур молотый & Пророщен\-ный овес & Овес  & Пророщенный ячмень & Ячмень & Корень солодки \\
+КМАФАнМ, КОЕ/г                      & 3*104                 & 3*104            & 4*103 & 7*103              & 7*103  & 4*104          \\
+БГКП (колиформы) в 1.0 см3 продукта & не обнаружены         &                  &       &                    &        &                \\
+Дрожжи, КОЕ/г                       & 5                     & 2                & 6     & 6                  & 5      & 1              \\
+Плесени, КОЕ/г                      & не обнаружены         &                  &       &                    &        &                
+\end{longtblr}
 
 \begin{multicols}{2}
 Микробиологические данные, представленные в Таблице 5, демонстрируют,
@@ -1000,7 +710,7 @@ vozdelyvanii jarovogo jachmenja //Kormoproizvodstvo. -2007. - №8.
 chastic muki iz proroshhennogo zerna na ee tehnologicheskie svojstva i
 kachestvo gotovyh izdelij // Vestnik Juzhno-Ural' skogo
 \\gosudarstvennogo universiteta. Serija: Pishhevye i biotehnologii.
--2019.- T.7(1). - S.36 - 42. DOI 10.14529/food190105. {[}in Russian{]}
+-2019.- T.7(1). - S.36 - 42. DOI \\10.14529/food190105. {[}in Russian{]}
 
 10. Zhuchkova M. A., Skripnikov S. G. Topinambur -- rastenie XXI veka
 //Ovoshhi Rossii.2017.- № 1.- S.31- 33. DOI

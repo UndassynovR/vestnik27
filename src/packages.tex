@@ -180,6 +180,8 @@
 \DeclareCaptionLabelFormat{tableformat}{Таблица #2}
 \DeclareCaptionLabelSeparator{tableformat}{ - }
 \captionsetup[table]{font={bf, small}, labelformat=tableformat, labelsep=tableformat, justification=centering}
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtblr}{\vspace{-15pt}}
 
 \renewcommand{\theequation}{\arabic{equation}}
 % Define the aliases for superscript and subscript
