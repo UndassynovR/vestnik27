@@ -14,7 +14,7 @@
 \begin{affiliation}
 \emph{Алматы технологиялық университеті, Алматы, Қазақстан,}
 
-\raggedright \textsuperscript{\envelope }Автор-корреспондент:
+\raggedright \textsuperscript{\envelope }Корреспондент-автор:
 \href{mailto:yamadina88@mail.ru}{\nolinkurl{yamadina88@mail.ru}}
 \end{affiliation}
 
@@ -256,52 +256,31 @@ functional food products.
 көрсетілген рецептура негізінде өндірілді.
 \end{multicols}
 
-{\bfseries 1 - кесте. Бидай және жүгері ұндарын әртүрлі қатынаста қосып, вафли дайындаудың рецептурасы}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.2017}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.2646}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1008}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1137}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1008}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1182}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.1003}}@{}}
-%% \toprule\noalign{}
-%% \multirow{2}{=}{\begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Құрамы}
-%% \end{minipage}} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Дәстүрлі рецептура}
-%% \end{minipage} &
-%% \multicolumn{5}{>{\centering\arraybackslash}p{(\linewidth - 12\tabcolsep) * \real{0.5337} + 8\tabcolsep}@{}}{%
-%% \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Эксперименттік рецептура}
-%% \end{minipage}} \\
-%% & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Бақылау нұсқасы}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Үлгі 1}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Үлгі 2}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Үлгі 3}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Үлгі 4}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Үлгі 5}
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% Сары май & 60 г. & 60 г. & 60 г. & 60 г. & 60 г. & 60 г. \\
-%% Құмшекер & 20 г. & 20 г. & 20 г. & 20 г. & 20 г. & 20 г. \\
-%% Сүт & 70 мл. & 70 мл. & 70 мл. & 70 мл. & 70 мл. & 70 мл. \\
-%% Жұмыртқа & 1 дана & 1 дана & 1 дана & 1 дана & 1 дана & 1 дана \\
-%% Қопсытқыш & 2 г. & 2 г. & 2 г. & 2 г. & 2 г. & 2 г. \\
-%% Бидай ұны & 100 г. & 90 г. & 80 г. & 70 г. & 60 г. & 50 г. \\
-%% Жүгері ұны & - & 10 г. & 20 г. & 30 г. & 40 г. & 50 г. \\
-%% Барлығы & 182 г. & 182 г. & 182 г. & 182 г. & 182 г. & 182 г. \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries 1 - кесте. Бидай және жүгері ұндарын әртүрлі қатынаста қосып, вафли дайындаудың рецептурасы},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[160]Q[285]Q[98]Q[98]Q[98]Q[98]Q[98]},
+  cells = {c},
+  cell{1}{1} = {r=2}{},
+  cell{1}{3} = {c=5}{0.49\linewidth},
+  vlines,
+  hline{1,3-11} = {-}{},
+  hline{2} = {2-7}{},
+}
+\textbf{Құрамы} & \textbf{Дәстүрлі рецептура} & \textbf{Эксперименттік рецептура} &                 &                 &                 &                 \\
+                & \textbf{Бақылау нұсқасы}    & \textbf{Үлгі 1}                   & \textbf{Үлгі 2} & \textbf{Үлгі 3} & \textbf{Үлгі 4} & \textbf{Үлгі 5} \\
+Сары май        & 60 г.                       & 60 г.                             & 60 г.           & 60 г.           & 60 г.           & 60 г.           \\
+Құмшекер        & 20 г.                       & 20 г.                             & 20 г.           & 20 г.           & 20 г.           & 20 г.           \\
+Сүт             & 70 мл.                      & 70 мл.                            & 70 мл.          & 70 мл.          & 70 мл.          & 70 мл.          \\
+Жұмыртқа        & 1 дана                      & 1 дана                            & 1 дана          & 1 дана          & 1 дана          & 1 дана          \\
+Қопсытқыш       & 2 г.                        & 2 г.                              & 2 г.            & 2 г.            & 2 г.            & 2 г.            \\
+Бидай ұны       & 100 г.                      & 90 г.                             & 80 г.           & 70 г.           & 60 г.           & 50 г.           \\
+Жүгері ұны      & -                           & 10 г.                             & 20 г.           & 30 г.           & 40 г.           & 50 г.           \\
+Барлығы         & 182 г.                      & 182 г.                            & 182 г.          & 182 г.          & 182 г.          & 182 г.          
+\end{longtblr}
 
 \begin{multicols}{2}
 Дайын вафли өнімдері органолептикалық және физика-химиялық көрсеткіштері
@@ -322,7 +301,6 @@ functional food products.
 
 Ал 30\% жүгері ұны қосылған үлгі барлық көрсеткіштер бойынша оңтайлы
 нәтижелер көрсетті:
-
 
 - Орташа ылғалдылық мөлшері -- 17,2\% (бақылау үлгісіне қарағанда
 5,5\%-ға жоғары);
@@ -355,7 +333,31 @@ functional food products.
 
 Бұл көрсеткіштер вафлидің тағамдық құндылығы мен сенсорлық қасиеттерінің
 тиімділігін дәлелдеді.
+\end{multicols}
 
+\begin{longtblr}[
+  caption = {\bfseries 2 - кесте. Дайын вафли өнімдерінің құрамының салыстырмалы көрсеткіштері},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[275]Q[181]Q[185]Q[300]},
+  cells = {c},
+  hlines,
+  vlines,
+}
+\textbf{Көрсеткіш атауы (өлшем бірлігі)} & \textbf{Классикалық вафли} & \textbf{70:30 (бидай: жүгері)} & \textbf{40:30:30 (бидай: жүгері: қарақұмық)} \\
+Ақуыз (г/100 г)                          & 6,5                        & 6,9                            & 7,5                                          \\
+Май (г/100 г)                            & 23                         & 22,2                           & 21                                           \\
+Көмірсу (г/100 г)                        & 38                         & 35,4                           & 36                                           \\
+Тағамдық талшық (г/100 г)                & 1,2                        & 1,7                            & 2,5                                          \\
+Энергетикалық құндылық (ккал)            & 390                        & 345                            & 375                                          \\
+Кальций (мг/100 г)                       & 15-20                      & 21,8                           & 18-23                                        \\
+Темір (мг/100 г)                         & 1,5-2,0                    & 2,1                            & 2,5-3,0                                      \\
+Мырыш (мг/100 г)                         & 1,0-1,5                    & 0,64                           & 1,5-2,0                                      
+\end{longtblr}
+
+\begin{multicols}{2}
 Жоғарыда ұсынылған эксперименттік нәтижелерге сүйене отырып, алынған
 вафли үлгілерінің тағамдық және сапалық сипаттамалары кешенді түрде
 салыстырылды. Алдымен 30\% жүгері ұны қосылған үлгінің органолептикалық
@@ -369,40 +371,7 @@ functional food products.
 
 Жоғарыда айтылған үш түрлі нұсқадағы дайын вафли өнімдері төмендегі
 2-кестеде тағамдық құндылығы жағынан нақты салыстырылып көрсетілген.
-\end{multicols}
 
-{\bfseries 2 - кесте. Дайын вафли өнімдерінің құрамының салыстырмалы көрсеткіштері}
-
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.4228}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1732}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2116}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1923}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Көрсеткіш атауы (өлшем бірлігі)}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries Классикалық вафли}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries 70:30 (бидай: жүгері)}
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% {\bfseries 40:30:30 (бидай: жүгері: қарақұмық)}
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% Ақуыз (г/100 г) & 6,5 & 6,9 & 7,5 \\
-%% Май (г/100 г) & 23 & 22,2 & 21 \\
-%% Көмірсу (г/100 г) & 38 & 35,4 & 36 \\
-%% Тағамдық талшық (г/100 г) & 1,2 & 1,7 & 2,5 \\
-%% Энергетикалық құндылық (ккал) & 390 & 345 & 375 \\
-%% Кальций (мг/100 г) & 15-20 & 21,8 & 18-23 \\
-%% Темір (мг/100 г) & 1,5-2,0 & 2,1 & 2,5-3,0 \\
-%% Мырыш (мг/100 г) & 1,0-1,5 & 0,64 & 1,5-2,0 \\
-%% \end{longtable}
-
-\begin{multicols}{2}
 Органолептикалық тұрғыдан да 40:30:30 үлгісіндегі вафли өнімі
 сарапшылардан жоғары бағаға ие болды. Өнімнің хош иісі мен дәмі
 үйлесімді, құрылымы біркелкі әрі қытырлақ болды. Бұл көрсеткіштер МЕМСТ

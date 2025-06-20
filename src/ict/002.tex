@@ -18,15 +18,15 @@ understanding the factors that influence student success in online
 learning remains a challenge. In this study, we analyze student
 performance in e-learning courses using the XGBoost classifier and SHAP
 (SHapley Additive exPlanations) to identify key features that impact
-academic outcomes. The dataset, obtained from the UC Irvine Machine
-Learning Repository, contains student information related to personal
+academic \\outcomes. The dataset, obtained from the UC Irvine Machine
+Learning Repository, contains student \\information related to personal
 background, family environment, and educational habits. We categorize
 student performance in three ways: predicting exact grades, classifying
 students as pass/fail, and determining whether they achieve good or not
 good grades. Our findings show that certain features significantly
 influence student performance. For pass/fail prediction, factors such as
 last semester's GPA, expected graduation GPA, and parental education
-levels were among the most impactful. In contrast, for good/not good
+levels were among the most impactful. In contrast, for good/not good\\
 classification, features like course ID, having a job, and accommodation
 type played a major role. The prediction results show that the model
 performs best in pass/fail classification, achieving an accuracy of
@@ -60,7 +60,7 @@ E-learning бүкіл әлем бойынша студенттерге икем�
 түсіну қиын болып қала береді. Бұл зерттеуде біз академиялық нәтижелерге
 әсер ететін негізгі сипаттамаларды анықтау үшін XGBoost классификаторы
 мен SHAP (SHapley Additive Explanations) көмегімен электрондық оқыту
-курстарындағы студенттердің жұмысын талдаймыз. Калифорния
+курстарындағы студенттердің \\жұмысын талдаймыз. Калифорния
 университетінен, Ирвиннің машиналық оқыту репозиторийінен алынған
 деректер жинағы студенттердің жеке тәжірибесіне, отбасылық тарихына және
 оқу әдеттеріне қатысты ақпаратты қамтиды. Студенттердің үлгерімін үш
@@ -221,16 +221,7 @@ effectiveness of e-learning systems.
 {\bfseries Materials and methods.} This section consists of three steps:
 (1) describing the dataset, (2) analyzing the prediction, and (3)
 calculating the prediction, as shown in Figure 1.
-\end{multicols}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image17}
-	\caption*{Fig.1 - An overview of the research methodology}
-	\caption*{\emph{Dataset Description}}
-\end{figure}
-
-\begin{multicols}{2}
 E-Learning student dataset from UC Irvine Machine Learning Repository
 was used for this research {[}13{]}. The dataset contains information
 about students'{} end-of-term performance in the Faculty
@@ -248,7 +239,16 @@ third one is Educational Habits (Features 17-30), it includes study
 hours, reading habits, class attendance, exam preparation style,
 note-taking, listening, etc. The dataset is clean, meaning there were no
 missing (null) values or duplicate records.
+\end{multicols}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{media/ict/image17}
+	\caption*{Fig.1 - An overview of the research methodology}
+	\caption*{\emph{Dataset Description}}
+\end{figure}
+
+\begin{multicols}{2}
 \emph{{\bfseries Prediction Analysis}}
 
 In this part of our research, we used SHAP (SHapley Additive
@@ -284,41 +284,32 @@ machine learning model and use SHAP to identify the features that most
 strongly influence high performance.
 \end{multicols}
 
-{\bfseries Table 1 - Feature Extraction Cases}
+\begin{longtblr}[
+  caption = {\bfseries Table 1 - Feature Extraction Cases},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[244]Q[288]Q[410]},
+  cells = {c},
+  hlines,
+  vlines,
+}
+\textbf{Case}                & \textbf{Grade Mapping}                      & \textbf{Objective}                                 \\
+Multi-class Grade Prediction & A, B, C, D, F as separate classes           & Identify top features influencing all grades       \\
+Pass/Fail Classification     & {A, B, C, D → 1 (Pass),\\F → 0 (Fail)}      & Determine features affecting passing or failing    \\
+Good Student Classification  & {A, B → 1 (Good),~\\C, D, F → 0 (Not Good)} & Identify features contributing to high performance 
+\end{longtblr}
 
-%% \begin{longtable}[]{@{}
-%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2886}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3222}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3892}}@{}}
-%% \toprule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% {\bfseries Case} & {\bfseries Grade Mapping} & {\bfseries Objective} \\
-%% Multi-class Grade Prediction & A, B, C, D, F as separate classes &
-%% Identify top features influencing all grades \\
-%% Pass/Fail Classification & A, B, C, D → 1 (Pass),
-%% 
-%% F → 0 (Fail) & Determine features affecting passing or failing \\
-%% Good Student Classification & A, B → 1 (Good),
-%% 
-%% C, D, F → 0 (Not Good) & Identify features contributing to high
-%% performance \\
-%% \end{longtable}
-
-\emph{Function get\_top\_features(dataset):}
-
-\emph{X = dataset without "GRADE"}
-
-\emph{y = "GRADE" column from dataset}
-
-\emph{Train an XGBoost classifier using X and y}
-
-\emph{Compute SHAP values for the model}
-
-\emph{Calculate mean absolute SHAP values for each feature}
-
-\emph{Sort features by SHAP importance and select the top 12}
+\begin{lstlisting}[basicstyle=\ttfamily, keywordstyle=, commentstyle=, stringstyle=, numbers=none, frame=none, showstringspaces=false, tabsize=4]
+Function get_top_features(dataset):
+	X = dataset without "GRADE"
+	y = "GRADE" column from dataset
+	Train an XGBoost classifier using X and y
+	Compute SHAP values for the model
+	Calculate mean absolute SHAP values for each feature
+	Sort features by SHAP importance and select the top 12
+\end{lstlisting}
 
 \begin{multicols}{2}
 The function starts by separating features from the target variable. It
@@ -372,10 +363,20 @@ results.
 \end{multicols}
 
 \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image18}
-	\caption*{Fig.2 - Mean SHAP Bar Plot (top pass/fail features)}
-	\caption*{\emph{Good/Not Good Analysis}}
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{media/ict/image18}
+        \caption*{Fig.2 — Mean SHAP Bar Plot (top pass/fail features)}
+        \caption*{\emph{Good/Not Good Analysis}}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{media/ict/image19}
+        \caption*{Fig.3 — Mean SHAP Bar Plot (top good/not good features)}
+        \caption*{\emph{Prediction Accuracies}}
+    \end{subfigure}
 \end{figure}
 
 \begin{multicols}{2}
@@ -393,16 +394,7 @@ influence academic performance, possibly by improving discipline and
 time management or taking time away from studying. Father's occupation
 (16), Scholarship type (4), and Mother's education level (11) appear to
 impact success, possibly affecting academic and financial support.
-\end{multicols}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image19}
-	\caption*{Fig.3 - Mean SHAP Bar Plot (top good/not good features)}
-	\caption*{\emph{Prediction Accuracies}}
-\end{figure}
-
-\begin{multicols}{2}
 In order to predict accuracies 6 different ML models are used. But in
 Table 1, only the highest accuracy score among them is written. Table 1
 shows the accuracy of different prediction models based on the features
@@ -421,23 +413,22 @@ type of prediction greatly improves accuracy, especially for simpler
 classifications like Pass/Fail.
 \end{multicols}
 
-{\bfseries Table 2 - Prediction Accuracies}
-
-%% \begin{longtable}[]{@{}
-%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3964}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3299}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2737}}@{}}
-%% \toprule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% Features & Predict Grade & Accuracy Score \\
-%% All & All & 36.23\% \\
-%% Top Pass/Fail & All & 36.30\% \\
-%% Top Good/Not Good & All & 42.32\% \\
-%% Top Pass/Fail & Pass/Fail & 97.43\% \\
-%% Top Good/Not Good & Good/Not Good & 80.07\% \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries Table 2 - Prediction Accuracies},
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  hlines,
+  vlines,
+}
+Features          & Predict Grade & Accuracy Score \\
+All               & All           & 36.23\%        \\
+Top Pass/Fail     & All           & 36.30\%        \\
+Top Good/Not Good & All           & 42.32\%        \\
+Top Pass/Fail     & Pass/Fail     & 97.43\%        \\
+Top Good/Not Good & Good/Not Good & 80.07\%        
+\end{longtblr}
 
 \begin{multicols}{2}
 Our results show that prior academic performance is a strong indicator
@@ -536,41 +527,39 @@ covid-19 pandemic // Education and Information Technologies.- 2020.-Vol.
 
 7. A.M.Maatuk, E.K. Elberkawi, S.Aljawarneh, H.Rashaideh, H. Alharbi The
 covid-19 pandemic and e-learning: challenges and opportunities from the
-perspective of students and instructors// Journal of Computing in Higher
+perspective of students and instructors// Journal of \\Computing in Higher
 Education.2022.-Vol.34(1).- P.21-38. DOI
 \href{https://doi.org/10.1007/s12528-021-09274-2}{10.1007/s12528-021-09274-2}
 
 8. W.A.Cidral, T.Oliveira, M.D. Felice, M.Aparicio E-learning success
 determinants: Brazilian empirical study// Computers and Education.-
-2018. -Vol.122.- P.273- 290.
-
-DOI 10.1016/j.compedu.2017.12.001
+2018. -Vol.122.- P.273- 290. DOI 10.1016/j.compedu.2017.12.001
 
 9. A.Y.Alqahtani, A.A.Rajkhan E-learning critical success factors during
-the covid-19 pandemic: A comprehensive analysis of e-learning managerial
+the covid-19 pandemic: A \\comprehensive analysis of e-learning managerial
 perspectives// Education Sciences.-2020.-Vol.10(9):216. DOI
 \href{http://dx.doi.org/10.3390/educsci10090216}{10.3390/educsci10090216}
 
 10. D.Al-Fraihat, M.Joy, R.Masa'deh, J.Sinclair, Evaluating e-learning
-systems success: An empirical study// Computers in Human
+systems success: An empirical study // Computers in Human
 Behavior.-2020.-Vol.102.-P.67-86. DOI 10.1016/j.chb.2019.08.004
 
 11. H.Kauffman A review of predictive factors of student success in and
-satisfaction with online learning// Research in Learning
+satisfaction with online learning // Research in Learning
 Technology.-2015.-Vol.15.- P.1-15.
 DOI~\href{https://doi.org/10.3402/rlt.v23.26507}{10.3402/rlt.v23.26507}
 
 12. A. M. Nortvig, A. K. Petersen, and S. H. Balle, A literature review
 of the factors influencing e-learning and blended learning in relation
-to learning outcome, student satisfaction and engagement// Electronic
+to learning outcome, student satisfaction and engagement // Electronic
 Journal of e-Learning.-2018.-Vol.16(1).-P.46 - 55.
 
 13. N.Yilmaz, B. Sekeroglu Higher Education Students Performance
 Evaluation// UCI Machine Learning Repository.-2019 DOI /10.24432/C51G82.
 
 14. Scott M. Lundberg, Su-In Lee Paul G. A unified approach to
-interpreting model predictions//31st Conference on Neural Information
-Processing Systems (NIPS 2017), Long Beach, CA, USA.-2017.-Vol.25(2).
+interpreting model predictions // 31st Conference on Neural Information
+Processing Systems (NIPS 2017), Long Beach, CA, USA.-2017 .- Vol.25(2).
 DOI
 \href{http://dx.doi.org/10.48550/arXiv.1705.07874}{10.48550/arXiv.1705.07874}
 

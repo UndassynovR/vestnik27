@@ -1,1381 +1,523 @@
 (undo-tree-save-format-version . 1)
-"3b38e4e6a1f2bf39c2c5102c7ab039b9efec68c8"
-[nil nil nil nil (26698 28322 406554 232000) 0 nil]
-([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 25) (undo-tree-id77 . -9) (t 26689 8840 696509 10000)) nil (26698 28322 406553 423000) 0 nil])
-([nil nil (25) nil (26698 28322 406552 580000) 0 nil])
-([nil nil ((43 . 45) (25 . 43) (#("secti" 0 5 (face font-lock-keyword-face fontified t)) . -25) (undo-tree-id73 . -5) (undo-tree-id74 . -5) (undo-tree-id75 . -5) 30 (29 . 30) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -29) (undo-tree-id76 . -1) (24 . 30)) nil (26698 28322 406551 818000) 0 nil])
-([nil nil ((97 . 98) (#("
-" 0 1 (fontified t)) . -97) (#("
-" 0 1 (fontified t)) . -97) 44) nil (26698 28322 406549 156000) 0 nil])
-([nil nil ((#("}" 0 1 (fontified t)) . 96)) nil (26698 28322 406548 631000) 0 nil])
-([nil nil ((#("{\\bfseries " 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 11 (face (bold) fontified t)) . 97) (undo-tree-id72 . -10)) nil (26698 28322 406548 193000) 0 nil])
-([nil nil ((#("{\\bfseries \\textsuperscript{1}С.З. Сапақова}
+"27d254c41e0227c70cc6b3eb405ce9a72b0d1a35"
+[nil nil nil nil (26709 613 231352 930000) 0 nil]
+([nil nil ((#("Автор" 0 5 (fontified t)) . 829) (undo-tree-id1 . -4) (undo-tree-id2 . -4) (undo-tree-id3 . -4) (undo-tree-id4 . -4) 833 (t 26706 24326 917274 93000)) nil (26709 613 231351 853000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 847 . 848) (nil fontified nil 843 . 848) (843 . 848) 842) nil (26709 613 231348 455000) 0 nil])
+([nil nil ((#("-" 0 1 (fontified t)) . 829) (undo-tree-id0 . 1)) nil (26709 613 231347 626000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 842 . 843) (nil fontified nil 842 . 843) (842 . 843) 841) nil (26709 613 231323 403000) 0 nil])
+([nil nil ((842 . 843) (#("-" 0 1 (rear-nonsticky t fontified t)) . 842) 843) nil (26709 613 231322 414000) 0 nil])
+([nil nil ((788 . 871) (#("\\raggedright \\textsuperscript{\\envelope }корреспондент-Автор: sapakovasz@gmail.com
+" 0 12 (face font-lock-keyword-face fontified t) 12 13 (fontified t) 13 29 (face font-lock-keyword-face fontified t) 29 30 (fontified t) 30 39 (face font-lock-keyword-face fontified t) 39 54 (fontified t) 54 55 (rear-nonsticky t fontified t) 55 59 (fontified t) 59 60 (rear-nonsticky t fontified t) 60 83 (fontified t)) . 788) 843) nil (26709 613 231321 439000) 0 nil])
+([nil nil ((829 . 830) (#("к" 0 1 (fontified t)) . 829)) nil (26709 613 231316 633000) 0 nil])
+([nil nil ((17226 . 17247) (17227 . 17243) (t 26709 613 234930 362000)) nil (26709 4894 8164 588000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
 
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-{\\bfseries \\textsuperscript{\\envelope },
-\\textsuperscript{2}Д.
-Даниярова}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-{\\bfseries ,
-\\textsuperscript{1}Н.
-Есмұхамедов}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-{\\bfseries ,
-\\textsuperscript{1}Р.
-Арманқызы}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-,
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (latex-env-pair t fontified t) 7 16 (face font-lock-function-name-face latex-env-pair t fontified t) 16 17 (latex-env-pair t fontified t) 17 20 (fontified t) 20 21 (fontified t) 21 22 (fontified t)) . 17226) (undo-tree-id5 . -21) (undo-tree-id6 . -21) (undo-tree-id7 . -21) (undo-tree-id8 . -21) (undo-tree-id9 . -21) (undo-tree-id10 . -21) (undo-tree-id11 . -21) (undo-tree-id12 . -21) (undo-tree-id13 . -21) (undo-tree-id14 . -21) (undo-tree-id15 . -21) (undo-tree-id16 . -21) (undo-tree-id17 . -21) (undo-tree-id18 . -22) 17247) nil (26709 4894 8349 309000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 17359 . 17360) (#("
+" 0 1 (fontified nil)) . -17381) (17359 . 17382)) nil (26709 4894 896982 681000) 0 nil] [nil nil ((nil rear-nonsticky nil 17368 . 17369) (#("
+" 0 1 (fontified nil)) . -17390) (17368 . 17391) 17360) ((#("
+\\begin{multicols}{2}
 
-{\\bfseries \\textsuperscript{1}А.Б.
-Ембердиева}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-{\\bfseries ,\\textsuperscript{3}А.
-Қалдыбаева}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 11 (face (bold) fontified t) 11 27 (face (font-lock-keyword-face bold) fontified t) 27 43 (face (bold) fontified t) 43 46 (fontified t) 46 52 (face font-lock-keyword-face fontified t) 52 53 (fontified t latex-env-pair t) 53 59 (face font-lock-function-name-face fontified t latex-env-pair t) 59 60 (fontified t latex-env-pair t) 60 65 (fontified t) 65 75 (face font-lock-keyword-face fontified t) 75 77 (fontified t) 77 93 (face font-lock-keyword-face fontified t) 93 103 (fontified t) 103 113 (face font-lock-keyword-face fontified t) 113 115 (fontified t) 115 132 (face font-lock-builtin-face fontified t) 132 135 (fontified t) 135 144 (face font-lock-keyword-face fontified t) 144 147 (fontified t) 147 151 (face font-lock-keyword-face fontified t) 151 152 (fontified t latex-env-pair t) 152 158 (face font-lock-function-name-face fontified t latex-env-pair t) 158 159 (fontified t latex-env-pair t) 159 161 (fontified t) 161 170 (face font-lock-keyword-face fontified t) 170 171 (face (bold) fontified t) 171 187 (face (font-lock-keyword-face bold) fontified t) 187 188 (face (bold) fontified t) 188 197 (face (font-lock-keyword-face bold) fontified t) 197 201 (face (bold) fontified t) 201 217 (face (font-lock-keyword-face bold) fontified t) 217 232 (face (bold) fontified t) 232 234 (fontified t) 234 240 (face font-lock-keyword-face fontified t) 240 241 (fontified t latex-env-pair t) 241 247 (face font-lock-function-name-face fontified t latex-env-pair t) 247 248 (fontified t latex-env-pair t) 248 253 (fontified t) 253 263 (face font-lock-keyword-face fontified t) 263 265 (fontified t) 265 281 (face font-lock-keyword-face fontified t) 281 291 (fontified t) 291 301 (face font-lock-keyword-face fontified t) 301 303 (fontified t) 303 320 (face font-lock-builtin-face fontified t) 320 323 (fontified t) 323 332 (face font-lock-keyword-face fontified t) 332 335 (fontified t) 335 339 (face font-lock-keyword-face fontified t) 339 340 (fontified t latex-env-pair t) 340 346 (face font-lock-function-name-face fontified t latex-env-pair t) 346 347 (fontified t latex-env-pair t) 347 349 (fontified t) 349 358 (face font-lock-keyword-face fontified t) 358 361 (face (bold) fontified t) 361 377 (face (font-lock-keyword-face bold) fontified t) 377 394 (face (bold) fontified t) 394 396 (fontified t) 396 402 (face font-lock-keyword-face fontified t) 402 403 (fontified t latex-env-pair t) 403 409 (face font-lock-function-name-face fontified t latex-env-pair t) 409 410 (fontified t latex-env-pair t) 410 415 (fontified t) 415 425 (face font-lock-keyword-face fontified t) 425 427 (fontified t) 427 443 (face font-lock-keyword-face fontified t) 443 453 (fontified t) 453 463 (face font-lock-keyword-face fontified t) 463 465 (fontified t) 465 482 (face font-lock-builtin-face fontified t) 482 485 (fontified t) 485 494 (face font-lock-keyword-face fontified t) 494 497 (fontified t) 497 501 (face font-lock-keyword-face fontified t) 501 502 (fontified t latex-env-pair t) 502 508 (face font-lock-function-name-face fontified t latex-env-pair t) 508 509 (fontified t latex-env-pair t) 509 511 (fontified t) 511 520 (face font-lock-keyword-face fontified t) 520 523 (face (bold) fontified t) 523 539 (face (font-lock-keyword-face bold) fontified t) 539 554 (face (bold) fontified t) 554 556 (fontified t) 556 562 (face font-lock-keyword-face fontified t) 562 563 (fontified t latex-env-pair t) 563 569 (face font-lock-function-name-face fontified t latex-env-pair t) 569 570 (fontified t latex-env-pair t) 570 575 (fontified t) 575 585 (face font-lock-keyword-face fontified t) 585 587 (fontified t) 587 603 (face font-lock-keyword-face fontified t) 603 613 (fontified t) 613 623 (face font-lock-keyword-face fontified t) 623 625 (fontified t) 625 642 (face font-lock-builtin-face fontified t) 642 645 (fontified t) 645 654 (face font-lock-keyword-face fontified t) 654 657 (fontified t) 657 661 (face font-lock-keyword-face fontified t) 661 662 (fontified t latex-env-pair t) 662 668 (face font-lock-function-name-face fontified t latex-env-pair t) 668 669 (fontified t latex-env-pair t) 669 674 (fontified t) 674 683 (face font-lock-keyword-face fontified t) 683 684 (face (bold) fontified t) 684 700 (face (font-lock-keyword-face bold) fontified t) 700 718 (face (bold) fontified t) 718 720 (fontified t) 720 726 (face font-lock-keyword-face fontified t) 726 727 (fontified t latex-env-pair t) 727 733 (face font-lock-function-name-face fontified t latex-env-pair t) 733 734 (fontified t latex-env-pair t) 734 739 (fontified t) 739 749 (face font-lock-keyword-face fontified t) 749 751 (fontified t) 751 767 (face font-lock-keyword-face fontified t) 767 777 (fontified t) 777 787 (face font-lock-keyword-face fontified t) 787 789 (fontified t) 789 806 (face font-lock-builtin-face fontified t) 806 809 (fontified t) 809 818 (face font-lock-keyword-face fontified t) 818 821 (fontified t) 821 825 (face font-lock-keyword-face fontified t) 825 826 (fontified t latex-env-pair t) 826 832 (face font-lock-function-name-face fontified t latex-env-pair t) 832 833 (fontified t latex-env-pair t) 833 835 (fontified t) 835 844 (face font-lock-keyword-face fontified t) 844 846 (face (bold) fontified t) 846 862 (face (font-lock-keyword-face bold) fontified t) 862 878 (face (bold) fontified t) 878 880 (fontified t) 880 886 (face font-lock-keyword-face fontified t) 886 887 (fontified t latex-env-pair t) 887 893 (face font-lock-function-name-face fontified t latex-env-pair t) 893 894 (fontified t latex-env-pair t) 894 899 (fontified t) 899 909 (face font-lock-keyword-face fontified t) 909 911 (fontified t) 911 927 (face font-lock-keyword-face fontified t) 927 937 (fontified t) 937 947 (face font-lock-keyword-face fontified t) 947 949 (fontified t) 949 966 (face font-lock-builtin-face fontified t) 966 969 (fontified t) 969 978 (face font-lock-keyword-face fontified t) 978 981 (fontified t) 981 985 (face font-lock-keyword-face fontified t) 985 986 (fontified t latex-env-pair t) 986 992 (face font-lock-function-name-face fontified t latex-env-pair t) 992 993 (fontified t latex-env-pair t) 993 994 (fontified t)) . 139) (undo-tree-id50 . -993) (undo-tree-id51 . -147) (undo-tree-id52 . -981) (undo-tree-id53 . -43) (undo-tree-id54 . -981) (undo-tree-id55 . -43) (undo-tree-id56 . -45) (undo-tree-id57 . -147) (undo-tree-id58 . -201) (undo-tree-id59 . -234) (undo-tree-id60 . -335) (undo-tree-id61 . -361) (undo-tree-id62 . -396) (undo-tree-id63 . -497) (undo-tree-id64 . -523) (undo-tree-id65 . -556) (undo-tree-id66 . -657) (undo-tree-id67 . -672) (undo-tree-id68 . -720) (undo-tree-id69 . -821) (undo-tree-id70 . -880) (undo-tree-id71 . -981) 1120) nil (26698 28322 406546 813000) 0 nil])
-([nil nil ((141 . 161) (463 . 481)) nil (26698 28322 406534 496000) 0 nil])
-([nil nil ((421 . 426) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -421) (undo-tree-id47 . -1) (420 . 422) (#("i" 0 1 (face font-lock-keyword-face fontified t)) . -420) (undo-tree-id48 . -1) 421 (420 . 421) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -420) (undo-tree-id49 . -1) (413 . 421)) nil (26698 28322 406533 588000) 0 nil])
-([nil nil ((2188 . 2189) (#("
-" 0 1 (face (bold) fontified t)) . -2188) 2128) nil (26698 28322 406531 194000) 0 nil])
-([nil nil ((2193 . 2194) (#("
-" 0 1 (fontified t)) . -2193) (#("
-" 0 1 (fontified t)) . -2193) 2188) nil (26698 28322 406530 286000) 0 nil])
-([nil nil ((#("}" 0 1 (fontified t)) . 2192)) nil (26698 28322 406529 695000) 0 nil])
-([nil nil ((#("{\\bfseries " 0 1 (face (bold) fontified t) 1 10 (face (font-lock-keyword-face bold) fontified t) 10 11 (face (bold) fontified t)) . 2193) (undo-tree-id46 . -10)) nil (26698 28322 406529 308000) 0 nil])
-([nil nil ((2243 . 2244) (#(" " 0 1 (face (bold) fontified t)) . 2243)) nil (26698 28322 406528 368000) 0 nil])
-([nil nil ((2338 . 2339) (#(" " 0 1 (fontified t)) . 2338)) nil (26698 28322 406527 844000) 0 nil])
-([nil nil ((#("}" 0 1 (fontified t)) . 2406)) nil (26698 28322 406527 326000) 0 nil])
+" 0 1 (rear-nonsticky nil fontified nil) 1 7 (face font-lock-keyword-face fontified nil) 7 8 (fontified nil latex-env-pair t) 8 17 (face font-lock-function-name-face fontified nil latex-env-pair t) 17 18 (fontified nil latex-env-pair t) 18 21 (fontified nil) 21 22 (fontified nil) 22 23 (fontified nil)) . 17368) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -22) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1) (17390 . 17391) (nil rear-nonsticky t 17368 . 17369)) (26709 4894 8085 58000) 0 nil])
+([nil nil ((17241 . 17242) (t 26709 4894 900830 760000) 17226) nil (26709 4897 919976 570000) 0 nil])
+nil
+([nil nil ((#(")" 0 1 (fontified t)) . 17344) (t 26709 4897 924756 140000)) nil (26709 4928 280995 249000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . 17343)) nil (26709 4928 280994 623000) 0 nil])
+([nil nil ((#("(" 0 1 (fontified t)) . 17342)) nil (26709 4928 280993 511000) 0 nil])
+([nil nil ((#("#" 0 1 (face font-lock-keyword-face fontified t)) . 17341)) nil (26709 4928 280992 910000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17340)) nil (26709 4928 281138 852000) 0 nil])
+([nil nil ((#("\\[\\begin{array}{r}
+" 0 2 (face font-lock-keyword-face fontified t) 2 8 (face font-lock-keyword-face fontified t) 8 9 (fontified t latex-env-pair t) 9 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 19 (fontified t)) . 17243) (undo-tree-id31 . -18) (undo-tree-id32 . -19) (undo-tree-id33 . -17) 17260) nil (26709 4931 581342 712000) 0 nil] [nil nil ((#("\\[\\begin{array}{r}
+" 0 2 (face font-lock-keyword-face fontified t) 2 8 (face font-lock-keyword-face fontified t) 8 9 (fontified t latex-env-pair t) 9 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 19 (fontified t)) . 17243) (undo-tree-id25 . -18) (undo-tree-id26 . -19) (undo-tree-id27 . -17) (undo-tree-id28 . -19) 17260) ((17243 . 17262)) (26709 4928 280989 31000) 0 nil])
+([nil nil ((#("\\end{array}\\]
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 10 (face font-lock-function-name-face fontified t latex-env-pair t) 10 11 (fontified t latex-env-pair t) 11 13 (face font-lock-keyword-face fontified t) 13 14 (fontified t)) . 17322) (undo-tree-id29 . -13) (undo-tree-id30 . -12) 17334) nil (26709 4931 581339 351000) 0 nil])
+nil
+([nil nil ((17243 . 17260) (17322 . 17337)) nil (26709 4931 581325 973000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 17851) (t 26709 4931 584977 86000)) nil (26709 4959 735150 554000) 0 nil])
+([nil nil ((#("[" 0 1 (fontified t)) . 17851)) nil (26709 4959 735150 68000) 0 nil])
+([nil nil ((#("]" 0 1 (face font-lock-keyword-face fontified t)) . 18033)) nil (26709 4959 735149 631000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18032)) nil (26709 4959 735149 251000) 0 nil])
+([nil nil ((#(")" 0 1 (fontified t)) . 18031)) nil (26709 4959 735148 811000) 0 nil])
+([nil nil ((#("2" 0 1 (fontified t)) . 18030)) nil (26709 4959 735148 361000) 0 nil])
+([nil nil ((#("(" 0 1 (fontified t)) . 18029)) nil (26709 4959 735147 940000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18028)) nil (26709 4959 735147 510000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18027)) nil (26709 4959 735147 123000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18026)) nil (26709 4959 735146 742000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18025)) nil (26709 4959 735146 345000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18024)) nil (26709 4959 735145 339000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18023)) nil (26709 4959 735144 971000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18022)) nil (26709 4959 735144 563000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18021)) nil (26709 4959 735144 72000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18020)) nil (26709 4959 735143 670000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18019)) nil (26709 4959 735143 190000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18018)) nil (26709 4959 735142 769000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18017)) nil (26709 4959 735142 390000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18016)) nil (26709 4959 735141 960000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18015)) nil (26709 4959 735141 599000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18014)) nil (26709 4959 735141 229000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18013)) nil (26709 4959 735140 863000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18012)) nil (26709 4959 735140 407000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18011)) nil (26709 4959 735139 943000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18010)) nil (26709 4959 735139 466000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18009)) nil (26709 4959 735139 36000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18008)) nil (26709 4959 735138 208000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18007)) nil (26709 4959 735137 744000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18006)) nil (26709 4959 735137 397000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18005)) nil (26709 4959 735136 968000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18004)) nil (26709 4959 735136 604000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18003)) nil (26709 4959 735136 237000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18002)) nil (26709 4959 735135 862000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18001)) nil (26709 4959 735135 505000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18000)) nil (26709 4959 735135 122000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17999)) nil (26709 4959 735134 763000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17998)) nil (26709 4959 735134 404000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17997)) nil (26709 4959 735134 28000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17996)) nil (26709 4959 735133 549000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17995)) nil (26709 4959 735133 57000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17994)) nil (26709 4959 735132 686000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17993)) nil (26709 4959 735132 140000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17992)) nil (26709 4959 735131 715000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17991)) nil (26709 4959 735131 363000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17990)) nil (26709 4959 735130 940000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17989)) nil (26709 4959 735130 568000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17988)) nil (26709 4959 735130 183000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17987)) nil (26709 4959 735129 801000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17986)) nil (26709 4959 735129 415000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17985)) nil (26709 4959 735129 22000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17984)) nil (26709 4959 735128 585000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17983)) nil (26709 4959 735128 157000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17982)) nil (26709 4959 735127 854000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17981)) nil (26709 4959 735127 495000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17980)) nil (26709 4959 735127 143000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17979)) nil (26709 4959 735126 742000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17978)) nil (26709 4959 735126 363000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17977)) nil (26709 4959 735126 3000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17976)) nil (26709 4959 735125 373000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17975)) nil (26709 4959 735124 615000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17974)) nil (26709 4959 735124 204000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17973)) nil (26709 4959 735123 798000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17972)) nil (26709 4959 735123 420000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17971)) nil (26709 4959 735122 985000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17970)) nil (26709 4959 735122 692000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17969)) nil (26709 4959 735122 314000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17968)) nil (26709 4959 735122 11000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17967)) nil (26709 4959 735121 598000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17966)) nil (26709 4959 735121 244000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17965)) nil (26709 4959 735120 812000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17964)) nil (26709 4959 735120 376000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17963)) nil (26709 4959 735120 32000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17962)) nil (26709 4959 735119 611000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17961)) nil (26709 4959 735119 178000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17960)) nil (26709 4959 735118 743000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17959)) nil (26709 4959 735118 361000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17958)) nil (26709 4959 735117 939000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17957)) nil (26709 4959 735117 545000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17956)) nil (26709 4959 735117 182000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17955)) nil (26709 4959 735116 774000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17954)) nil (26709 4959 735116 364000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17953)) nil (26709 4959 735115 654000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17952)) nil (26709 4959 735115 122000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17951)) nil (26709 4959 735114 730000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17950)) nil (26709 4959 735114 315000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17949)) nil (26709 4959 735113 952000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17948)) nil (26709 4959 735113 642000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17947)) nil (26709 4959 735113 232000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17946)) nil (26709 4959 735112 880000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17945)) nil (26709 4959 735112 432000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17944)) nil (26709 4959 735111 994000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17943)) nil (26709 4959 735111 629000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17942)) nil (26709 4959 735111 129000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17941)) nil (26709 4959 735110 637000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17940)) nil (26709 4959 735110 100000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17939)) nil (26709 4959 735109 740000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17938)) nil (26709 4959 735109 95000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17937)) nil (26709 4959 735108 451000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17936)) nil (26709 4959 735108 28000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17935)) nil (26709 4959 735107 673000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17934)) nil (26709 4959 735107 231000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17933)) nil (26709 4959 735106 718000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17932)) nil (26709 4959 735106 142000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17931)) nil (26709 4959 735105 790000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17930)) nil (26709 4959 735105 357000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17929)) nil (26709 4959 735105 52000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17928)) nil (26709 4959 735104 654000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17927)) nil (26709 4959 735104 299000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17926)) nil (26709 4959 735103 999000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17925)) nil (26709 4959 735103 614000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17924)) nil (26709 4959 735103 256000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17923)) nil (26709 4959 735102 749000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17922)) nil (26709 4959 735102 336000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17921)) nil (26709 4959 735101 906000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17920)) nil (26709 4959 735101 411000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17919)) nil (26709 4959 735101 55000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17918)) nil (26709 4959 735100 755000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17917)) nil (26709 4959 735100 389000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17916)) nil (26709 4959 735099 955000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17915)) nil (26709 4959 735099 506000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17914)) nil (26709 4959 735099 145000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17913)) nil (26709 4959 735098 711000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17912)) nil (26709 4959 735098 345000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17911)) nil (26709 4959 735097 898000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17910)) nil (26709 4959 735097 445000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17909)) nil (26709 4959 735096 974000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17908)) nil (26709 4959 735096 589000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17907)) nil (26709 4959 735095 951000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 17906)) nil (26709 4959 735095 418000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 17905)) nil (26709 4959 735094 647000) 0 nil])
+([nil nil ((17851 . 17868) (17906 . 17921)) nil (26709 4959 735089 636000) 0 nil])
+([nil nil ((18371 . 18392) (18372 . 18388) (t 26709 4959 739354 262000)) nil (26709 5002 884881 867000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (latex-env-pair t fontified t) 7 16 (face font-lock-function-name-face latex-env-pair t fontified t) 16 17 (latex-env-pair t fontified t) 17 20 (fontified t) 20 21 (fontified t) 21 22 (fontified t)) . 18371) (undo-tree-id34 . -21) (undo-tree-id35 . -21) (undo-tree-id36 . -21) (undo-tree-id37 . -21) 18392) nil (26709 5002 884880 678000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 18585 . 18586) (#("
+" 0 1 (fontified nil)) . -18607) (18585 . 18608)) nil (26709 5002 884869 374000) 0 nil])
 ([nil nil ((#("
-" 0 1 (fontified t)) . 2407)) nil (26698 28322 406526 823000) 0 nil])
-([nil nil ((#("{\\bfseries " 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 11 (face (bold) fontified t)) . 2407) (undo-tree-id45 . -10)) nil (26698 28322 406526 243000) 0 nil])
-([nil nil ((2442 . 2443) (#(" " 0 1 (fontified t)) . 2442)) nil (26698 28322 406525 123000) 0 nil])
-([nil nil ((2464 . 2465) (#("
-" 0 1 (fontified t)) . -2464) 2443) nil (26698 28322 406524 515000) 0 nil])
-([nil nil ((2475 . 2476)) nil (26698 28322 406523 998000) 0 nil])
-([nil nil ((2116 . 2138) (2478 . 2498) 2116) nil (26698 28322 406523 637000) 0 nil])
-([nil nil ((2521 . 2541) (2825 . 2843)) nil (26698 28322 406523 226000) 0 nil])
-([nil nil ((#("\\" 0 1 (face font-lock-warning-face fontified t)) . 2632)) nil (26698 28322 406522 694000) 0 nil])
-([nil nil ((#("\\" 0 1 (fontified t)) . 2631)) nil (26698 28322 406518 351000) 0 nil])
-([nil nil ((2631 . 2632) 2630) nil (26698 28322 406517 993000) 0 nil])
-([nil nil ((2613 . 2614) (#("
-" 0 1 (fontified t)) . -2613) 2541) nil (26698 28322 406517 486000) 0 nil])
-([nil nil ((2702 . 2703) (#("
-" 0 1 (fontified t)) . -2702) 2701) nil (26698 28322 406517 5000) 0 nil])
-([nil nil ((#("\\" 0 1 (face font-lock-warning-face fontified t)) . 2714)) nil (26698 28322 406516 416000) 0 nil])
-([nil nil ((#("\\" 0 1 (fontified t)) . 2713)) nil (26698 28322 406516 25000) 0 nil])
-([nil nil ((2713 . 2714) 2712) nil (26698 28322 406515 635000) 0 nil])
-([nil nil ((2780 . 2781) (#("
-" 0 1 (fontified t)) . -2780) 2715) nil (26698 28322 406515 28000) 0 nil])
-([nil nil ((230 . 231) (#("
-" 0 1 (fontified t)) . -230) (undo-tree-id27 . -1) (undo-tree-id28 . -1) (undo-tree-id29 . -1) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (undo-tree-id32 . -1) (undo-tree-id33 . -1) (undo-tree-id34 . -1) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) (undo-tree-id38 . -1) (undo-tree-id39 . -1) (undo-tree-id40 . -1) (undo-tree-id41 . -1) (undo-tree-id42 . -1) (undo-tree-id43 . -1) (undo-tree-id44 . -1) 161) nil (26698 28322 406514 92000) 0 nil])
-([nil nil ((314 . 315) (#("
-" 0 1 (fontified t)) . -314) 313) nil (26698 28322 406504 240000) 0 nil])
-([nil nil ((393 . 394) (#("
-" 0 1 (fontified t)) . -393) 390) nil (26698 28322 406503 618000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 139 . 140) (#("
-" 0 1 (fontified nil)) . -384) (139 . 385)) nil (26698 28322 406503 37000) 0 nil])
+" 0 1 (fontified t)) . 18607)) nil (26709 5002 884868 339000) 0 nil])
+([nil nil ((18386 . 18387) 18371) nil (26709 5002 884864 273000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 18388) (t 26709 5002 889385 23000)) nil (26709 5010 533664 985000) 0 nil])
+([nil nil ((#("[" 0 1 (fontified t)) . 18388)) nil (26709 5010 533664 364000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18562)) nil (26709 5010 533663 965000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18562)) nil (26709 5010 533663 429000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18562)) nil (26709 5010 533662 749000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18562)) nil (26709 5010 533662 391000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18562)) nil (26709 5010 533662 38000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18562)) nil (26709 5010 533661 601000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18562)) nil (26709 5010 533661 229000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18562)) nil (26709 5010 533660 868000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18562)) nil (26709 5010 533660 486000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18562)) nil (26709 5010 533660 31000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18562)) nil (26709 5010 533659 649000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18562)) nil (26709 5010 533659 4000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18562)) nil (26709 5010 533658 577000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18562)) nil (26709 5010 533658 109000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18562)) nil (26709 5010 533657 788000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18562)) nil (26709 5010 533657 118000) 0 nil])
+([nil nil ((#("(" 0 1 (fontified t)) . 18562)) nil (26709 5010 533656 721000) 0 nil])
+([nil nil ((#("3" 0 1 (fontified t)) . 18562)) nil (26709 5010 533656 270000) 0 nil])
+([nil nil ((#(")" 0 1 (fontified t)) . 18562)) nil (26709 5010 533655 987000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 18562)) nil (26709 5010 533655 620000) 0 nil])
+([nil nil ((#("]" 0 1 (fontified t)) . 18562)) nil (26709 5010 533655 180000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18561)) nil (26709 5010 533654 885000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18560)) nil (26709 5010 533654 597000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18559)) nil (26709 5010 533654 159000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18558)) nil (26709 5010 533653 707000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18557)) nil (26709 5010 533653 298000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18556)) nil (26709 5010 533652 683000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18555)) nil (26709 5010 533652 307000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18554)) nil (26709 5010 533651 855000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18553)) nil (26709 5010 533651 382000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18552)) nil (26709 5010 533650 966000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18551)) nil (26709 5010 533650 387000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18550)) nil (26709 5010 533649 962000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18549)) nil (26709 5010 533649 421000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18548)) nil (26709 5010 533648 803000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18547)) nil (26709 5010 533648 163000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18546)) nil (26709 5010 533647 677000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18545)) nil (26709 5010 533647 187000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18544)) nil (26709 5010 533646 640000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18543)) nil (26709 5010 533645 961000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18542)) nil (26709 5010 533645 83000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 18541)) nil (26709 5010 533644 399000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 18540)) nil (26709 5010 533643 741000) 0 nil])
+([nil nil ((18388 . 18405) (18541 . 18556)) nil (26709 5010 533639 972000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 18948 . 18949) (#("
+" 0 1 (fontified nil)) . -18964) (18948 . 18965) 18912 (t 26709 5010 537211 477000)) nil (26709 5060 645261 974000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 19240 . 19241) (#("
+" 0 1 (fontified nil)) . -19261) (19240 . 19262)) nil (26709 5060 645260 958000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 19488 . 19489) (#("
+" 0 1 (fontified nil)) . -19504) (19488 . 19505) 19451) nil (26709 5060 645259 846000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 19637 . 19638) (#("
+" 0 1 (fontified nil)) . -19658) (19637 . 19659)) nil (26709 5060 645255 21000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 18966) (t 26709 5060 649085 962000)) nil (26709 5095 678531 961000) 0 nil])
+([nil nil ((#("[" 0 1 (fontified t)) . 18966)) nil (26709 5095 678530 607000) 0 nil])
+([nil nil ((#("]" 0 1 (face font-lock-keyword-face fontified t)) . 19236)) nil (26709 5095 678529 541000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19235)) nil (26709 5095 678528 284000) 0 nil])
+([nil nil ((#(")" 0 1 (fontified t)) . 19234)) nil (26709 5095 678527 244000) 0 nil])
+([nil nil ((#("4" 0 1 (fontified t)) . 19233)) nil (26709 5095 678526 214000) 0 nil])
+([nil nil ((#("(" 0 1 (fontified t)) . 19232)) nil (26709 5095 678525 160000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19231)) nil (26709 5095 678524 191000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19230)) nil (26709 5095 678523 551000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19229)) nil (26709 5095 678522 196000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19228)) nil (26709 5095 678521 356000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19227)) nil (26709 5095 678520 659000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19226)) nil (26709 5095 678520 91000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19225)) nil (26709 5095 678519 659000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19224)) nil (26709 5095 678519 338000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19223)) nil (26709 5095 678518 845000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19222)) nil (26709 5095 678518 364000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19221)) nil (26709 5095 678517 501000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19220)) nil (26709 5095 678517 77000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19219)) nil (26709 5095 678516 656000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19218)) nil (26709 5095 678516 269000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19217)) nil (26709 5095 678515 677000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19216)) nil (26709 5095 678515 210000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19215)) nil (26709 5095 678514 243000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19214)) nil (26709 5095 678513 810000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19213)) nil (26709 5095 678513 337000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19212)) nil (26709 5095 678512 669000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19211)) nil (26709 5095 678512 212000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19210)) nil (26709 5095 678511 591000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19209)) nil (26709 5095 678510 975000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19208)) nil (26709 5095 678510 560000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19207)) nil (26709 5095 678510 67000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19206)) nil (26709 5095 678509 556000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19205)) nil (26709 5095 678508 978000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19204)) nil (26709 5095 678508 478000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19203)) nil (26709 5095 678507 914000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19202)) nil (26709 5095 678507 350000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19201)) nil (26709 5095 678506 576000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19200)) nil (26709 5095 678505 978000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19199)) nil (26709 5095 678505 294000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19198)) nil (26709 5095 678503 793000) 0 nil])
+([nil nil ((18966 . 18983) (19199 . 19214)) nil (26709 5095 678499 265000) 0 nil])
+([nil nil ((#("\\[\\begin{array}{r}
+" 0 2 (face font-lock-keyword-face fontified t) 2 8 (face font-lock-keyword-face fontified t) 8 9 (fontified t latex-env-pair t) 9 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 19 (fontified t)) . 19497) (undo-tree-id40 . -18) (undo-tree-id41 . -17) (undo-tree-id42 . -17) 19514 (t 26709 5095 684321 469000)) nil (26709 5101 942257 50000) 0 nil])
+([nil nil ((#("\\end{array}\\]
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 10 (face font-lock-function-name-face fontified t latex-env-pair t) 10 11 (fontified t latex-env-pair t) 11 13 (face font-lock-keyword-face fontified t) 13 14 (fontified t)) . 19595) (undo-tree-id38 . -13) (undo-tree-id39 . -12) 19607) nil (26709 5101 942254 61000) 0 nil])
+([nil nil ((#(")" 0 1 (fontified t)) . 19593)) nil (26709 5101 942245 38000) 0 nil])
+([nil nil ((#("5" 0 1 (fontified t)) . 19592)) nil (26709 5101 942244 683000) 0 nil])
+([nil nil ((#("(" 0 1 (fontified t)) . 19591)) nil (26709 5101 942244 121000) 0 nil])
+([nil nil ((#("#" 0 1 (face font-lock-keyword-face fontified t)) . 19590)) nil (26709 5101 942243 680000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19589)) nil (26709 5101 942242 376000) 0 nil])
+([nil nil ((19497 . 19514) (19590 . 19605)) nil (26709 5101 942238 356000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 19961 . 19962) (#("
+" 0 1 (fontified nil)) . -19977) (19961 . 19978) 19940 (t 26709 5101 946183 518000)) nil (26709 5142 287005 888000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 20095 . 20096) (#("
+" 0 1 (fontified nil)) . -20116) (20095 . 20117)) nil (26709 5150 435099 956000) 0 nil] [nil nil ((nil rear-nonsticky nil 20104 . 20105) (#("
+" 0 1 (fontified nil)) . -20125) (20104 . 20126) 20096) ((#("
+\\begin{multicols}{2}
+" 0 1 (rear-nonsticky nil fontified nil) 1 7 (face font-lock-keyword-face fontified nil) 7 8 (fontified nil latex-env-pair t) 8 17 (face font-lock-function-name-face fontified nil latex-env-pair t) 17 18 (fontified nil latex-env-pair t) 18 21 (fontified nil) 21 22 (fontified nil)) . 20104) (undo-tree-id43 . -1) (undo-tree-id44 . -1) (undo-tree-id45 . -21) (undo-tree-id46 . -1) (undo-tree-id47 . -1) (undo-tree-id48 . -1) (20125 . 20126) (nil rear-nonsticky t 20104 . 20105)) (26709 5142 286808 113000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 19979)) nil (26709 5150 435098 914000) 0 nil])
+nil
+([nil nil ((#("[" 0 1 (fontified t)) . 19979)) nil (26709 5150 435098 345000) 0 nil])
+([nil nil ((#("]" 0 1 (face font-lock-keyword-face fontified t)) . 20091)) nil (26709 5150 435097 802000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20090)) nil (26709 5150 435097 295000) 0 nil])
+([nil nil ((#(")" 0 1 (fontified t)) . 20089)) nil (26709 5150 435096 819000) 0 nil])
+([nil nil ((#("6" 0 1 (fontified t)) . 20088)) nil (26709 5150 435096 381000) 0 nil])
+([nil nil ((#("(" 0 1 (fontified t)) . 20087)) nil (26709 5150 435095 665000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20086)) nil (26709 5150 435095 190000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20085)) nil (26709 5150 435094 632000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20084)) nil (26709 5150 435094 299000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20083)) nil (26709 5150 435093 932000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20082)) nil (26709 5150 435093 598000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20081)) nil (26709 5150 435093 55000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20080)) nil (26709 5150 435092 704000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20079)) nil (26709 5150 435092 284000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20078)) nil (26709 5150 435091 891000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20077)) nil (26709 5150 435091 533000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20076)) nil (26709 5150 435091 119000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20075)) nil (26709 5150 435090 650000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20074)) nil (26709 5150 435090 213000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20073)) nil (26709 5150 435089 797000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20072)) nil (26709 5150 435089 463000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20071)) nil (26709 5150 435089 13000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20070)) nil (26709 5150 435088 498000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20069)) nil (26709 5150 435087 893000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20068)) nil (26709 5150 435087 462000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20067)) nil (26709 5150 435087 102000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20066)) nil (26709 5150 435086 657000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20065)) nil (26709 5150 435086 230000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20064)) nil (26709 5150 435085 797000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20063)) nil (26709 5150 435085 436000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20062)) nil (26709 5150 435085 76000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20061)) nil (26709 5150 435084 539000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20060)) nil (26709 5150 435084 101000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20059)) nil (26709 5150 435083 615000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20058)) nil (26709 5150 435083 30000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20057)) nil (26709 5150 435082 353000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20056)) nil (26709 5150 435081 861000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20055)) nil (26709 5150 435081 295000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20054)) nil (26709 5150 435080 896000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20053)) nil (26709 5150 435080 486000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20052)) nil (26709 5150 435080 99000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20051)) nil (26709 5150 435079 452000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20050)) nil (26709 5150 435079 76000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20049)) nil (26709 5150 435078 698000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20048)) nil (26709 5150 435078 326000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20047)) nil (26709 5150 435077 958000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20046)) nil (26709 5150 435077 593000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20045)) nil (26709 5150 435077 231000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20044)) nil (26709 5150 435076 730000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20043)) nil (26709 5150 435076 320000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20042)) nil (26709 5150 435075 958000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20041)) nil (26709 5150 435075 611000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20040)) nil (26709 5150 435075 213000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20039)) nil (26709 5150 435074 426000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20038)) nil (26709 5150 435073 971000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20037)) nil (26709 5150 435073 524000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20036)) nil (26709 5150 435072 896000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20035)) nil (26709 5150 435072 538000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20034)) nil (26709 5150 435072 109000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20033)) nil (26709 5150 435071 633000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20032)) nil (26709 5150 435071 313000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20031)) nil (26709 5150 435070 888000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20030)) nil (26709 5150 435070 469000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20029)) nil (26709 5150 435069 944000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20028)) nil (26709 5150 435069 533000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20027)) nil (26709 5150 435069 189000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20026)) nil (26709 5150 435068 770000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20025) (undo-tree-id65 . -1) (undo-tree-id66 . -1)) nil (26709 5150 435068 236000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20024) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1)) nil (26709 5150 435066 545000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20023) (undo-tree-id49 . -1) (undo-tree-id50 . -1) (undo-tree-id51 . -1) (undo-tree-id52 . -1) (undo-tree-id53 . -1) (undo-tree-id54 . -1) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1) (undo-tree-id58 . -1) (undo-tree-id59 . -1)) nil (26709 5150 435063 283000) 0 nil])
+([nil nil ((19979 . 19996) (20024 . 20039)) nil (26709 5150 435043 889000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 20455 . 20456) (#("
+" 0 1 (fontified nil)) . -20471) (20455 . 20472) 20450 (t 26709 5150 439102 484000)) nil (26709 5162 358245 489000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 20648 . 20649) (#("
+" 0 1 (fontified nil)) . -20669) (20648 . 20670)) nil (26709 5172 498072 794000) 0 nil] [nil nil ((nil rear-nonsticky nil 20657 . 20658) (#("
+" 0 1 (fontified nil)) . -20678) (20657 . 20679) 20649) ((#("
+\\begin{multicols}{2}
+" 0 1 (rear-nonsticky nil fontified nil) 1 7 (face font-lock-keyword-face fontified nil) 7 8 (fontified nil latex-env-pair t) 8 17 (face font-lock-function-name-face fontified nil latex-env-pair t) 17 18 (fontified nil latex-env-pair t) 18 21 (fontified nil) 21 22 (fontified nil)) . 20657) (undo-tree-id67 . -1) (undo-tree-id68 . -1) (undo-tree-id69 . -21) (undo-tree-id70 . -1) (undo-tree-id71 . -1) (undo-tree-id72 . -1) (20678 . 20679) (nil rear-nonsticky t 20657 . 20658)) (26709 5162 358038 607000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 20473)) nil (26709 5172 498071 742000) 0 nil])
+nil
+([nil nil ((#("[" 0 1 (fontified t)) . 20473)) nil (26709 5172 498070 817000) 0 nil])
+([nil nil ((#("]" 0 1 (face font-lock-keyword-face fontified t)) . 20644)) nil (26709 5172 498070 127000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20643)) nil (26709 5172 498069 441000) 0 nil])
+([nil nil ((#(")" 0 1 (fontified t)) . 20642)) nil (26709 5172 498068 765000) 0 nil])
+([nil nil ((#("7" 0 1 (fontified t)) . 20641)) nil (26709 5172 498067 973000) 0 nil])
+([nil nil ((#("(" 0 1 (fontified t)) . 20640)) nil (26709 5172 498067 486000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20639)) nil (26709 5172 498067 22000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20638)) nil (26709 5172 498066 545000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20637)) nil (26709 5172 498066 121000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20636)) nil (26709 5172 498065 656000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20635)) nil (26709 5172 498065 122000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20634)) nil (26709 5172 498064 664000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20633)) nil (26709 5172 498064 199000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20632)) nil (26709 5172 498063 457000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20631)) nil (26709 5172 498062 239000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20630)) nil (26709 5172 498061 599000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20629)) nil (26709 5172 498061 74000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20628)) nil (26709 5172 498060 615000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20627)) nil (26709 5172 498060 242000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20626)) nil (26709 5172 498059 659000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20625)) nil (26709 5172 498059 214000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20624)) nil (26709 5172 498058 762000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20623)) nil (26709 5172 498058 355000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20622)) nil (26709 5172 498057 870000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20621)) nil (26709 5172 498057 256000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20620)) nil (26709 5172 498056 895000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20619)) nil (26709 5172 498056 255000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20618)) nil (26709 5172 498055 823000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20617)) nil (26709 5172 498055 58000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20616)) nil (26709 5172 498054 228000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20615)) nil (26709 5172 498053 794000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20614)) nil (26709 5172 498053 347000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20613)) nil (26709 5172 498052 493000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20612)) nil (26709 5172 498051 995000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20611)) nil (26709 5172 498051 648000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20610)) nil (26709 5172 498051 211000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20609)) nil (26709 5172 498050 728000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20608)) nil (26709 5172 498050 242000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20607)) nil (26709 5172 498049 569000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20606)) nil (26709 5172 498049 213000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20605)) nil (26709 5172 498048 711000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20604)) nil (26709 5172 498048 279000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20603)) nil (26709 5172 498047 948000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20602)) nil (26709 5172 498047 538000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20601)) nil (26709 5172 498047 110000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20600)) nil (26709 5172 498046 615000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20599)) nil (26709 5172 498046 199000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20598)) nil (26709 5172 498045 717000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20597)) nil (26709 5172 498044 710000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20596)) nil (26709 5172 498044 58000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20595)) nil (26709 5172 498043 570000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20594)) nil (26709 5172 498043 156000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20593)) nil (26709 5172 498042 675000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20592)) nil (26709 5172 498042 176000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20591)) nil (26709 5172 498041 827000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20590)) nil (26709 5172 498041 357000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20589)) nil (26709 5172 498040 739000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20588)) nil (26709 5172 498040 286000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20587)) nil (26709 5172 498039 872000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20586)) nil (26709 5172 498039 526000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20585)) nil (26709 5172 498039 89000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20584)) nil (26709 5172 498038 710000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20583)) nil (26709 5172 498038 183000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20582)) nil (26709 5172 498037 707000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20581)) nil (26709 5172 498037 87000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20580)) nil (26709 5172 498036 648000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20579)) nil (26709 5172 498035 930000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20578)) nil (26709 5172 498035 275000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20577)) nil (26709 5172 498034 948000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20576)) nil (26709 5172 498034 594000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20575)) nil (26709 5172 498034 69000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20574)) nil (26709 5172 498033 414000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20573)) nil (26709 5172 498032 896000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20572)) nil (26709 5172 498032 383000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20571)) nil (26709 5172 498031 897000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20570)) nil (26709 5172 498031 296000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20569)) nil (26709 5172 498030 812000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20568)) nil (26709 5172 498030 2000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20567)) nil (26709 5172 498029 187000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20566)) nil (26709 5172 498028 723000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20565)) nil (26709 5172 498028 229000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20564)) nil (26709 5172 498027 388000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20563)) nil (26709 5172 498026 965000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20562)) nil (26709 5172 498026 513000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20561)) nil (26709 5172 498025 845000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20560)) nil (26709 5172 498025 251000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20559)) nil (26709 5172 498024 405000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20558)) nil (26709 5172 498023 807000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20557)) nil (26709 5172 498023 84000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20556)) nil (26709 5172 498022 653000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20555)) nil (26709 5172 498022 184000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20554)) nil (26709 5172 498021 281000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20553)) nil (26709 5172 498020 707000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20552)) nil (26709 5172 498020 73000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20551)) nil (26709 5172 498019 701000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20550)) nil (26709 5172 498019 329000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20549)) nil (26709 5172 498019 28000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20548)) nil (26709 5172 498018 598000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20547)) nil (26709 5172 498018 160000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20546)) nil (26709 5172 498017 667000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20545)) nil (26709 5172 498017 151000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20544)) nil (26709 5172 498016 490000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20543)) nil (26709 5172 498015 369000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20542)) nil (26709 5172 498014 819000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20541)) nil (26709 5172 498014 210000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 20540)) nil (26709 5172 498013 262000) 0 nil])
+([nil nil ((20473 . 20490) (20541 . 20556)) nil (26709 5172 498008 309000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 20456) (undo-tree-id75 . -15) (undo-tree-id76 . -14) (undo-tree-id77 . -14) (undo-tree-id78 . -14) (undo-tree-id79 . -14) (undo-tree-id80 . -14) (undo-tree-id81 . -14) (undo-tree-id82 . -14) (undo-tree-id83 . -14) (undo-tree-id84 . -14) (undo-tree-id85 . -14) (undo-tree-id86 . -14) (undo-tree-id87 . -14) (undo-tree-id88 . -16) 20470 (t 26709 5172 504603 496000)) nil (26709 5206 190433 647000) 0 nil])
 ([nil nil ((#("
-" 0 1 (rear-nonsticky t fontified t)) . 139)) nil (26698 28322 406502 342000) 0 nil])
-([nil nil ((24 . 46) (384 . 404)) nil (26698 28322 406501 708000) 0 nil])
-([nil nil ((4769 . 4791) (5134 . 5154)) nil (26698 28322 406501 220000) 0 nil])
-([nil nil ((5236 . 5237) (#("
-" 0 1 (fontified t)) . -5236) (undo-tree-id26 . -1) 5177) nil (26698 28322 406500 609000) 0 nil])
-([nil nil ((5339 . 5340) (#("
-" 0 1 (fontified t)) . -5339) (undo-tree-id25 . -1) 5332) nil (26698 28322 406499 461000) 0 nil])
-([nil nil ((5410 . 5411) (#("
-" 0 1 (fontified t)) . -5410) 5409) nil (26698 28322 406498 324000) 0 nil])
-([nil nil ((5272 . 5273) 5233) nil (26698 28322 406497 782000) 0 nil])
-([nil nil ((5354 . 5355) 5274) nil (26698 28322 406497 391000) 0 nil])
-([nil nil ((#("\\" 0 1 (face font-lock-warning-face fontified t)) . 5353)) nil (26698 28322 406496 237000) 0 nil])
-([nil nil ((#("\\" 0 1 (fontified t)) . 5352)) nil (26698 28322 406495 770000) 0 nil])
-([nil nil ((#("\\" 0 1 (face font-lock-warning-face fontified t)) . 5271)) nil (26698 28322 406495 324000) 0 nil])
-([nil nil ((#("\\" 0 1 (fontified t)) . 5270)) nil (26698 28322 406494 830000) 0 nil])
-([nil nil ((4971 . 4972) (#("
-" 0 1 (face (bold) fontified t)) . -4971) 4970) nil (26698 28322 406494 361000) 0 nil])
-([nil nil ((5075 . 5076) (#("
-" 0 1 (fontified t)) . -5075) (#("
-" 0 1 (fontified t)) . -5075) (5041 . 5042) (#("
-" 0 1 (face (bold) fontified t)) . -5041) 4971) nil (26698 28322 406493 622000) 0 nil])
-([nil nil ((#("}" 0 1 (fontified t)) . 5074)) nil (26698 28322 406492 795000) 0 nil])
-([nil nil ((#("{\\bfseries " 0 1 (face (bold) fontified t) 1 10 (face (font-lock-keyword-face bold) fontified t) 10 11 (face (bold) fontified t)) . 5075) (undo-tree-id24 . -10)) nil (26698 28322 406492 98000) 0 nil])
-([nil nil ((5130 . 5131) (#("
-" 0 1 (face (bold) fontified t)) . -5130) (undo-tree-id23 . -1) 5075) nil (26698 28322 406449 606000) 0 nil])
-([nil nil ((4909 . 4910) (#(" " 0 1 (face (bold) fontified t)) . 4909)) nil (26698 28322 406448 123000) 0 nil])
-([nil nil ((4971 . 4972) (#(" " 0 1 (face (bold) fontified t)) . 4971)) nil (26698 28322 406447 282000) 0 nil])
-([nil nil ((5005 . 5006) (#(" " 0 1 (fontified t)) . 5005)) nil (26698 28322 406446 404000) 0 nil])
-([nil nil ((5041 . 5042) (#(" " 0 1 (fontified t)) . 5041)) nil (26698 28322 406445 876000) 0 nil])
-([nil nil ((5074 . 5075) (#(" " 0 1 (fontified t)) . 5074)) nil (26698 28322 406445 96000) 0 nil])
-([nil nil ((5109 . 5110) (#(" " 0 1 (fontified t)) . 5109)) nil (26698 28322 406444 465000) 0 nil])
-([nil nil ((5141 . 5142)) nil (26698 28322 406443 776000) 0 nil])
-([nil nil ((#(" " 0 1 (fontified t)) . 5061)) nil (26698 28322 406443 207000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 5063 . 5064) (nil fontified nil 5063 . 5064) (5063 . 5064) 5062) nil (26698 28322 406442 684000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 5027 . 5028) (nil fontified nil 5027 . 5028) (5027 . 5028) 5026) nil (26698 28322 406441 696000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 5099 . 5100) (nil fontified nil 5099 . 5100) (5099 . 5100) 5098) nil (26698 28322 406440 922000) 0 nil])
-([nil nil ((5132 . 5133)) nil (26698 28322 406440 251000) 0 nil])
-([nil nil ((5168 . 5188) (5462 . 5480)) nil (26698 28322 406439 743000) 0 nil])
-([nil nil ((7022 . 7043) (22392 . 22408)) nil (26698 28322 406439 307000) 0 nil])
+" 0 1 (fontified t)) . 20456) (undo-tree-id74 . -1)) nil (26709 5206 190421 983000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 20 (fontified t) 20 21 (fontified t)) . 20557) (undo-tree-id73 . -20)) nil (26709 5206 190419 865000) 0 nil])
+([nil nil ((20455 . 20456) 20436) nil (26709 5206 190406 712000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 20815 . 20816) (#("
+" 0 1 (fontified nil)) . -20831) (20815 . 20832) 20763 (t 26709 5206 195872 205000)) nil (26709 5242 608637 217000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 21125 . 21126) (#("
+" 0 1 (fontified nil)) . -21146) (21125 . 21147)) nil (26709 5242 608636 405000) 0 nil])
+([nil nil ((#("\\[\\begin{array}{r}
+" 0 2 (face font-lock-keyword-face fontified t) 2 8 (face font-lock-keyword-face fontified t) 8 9 (fontified t latex-env-pair t) 9 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 19 (fontified t)) . 20833) (undo-tree-id93 . -18)) nil (26709 5242 608635 623000) 0 nil])
+([nil nil ((#("\\end{array}\\]
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 10 (face font-lock-function-name-face fontified t latex-env-pair t) 10 11 (fontified t latex-env-pair t) 11 13 (face font-lock-keyword-face fontified t) 13 14 (fontified t)) . 21092) (undo-tree-id91 . -13) (undo-tree-id92 . -14)) nil (26709 5242 608634 418000) 0 nil])
+([nil nil ((20833 . 20850) (21092 . 21107) 20833) nil (26709 5242 608631 782000) 0 nil])
+([nil nil ((#(")" 0 1 (fontified t)) . 21107)) nil (26709 5242 608631 4000) 0 nil])
+([nil nil ((#("8" 0 1 (fontified t)) . 21106)) nil (26709 5242 608630 368000) 0 nil])
+([nil nil ((#("(" 0 1 (fontified t)) . 21105)) nil (26709 5242 608629 717000) 0 nil])
+([nil nil ((#("#" 0 1 (face font-lock-keyword-face fontified t)) . 21104)) nil (26709 5242 608629 105000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 21103)) nil (26709 5242 608628 256000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 21102)) nil (26709 5242 608627 378000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 21101) (undo-tree-id89 . -1) (undo-tree-id90 . -1)) nil (26709 5242 608623 393000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 21 (fontified t)) . 22659) (undo-tree-id100 . -20) (t 26709 5242 615082 275000)) nil (26709 5287 652707 52000) 0 nil])
 ([nil nil ((#("
-" 0 1 (fontified t)) . 22429)) nil (26698 28322 406438 713000) 0 nil])
-([nil nil ((22559 . 22560)) nil (26698 28322 406438 345000) 0 nil])
-([nil nil ((22558 . 22559)) nil (26698 28322 406437 763000) 0 nil])
-([nil nil ((#("{\\bfseries 1 - сурет. Фундус кескініндегі жылу картасының қабаттасуы}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 48 (face (bold) fontified t) 48 68 (face (bold) fontified t) 68 69 (fontified t)) . -22546) (undo-tree-id18 . 56) (undo-tree-id19 . -12) (undo-tree-id20 . -12) (undo-tree-id21 . -12) (undo-tree-id22 . -12) 22616) nil (26698 28322 406437 62000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 22585 . 22586) (nil fontified nil 22529 . 22586) (22529 . 22586)) nil (26698 28322 406432 340000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 22601) (undo-tree-id17 . -1)) nil (26698 28322 406431 603000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 22601) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1)) nil (26698 28322 406430 461000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 22601) (undo-tree-id8 . 1)) nil (26698 28322 406426 37000) 0 nil])
-([nil nil ((22602 . 22623) (23259 . 23275)) nil (26698 28322 406424 847000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 23296)) nil (26698 28322 406424 411000) 0 nil])
-([nil nil ((#("{\\bfseries 2-сурет. Лазердің әсерінен температураның таралуы}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 60 (face (bold) fontified t) 60 61 (fontified t)) . -23413) 23475) nil (26698 28322 406423 943000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 23444 . 23445) (nil fontified nil 23396 . 23445) (23396 . 23445)) nil (26698 28322 406423 401000) 0 nil])
-([nil nil ((23398 . 23399)) nil (26698 28322 406422 923000) 0 nil])
-([nil nil ((23397 . 23398)) nil (26698 28322 406422 569000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 23462) (undo-tree-id7 . -1)) nil (26698 28322 406422 64000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 23462) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1)) nil (26698 28322 406421 17000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 23462)) nil (26698 28322 406397 118000) 0 nil])
-([nil nil ((23463 . 23484) (23793 . 23809)) nil (26698 28322 406396 574000) 0 nil])
-([nil nil ((91639 . 91640) 23760) nil (26698 28322 406393 39000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 23830) (t 26698 28322 419251 906000)) nil (26698 28353 469504 21000) 0 nil])
-([nil nil ((#("{\\bfseries 3-сурет. Көздің әр қабаты бойынша температураның өзгеруі}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 11 (face (bold) fontified t) 11 67 (face (bold) fontified t) 67 68 (fontified t)) . -23947) 24016) nil (26698 28353 469503 449000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 23985 . 23986) (nil fontified nil 23930 . 23986) (23930 . 23986)) nil (26698 28353 469503 29000) 0 nil])
-([nil nil ((23932 . 23933)) nil (26698 28353 469502 402000) 0 nil])
-([nil nil ((23931 . 23932)) nil (26698 28353 469501 947000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 24003) (undo-tree-id101 . -1)) nil (26698 28353 469501 392000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 24003) (undo-tree-id93 . -1) (undo-tree-id94 . -1) (undo-tree-id95 . -1) (undo-tree-id96 . -1) (undo-tree-id97 . -1) (undo-tree-id98 . -1) (undo-tree-id99 . -1) (undo-tree-id100 . -1)) nil (26698 28353 469500 210000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 24003)) nil (26698 28353 469495 874000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 24085)) nil (26698 28353 469495 273000) 0 nil])
-([nil nil ((24004 . 24025) (24801 . 24817)) nil (26698 28353 469494 770000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 24839)) nil (26698 28353 469494 159000) 0 nil])
-([nil nil ((24967 . 24968)) nil (26698 28353 469493 825000) 0 nil])
-([nil nil ((24969 . 24970)) nil (26698 28353 469493 319000) 0 nil])
-([nil nil ((#("{\\bfseries 4 - сурет. Лазердің әсерінен температураның таралуы}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 31 (face (bold) fontified t) 31 62 (face (bold) fontified t) 62 63 (fontified t)) . -24955) (undo-tree-id88 . 48) (undo-tree-id89 . -14) (undo-tree-id90 . -14) (undo-tree-id91 . -14) (undo-tree-id92 . -14) 25019) nil (26698 28353 469492 619000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 24988 . 24989) (nil fontified nil 24938 . 24989) (24938 . 24989)) nil (26698 28353 469489 503000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 25004) (undo-tree-id87 . -1)) nil (26698 28353 469488 633000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 25004) (undo-tree-id79 . -1) (undo-tree-id80 . -1) (undo-tree-id81 . -1) (undo-tree-id82 . -1) (undo-tree-id83 . -1) (undo-tree-id84 . -1) (undo-tree-id85 . -1) (undo-tree-id86 . -1)) nil (26698 28353 469487 317000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 25004) (undo-tree-id78 . 1)) nil (26698 28353 469479 273000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 25079)) nil (26698 28353 469470 505000) 0 nil])
-([nil nil ((25005 . 25026) (25745 . 25761)) nil (26698 28353 469466 512000) 0 nil])
-([nil nil ((#("{\\bfseries 5-сурет. Лазердің әсерінен температураның таралуы}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 60 (face (bold) fontified t) 60 61 (fontified t)) . -25900) 25962 (t 26698 28353 476427 974000)) nil (26698 28435 685971 175000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 25931 . 25932) (nil fontified nil 25883 . 25932) (25883 . 25932)) nil (26698 28435 685970 556000) 0 nil])
-([nil nil ((25884 . 25885)) nil (26698 28435 685969 759000) 0 nil])
-([nil nil ((25886 . 25887)) nil (26698 28435 685969 211000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 25949) (undo-tree-id125 . -1)) nil (26698 28435 685968 645000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 25949) (undo-tree-id117 . -1) (undo-tree-id118 . -1) (undo-tree-id119 . -1) (undo-tree-id120 . -1) (undo-tree-id121 . -1) (undo-tree-id122 . -1) (undo-tree-id123 . -1) (undo-tree-id124 . -1)) nil (26698 28435 685965 937000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 25949)) nil (26698 28435 685961 241000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 25783)) nil (26698 28435 685960 711000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 26085)) nil (26698 28435 685960 203000) 0 nil])
-([nil nil ((25949 . 25970) (27858 . 27874)) nil (26698 28435 685959 806000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 27895)) nil (26698 28435 685959 4000) 0 nil])
-([nil nil ((28084 . 28085) (#("
-" 0 1 (face (bold) fontified t)) . -28084) 28012) nil (26698 28435 685958 200000) 0 nil])
-([nil nil ((28024 . 28025)) nil (26698 28435 685957 224000) 0 nil])
-([nil nil ((28026 . 28027)) nil (26698 28435 685956 612000) 0 nil])
-([nil nil ((#("{\\bfseries 6 - сурет. Математикалық модельдердің программалық іске асуының көрінісі}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 74 (face (bold) fontified t) 74 75 (face (bold) fontified t) 75 83 (face (bold) fontified t) 83 84 (fontified t)) . -28012) (undo-tree-id111 . -73) (undo-tree-id112 . 69) (undo-tree-id113 . -14) (undo-tree-id114 . -14) (undo-tree-id115 . -14) (undo-tree-id116 . -14) 28097) nil (26698 28435 685955 912000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 28066 . 28067) (nil fontified nil 27995 . 28067) (27995 . 28067)) nil (26698 28435 685952 29000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 28082) (undo-tree-id110 . -1)) nil (26698 28435 685951 268000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 28082) (undo-tree-id103 . -1) (undo-tree-id104 . -1) (undo-tree-id105 . -1) (undo-tree-id106 . -1) (undo-tree-id107 . -1) (undo-tree-id108 . -1) (undo-tree-id109 . -1)) nil (26698 28435 685950 14000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 28082) (undo-tree-id102 . 1)) nil (26698 28435 685943 688000) 0 nil])
-([nil nil ((28083 . 28104) (30367 . 30383)) nil (26698 28435 685935 564000) 0 nil])
-([nil nil ((30405 . 30420) (30428 . 30441)) nil (26698 28435 685934 988000) 0 nil])
-([nil nil ((30457 . 30476) (33598 . 33615)) nil (26698 28435 685934 194000) 0 nil])
-([nil nil ((33635 . 33654) (36361 . 36378)) nil (26698 28435 685930 777000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 36397) (t 26698 28435 698246 98000)) nil (26698 28456 20559 577000) 0 nil])
-([nil nil ((#("ГРНТИ 28.23.15
-
-{\\bfseries ПРОГНОЗИРОВАНИЕ СОСТОЯНИЯ ПОЧВЫ В РАЗЛИЧНЫХ КЛИМАТИЧЕСКИХ ЗОНАХ
-С ИСПОЛЬЗОВАНИЕМ МЕТОДОВ МАШИННОГО ОБУЧЕНИЯ}
-
-{\\bfseries \\textsuperscript{1}М.Қ.
-Болсынбек}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-{\\bfseries ,
-\\textsuperscript{1}Г.Б.
-Абдикеримова}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-{\\bfseries ,
-\\textsuperscript{2}Ж.К.
-Тасжурекова}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-{\\bfseries ,
-\\textsuperscript{1}А.А.Адамов}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-,
-
-{\\bfseries \\textsuperscript{1}С.К.
-Серикбаева}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-{\\bfseries \\textsuperscript{\\envelope },
-\\textsuperscript{1}А.М.
-Ануарбеков}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-
-
-\\textsuperscript{1}Евразийский национальный университет имени
-Л.Н.Гумилева, Астана, Казахстан,
-
-\\textsuperscript{2}Таразский региональный университет им.М. Х. Дулати,
-Тараз, Казахстан
-
-{\\bfseries \\textsuperscript{\\envelope }}Корреспондент-автор:
-\inf\_8585@mail.ru
-
-В статье рассматривается применение методов машинного обучения для
-прогнозирования состояния почвы в различных климатических зонах.
-Прогнозирование состояния почвы является ключевым элементом управления
-сельскохозяйственными и экологическими системами, поскольку состояние
-почвы влияет на урожайность, биоразнообразие и способность поглощать
-углерод. Традиционные методы мониторинга почвы требуют значительных
-временных и ресурсных затрат, в то время как методы машинного обучения
-позволяют обрабатывать большие объемы данных и строить модели,
-учитывающие множество факторов, таких как климат, гидрология и
-агротехнические практики. В статье представлены современные подходы к
-использованию машинного обучения для анализа данных дистанционного
-зондирования, таких как вегетационные индексы (NDVI, SAVI), альбедо и
-индексы влажности почвы (MSI, NDMI). Эти методы помогают улучшить
-точность прогнозов, выявить участки с высоким риском эрозии и предложить
-меры для предотвращения деградации земель. Особое внимание уделено
-возможности адаптации моделей к различным климатическим условиям, что
-способствует устойчивому развитию сельского хозяйства и эффективному
-управлению земельными ресурсами.
-
-{\\bfseries Ключевые слова:} прогнозирование состояния почвы, машинное
-обучение, климатические зоны, дистанционное зондирование, эрозия,
-вегетационные индексы, альбедо, влажность почвы.
-
-{\\bfseries МАШИНАЛЫҚ ОҚЫТУ ӘДІСТЕРІН ҚОЛДАНЫП ӘРТҮРЛІ КЛИМАТТЫҚ
-АЙМАҚТАРДАҒЫ ТОПЫРАҚ ЖАҒДАЙЫН БОЛЖАУ}
-
-{\\bfseries \\textsuperscript{1}М.Қ. Болсынбек, \\textsuperscript{1}Г.Б.
-Абдикеримова, \\textsuperscript{2}Ж.К. Тасжурекова,
-\\textsuperscript{1}А.А.Адамов,}
-
-{\\bfseries \\textsuperscript{1}С.К. Серикбаева\\textsuperscript{\\envelope },
-\\textsuperscript{1}А.М. Ануарбеков}
-
-\\textsuperscript{1}Л.Н.Гумилев атындағы Еуразия ұлттық университеті,
-Астана, Қазақстан,
-
-\\textsuperscript{2}М.Х.Дулати атындағы Тараз өңірлік университеті,
-Тараз, Қазақстан,
-
-e-mail: \inf\_8585@mail.ru
-
-Мақалада әртүрлі климаттық аймақтардағы топырақ жағдайын болжау үшін
-машиналық оқыту әдістерін қолдану қарастырылады. Топырақ жағдайын болжау
-ауылшаруашылық және экологиялық жүйелерді басқарудың негізгі элементі
-болып табылады, өйткені топырақ жағдайы өнімділікке, биоәртүрлілікке
-және көміртекті сіңіру қабілетіне әсер етеді. Топырақты бақылаудың
-дәстүрлі әдістері айтарлықтай уақыт пен ресурстарды қажет етеді, ал
-Машиналық оқыту әдістері үлкен көлемдегі деректерді өңдеуге және климат,
-гидрология және агротехникалық тәжірибелер сияқты көптеген факторларды
-ескеретін модельдер жасауға мүмкіндік береді. Мақалада вегетациялық
-индекстер (NDVI, SAVI), альбедо және топырақ ылғалдылығы индекстері
-(MSI, NDMI) сияқты қашықтықтан зондтау деректерін талдау үшін машиналық
-оқытуды қолданудың заманауи тәсілдері келтірілген. Бұл әдістер
-болжамдардың дәлдігін жақсартуға, эрозия қаупі жоғары жерлерді анықтауға
-және жердің деградациясының алдын алу шараларын ұсынуға көмектеседі.
-Ауыл шаруашылығының тұрақты дамуына және жер ресурстарын тиімді
-басқаруға ықпал ететін модельдерді әртүрлі климаттық жағдайларға
-бейімдеу мүмкіндігіне ерекше назар аударылады.
-
-{\\bfseries Түйін сөздер:} топырақ жағдайын болжау, машиналық оқыту,
-климаттық аймақтар, қашықтықтан зондтау, эрозия, вегетациялық индекстер,
-альбедо, топырақ ылғалдылығы.
-
-{\\bfseries FORECASTING SOIL CONDITIONS IN DIFFERENT CLIMATIC ZONES USING
-MACHINE LEARNING METHODS}
-
-{\\bfseries \\textsuperscript{1}M.Bolsynbek}, \\textsuperscript{1}{\\bfseries G.
-Abdikerimova, \\textsuperscript{2}Zh. Taszhurekova, \\textsuperscript{1}A.
-Adamov,}
-
-{\\bfseries \\textsuperscript{1}S.Serikbayeva\\textsuperscript{\\envelope },
-\\textsuperscript{1}A. Anuarbekov}
-
-\\textsuperscript{1}L.N. Gumilyov Eurasian National University, Astana,
-Kazakhstan,
-
-\\textsuperscript{2}Taraz Regional University named after M.KH.Dulaty,
-Taraz, Kazakhstan,
-
-\\begin{quote}
-e-mail: \inf\_8585@mail.ru
-\\end{quote}
-
-The article discusses the application of machine learning methods for
-predicting soil conditions in various climatic zones. Predicting soil
-conditions is a key element of agricultural and ecological systems
-management, as soil conditions affect yields, biodiversity and the
-ability to absorb carbon. Traditional soil monitoring methods require
-significant time and resource costs, while machine learning methods
-allow you to process large amounts of data and build models that take
-into account many factors such as climate, hydrology and agrotechnical
-practices. The article presents modern approaches to using machine
-learning to analyze remote sensing data, such as vegetation indices
-(NDVI, SAVI), albedo and soil moisture indices (MSI, NDMI). These
-methods help to improve the accuracy of forecasts, identify areas with a
-high risk of erosion and propose measures to prevent land degradation.
-Special attention is paid to the possibility of adapting models to
-different climatic conditions, which contributes to the sustainable
-development of agriculture and effective land management.
-
-{\\bfseries Keywords:} soil condition forecasting, machine learning,
-climatic zones, remote sensing, erosion, vegetation indices, albedo,
-soil moisture.
-
-{\\bfseries Введение.} Прогнозирование состояния почвы - это ключевой
-элемент в управлении аграрными системами и экосистемами, поскольку оно
-помогает оптимизировать производство сельскохозяйственной продукции,
-поддерживать здоровье экосистем и минимизировать воздействие изменения
-климата на землю.
-
-Состояние почвы напрямую влияет на урожайность, биоразнообразие и
-способность поглощать углерод, что делает её важным объектом
-исследований в контексте устойчивого развития. Однако почвенные
-характеристики сильно варьируются в зависимости от региона и
-климатических условий, что усложняет задачу точного прогнозирования.
-Различные климатические зоны представляют собой уникальные комбинации
-температурных режимов, уровней осадков и влажности, что влияет на
-структуру и состав почвы. Например, в тропических зонах почва часто
-подвергается интенсивной эрозии и потерям питательных веществ из-за
-обильных осадков, тогда как в аридных регионах возникает проблема
-деградации и засоления почв вследствие недостатка влаги {[}1{]}. Эти
-факторы делают крайне важным адаптацию методов прогнозирования к
-конкретным климатическим условиям. Традиционные методы исследования
-состояния почвы, такие как полевые исследования и лабораторный анализ,
-занимают много времени и ресурсов, а также требуют значительного
-человеческого участия. Эти методы обеспечивают детальные данные, но
-имеют ограниченные возможности для масштабирования и прогнозирования в
-режиме реального времени. В условиях изменяющегося климата и нарастающих
-экологических проблем возникает потребность в новых подходах, которые
-позволяют быстро и точно оценивать состояние почвы.
-
-Машинное обучение и современные методы обработки данных предлагают
-инновационные решения для анализа почвенных условий. С их помощью можно
-обрабатывать большие объемы данных, извлекать полезные закономерности и
-строить модели, способные учитывать многовариантные зависимости между
-факторами, такими как климат, гидрология и агротехнические практики. Это
-позволяет значительно улучшить точность и скорость прогнозирования
-состояния почвы в различных условиях.
-
-В последнее время появилось множество исследований, посвященных
-применению машинного обучения для задач сельского хозяйства и экологии.
-Эти исследования показывают, что алгоритмы машинного обучения могут
-эффективно использовать исторические данные о климате, почвенных
-характеристиках и урожайности для предсказания будущих изменений
-состояния почвы {[}2{]}. Такой подход значительно улучшает управление
-земельными ресурсами, минимизирует риск неурожаев и повышает
-устойчивость сельского хозяйства к изменениям климата.
-
-Важным преимуществом машинного обучения является возможность
-использования разнородных источников данных. В задачи прогнозирования
-состояния почвы могут быть включены данные дистанционного зондирования,
-метеорологические измерения, результаты лабораторных анализов почвы и
-данные полевых наблюдений. Комплексный подход к анализу этих данных
-позволяет получить более точные и полные прогнозы. Один из наиболее
-перспективных подходов в области машинного обучения для прогнозирования
-состояния почвы - это использование глубоких нейронных сетей и моделей,
-основанных на временных рядах. Такие модели могут учитывать временную
-динамику изменения почвенных характеристик и их зависимости от
-климатических факторов. Это особенно важно для регионов с резко
-меняющимися условиями, где почва подвержена значительным колебаниям в
-короткие промежутки времени {[}3{]}.
-
-Применение методов машинного обучения для прогнозирования состояния
-почвы может значительно повысить эффективность сельскохозяйственного
-производства. Сельхозпроизводители могут получать более точные
-рекомендации по внесению удобрений, орошению и другим агротехническим
-мероприятиям. Это, в свою очередь, позволяет уменьшить затраты на
-ресурсы и снизить негативное воздействие на окружающую среду, например,
-за счет уменьшения использования химических удобрений и пестицидов.
-Машинное обучение также играет важную роль в мониторинге деградации
-почв. В условиях изменения климата, особенно в засушливых и
-полузасушливых регионах, почва подвержена деградации, что приводит к
-снижению её плодородности. Прогностические модели на основе машинного
-обучения могут помочь выявить ранние признаки деградации и предложить
-превентивные меры, направленные на сохранение и восстановление
-почвенного покрова.
-
-Оценка влажности почвы - один из ключевых показателей для оценки её
-состояния. Методы машинного обучения могут использовать спутниковые
-данные для прогнозирования уровня влажности на больших территориях. Это
-позволяет обеспечить более точные данные для систем орошения, тем самым
-улучшая управление водными ресурсами в сельском хозяйстве.
-
-Кроме того, использование машинного обучения для прогнозирования
-состояния почвы помогает бороться с опустыниванием. В регионах с
-повышенной подверженностью засухам и эрозии почв машинное обучение может
-стать мощным инструментом для предсказания критических моментов и
-принятия необходимых мер по восстановлению почвенного покрова. Также
-важным аспектом является возможность применения машинного обучения для
-прогнозирования химического состава почвы. Наличие или отсутствие
-определенных элементов в почве, таких как азот, фосфор и калий, напрямую
-влияет на рост растений и урожайность. Прогностические модели могут
-помочь определить, в каких регионах требуется дополнительное внесение
-удобрений, а где почва достаточно насыщена питательными веществами.
-
-Проблемы опреснения и засоления почвы также могут решаться с помощью
-методов машинного обучения. Эти процессы часто наблюдаются в засушливых
-регионах и приводят к значительному снижению плодородности почвы.
-Прогностические модели могут помочь идентифицировать области с высоким
-риском засоления и предложить подходящие агротехнические меры для борьбы
-с этой проблемой {[}4{]}. В условиях изменения климата важную роль
-играет возможность прогнозирования воздействия экстремальных погодных
-условий на почву. С помощью машинного обучения можно предсказать, как
-засухи, наводнения и другие аномальные климатические явления повлияют на
-состояние почвы в конкретных регионах. Это поможет заблаговременно
-разработать стратегии адаптации для сельскохозяйственного сектора.
-Особое внимание стоит уделить проблеме эрозии почвы, которая является
-одной из главных причин деградации земель. Машинное обучение может
-помочь определить, какие регионы наиболее подвержены эрозии, и
-предложить эффективные методы её предотвращения. Это особенно важно для
-горных и прибрежных регионов, где почва наиболее уязвима к разрушению.
-
-Использование методов машинного обучения для прогнозирования состояния
-почвы также способствует более эффективному управлению
-сельскохозяйственными ресурсами на уровне страны. Национальные и
-региональные правительства могут использовать прогнозные модели для
-разработки долгосрочных стратегий по управлению земельными ресурсами,
-что будет способствовать устойчивому развитию сельского хозяйства.
-
-Прогнозирование состояния почвы является важным аспектом сельского
-хозяйства и экологии, поскольку позволяет оптимизировать использование
-земельных ресурсов и обеспечивать устойчивое развитие аграрных регионов
-{[}5{]}. В разных климатических зонах почва подвержена различным внешним
-воздействиям, таким как колебания температуры, осадков и уровня
-влажности, что существенно влияет на её физические и химические
-свойства. С развитием технологий машинного обучения появилась
-возможность автоматизировать процессы анализа данных о почве и климате,
-что значительно ускоряет и улучшает прогнозы её состояния. Методы
-машинного обучения позволяют обрабатывать большие объемы информации,
-учитывать многочисленные факторы и выявлять скрытые закономерности, что
-повышает точность и надежность прогнозов. В данной статье
-рассматриваются современные подходы к использованию машинного обучения
-для прогнозирования состояния почвы в различных климатических зонах.
-
-{\\bfseries Методы и материалы.} Модели машинного обучения, применяемые для
-прогнозирования состояния почвы, включают в себя современные алгоритмы
-анализа больших данных, такие как XGBoost и глубокие нейронные сети
-(DNN). XGBoost (Extreme Gradient Boosting) представляет собой метод
-градиентного бустинга, который использует ансамбль решающих деревьев для
-повышения точности предсказаний. Основное преимущество XGBoost
-заключается в его способности эффективно обрабатывать разнородные данные
-и справляться с пропусками в выборках. В процессе обучения алгоритм
-итеративно создает деревья решений, каждое из которых исправляет ошибки
-предыдущего, минимизируя отклонения в прогнозах. Для обучения модели
-используются параметры состояния почвы, полученные из данных
-дистанционного зондирования, такие как индексы вегетации (NDVI, SAVI),
-влажность (MSI, NDMI) и альбедо. Этот подход позволяет модели точно
-определять стадии эрозии и прогнозировать риск деградации земель.
-
-Для успешного обучения моделей машинного обучения, таких как XGBoost и
-глубокие нейронные сети, необходима тщательная подготовка данных. Этот
-процесс начинается с сбора данных из различных источников: спутниковых
-снимков (Sentinel-2), метеорологических станций и полевых наблюдений.
-Данные включают спектральные индексы (NDVI, SAVI, MSI, NDMI),
-температуру, уровень осадков и характеристики почвы. Полученные данные
-часто имеют разную структуру и формат, поэтому первым этапом является их
-преобразование в единую форму. Это включает в себя стандартизацию единиц
-измерения, синхронизацию временных меток и удаление дубликатов.
-
-После этого выполняется обработка аномалий и пропусков данных. Временные
-ряды спутниковых наблюдений иногда содержат пропущенные значения из-за
-облачности или технических сбоев в получении снимков. Для заполнения
-таких пробелов применяются методы интерполяции, либо используются более
-сложные техники, например, временные нейронные сети, которые могут
-предсказывать недостающие значения на основе предыдущих данных. Также на
-этом этапе выявляются выбросы --- значения, сильно отклоняющиеся от
-нормы, например, резкие скачки индекса NDVI в засушливых регионах. Эти
-аномалии могут быть вызваны ошибками измерений или временными природными
-явлениями. Для их устранения применяется метод IQR (Interquartile Range)
-или Z-score, которые помогают отфильтровать атипичные значения.
-
-Завершающим этапом подготовки данных является нормализация и
-масштабирование признаков. Поскольку разные параметры (например,
-температура, альбедо и индексы вегетации) имеют различные диапазоны
-значений, это может влиять на процесс обучения моделей. Для приведения
-всех признаков к единому масштабу применяются методы Min-Max Scaling
-(масштабирование значений в диапазон {[}0, 1{]}) или Standard Scaling
-(преобразование к стандартному нормальному распределению). Это
-необходимо, чтобы алгоритмы, такие как XGBoost и нейронные сети, могли
-правильно учитывать влияние каждого признака на предсказание, не отдавая
-приоритеты параметрам с большими числовыми значениями. После
-нормализации данные становятся готовыми для обучения моделей, что
-повышает их точность и стабильность при прогнозировании эрозии почвы и
-деградации земель.
-
-Помимо XGBoost, для анализа временных изменений почвенных характеристик
-применяются глубокие нейронные сети. В частности, архитектуры на основе
-LSTM (Long Short-Term Memory) и GRU (Gated Recurrent Unit) позволяют
-моделям учитывать временную зависимость данных. Это особенно важно для
-мониторинга почвы в условиях меняющегося климата, когда влажность и
-состояние растительного покрова могут резко изменяться. Модели LSTM и
-GRU способны запоминать долгосрочные зависимости и предсказывать будущие
-изменения почвы, основываясь на исторических данных. В качестве входных
-данных используются временные ряды спектральных индексов, температуры,
-уровня осадков и показателей влажности. Обучение моделей происходит на
-больших наборах данных, что позволяет повысить точность прогнозов даже в
-условиях изменчивого климата.
-
-Для верификации и оценки точности моделей применяются метрики, такие как
-Accuracy, Precision, Recall и F1-Score. Эти показатели помогают
-определить, насколько точно модели идентифицируют стадии эрозии и
-предсказывают ухудшение состояния почвы. Для повышения надежности
-результатов используется метод кросс-валидации, при котором данные
-разбиваются на несколько частей, и обучение модели происходит на
-различных подвыборках. Такой подход позволяет избежать переобучения и
-повысить обобщающую способность моделей на новых данных. Кроме того,
-результаты прогнозирования визуализируются в виде картографических
-моделей, где состояние почвы отображается по уровням эрозии, что
-позволяет легко идентифицировать критические зоны для последующих
-восстановительных мероприятий.
-
-Для анализа эрозии почв используются различные методики дистанционного
-зондирования, основанные на спектральных характеристиках почвы и
-растительности. Один из наиболее эффективных методов - это использование
-вегетационных индексов. Индексы, такие как NDVI (Normalized Difference
-Vegetation Index) и SAVI (Soil Adjusted Vegetation Index), позволяют
-оценить состояние растительности, что является ключевым фактором для
-анализа эрозии. NDVI вычисляется на основе разности отражения ближнего
-инфракрасного (NIR) и красного (Red) спектров, и его значения
-варьируются от -1 до 1. Низкие значения NDVI могут указывать на
-отсутствие растительности, что часто связано с эрозией почвы. SAVI - это
-модификация NDVI, которая учитывает влияние почвы на отражательную
-способность и лучше подходит для регионов с разреженной растительностью,
-где почва доминирует в спектре.
-
-Кроме того, важную роль в анализе эрозии играет вычисление альбедо ---
-отношения отражённой солнечной радиации к падающей. Альбедо,
-представляющее собой долю отраженного солнечного излучения от
-поверхности, играет важную роль в анализе эрозии почвы. Этот параметр
-влияет на температурные режимы почвы и, соответственно, на процессы
-испарения и влагонакопления. В условиях низкого альбедо, поверхность
-почвы поглощает больше солнечного тепла, что может способствовать её
-пересыханию, уменьшению связности грунта и, как следствие, усилению
-эрозионных процессов. Для эрозии почвы, особенно в засушливых или
-полузасушливых регионах, где почва более подвержена разрушению, важно
-учитывать влияние альбедо на физические процессы, такие как испарение и
-высыхание поверхностных слоев. Повышение температуры поверхности почвы
-может усилить её подверженность ветровой эрозии, особенно если почвенный
-покров нарушен или недостаточно увлажнен {[}6{]}.
-
-С другой стороны, высокое альбедо может снижать испарение и уменьшать
-скорость высыхания почвы, что способствует сохранению влаги в верхних
-слоях почвы. Однако избыточное отражение солнечной энергии также может
-приводить к охлаждению почвы, что иногда отрицательно сказывается на
-биологических процессах, таких как рост растительности, которая играет
-важную роль в укреплении почвенного покрова и противодействии эрозии.
-
-Вычисление альбедо при прогнозировании эрозии почвы с использованием
-методов машинного обучения позволяет учитывать динамику изменения
-температуры поверхности и её взаимодействие с другими факторами, такими
-как влажность и ветер. Это дает возможность строить более точные модели
-предсказания эрозионных процессов, что в свою очередь помогает
-заблаговременно разрабатывать меры по защите и сохранению почв в
-уязвимых регионах.
-
-Альбедо может быть вычислено на основе мультиспектральных данных с
-использованием комбинации различных спектральных каналов, таких как
-синий (B2), красный (B4), ближний инфракрасный (B8) и коротковолновой
-инфракрасный (SWIR, B11 и B12). Высокие значения альбедо могут указывать
-на деградированные или эродированные земли, что особенно актуально для
-регионов, подверженных ветровой эрозии.
-
-(1)
-
-Другим важным аспектом анализа эрозии является оценка влажности почвы,
-поскольку она играет ключевую роль в стабильности почвенного покрова и
-его подверженности эрозионным процессам. Влажность почвы влияет на её
-структуру, плотность и способность противостоять воздействию внешних
-факторов, таких как ветер и вода. Влажная почва обычно обладает большей
-связностью и устойчивостью к эрозии, в то время как сухая почва
-становится более рыхлой, что делает её уязвимой для разрушения.
-
-Низкая влажность почвы способствует увеличению риска ветровой эрозии.
-Когда почва пересыхает, её частицы становятся менее сцепленными и легче
-поднимаются ветром, особенно на открытых или незащищенных участках.
-Ветровая эрозия часто наблюдается в засушливых регионах и может привести
-к значительным потерям верхнего плодородного слоя почвы, что оказывает
-негативное влияние на сельское хозяйство и экосистемы.
-
-С другой стороны, чрезмерное увлажнение почвы, особенно во время
-проливных дождей или наводнений, может способствовать водной эрозии.
-Вода смывает поверхностные слои почвы, унося с собой питательные
-вещества и органические вещества, что приводит к деградации земель. В
-условиях склона или неравномерного рельефа этот процесс может
-ускоряться, вызывая образование оврагов и оползней {[}7{]}.
-
-В рамках использования методов машинного обучения для анализа эрозии
-почвы оценка влажности является важным параметром, который помогает
-предсказывать эрозионные риски {[}8{]}. С помощью моделей машинного
-обучения можно анализировать данные о влажности почвы, поступающие из
-различных источников, таких как датчики влажности, спутниковые снимки и
-метеорологические данные {[}9{]}. Это позволяет учитывать, как
-пространственную, так и временную динамику изменений влажности почвы,
-что помогает прогнозировать периоды повышенной уязвимости почв к
-эрозионным процессам.
-
-Другим важным аспектом анализа эрозии является оценка влажности
-почвы. Методы, основанные на индексах влажности, таких как MSI
-(Moisture Stress Index) и NDMI (Normalized Difference Moisture Index),
-позволяют оценить влагозапас почвы и растительности. MSI рассчитывается
-как отношение коротковолнового инфракрасного спектра (SWIR) к ближнему
-инфракрасному спектру (NIR) и показывает степень стресса от нехватки
-влаги. NDMI позволяет оценить содержание влаги в растительности и почве
-на основе разности NIR и SWIR спектров. Оба этих индекса играют ключевую
-роль в анализе состояния почвы, так как эродированные земли часто теряют
-свою способность удерживать влагу, что приводит к их высыханию и
-деградации. В совокупности с вычислением альбедо и вегетационными
-индексами, анализ влажности почвы предоставляет полное представление о
-состоянии почвы и её подверженности эрозионным процессам {[}10{]}.
-
-Важность влажности почвы для выявления эрозии:
-
-Влажность почвы является важным показателем для определения состояния
-земли. С помощью дистанционного зондирования можно оценить влажность
-почвы и отличить сухие эродированные земли от здоровых участков.
-
-Индексы влажности почвы:
-
-{\\bfseries MSI (Moisture Stress Index)}: Этот индекс измеряет степень
-влажности почвы. Низкие значения MSI указывают на влажную почву, а
-высокие значения --- на сухую, что может указывать на эрозию.
-
-\\(MSI = \\frac{SWIR}{NIR}\\) (2)
-
-Где:
-
-SWIR (B11 в Sentinel-2) --- коротковолновой инфракрасный диапазон;
-
-NIR (B8 в Sentinel-2) --- ближний инфракрасный диапазон.
-
-{\\bfseries NDMI (Normalized Difference Moisture Index)}: Этот индекс
-оценивает влажность растительности и почвы. Низкие значения NDMI могут
-указывать на сухие участки.
-
-\\(NDMI = \\frac{NIR - SWIR}{NIR + SWIR}\\) (3)
-
-Где:
-
-SWIR --- коротковолновой инфракрасный диапазон (B11);
-
-NIR --- ближний инфракрасный диапазон (B8).
-
-Комбинированная математическая формула с учетом альбедо, \\emph{MSI}, и
-\\emph{NDMI}:
-
-Пусть:
-
-\\emph{A} --- альбедо (обозначающее отражательную способность
-поверхности);
-
-\\emph{MSI} --- индекс стресса по влажности (Moisture Stress Index);
-
-\\emph{NDMI} --- индекс влажности почвы (Normalized Difference Moisture
-Index);
-
-\\emph{A\\textsubscript{min }}и A\\textsubscript{max} --- пороговые
-значения альбедо для эрозированных земель;
-
-\\emph{MSI\\textsubscript{min }}и \\emph{MSI\\textsubscript{max}} ---
-диапазон значений индекса стресса по влажности (чем больше \\emph{MSI},
-тем суше почва);
-
-\\emph{NDMI\\textsubscript{min }}и \\emph{NDMI\\textsubscript{max}} ---
-диапазон значений NDMI (чем меньше NDMINDMINDMI, тем суше почва).
-
-(4)
-
-где:
-
----
-нормализованное значение альбедо, которое указывает на степень
-оголённости поверхности (чем ближе значение к A\\textsubscript{max}, тем
-выше вероятность эрозии);
-
----
-нормализованное значение \\emph{MSI}, которое указывает на степень
-сухости почвы (чем выше MSIMSIMSI, тем суше почва);
-
----
-нормализованное обратное значение NDMI, которое используется для учета
-влажности почвы (чем ниже NDMI, тем суше почва).
-
-(4) формаула учитывает {\\bfseries альбедо} (высокое альбедо указывает на
-оголённые, возможно эрозированные земли), {\\bfseries сухость почвы по MSI}
-(чем выше значение MSI, тем суше почва), и {\\bfseries влажность почвы по
-NDMI} (чем меньше NDMI, тем суше почва).
-
-Итоговая комбинация этих факторов позволяет оценить вероятность наличия
-эрозии: чем выше результат по формуле, тем больше вероятность того, что
-участок земли эродирован.
-
-{\\bfseries Результаты и обсуждение.} На основе сегментации, выполненной с
-использованием спектральных индексов, альбедо и оценки влажности почвы,
-был сформирован набор данных для обучения модели машинного обучения.
-Этот набор содержит детализированную информацию о состоянии земельных
-участков, разделённых на четыре категории: «Норма», «Первая стадия
-эрозии», «Вторая стадия эрозии» и «Третья стадия эрозии». Для
-сегментации использовались индексы вегетации, такие как NDVI, альбедо
-для оценки отражательной способности поверхности, а также индексы
-влажности почвы MSI и NDMI. Эти параметры являются ключевыми для
-определения состояния земель и прогнозирования процессов эрозии.
-
-Набор данных был построен на основе временных наблюдений, включающих
-значения вегетационных индексов, альбедо и влажности почвы для каждого
-участка. В каждом наблюдении фиксировались дата съемки, индекс NDVI,
-отражающий уровень вегетации, альбедо - показатель отражения солнечного
-излучения, MSI - индикатор стрессового состояния почвы по влажности, и
-NDMI, оценивающий содержание влаги. Эти показатели обеспечивают
-структуру данных для эффективного обучения моделей машинного обучения.
-
-Каждая строка данных включает информацию о состоянии почвы и её
-классификации в одну из четырёх категорий:
-
-
-1. Норма: Участки с плотным растительным покровом, умеренным
-альбедо и стабильной влажностью почвы. NDVI обычно варьируется от 0.3
-до 0.6, что указывает на хорошую вегетацию. Альбедо низкое из-за
-высокой абсорбции солнечной радиации. MSI и NDMI находятся в пределах
-нормы, что говорит о достаточной влажности почвы.
-
-1. Первая стадия эрозии: Земли с начальной деградацией.
-Растительный покров истончается, NDVI находится в диапазоне 0.2--0.3.
-Альбедо повышено, поскольку оголённая почва начинает отражать больше
-солнечной энергии. MSI свидетельствует о дефиците влаги, что
-способствует эрозионным процессам.
-
-1. Вторая стадия эрозии: Значительное снижение вегетации. NDVI
-снижается до 0.1--0.2, альбедо увеличивается, отражая потерю
-растительности. MSI указывает на высокую сухость почвы, что затрудняет
-её восстановление.
-
-1. Третья стадия эрозии: Полная деградация земель. NDVI ниже
-0.1, что свидетельствует о почти полном отсутствии растительности.
-Альбедо превышает 0.3, а MSI и NDMI указывают на сильную сухость и
-дефицит влаги. Эти земли требуют немедленного восстановления.
-Набор данных был построен на основе спутниковых снимков с использованием
-комбинации индексов NDVI, MSI, NDMI и альбедо, что позволило
-классифицировать земельные участки по стадиям эрозии. Данные содержат
-параметры, такие как дата наблюдения, значения NDVI, альбедо, MSI, NDMI
-и класс эрозии. Это помогает прогнозировать дальнейшее развитие
-эрозионных процессов и разрабатывать меры по восстановлению
-деградированных земель.
-
-Набор данных был создан на основе сегментации изображений, выполненной с
-применением комбинации вегетационных индексов, таких как NDVI, SI, NDMI,
-MSI, и значений альбедо. Это позволило классифицировать почвы по уровням
-эрозии, разделив их на разные категории. Сегментация опиралась на
-научные методы анализа растительности и почвы, что дало возможность
-точно оценить степень деградации земель. В результате выделены четыре
-класса, отражающие различные стадии эрозии.
-
-
-1. Первый класс - \"Норма\". Этот класс включает земли, где эрозия
-отсутствует или проявляется минимально. Земли находятся в
-удовлетворительном состоянии, и на них наблюдаются нормальные процессы
-вегетации. В данной категории содержится 1,775,535 экземпляров.
-
-1. Второй класс - \"Начальная стадия эрозии\". В эту категорию входят
-земли, на которых начинают проявляться первые признаки эрозии, такие
-как потеря растительности или начальная деградация почвы. В этой
-категории насчитывается 4,989 экземпляров.
-
-1. Третий класс - \"Средняя стадия эрозии\". Данная категория включает
-земли, на которых наблюдаются более выраженные признаки эрозии. Почвы
-теряют способность удерживать влагу, а значения альбедо и MSI
-повышаются. Эти земли требуют серьёзных мер по восстановлению. В этой
-группе содержится 56,110 экземпляров.
-
-1. Четвёртый класс - \"Критическая стадия эрозии\". Почвы в этой категории
-почти полностью деградированы, они не способны удерживать влагу и
-имеют высокие значения альбедо и MSI, что указывает на критическую
-сухость и отсутствие растительности. Земли в этой категории
-подвергаются сильным разрушительным процессам, таким как выветривание
-и потеря плодородного слоя. В данной категории содержится 7,517
-экземпляров.
-Структура данных для каждого участка земли включает следующие параметры:
-
-Дата получения спутникового снимка - важнейший параметр для анализа
-временных изменений в динамике эрозии.
-
-Индекс NDVI - показывает состояние растительности на участке: высокие
-значения свидетельствуют о густой растительности, низкие -об её
-отсутствии.
-
-Индекс SI (Soil Index) - характеризует состояние почвы, вычисляется как
-отношение красного канала к ближнему инфракрасному диапазону и позволяет
-выявлять деградированные участки.
-
-Альбедо - отражает способность поверхности отражать солнечное излучение:
-высокие значения характерны для оголённых почв, низкие - для покрытых
-растительностью.
-
-Индекс MSI (Moisture Stress Index) - оценивает содержание влаги в почве;
-высокие значения указывают на сильный водный стресс.
-
-Индекс NDMI (Normalized Difference Moisture Index) - показывает уровень
-влажности растительности и почвы, основанный на ближнем и среднем
-инфракрасных диапазонах, и используется для оценки водного стресса.
-
-Каждый участок классифицируется по уровню эрозии, обозначенному как
-ErosionClass (0 - норма, 1 - начальная стадия эрозии, 2 - средняя стадия
-эрозии, 3 - критическая стадия эрозии). Эта структура данных позволяет
-проводить комплексный анализ земель, прогнозировать развитие эрозионных
-процессов и разрабатывать меры по восстановлению деградированных
-территорий.
-
-После того как были применены различные методы анализа, все данные были
-использованы для создания набора данных для машинного обучения.
-Спектральные данные, включая вегетационные индексы, альбедо и индексы
-влажности, были объединены для обучения моделей машинного обучения. Эти
-данные включали множество различных спектральных характеристик, которые
-указывали на наличие или отсутствие эрозии на различных участках земли.
-Комбинированный анализ позволил выявить ключевые закономерности в
-изменении почвы под воздействием эрозии и создать качественный набор
-данных для обучения моделей.
-
-На рисунке 1 представлено исходное изображение, полученное с
-использованием спутника Sentinel-2. Оно демонстрирует регион, где
-различимы участки с разными состояниями земель. На изображении можно
-увидеть, как плодородные земли с плотным растительным покровом, так и
-пустые участки, которые могут быть либо обработаны, либо находиться под
-паром. Эти различия в типах земель позволяют использовать данные для
-анализа состояния почвы и растительности, что является важным шагом для
-сегментации и последующей классификации уровня эрозии.
-
-
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image31}
-	\\caption*{}
-\\end{figure}
-
-
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image32}
-	\\caption*{}
-\\end{figure}
-
-
-{\\bfseries Рис.1 - Оригинальное изображение}
-
-Этот снимок является основой для дальнейшего анализа состояния почвы и
-оценки эрозионных процессов с применением спектральных индексов. Он
-предоставляет исходные данные, которые затем обрабатываются для
-выявления признаков эрозии.
-
-На рисунке 2 представлено изображение, которое демонстрирует результат
-вычисления альбедо - метода, оценивающего способность поверхности
-отражать солнечное излучение. На этом изображении участки земли с
-разными уровнями альбедо выделены различными цветами, где более светлые
-оттенки указывают на высокие значения альбедо. Такие участки, как
-правило, соответствуют оголённым или эродированным землям, которые
-теряют способность поглощать солнечную энергию и отражают её в большей
-степени. Этот метод позволяет идентифицировать участки, подверженные
-эрозионным процессам, и оценивать степень их деградации. На изображении
-видно, что большая часть земель окрашена в жёлтый цвет, что указывает на
-высокие значения альбедо. Это часто связано с эродированными или
-оголёнными участками, где отсутствует растительный покров, что приводит
-к повышенной отражательной способности поверхности. Такие участки
-требуют особого внимания при прогнозировании эрозионных процессов.
-
-
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image33}
-	\\caption*{}
-\\end{figure}
-
-
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image34}
-	\\caption*{}
-\\end{figure}
-
-
-{\\bfseries Рис.2. - Использование метода альбедо}
-
-Этот метод показывает, что почти вся поверхность земли обладает высоким
-отражением, что может свидетельствовать о возможной эрозии. Однако это
-не всегда верный признак. Некоторые участки, кажущиеся эродированными,
-на самом деле могут быть паровыми землями, где уже был собран урожай.
-Эти земли временно пусты, но могут сохранять достаточный уровень
-влажности. Поэтому метод альбедо может приводить к ложноположительным
-результатам, неверно интерпретируя плодородные или временно пустующие
-земли как эродированные.
-
-На рисунке 3 представлены три категории эрозии земель, отображённые с
-использованием различных оттенков. Для анализа был применён
-комбинированный метод, включающий несколько показателей: NDVI (индекс
-вегетации), альбедо (отражательная способность), MSI (индекс стресса по
-влажности) и NDMI (индекс влажности почвы). Эти индексы обеспечивают
-комплексную оценку состояния земель и помогают распределить их по
-категориям в зависимости от степени деградации.
-
-
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image35}
-	\\caption*{}
-\\end{figure}
-
-
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image36}
-	\\caption*{}
-\\end{figure}
-
-
-{\\bfseries Рис.3 - Использование комбинированного метода (альбедо + оценка
-влажности})
-
-Жёлтая область на рисунке 3 указывает на участки, находящиеся на первой
-степени эрозии (начальная стадия). В этих зонах наблюдается снижение
-индекса NDVI, что свидетельствует о начале деградации растительного
-покрова, и умеренные значения альбедо, указывающие на повышение
-отражательной способности поверхности. Это начальные признаки того, что
-почва становится более уязвимой к эрозии. Дополнительные параметры,
-такие как MSI (индекс сухости) и NDMI (индекс влажности), также
-показывают, что почва начинает пересыхать, что может способствовать
-дальнейшему ухудшению её состояния. Если не принять меры для
-восстановления земель на этой стадии, эрозионные процессы могут
-усилиться. Условия для первой степени эрозии включают NDVI в диапазоне
-от 0.2 до 0.5, что указывает на среднее состояние растительности,
-альбедо от 0.1 до 0.2, характеризующее умеренную отражательную
-способность, и MSI от 0.8 до 1.5, что свидетельствует о умеренной
-сухости почвы.
-
-Оранжевые участки на изображении указывают на среднюю степень эрозии
-почвы, что означает начавшийся процесс её деградации. Почва на этих
-участках теряет способность поддерживать здоровый растительный покров, и
-NDVI, характеризующий плотность растительности, здесь ниже, чем на
-начальной стадии эрозии. Одновременно с этим увеличивается альбедо, что
-указывает на оголённые или мало защищённые почвенные поверхности, более
-подверженные воздействию солнечного излучения. Высокие значения MSI
-(индекс сухости) и низкие NDMI (индекс влажности) свидетельствуют о том,
-что почва испытывает повышенный дефицит влаги, что ускоряет эрозионные
-процессы. Условия для второй степени эрозии включают NDVI в диапазоне от
-0.1 до 0.3, что указывает на низкий уровень растительности, альбедо от
-0.2 до 0.25, характеризующее повышенную отражательную способность
-поверхности, и MSI выше 1.5, что свидетельствует о высокой сухости
-почвы. На этих участках уже можно наблюдать серьёзные признаки
-деградации, и, если не принять своевременные меры, ситуация может
-ухудшиться, вплоть до перехода к более тяжёлым стадиям эрозии.
-
-Красные участки на изображении указывают на высокую степень эрозии, где
-почва сильно деградировала и растительный покров практически
-отсутствует. Высокие значения альбедо указывают на оголённую,
-незащищённую почву, а высокие MSI и низкие NDMI свидетельствуют о полной
-потере влаги. Такие земли считаются непригодными для
-сельскохозяйственного использования без серьёзных восстановительных
-мероприятий. Условия для третьей степени эрозии включают NDVI менее 0.1,
-что означает очень низкий или отсутствующий растительный покров, альбедо
-выше 0.25, что характеризует очень высокую отражательную способность, и
-MSI выше 1.5, свидетельствующий о крайне высокой сухости почвы.
-
-На следующем, 4 рисунке, представлена полная сегментация земель на
-четыре категории в зависимости от их состояния. Зелёные области
-указывают на земли в нормальном состоянии, где эрозия отсутствует, а
-почва остаётся пригодной для сельскохозяйственного использования. Эти
-участки демонстрируют нормальные показатели вегетации (NDVI), умеренное
-альбедо и стабильную влажность почвы, что свидетельствует об устойчивом
-и здоровом состоянии почвенного покрова.
-
-
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image37}
-	\\caption*{}
-\\end{figure}
-
-
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image38}
-	\\caption*{}
-\\end{figure}
-
-
-{\\bfseries Рис.4 -Полная сегментация, зелёные участки это норма, жёлтые
-это начальная стадия, оранжевая это прогресс эрозии, красная это уже
-деградированные земля то есть непригодная земля}
-
-Жёлтые, оранжевые и красные участки на изображении представляют собой
-земли, подверженные различным стадиям эрозии: жёлтые области указывают
-на начальную стадию, где почва уже демонстрирует первые признаки сухости
-и деградации растительного покрова, но всё ещё может быть восстановлена
-при правильном управлении; оранжевые области отражают среднюю стадию
-эрозии, при которой почва потеряла значительную часть своей
-плодородности, что сопровождается увеличением альбедо, снижением
-влажности и ослаблением растительности; красные области свидетельствуют
-о высокой стадии эрозии, где почва почти полностью утратила свою
-пригодность для сельскохозяйственного использования, а её восстановление
-требует значительных усилий, о чём говорят высокое альбедо и низкие
-показатели индексов влажности.
-
-Важно отметить, что такие элементы, как дороги, искусственные
-сооружения, дома и другие постройки на изображении не учитываются в
-анализе. Они автоматически классифицируются как \"норма\" (зелёный цвет) и
-исключаются из расчётов при оценке состояния почвы, поскольку не
-являются частью сельскохозяйственных или природных земель. Алгоритм
-сегментации распознаёт эти объекты как неподверженные эрозии и не
-включает их в анализ деградации почв. Благодаря сегментации удалось
-получить более чёткое и наглядное представление о состоянии земель,
-позволяя увидеть, какие территории требуют внимания и проведения
-восстановительных мероприятий для предотвращения дальнейшей эрозии и
-деградации. Особенно важно, что нормальные участки почвы (зелёные)
-выделяются как потенциальные зоны, которые можно сохранить и защитить от
-будущего ухудшения состояния.
-
-Применение технологий машинного обучения оказалось крайне эффективным
-для анализа и прогнозирования процессов эрозии почвы. Одним из наиболее
-успешных методов, использованных в исследовании, стал алгоритм XGBoost,
-основанный на градиентном бустинге. Данный метод позволяет выявлять
-сложные взаимосвязи между различными входными параметрами, такими как
-спектральные индексы, альбедо и показатели влажности, и целевыми
-переменными --- например, наличие эрозии. XGBoost был выбран за его
-способность справляться с большими объемами данных и за высокую
-точность, что важно при анализе многофакторных природных явлений.
-Преимуществом XGBoost является устойчивость к переобучению, что
-позволяет создавать модели, которые сохраняют высокую точность на
-различных типах данных.
-
-Для обучения модели использовались данные дистанционного зондирования,
-включающие показатели вегетации, альбедо и влажности почвы. Обученная
-модель продемонстрировала высокую способность к обобщению, так как
-данные охватывали различные типы почв и климатические зоны, что
-позволило модели точно прогнозировать эродированные участки. Было
-установлено, что наибольшую точность прогнозирования эрозии, особенно в
-зонах, подверженных ветровой эрозии, давали комбинированные методы
-анализа альбедо и влажности. Таким образом, использование методов
-машинного обучения в сочетании с данными спутникового мониторинга
-открывает новые возможности для точного и оперативного мониторинга
-состояния почвы и предотвращения её деградации.
-
-
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image39}
-	\\caption*{}
-\\end{figure}
-
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image40}
-	\\caption*{}
-\\end{figure}
-
-
-{\\bfseries Рис.5. - Динамика изменения потерь и результат точности для
-обучающей и валидационной выборки}
-
-На рисунке 5 первый график изображает динамику изменения потерь (Log
-Loss) на протяжении 100 итераций обучения модели. Синяя линия
-представляет собой потери на обучающей выборке, а оранжевая -- на
-валидационной. Можно заметить, что по мере увеличения количества
-итераций потери на обеих выборках значительно уменьшаются и выходят на
-плато, приближаясь к нулю. Это говорит о том, что модель успешно
-обучается, минимизируя ошибки в прогнозировании как на тренировочных,
-так и на валидационных данных, что указывает на хорошую способность
-модели к обобщению. Стабилизация на низком уровне потерь свидетельствует
-о высокой точности модели. Второй график на рисунке 5 демонстрирует
-точность (Accuracy) для обучающей и валидационной выборок. Синяя линия
-показывает, как растет точность модели на тренировочной выборке с
-увеличением числа итераций, достигая практически 100\\%. Однако для
-валидационной выборки (оранжевая линия) наблюдается небольшое снижение
-точности после 50 итераций, что может указывать на незначительное
-переобучение модели. Тем не менее, обе линии остаются достаточно
-высокими, что подтверждает эффективность модели. Процесс обучения модели
-XGBoost проходит с хорошей конвергенцией: потери минимизируются, а
-точность модели на тестовых данных остается на высоком уровне. Этот
-результат указывает на то, что модель справляется с задачей
-классификации эрозионных степеней, не только на тренировочных данных, но
-и на новых данных, что делает её применимой для анализа и прогноза
-деградации земельных участков в реальных условиях.
-
-{\\bfseries Выводы.} Данное исследование предложило эффективный подход к
-выявлению и классификации эрозии почв с использованием данных
-дистанционного зондирования и методов машинного обучения. Проблема
-эрозии почв является одной из основных экологических угроз, снижая
-плодородие земель и влияя на сельское хозяйство и устойчивость
-экосистем. В ходе работы был разработан алгоритм, основанный на
-комбинации спектральных индексов (NDVI, MSI, NDMI) и параметров альбедо,
-что позволило разделить почву на четыре класса по степени эрозии:
-«Норма», «Первая степень», «Вторая степень» и «Третья степень». Ключевым
-аспектом методики является сочетание индексов растительности с оценкой
-альбедо и влажности почвы, что позволяет избегать ошибочной
-классификации участков, визуально похожих на эрозионные, но фактически
-не подверженных эрозии.
-
-Использование модели XGBoost для классификации эрозии почвы
-продемонстрировало высокую эффективность, показывая точность как на
-тренировочной, так и на тестовой выборках. Модель учитывает нелинейные
-зависимости между входными признаками, что важно для анализа сложных
-экологических процессов. Разработанная модель может быть полезна для
-мониторинга больших территорий, подверженных эрозии, оперативно выявляя
-участки, требующие восстановления. Методика имеет потенциал для
-масштабных проектов по управлению земельными ресурсами и может быть
-адаптирована для работы с другими регионами и типами данных. В будущем
-важно рассмотреть возможность интеграции дополнительных спектральных
-индексов и использования методов глубинного обучения для повышения
-точности классификации и анализа сложных пространственно-временных
-зависимостей в данных дистанционного зондирования.
-
-{\\bfseries Литература}
-
-
-1. Жоголев А.В. Актуализация региональных почвенных карт на основе
-спутниковых и геоинформационных технологий (на примере Московской
-области): Автореф. дис. ... к. с.-х. н. - М., 2016. - 22 c.
-
-1. Векшина В.Н. Построение цифровых моделей почвенного покрова западной
-части Большеземельской тундры. Бюллетень Почвенного института имени
-В.В. Докучаева.- 2019. Т.99.- С.21-46.
-\\href{https://doi.org/10.19047/0136-1694-2019-99-21-46}{DOI
-10.19047/0136-1694-2019-99-21-46}.
-
-1. Савин И.Ю., Прудникова Е.Ю. Об оптимальном сроке спутниковой съемки
-для картографирования пахотных почв // Бюл. Почв. ин-та им. В.В.
-Докучаева. -2014. -№ 74. -С.66-77.
-
-1. Рожков В.А. Об информационном подходе в классификации почв//Бюллетень
-Почвенного института имени В.В. Докучаева. -2012.-Т.(69).- С.4-24.
-\\href{https://doi.org/10.19047/0136-1694-2012-69-4-24}{DOI
-/10.19047/0136-1694-2012-69-4-24}
-
-1. Гребень А.С., Красовская И.Г. Анализ основных методик прогнозирования
-урожайности с помощью данных космического мониторинга, применительно к
-зерновым культурам степной зоны Украины // Радіоелектронні і
-комп'ютерні системи. -2012. - № 2. - С.170-180.
-\\href{http://www.irbis-nbuv.gov.ua/cgi-bin/irbis_nbuv/cgiirbis_64.exe?I21DBN=LINK&P21DBN=UJRN&Z21ID=&S21REF=10&S21CNR=20&S21STN=1&S21FMT=ASP_meta&C21COM=S&2_S21P03=FILA=&2_S21STR=recs_2012_2_27}{http://nbuv.gov.ua/UJRN/recs\\_2012\\_2\\_27}
-
-1. Рожков В.А. Информатизация и теория классификации почв // Труды
-Института государства и права РАН.- 2012.- № 6. -C.218-227
-
-1. Hengl T., Mendes de Jesus J., Heuvelink G.B.M., Ruiperez Gonzalez M.,
-Kilibarda M. SoilGrids250m: Global gridded soil information based on
-machine learning // PLOS ONE. -2017. --Vol.12 (2):e0169748 DOI
-10.1371/journal.pone.0169748
-
-1. Чинилин А.В., Савин И.Ю. Крупномасштабное цифровое картографирование
-содержания органического углерода почв с помощью методов машинного
-обучения // Бюллетень Почвенного института им. В.В. Докучаева. -2018.
---Т.91. -- С.46-62. DOI 10.19047/0136-1694-2018-91-46-62
-
-1. Masrur Ahmed, A.A., Deo, R.C., Raj, N., Ghahramani, A., Feng, Q., Yin,
-Z., Yang, L. Deep learning forecasts of soil moisture: Convolutional
-neural network and gated recurrent unit models coupled with
-satellite-derived modis, observations and synoptic-scale climate index
-data // Remote Sensing. -2021. --Vol.13 (554). -P.1-30. DOI
-10.3390/rs13040554
-10. Anton, C.A., Matei, O., Avram, A. Collaborative Data Mining in
-Agriculture for Prediction of Soil Moisture and Temperature // Advances
-in Intelligent Systems and Computing. -2019. -P.141-151. DOI
-
-
-{\\bfseries References}
-
-1. Zhogolev A.V. Aktualizacija regional' nyh pochvennyh
-kart na osnove sputnikovyh i geoinformacionnyh tehnologij (na primere
-Moskovskoj oblasti): Avtoref. dis. ... k. s.-h. n. - M., 2016. - 22
-s.{[}in Russian{]}
-
-2. Vekshina V.N. Postroenie cifrovyh modelej pochvennogo pokrova zapadnoj
-chasti Bol' shezemel' skoj tundry.
-Bjulleten'{} Pochvennogo instituta imeni V.V.
-Dokuchaeva.- 2019. T.99.- S.21-46. DOI 10.19047/0136-1694-2019-99-21-46.
-{[}in Russian{]}
-
-3. Savin I.Ju., Prudnikova E.Ju. Ob optimal' nom sroke
-sputnikovoj semki dlja kartografirovanija pahotnyh pochv // Bjul. Pochv.
-in-ta im. V.V. Dokuchaeva. -2014. -№ 74. -S.66-77. {[}in Russian{]}
-
-4. Rozhkov V.A. Ob informacionnom podhode v klassifikacii
-pochv//Bjulleten'{} Pochvennogo instituta imeni V.V.
-Dokuchaeva. -2012.-Т.69.- S.4-24. DOI /10.19047/0136-1694-2012-69-4-24.
-{[}in Russian{]}
-
-5. Greben'{} A.S., Krasovskaja I.G. Analiz osnovnyh
-metodik prognozirovanija urozhajnosti s pomoshh' ju
-dannyh kosmicheskogo monitoringa, primenitel' no k
-zernovym kul' turam stepnoj zony Ukrainy //
-Radіoelektronnі і komp'juternі sistemi. -2012. - №2. - S.170-180.
-http://nbuv.gov.ua/UJRN/recs\\_2012\\_2\\_27. {[}in Russian{]}
-
-6. Rozhkov V.A. Informatizacija i teorija klassifikacii pochv // Trudy
-Instituta gosudarstva i prava RAN.- 2012.- № 6. -S.218-227. {[}in
-Russian{]}
-
-7. Hengl T., Mendes de Jesus J., Heuvelink G.B.M., Ruiperez Gonzalez M.,
-Kilibarda M. SoilGrids250m: Global gridded soil information based on
-machine learning // PLOS ONE. -2017. --Vol.12 (2):e0169748 DOI
-10.1371/journal.pone.0169748
-
-8. Chinilin A.V., Savin I.Ju. Krupnomasshtabnoe cifrovoe
-kartografirovanie soderzhanija organicheskogo ugleroda pochv s
-pomoshh' ju metodov mashinnogo obuchenija //
-Bjulleten'{} Pochvennogo instituta im. V.V. Dokuchaeva.
--2018. --T.91. -- S.46-62. DOI 10.19047/0136-1694-2018-91-46-62. {[}in
-Russian{]}
-
-9. Masrur Ahmed, A.A., Deo, R.C., Raj, N., Ghahramani, A., Feng, Q., Yin,
-Z., Yang, L. Deep learning forecasts of soil moisture: Convolutional
-neural network and gated recurrent unit models coupled with
-satellite-derived modis, observations and synoptic-scale climate index
-data // Remote Sensing. -2021. --Vol.13 (554). -P.1-30. DOI
-10.3390/rs13040554
-
-10. Anton, C.A., Matei, O., Avram, A. Collaborative Data Mining in
-Agriculture for Prediction of Soil Moisture and Temperature // Advances
-in Intelligent Systems and Computing. -2019. -P.141-151. DOI
-
-
-\\emph{{\\bfseries Сведения об авторах}}
-
-Болсынбек М. Қ. - докторант кафедры информационных систем Евразийского
-национального университета имени Л. Н. Гумилева, Астана, Казахстан,
-е-mail:
-
-\\href{https://orcid.org/0009-0001-0233-1984}{}
-
-Абдикеримова Г.Б. - PhD, и.о. доцент кафедры информационных систем
-Евразийского национального университета им.Л. Н.Гумилева, Астана,
-Казахстан, е-mail:
-\gulzira1981@mail.ru{\\bfseries ;
-\\href{https://orcid.org/0000-0002-4953-0737}{}}
-
-Тасжурекова Ж.К. - к.т.н., и.о. доцента кафедры «Прикладная
-информатика и программирование» Таразского регионального университета
-им. М. Х. Дулати, Тараз, Казахстан, е-mail:
-
-
-Адамов А.А. - д.т.н профессор, кафедра «Математическое и
-компьютерное моделирование» член-корр. НИА РК, Евразийский национальный
-университет им. Л.Н. Гумилева, Астана, Казахстан, е-mail:
-
-\\href{https://orcid.org/0000-0001-9515-1263}{}
-
-Серикбаева С.К. - PhD, старший преподаватель кафедры информационных
-систем Евразийского национального университета им. Л. Н. Гумилева,
-Астана, Казахстан, е-mail:
-
-
-Ануарбеков А.М. - Евразийский национальный университет имени
-Л.Н.Гумилева, Преподаватель кафедры криптологии, Астана, Казахстан,
-е-mail:
-\almasanuarbekov01@gmail.com.
-\\href{https://orcid.org/0009-0008-5013-3553}{}
-
-\\emph{{\\bfseries Information about the authors}}
-
-Bolsynbek M. - doctoral student of the Department of Information Systems
-of the L. N. Gumilyov Eurasian National University, Astana, Kazakhstan,
-е-mail: \mbolsynbek@bk.ru;
-
-Abdikerimova G.- PhD, acting associate professor of the Department of
-Information Systems of L. N. Gumilyov Eurasian National University,
-Astana, Kazakhstan, е-mail:
-\gulzira1981@mail.ru;
-
-Taszhurekova Zh. - acting associate professor of the Department «applied
-informatics and programming» Taraz regional university named after M.
-KH. Dulaty, Taraz, Kazakhstan. е-mail:
-
-
-Adamov A. - Doctor of Technical Sciences, Professor, Department of
-Mathematical and Computer Modeling, Corresponding Member, NIA RK, L.N.
-Gumilyov Eurasian National University, Astana, Kazakhstan, е-mail:
-adamov\\_aa@enu.kz;
-
-Serikbayeva S. - PhD, Senior Lecturer of the Department of Information
-Systems, L.N. Gumilyov Eurasian National University, Astana, Kazakhstan.
-E-mail:
-
-
-Anuarbekov А. - L.N. Gumilyov Eurasian National University, Teacher,
-Department of Cryptology, Astana, Kazakhstan, е-mail:
-\almasanuarbekov01@gmail.com
-.\\
-" 0 14 (fontified t) 14 15 (fontified t) 17 26 (face font-lock-keyword-face) 26 134 (face (bold)) 138 147 (face font-lock-keyword-face) 147 148 (face (bold)) 148 164 (face (font-lock-keyword-face bold)) 164 181 (face (bold)) 183 189 (face font-lock-keyword-face) 189 190 (latex-env-pair t) 190 196 (face font-lock-function-name-face latex-env-pair t) 196 197 (latex-env-pair t) 202 212 (face font-lock-keyword-face) 214 230 (face font-lock-keyword-face) 240 250 (face font-lock-keyword-face) 252 269 (face font-lock-builtin-face) 272 281 (face font-lock-keyword-face) 284 288 (face font-lock-keyword-face) 288 289 (latex-env-pair t) 289 295 (face font-lock-function-name-face latex-env-pair t) 295 296 (latex-env-pair t) 298 307 (face font-lock-keyword-face) 307 310 (face (bold)) 310 321 (face (font-lock-keyword-face bold)) 321 326 (face (font-lock-keyword-face bold)) 326 334 (face (bold)) 334 346 (face (bold)) 348 354 (face font-lock-keyword-face) 354 355 (latex-env-pair t) 355 361 (face font-lock-function-name-face latex-env-pair t) 361 362 (latex-env-pair t) 367 377 (face font-lock-keyword-face) 379 395 (face font-lock-keyword-face) 405 415 (face font-lock-keyword-face) 417 434 (face font-lock-builtin-face) 437 446 (face font-lock-keyword-face) 449 453 (face font-lock-keyword-face) 453 454 (latex-env-pair t) 454 460 (face font-lock-function-name-face latex-env-pair t) 460 461 (latex-env-pair t) 463 472 (face font-lock-keyword-face) 472 475 (face (bold)) 475 491 (face (font-lock-keyword-face bold)) 491 510 (face (bold)) 512 518 (face font-lock-keyword-face) 518 519 (latex-env-pair t) 519 525 (face font-lock-function-name-face latex-env-pair t) 525 526 (latex-env-pair t) 531 541 (face font-lock-keyword-face) 543 559 (face font-lock-keyword-face) 569 579 (face font-lock-keyword-face) 581 598 (face font-lock-builtin-face) 601 610 (face font-lock-keyword-face) 613 617 (face font-lock-keyword-face) 617 618 (latex-env-pair t) 618 624 (face font-lock-function-name-face latex-env-pair t) 624 625 (latex-env-pair t) 627 636 (face font-lock-keyword-face) 636 639 (face (bold)) 639 655 (face (font-lock-keyword-face bold)) 655 668 (face (bold)) 670 676 (face font-lock-keyword-face) 676 677 (latex-env-pair t) 677 683 (face font-lock-function-name-face latex-env-pair t) 683 684 (latex-env-pair t) 689 699 (face font-lock-keyword-face) 701 717 (face font-lock-keyword-face) 727 737 (face font-lock-keyword-face) 739 756 (face font-lock-builtin-face) 759 768 (face font-lock-keyword-face) 771 775 (face font-lock-keyword-face) 775 776 (latex-env-pair t) 776 782 (face font-lock-function-name-face latex-env-pair t) 782 783 (latex-env-pair t) 788 797 (face font-lock-keyword-face) 797 798 (face (bold)) 798 814 (face (font-lock-keyword-face bold)) 814 832 (face (bold)) 834 840 (face font-lock-keyword-face) 840 841 (latex-env-pair t) 841 847 (face font-lock-function-name-face latex-env-pair t) 847 848 (latex-env-pair t) 853 863 (face font-lock-keyword-face) 865 881 (face font-lock-keyword-face) 891 901 (face font-lock-keyword-face) 903 920 (face font-lock-builtin-face) 923 932 (face font-lock-keyword-face) 935 939 (face font-lock-keyword-face) 939 940 (latex-env-pair t) 940 946 (face font-lock-function-name-face latex-env-pair t) 946 947 (latex-env-pair t) 949 958 (face font-lock-keyword-face) 958 959 (face (bold)) 959 975 (face (font-lock-keyword-face bold)) 975 976 (face (bold)) 976 985 (face (font-lock-keyword-face bold)) 985 989 (face (bold)) 989 1005 (face (font-lock-keyword-face bold)) 1005 1023 (face (bold)) 1025 1031 (face font-lock-keyword-face) 1031 1032 (latex-env-pair t) 1032 1038 (face font-lock-function-name-face latex-env-pair t) 1038 1039 (latex-env-pair t) 1044 1054 (face font-lock-keyword-face) 1056 1072 (face font-lock-keyword-face) 1082 1092 (face font-lock-keyword-face) 1094 1111 (face font-lock-builtin-face) 1114 1123 (face font-lock-keyword-face) 1126 1130 (face font-lock-keyword-face) 1130 1131 (latex-env-pair t) 1131 1137 (face font-lock-function-name-face latex-env-pair t) 1137 1138 (latex-env-pair t) 1141 1157 (face font-lock-keyword-face) 1237 1253 (face font-lock-keyword-face) 1327 1336 (face font-lock-keyword-face) 1336 1337 (face (bold)) 1337 1353 (face (font-lock-keyword-face bold)) 1353 1354 (face (bold)) 1354 1363 (face (font-lock-keyword-face bold)) 1363 1365 (face (bold)) 1387 1392 (face font-lock-keyword-face) 1393 1416 (face tex-verbatim) 5256 5263 (latex-env-pair t) 5309 5316 (latex-env-pair t) 34575 34583 (latex-env-pair t) 34674 34682 (latex-env-pair t) 34691 34699 (latex-env-pair t) 34790 34798 (latex-env-pair t) 36050 36058 (latex-env-pair t) 36149 36157 (latex-env-pair t) 36166 36174 (latex-env-pair t) 36265 36273 (latex-env-pair t) 37305 37313 (latex-env-pair t) 37404 37412 (latex-env-pair t) 37421 37429 (latex-env-pair t) 37520 37528 (latex-env-pair t) 40809 40817 (latex-env-pair t) 40908 40916 (latex-env-pair t) 40925 40933 (latex-env-pair t) 41024 41032 (latex-env-pair t) 44361 44369 (latex-env-pair t) 44460 44468 (latex-env-pair t) 44476 44484 (latex-env-pair t) 44575 44583 (latex-env-pair t) 53862 54163 (fontified t) 54163 54168 (face font-lock-keyword-face fontified t) 54168 54169 (fontified t) 54169 54203 (face tex-verbatim fontified t) 54203 54208 (fontified t) 54208 54213 (face font-lock-keyword-face fontified t) 54213 54214 (fontified t) 54214 54251 (face tex-verbatim fontified t) 54251 54256 (fontified t) 54256 54261 (face font-lock-keyword-face fontified t) 54261 54262 (fontified t) 54262 54263 (face (italic) fontified t) 54263 54272 (face (font-lock-keyword-face italic) fontified t) 54272 54302 (face (italic bold) fontified t) 54302 54303 (face (italic) fontified t) 54303 54459 (fontified t) 54459 54464 (face font-lock-keyword-face fontified t) 54464 54465 (fontified t) 54465 54488 (face tex-verbatim fontified t) 54488 54660 (fontified t) 54660 54665 (face font-lock-keyword-face fontified t) 54665 54666 (fontified t) 54666 54692 (face tex-verbatim fontified t) 54692 54762 (fontified t) 54762 54763 (face font-lock-keyword-face fontified t) 54763 54798 (face font-lock-string-face fontified t) 54798 54799 (face font-lock-keyword-face fontified t) 54799 55093 (fontified t) 55093 55095 (face font-lock-keyword-face fontified t) 55095 55362 (fontified t) 55362 55384 (fontified t) 55384 55389 (face font-lock-keyword-face fontified t) 55389 55390 (fontified t) 55390 55424 (face tex-verbatim fontified t) 55424 55428 (fontified t) 55428 55430 (fontified t) 55430 55431 (fontified t)) . 36397) (undo-tree-id126 . -55430) (undo-tree-id127 . -55428) (undo-tree-id128 . -55428) (undo-tree-id129 . -53862) (undo-tree-id130 . -55428) (undo-tree-id131 . -55428) (undo-tree-id132 . -25062) (undo-tree-id133 . -47407) (undo-tree-id134 . -55428) (undo-tree-id135 . -55428) (undo-tree-id136 . -55428) (undo-tree-id137 . -55428) (undo-tree-id138 . -55428) (undo-tree-id139 . -55428) (undo-tree-id140 . -55428) (undo-tree-id141 . -55428) (undo-tree-id142 . -55428) (undo-tree-id143 . -55428) (undo-tree-id144 . -55428) (undo-tree-id145 . -55428) (undo-tree-id146 . -55428) (undo-tree-id147 . -55428) (undo-tree-id148 . -55428) (undo-tree-id149 . -55428) (undo-tree-id150 . -55428) (undo-tree-id151 . -55428) (undo-tree-id152 . -55428) (undo-tree-id153 . -55428) (undo-tree-id154 . -55428) (undo-tree-id155 . -55428) (undo-tree-id156 . -55428) (undo-tree-id157 . -55428) (undo-tree-id158 . -55428) (undo-tree-id159 . -55428) (undo-tree-id160 . -55428) (undo-tree-id161 . -55428) (undo-tree-id162 . -55428) (undo-tree-id163 . -55431) 91825) nil (26698 28456 20555 914000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 155 . 156) (nil fontified nil 66 . 156) (66 . 156) 65 (t 26698 28456 26706 524000)) nil (26703 39921 805136 939000) 0 nil])
-([nil current ((#("
-" 0 1 (rear-nonsticky t fontified t)) . -155) (undo-tree-id164 . -1) (undo-tree-id165 . -1) (undo-tree-id166 . -1) (undo-tree-id167 . -1) (undo-tree-id168 . -1) (undo-tree-id169 . -1) (undo-tree-id170 . -1) (undo-tree-id171 . -1) (undo-tree-id172 . -1) (undo-tree-id173 . -1) (undo-tree-id174 . -1) (undo-tree-id175 . -1) (undo-tree-id176 . -1) (undo-tree-id177 . -1) (undo-tree-id178 . -1) (undo-tree-id179 . -1) (undo-tree-id180 . -1) (undo-tree-id181 . -1) (undo-tree-id182 . -1) (undo-tree-id183 . -1) (undo-tree-id184 . -1) (undo-tree-id185 . -1) (undo-tree-id186 . -1) (undo-tree-id187 . -1) (undo-tree-id188 . -1) 46) nil (26703 39921 805133 192000) 0 nil])
+Математикалық формулалар негізінде Питон тілінде жылу картасы жасалды
+1-сурет, ол лазердің көз тіндеріне әсерін модельдейді, бұл дәрігерлер
+мен зерттеушілерге лазерлік терапияның тор қабығына қалай әсер ететінін
+түсінуге көмектеседі, дені сау тіндерді зақымдаудың тәуекелдерін
+азайтады. Лазерлік әсерлерді модельдеу лазердің параметрлерін (мықты,
+импульс ұзақтығы) дәл баптауға мүмкіндік береді, мысалы, диабеттік
+ретинопатияны емдеуде, дені сау тіндерге зақым келтірмеу үшін. Бұл әдіс
+медициналық персоналды оқытуда, жаңа емдеу әдістері мен диагностика
+әзірлеуде, сондай-ақ лазерлік технологияларды жақсартуда, әсердің
+дәлдігі мен қауіпсіздігін арттырады.
+\\end{multicols}
+" 0 1 (fontified t) 1 70 (fontified t) 70 71 (fontified t) 71 658 (fontified t) 658 662 (face font-lock-keyword-face fontified t) 662 663 (fontified t latex-env-pair t) 663 672 (face font-lock-function-name-face fontified t latex-env-pair t) 672 673 (fontified t latex-env-pair t) 673 674 (fontified t)) . 22658) (undo-tree-id96 . -658) (undo-tree-id97 . -658) (undo-tree-id98 . -673) (undo-tree-id99 . -658) 23316) nil (26709 5287 652705 254000) 0 nil])
+([nil nil ((22470 . 23144) (#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 22470) (undo-tree-id94 . -16) (undo-tree-id95 . -15) 22486) nil (26709 5287 652694 845000) 0 nil])
+([nil nil ((#("8" 0 1 (fontified t)) . 23201) (t 26709 5287 658363 412000) (23202 . 23203) 23201 (t 26709 5287 658363 412000)) nil (26709 5297 23690 852000) 0 nil])
+([nil nil ((nil fontified t 23201 . 23202) (#("7" 0 1 (fontified t)) . 23201) (23202 . 23203) 23201) nil (26709 5297 23689 848000) 0 nil])
+([nil nil ((#("8" 0 1 (fontified t)) . 23373) (23374 . 23375) 23373) nil (26709 5297 23688 513000) 0 nil])
+([nil current ((nil fontified t 23373 . 23374) (#("7" 0 1 (fontified t)) . 23373) (23374 . 23375) 23373) nil (26709 5297 23682 528000) 0 nil])
 nil
