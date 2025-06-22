@@ -1,0 +1,217 @@
+(undo-tree-save-format-version . 1)
+"9df803d1f627cd6bffea52af1de664f4ae470d93"
+[nil nil nil nil (26712 16327 700613 316000) 0 nil]
+([nil nil ((96 . 97) (#("
+" 0 1 (face (bold) fontified t)) . -96) 24 (t 26711 44856 928855 708000)) nil (26712 16327 700612 575000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 25)) nil (26712 16327 700612 34000) 0 nil])
+([nil nil (25) nil (26712 16327 700611 783000) 0 nil])
+([nil nil ((43 . 45) (25 . 43) (#("sectionw" 0 8 (face font-lock-keyword-face fontified t)) . -25) (undo-tree-id12 . -8) (undo-tree-id13 . -8) (undo-tree-id14 . -8) 33 (29 . 33) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -29) (undo-tree-id15 . -1) (24 . 30)) nil (26712 16327 700611 162000) 0 nil])
+([nil nil ((#("{\\bfseries Ж.С.Есенгалиева}
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.8\\textwidth]{media/ict2/image1}
+	\\caption*{}
+\\end{figure}
+{\\bfseries \\textsuperscript{\\envelope }
+,
+Р.С.Каиржан}
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.8\\textwidth]{media/ict2/image1}
+	\\caption*{}
+\\end{figure}
+{\\bfseries ,
+Н.С.Глазырина}
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.8\\textwidth]{media/ict2/image1}
+	\\caption*{}
+\\end{figure}
+" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 26 (face (bold) fontified t) 26 28 (fontified t) 28 34 (face font-lock-keyword-face fontified t) 34 35 (fontified t latex-env-pair t) 35 41 (face font-lock-function-name-face fontified t latex-env-pair t) 41 42 (fontified t latex-env-pair t) 42 47 (fontified t) 47 57 (face font-lock-keyword-face fontified t) 57 59 (fontified t) 59 75 (face font-lock-keyword-face fontified t) 75 85 (fontified t) 85 95 (face font-lock-keyword-face fontified t) 95 97 (fontified t) 97 114 (face font-lock-builtin-face fontified t) 114 117 (fontified t) 117 126 (face font-lock-keyword-face fontified t) 126 129 (fontified t) 129 133 (face font-lock-keyword-face fontified t) 133 134 (fontified t latex-env-pair t) 134 140 (face font-lock-function-name-face fontified t latex-env-pair t) 140 141 (fontified t latex-env-pair t) 141 143 (fontified t) 143 152 (face font-lock-keyword-face fontified t) 152 153 (face (bold) fontified t) 153 169 (face (font-lock-keyword-face bold) fontified t) 169 170 (face (bold) fontified t) 170 179 (face (font-lock-keyword-face bold) fontified t) 179 195 (face (bold) fontified t) 195 197 (fontified t) 197 203 (face font-lock-keyword-face fontified t) 203 204 (fontified t latex-env-pair t) 204 210 (face font-lock-function-name-face fontified t latex-env-pair t) 210 211 (fontified t latex-env-pair t) 211 216 (fontified t) 216 226 (face font-lock-keyword-face fontified t) 226 228 (fontified t) 228 244 (face font-lock-keyword-face fontified t) 244 254 (fontified t) 254 264 (face font-lock-keyword-face fontified t) 264 266 (fontified t) 266 283 (face font-lock-builtin-face fontified t) 283 286 (fontified t) 286 295 (face font-lock-keyword-face fontified t) 295 298 (fontified t) 298 302 (face font-lock-keyword-face fontified t) 302 303 (fontified t latex-env-pair t) 303 309 (face font-lock-function-name-face fontified t latex-env-pair t) 309 310 (fontified t latex-env-pair t) 310 312 (fontified t) 312 321 (face font-lock-keyword-face fontified t) 321 337 (face (bold) fontified t) 337 339 (fontified t) 339 345 (face font-lock-keyword-face fontified t) 345 346 (fontified t latex-env-pair t) 346 352 (face font-lock-function-name-face fontified t latex-env-pair t) 352 353 (fontified t latex-env-pair t) 353 358 (fontified t) 358 368 (face font-lock-keyword-face fontified t) 368 370 (fontified t) 370 386 (face font-lock-keyword-face fontified t) 386 396 (fontified t) 396 406 (face font-lock-keyword-face fontified t) 406 408 (fontified t) 408 425 (face font-lock-builtin-face fontified t) 425 428 (fontified t) 428 437 (face font-lock-keyword-face fontified t) 437 440 (fontified t) 440 444 (face font-lock-keyword-face fontified t) 444 445 (fontified t latex-env-pair t) 445 451 (face font-lock-function-name-face fontified t latex-env-pair t) 451 452 (fontified t latex-env-pair t) 452 453 (fontified t)) . 159) (undo-tree-id1 . -452) (undo-tree-id2 . -440) (undo-tree-id3 . -20) (undo-tree-id4 . -440) (undo-tree-id5 . -20) (undo-tree-id6 . -28) (undo-tree-id7 . -129) (undo-tree-id8 . -197) (undo-tree-id9 . -298) (undo-tree-id10 . -339) (undo-tree-id11 . -440) 599) nil (26712 16327 700609 258000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 159) (undo-tree-id0 . 1)) nil (26712 16327 700601 584000) 0 nil])
+([nil nil ((160 . 180) (357 . 375)) nil (26712 16327 700582 418000) 0 nil])
+([nil nil ((34744 . 34745) 249) nil (26712 16327 700578 250000) 0 nil])
+([nil nil ((#("{\\bfseries " 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 11 (face (bold) fontified t)) . 249) (undo-tree-id20 . -10) (undo-tree-id21 . -11) (t 26712 16327 702097 757000)) nil (26712 16333 572635 529000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 276) (undo-tree-id18 . -1) (undo-tree-id19 . -1)) nil (26712 16333 572634 196000) 0 nil])
+([nil nil ((257 . 262) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -257) (undo-tree-id16 . -1) (251 . 258) (#("g" 0 1 (face font-lock-keyword-face fontified t)) . -251) (undo-tree-id17 . -1) 252 (249 . 252)) nil (26712 16333 572630 750000) 0 nil])
+([nil nil ((1844 . 1866) (2063 . 2083) (t 26712 16333 574066 6000)) nil (26712 16391 524296 394000) 0 nil])
+([nil nil ((2010 . 2011) (#(" " 0 1 (face (bold) fontified t)) . 2010)) nil (26712 16391 524296 123000) 0 nil])
+([nil nil ((2056 . 2057) (#(" " 0 1 (face (bold) fontified t)) . 2056)) nil (26712 16391 524295 802000) 0 nil])
+([nil nil ((2069 . 2070) (#(" " 0 1 (fontified t)) . 2069)) nil (26712 16391 524295 482000) 0 nil])
+([nil nil ((2074 . 2075)) nil (26712 16391 524295 221000) 0 nil])
+([nil nil ((2061 . 2062)) nil (26712 16391 524295 71000) 0 nil])
+([nil nil ((2085 . 2086)) nil (26712 16391 524294 831000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 158 . 159) (#("
+" 0 1 (fontified nil)) . -246) (158 . 247)) nil (26712 16391 524294 530000) 0 nil])
+([nil nil ((159 . 160) (158 . 159) 158) nil (26712 16391 524294 249000) 0 nil])
+([nil nil ((189 . 203) (175 . 188) (158 . 174)) nil (26712 16391 524293 899000) 0 nil])
+([nil nil ((188 . 189) (#("
+" 0 1 (fontified t)) . -188) (174 . 175) (#("
+" 0 1 (fontified t)) . -174) 158) nil (26712 16391 524293 468000) 0 nil])
+([nil nil ((174 . 175)) nil (26712 16391 524293 67000) 0 nil])
+([nil nil ((#("Ж.С. Есенгалиева, Р.С. Каиржан, Н.С. Глазырина" 0 17 (fontified t) 17 18 (fontified t) 18 31 (fontified t) 31 32 (fontified t) 32 46 (fontified t)) . 158) (undo-tree-id24 . -45) (undo-tree-id25 . 29)) nil (26712 16391 524292 616000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 89 . 90) (nil fontified nil 44 . 90) (44 . 90) 43) nil (26712 16391 524291 645000) 0 nil])
+([nil nil ((24 . 46) (293 . 313)) nil (26712 16391 524291 354000) 0 nil])
+([nil nil ((2347 . 2348) (#("
+" 0 1 (fontified t)) . -2347) 2285) nil (26712 16391 524291 124000) 0 nil])
+([nil nil ((2285 . 2305) (2435 . 2453)) nil (26712 16391 524290 863000) 0 nil])
+([nil nil ((2387 . 2388) (#("
+" 0 1 (fontified t)) . -2387) (undo-tree-id22 . -1) (undo-tree-id23 . -1) 2386) nil (26712 16391 524290 543000) 0 nil])
+([nil nil ((4010 . 4032) (4229 . 4249)) nil (26712 16391 524282 598000) 0 nil])
+([nil nil ((4272 . 4292) (4412 . 4430)) nil (26712 16391 524282 287000) 0 nil])
+([nil nil ((4364 . 4365) (#("
+" 0 1 (fontified t)) . -4364) 4363) nil (26712 16391 524281 957000) 0 nil])
+([nil nil ((4169 . 4170) (#(" " 0 1 (face (bold) fontified t)) . 4169)) nil (26712 16391 524281 476000) 0 nil])
+([nil nil ((4219 . 4220) (#(" " 0 1 (face (bold) fontified t)) . 4219)) nil (26712 16391 524281 175000) 0 nil])
+([nil nil ((4239 . 4240) (#("~" 0 1 (fontified t)) . 4239)) nil (26712 16391 524280 614000) 0 nil])
+([nil nil ((4249 . 4250)) nil (26712 16391 524277 348000) 0 nil])
+([nil nil ((5904 . 5925) (14091 . 14107) (t 26712 16391 528764 759000)) nil (26712 16409 450363 584000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 14128)) nil (26712 16409 450362 623000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (latex-env-pair t fontified t) 5 14 (face font-lock-function-name-face latex-env-pair t fontified t) 14 15 (latex-env-pair t fontified t) 15 16 (fontified t)) . 14112) (undo-tree-id26 . -15) (undo-tree-id27 . 16)) nil (26712 16409 450362 92000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 14342 . 14343) (#("
+" 0 1 (fontified nil)) . -14358) (14342 . 14359) 14334) nil (26712 16409 450350 881000) 0 nil])
+([nil nil ((#("anchor
+
+negative
+
+positive
+
+positive
+
+anchor
+
+negative
+" 0 55 (fontified t)) . 14359) (undo-tree-id29 . -54) (undo-tree-id30 . -46) (undo-tree-id31 . -46) (undo-tree-id32 . -7) (undo-tree-id33 . -7) (undo-tree-id34 . -17) (undo-tree-id35 . -17) (undo-tree-id36 . -27) (undo-tree-id37 . -27) (undo-tree-id38 . -46) 14405 (t 26712 16409 452678 762000)) nil (26712 16421 505661 564000) 0 nil])
+([nil nil ((#("\\emph{{\\bfseries ОҚЫТУ}}
+" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 7 (face (italic) fontified t) 7 16 (face (font-lock-keyword-face italic) fontified t) 16 22 (face (italic bold) fontified t) 22 23 (face (italic) fontified t) 23 25 (fontified t)) . 14360) (undo-tree-id28 . -24)) nil (26712 16421 505657 286000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 14360)) nil (26712 16421 505633 211000) 0 nil])
+([nil nil ((#("bfseries " 0 8 (fontified t) 8 9 (fontified t)) . 114) (undo-tree-id39 . -8) (undo-tree-id40 . -9) (t 26712 16421 507620 883000)) nil (26712 16451 733712 786000) 0 nil])
+([nil nil ((225 . 231) (217 . 225) (t 26712 16451 735475 640000)) nil (26712 16463 869047 711000) 0 nil])
+([nil nil ((#("\\vspace{0.5em}" 0 7 (face font-lock-keyword-face fontified t) 7 14 (fontified t)) . 217) (undo-tree-id41 . -13) (undo-tree-id42 . -11) (undo-tree-id43 . -13) (t 26712 16463 870417 286000)) nil (26712 16471 167675 20000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 339 . 340) (nil fontified nil 326 . 340) (326 . 340)) nil (26712 16471 167663 138000) 0 nil])
+([nil nil ((336 . 337) (#("5" 0 1 (fontified t)) . 336) (undo-tree-id44 . -1) (undo-tree-id45 . -1) (undo-tree-id46 . -1) (undo-tree-id47 . -1) (undo-tree-id48 . -1) (undo-tree-id49 . -1) (t 26712 16471 169382 172000)) nil (26712 16480 678094 977000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 14779) (t 26712 16480 679336 412000)) nil (26712 16512 876347 652000) 0 nil])
+([nil nil ((#("(" 0 1 (fontified t)) . 14779)) nil (26712 16512 876347 371000) 0 nil])
+([nil nil ((#(")" 0 1 (fontified t)) . 14842)) nil (26712 16512 876347 141000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . 14841)) nil (26712 16512 876346 971000) 0 nil])
+([nil nil ((#("(" 0 1 (fontified t)) . 14840)) nil (26712 16512 876346 810000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 14839)) nil (26712 16512 876345 949000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 14838)) nil (26712 16512 876345 688000) 0 nil])
+([nil nil ((#("," 0 1 (face (italic) fontified t)) . 14837)) nil (26712 16512 876345 528000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 14836)) nil (26712 16512 876345 358000) 0 nil])
+([nil nil ((#("h" 0 1 (face font-lock-keyword-face fontified t)) . 14835)) nil (26712 16512 876345 87000) 0 nil])
+([nil nil ((#("p" 0 1 (face font-lock-keyword-face fontified t)) . 14834)) nil (26712 16512 876344 927000) 0 nil])
+([nil nil ((#("m" 0 1 (face font-lock-keyword-face fontified t)) . 14833)) nil (26712 16512 876344 686000) 0 nil])
+([nil nil ((#("e" 0 1 (face font-lock-keyword-face fontified t)) . 14832)) nil (26712 16512 876344 446000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 14831)) nil (26712 16512 876344 195000) 0 nil])
+([nil nil ((#(")" 0 1 (face font-lock-keyword-face fontified t)) . 14830)) nil (26712 16512 876343 965000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 14829)) nil (26712 16512 876343 805000) 0 nil])
+([nil nil ((14829 . 14830)) nil (26712 16512 876343 614000) 0 nil])
+([nil nil ((14779 . 14796) (14831 . 14846)) nil (26712 16512 876343 354000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 14348) (undo-tree-id50 . -15) (undo-tree-id51 . -16) (undo-tree-id52 . -16) (undo-tree-id53 . -16) (undo-tree-id54 . -14) 14362) nil (26712 16512 876342 723000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 14846 . 14847) (#("
+" 0 1 (fontified nil)) . -14862) (14846 . 14863) 14832) nil (26712 16512 876329 238000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 14847) (undo-tree-id105 . -15) (t 26712 16512 878181 340000)) nil (26712 16535 200063 604000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 17689 . 17690) (#("
+" 0 1 (fontified nil)) . -17705) (17689 . 17706) 17630) nil (26712 16535 200062 722000) 0 nil])
+([nil nil ((#("(2)
+" 0 4 (fontified t)) . 17127) (undo-tree-id104 . -3)) nil (26712 16535 200062 181000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 17057)) nil (26712 16535 200061 430000) 0 nil])
+([nil nil ((#("(" 0 1 (fontified t)) . 17057) (undo-tree-id103 . -1)) nil (26712 16535 200061 49000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 17121) (undo-tree-id91 . -1) (undo-tree-id92 . -1) (undo-tree-id93 . -1) (undo-tree-id94 . -1) (undo-tree-id95 . -1) (undo-tree-id96 . -1) (undo-tree-id97 . -1) (undo-tree-id98 . -1) (undo-tree-id99 . -1) (undo-tree-id100 . -1) (undo-tree-id101 . -1) (undo-tree-id102 . -1)) nil (26712 16535 200060 158000) 0 nil])
+([nil nil ((#(")" 0 1 (fontified t)) . 17121) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1) (undo-tree-id58 . -1) (undo-tree-id59 . -1) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (undo-tree-id65 . -1) (undo-tree-id66 . -1) (undo-tree-id67 . -1) (undo-tree-id68 . -1) (undo-tree-id69 . -1) (undo-tree-id70 . -1) (undo-tree-id71 . -1) (undo-tree-id72 . -1) (undo-tree-id73 . -1) (undo-tree-id74 . -1) (undo-tree-id75 . -1) (undo-tree-id76 . -1) (undo-tree-id77 . -1) (undo-tree-id78 . -1) (undo-tree-id79 . -1) (undo-tree-id80 . -1) (undo-tree-id81 . -1) (undo-tree-id82 . -1) (undo-tree-id83 . -1) (undo-tree-id84 . -1) (undo-tree-id85 . -1) (undo-tree-id86 . -1) (undo-tree-id87 . -1) (undo-tree-id88 . -1) (undo-tree-id89 . -1) (undo-tree-id90 . -1)) nil (26712 16535 200053 605000) 0 nil])
+([nil nil ((17057 . 17074) (17123 . 17138)) nil (26712 16535 200020 183000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 17714) (undo-tree-id109 . -15) (undo-tree-id110 . -14) 17728 (t 26712 16535 202073 711000)) nil (26712 16570 817102 79000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 19422 . 19423) (#("
+" 0 1 (fontified nil)) . -19438) (19422 . 19439) 19350) nil (26712 16570 817100 776000) 0 nil])
+([nil nil ((#("(3)
+" 0 4 (fontified t)) . 19244) (undo-tree-id108 . -3)) nil (26712 16570 817100 265000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 19170)) nil (26712 16570 817099 434000) 0 nil])
+([nil nil ((#("(" 0 1 (fontified t)) . 19170)) nil (26712 16570 817099 23000) 0 nil])
+([nil nil ((#(")" 0 1 (face font-lock-keyword-face fontified t)) . 19240)) nil (26712 16570 817098 602000) 0 nil])
+([nil nil ((#("\\" 0 1 (fontified t)) . 19239)) nil (26712 16570 817097 781000) 0 nil])
+([nil nil ((19170 . 19187) (19240 . 19255)) nil (26712 16570 817097 320000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 19447) (undo-tree-id106 . -15) (undo-tree-id107 . -14) 19461) nil (26712 16570 817096 638000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 21330 . 21331) (#("
+" 0 1 (fontified nil)) . -21346) (21330 . 21347) 21291) nil (26712 16614 583320 124000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 22322 . 22323) (nil fontified nil 21423 . 21425) (nil fontified nil 21425 . 21449) (nil fontified nil 21449 . 21455) (nil fontified nil 21455 . 21456) (nil fontified nil 21456 . 21464) (nil fontified nil 21464 . 21465) (nil fontified nil 21465 . 21512) (nil fontified nil 21512 . 21522) (nil fontified nil 21522 . 21578) (nil fontified nil 21578 . 21580) (nil fontified nil 21580 . 21596) (nil fontified nil 21596 . 21598) (nil fontified nil 21598 . 21663) (nil fontified nil 21663 . 21665) (nil fontified nil 21665 . 21670) (nil fontified nil 21670 . 21672) (nil fontified nil 21672 . 21688) (nil fontified nil 21688 . 21690) (nil fontified nil 21690 . 21838) (nil fontified nil 21838 . 21840) (nil fontified nil 21840 . 21845) (nil fontified nil 21845 . 21847) (nil fontified nil 21847 . 21866) (nil fontified nil 21866 . 21868) (nil fontified nil 21868 . 21879) (nil fontified nil 21879 . 21881) (nil fontified nil 21881 . 22021) (nil fontified nil 22021 . 22023) (nil fontified nil 22023 . 22028) (nil fontified nil 22028 . 22030) (nil fontified nil 22030 . 22046) (nil fontified nil 22046 . 22048) (nil fontified nil 22048 . 22062) (nil fontified nil 22062 . 22064) (nil fontified nil 22064 . 22220) (nil fontified nil 22220 . 22222) (nil fontified nil 22222 . 22309) (21423 . 22323) (#("
+%% \\begin{longtable}[]{@{}
+%%   >{\\raggedright\\arraybackslash}p{(\\linewidth - 2\\tabcolsep) * \\real{0.5069}}
+%%   >{\\raggedright\\arraybackslash}p{(\\linewidth - 2\\tabcolsep) * \\real{0.4931}}@{}}
+%% \\toprule\\noalign{}
+%% \\begin{minipage}[b]{\\linewidth}\\raggedright
+%% face\\_recognition.face\\_locations(imgS)
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedright
+%% кадрдағы беттердің координаталарын анықтайды
+%% \\end{minipage} \\\\
+%% \\midrule\\noalign{}
+%% \\endhead
+%% \\bottomrule\\noalign{}
+%% \\endlastfoot
+%% face\\_recognition.face\\_encodings(imgS, facesCurFrame) & тіркелген
+%% қызметкер беттерімен салыстырылатын беттердің дескрипторларын (векторлық
+%% көріністер) шығарады \\\\
+%% face\\_recognition.compare\\_faces(image\\_encodings, encodeFace) &
+%% true/false мәндерінің тізімін қайтара отырып, ағымдағы бетті белгілі
+%% беттердің дерекқорымен салыстырады \\\\
+%% face\\_recognition.face\\_distance(image\\_encodings, encodeFace) &
+%% беттердің векторлық көріністері арасындағы евклидтік қашықтықты
+%% есептейді (кішірек мән көбірек ұқсастықты білдіреді) \\\\
+%% np.argmin(faceDis) & ең ұқсас бетті көрсетіп, ең қысқа қашықтық индексін
+%% табады \\\\
+%% \\end{longtable}" 0 1 (fontified t) 1 4 (face font-lock-comment-delimiter-face fontified t) 4 10 (face font-lock-comment-face fontified t) 10 21 (face font-lock-comment-face fontified t latex-env-pair t) 21 28 (face font-lock-comment-face fontified t) 28 33 (face font-lock-comment-delimiter-face fontified t) 33 109 (face font-lock-comment-face fontified t) 109 114 (face font-lock-comment-delimiter-face fontified t) 114 194 (face font-lock-comment-face fontified t) 194 197 (face font-lock-comment-delimiter-face fontified t) 197 216 (face font-lock-comment-face fontified t) 216 219 (face font-lock-comment-delimiter-face fontified t) 219 225 (face font-lock-comment-face fontified t) 225 235 (face font-lock-comment-face fontified t latex-env-pair t) 235 263 (face font-lock-comment-face fontified t) 263 266 (face font-lock-comment-delimiter-face fontified t) 266 306 (face font-lock-comment-face fontified t) 306 309 (face font-lock-comment-delimiter-face fontified t) 309 313 (face font-lock-comment-face fontified t) 313 323 (face font-lock-comment-face fontified t latex-env-pair t) 323 332 (face font-lock-comment-face fontified t) 332 342 (face font-lock-comment-face fontified t latex-env-pair t) 342 370 (face font-lock-comment-face fontified t) 370 373 (face font-lock-comment-delimiter-face fontified t) 373 418 (face font-lock-comment-face fontified t) 418 421 (face font-lock-comment-delimiter-face fontified t) 421 425 (face font-lock-comment-face fontified t) 425 435 (face font-lock-comment-face fontified t latex-env-pair t) 435 439 (face font-lock-comment-face fontified t) 439 442 (face font-lock-comment-delimiter-face fontified t) 442 461 (face font-lock-comment-face fontified t) 461 464 (face font-lock-comment-delimiter-face fontified t) 464 473 (face font-lock-comment-face fontified t) 473 476 (face font-lock-comment-delimiter-face fontified t) 476 498 (face font-lock-comment-face fontified t) 498 501 (face font-lock-comment-delimiter-face fontified t) 501 514 (face font-lock-comment-face fontified t) 514 517 (face font-lock-comment-delimiter-face fontified t) 517 584 (face font-lock-comment-face fontified t) 584 587 (face font-lock-comment-delimiter-face fontified t) 587 660 (face font-lock-comment-face fontified t) 660 663 (face font-lock-comment-delimiter-face fontified t) 663 687 (face font-lock-comment-face fontified t) 687 690 (face font-lock-comment-delimiter-face fontified t) 690 755 (face font-lock-comment-face fontified t) 755 758 (face font-lock-comment-delimiter-face fontified t) 758 827 (face font-lock-comment-face fontified t) 827 830 (face font-lock-comment-delimiter-face fontified t) 830 868 (face font-lock-comment-face fontified t) 868 871 (face font-lock-comment-delimiter-face fontified t) 871 936 (face font-lock-comment-face fontified t) 936 939 (face font-lock-comment-delimiter-face fontified t) 939 1003 (face font-lock-comment-face fontified t) 1003 1006 (face font-lock-comment-delimiter-face fontified t) 1006 1057 (face font-lock-comment-face fontified t) 1057 1062 (face font-lock-comment-face fontified t) 1062 1065 (face font-lock-comment-delimiter-face fontified t) 1065 1073 (face font-lock-comment-face fontified t) 1073 1138 (face font-lock-comment-face fontified t) 1138 1141 (face font-lock-comment-delimiter-face fontified t) 1141 1151 (face font-lock-comment-face fontified t) 1151 1154 (face font-lock-comment-delimiter-face fontified t) 1154 1158 (face font-lock-comment-face fontified t) 1158 1169 (face font-lock-comment-face fontified t latex-env-pair t)) . 21423) (undo-tree-id142 . -1168) (undo-tree-id143 . -1151) (undo-tree-id144 . -1151) (undo-tree-id145 . -1151) (undo-tree-id146 . -1151) (undo-tree-id147 . -1151) (undo-tree-id148 . -1151) (undo-tree-id149 . -1151) (undo-tree-id150 . -1151) (undo-tree-id151 . -1151) (undo-tree-id152 . -1151) (undo-tree-id153 . -1151) (undo-tree-id154 . -1151) (undo-tree-id155 . -1151) (undo-tree-id156 . -1151) (undo-tree-id157 . -1151) (undo-tree-id158 . -1151) (undo-tree-id159 . -1151) (undo-tree-id160 . -1151) (undo-tree-id161 . -1151) (undo-tree-id162 . -1151) (undo-tree-id163 . -1151) (t 26712 16570 819901 851000)) ((21423 . 22592) (#("% \\usepackage{tabularray}
+\\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  width = \\linewidth,
+  colspec = {Q[325]Q[613]},
+  hlines,
+  vlines,
+}
+face\\_recognition.face\\_locations(imgS) & кадрдағы
+			беттердің координаталарын анықтайды\\\\
+face\\_recognition.face\\_encodings(imgS,
+			facesCurFrame) & тіркелген
+			қызметкер беттерімен салыстырылатын
+			беттердің дескрипторларын (векторлық
+			көріністер) шығарады\\\\
+face\\_recognition.compare\\_faces(image\\_encodings,
+			encodeFace) & true/false
+			мәндерінің тізімін қайтара отырып,
+			ағымдағы бетті белгілі беттердің
+			дерекқорымен салыстырады\\\\
+face\\_recognition.face\\_distance(image\\_encodings,
+			encodeFace) & беттердің
+			векторлық көріністері арасындағы
+			евклидтік қашықтықты есептейді
+			(кішірек мән көбірек ұқсастықты
+			білдіреді)\\\\
+np.argmin(faceDis) & ең
+			ұқсас бетті көрсетіп, ең қысқа қашықтық
+			индексін табады
+\\end{longtblr}" 0 2 (face font-lock-comment-delimiter-face fontified nil) 2 26 (face font-lock-comment-face fontified nil) 26 32 (face font-lock-keyword-face fontified nil) 32 33 (latex-env-pair t fontified nil) 33 41 (face font-lock-function-name-face latex-env-pair t fontified nil) 41 42 (latex-env-pair t fontified nil) 42 89 (fontified nil) 89 99 (face font-lock-keyword-face fontified nil) 99 155 (fontified nil) 155 157 (face font-lock-keyword-face fontified nil) 157 173 (fontified nil) 173 175 (face font-lock-keyword-face fontified nil) 175 240 (fontified nil) 240 242 (face font-lock-warning-face fontified nil) 242 247 (fontified nil) 247 249 (face font-lock-keyword-face fontified nil) 249 265 (fontified nil) 265 267 (face font-lock-keyword-face fontified nil) 267 415 (fontified nil) 415 417 (face font-lock-warning-face fontified nil) 417 422 (fontified nil) 422 424 (face font-lock-keyword-face fontified nil) 424 443 (fontified nil) 443 445 (face font-lock-keyword-face fontified nil) 445 456 (fontified nil) 456 458 (face font-lock-keyword-face fontified nil) 458 598 (fontified nil) 598 600 (face font-lock-warning-face fontified nil) 600 605 (fontified nil) 605 607 (face font-lock-keyword-face fontified nil) 607 623 (fontified nil) 623 625 (face font-lock-keyword-face fontified nil) 625 639 (fontified nil) 639 641 (face font-lock-keyword-face fontified nil) 641 797 (fontified nil) 797 799 (face font-lock-warning-face fontified nil) 799 886 (fontified nil) 886 890 (face font-lock-keyword-face fontified nil) 890 891 (latex-env-pair t fontified nil) 891 899 (face font-lock-function-name-face latex-env-pair t fontified nil) 899 900 (latex-env-pair t rear-nonsticky nil fontified nil)) . 21423) (undo-tree-id136 . -899) (undo-tree-id137 . -899) (undo-tree-id138 . -899) (undo-tree-id139 . -899) (undo-tree-id140 . -26) (undo-tree-id141 . -26) (nil fontified t 22222 . 22309) (nil fontified t 22220 . 22222) (nil fontified t 22064 . 22220) (nil fontified t 22062 . 22064) (nil fontified t 22048 . 22062) (nil fontified t 22046 . 22048) (nil fontified t 22030 . 22046) (nil fontified t 22028 . 22030) (nil fontified t 22023 . 22028) (nil fontified t 22021 . 22023) (nil fontified t 21881 . 22021) (nil fontified t 21879 . 21881) (nil fontified t 21868 . 21879) (nil fontified t 21866 . 21868) (nil fontified t 21847 . 21866) (nil fontified t 21845 . 21847) (nil fontified t 21840 . 21845) (nil fontified t 21838 . 21840) (nil fontified t 21690 . 21838) (nil fontified t 21688 . 21690) (nil fontified t 21672 . 21688) (nil fontified t 21670 . 21672) (nil fontified t 21665 . 21670) (nil fontified t 21663 . 21665) (nil fontified t 21598 . 21663) (nil fontified t 21596 . 21598) (nil fontified t 21580 . 21596) (nil fontified t 21578 . 21580) (nil fontified t 21522 . 21578) (nil fontified t 21512 . 21522) (nil fontified t 21465 . 21512) (nil fontified t 21464 . 21465) (nil fontified t 21456 . 21464) (nil fontified t 21455 . 21456) (nil fontified t 21449 . 21455) (nil fontified t 21425 . 21449) (nil fontified t 21423 . 21425) (nil rear-nonsticky t 22322 . 22323)) (26712 16621 310987 108000) 0 nil])
+([nil nil ((#("% \\usepackage{tabularray}
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 26 (face font-lock-comment-face fontified t)) . 21423) (undo-tree-id173 . -25) (undo-tree-id174 . -26) (undo-tree-id175 . -26)) nil (26712 16625 36688 871000) 0 nil])
+([nil nil ((#("{\\bfseries 1 - кесте. Face-recognition кітапханасының маңызды функциялары}
+" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 73 (face (bold) fontified t) 73 75 (fontified t)) . -21348) (undo-tree-id164 . -75) (undo-tree-id165 . -75) (undo-tree-id166 . -75) (undo-tree-id167 . -75) (undo-tree-id168 . -75) (undo-tree-id169 . -75) (undo-tree-id170 . -75) (undo-tree-id171 . -75) (undo-tree-id172 . -75) 21423) nil (26712 16625 36687 138000) 0 nil])
+([nil nil ((21365 . 21366) 21348) nil (26712 16625 36676 718000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 21452 . 21453) (nil fontified nil 21366 . 21453) (21366 . 21453)) nil (26712 16625 36672 681000) 0 nil])
+([nil nil ((21594 . 21595) (t 26712 16625 38639 755000)) nil (26712 16652 32102 981000) 0 nil])
+([nil nil ((21687 . 21688)) nil (26712 16652 32102 510000) 0 nil])
+([nil nil ((21862 . 21863)) nil (26712 16652 32101 989000) 0 nil])
+([nil nil ((22046 . 22047)) nil (26712 16652 32097 631000) 0 nil])
+([nil nil ((#("\\begin{quote}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 12 (face font-lock-function-name-face fontified t latex-env-pair t) 12 13 (fontified t latex-env-pair t) 13 14 (fontified t)) . 22373) (undo-tree-id177 . -13) (undo-tree-id178 . 14) (t 26712 16652 34509 61000)) nil (26712 16699 60354 875000) 0 nil])
+([nil nil ((#("\\end{quote}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 10 (face font-lock-function-name-face fontified t latex-env-pair t) 10 11 (fontified t latex-env-pair t) 11 12 (fontified t)) . 22504) (undo-tree-id176 . -11)) nil (26712 16699 60353 41000) 0 nil])
+([nil current ((22316 . 22337) (24918 . 24934)) nil (26712 16699 60342 652000) 0 nil])
+nil
