@@ -1,4 +1,4 @@
-\id{МРНТИ 49.33.29}{}; 28.23.37
+\id{МРНТИ 49.33.29; 28.23.37}{}
 
 \begin{articleheader}
 \sectionwithauthors{Б.Н. Жоламанов, М.К. Нұрғалиев, А.Б. Болатбек, Қ.Т. Көпбай, Д.А. Қожабек}{SINGLE ANCHOR NODE POSITIONING METHOD USING ANTENNA ARRAY AND MACHINE LEARNING}
@@ -222,6 +222,13 @@ minimize the impact of radio wave interference, which occurs due to the
 superposition of multiple waves. Figure 1 shows the experimental area,
 demonstrating a flat, unobstructed area free from unwanted factors.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{media/ict/image41}
+	\caption*{Fig.1- Experimental area.1 - Transmitter module with patch
+antenna; 2 - Receiver module}
+\end{figure}
+
 To measure RSSI values, the XCTU software was used in conjunction with
 XBee modules (Figure 1). One module, equipped with a monopole antenna,
 was connected to a laptop and served as the receiver. The other module,
@@ -231,16 +238,7 @@ was configured, and RSSI values received by the antenna array were
 recorded. The primary goal of the experiment was to measure RSSI at
 various distances and angular positions relative to the antenna, with
 the collected data intended for machine learning tasks.
-\end{multicols}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image41}
-	\caption*{Fig.1- Experimental area.1 - Transmitter module with patch
-antenna; 2 - Receiver module}
-\end{figure}
-
-\begin{multicols}{2}
 Measurements were taken at distances of 2 m, 5 m, 10 m, 15 m, and 20 m.
 The angle range varied from −10° to 190° in 10° increments, resulting in
 a total of 200 angular positions. To ensure the accuracy of the
@@ -260,26 +258,34 @@ used in this experiment is depicted in Figure 1, and its key technical
 specifications are outlined below in table 1.
 \end{multicols}
 
-{\bfseries Table 1 - Technical specifications}
-
-%% \begin{longtable}[]{@{}
-%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.2663}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.7337}}@{}}
-%% \toprule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% {\bfseries Parameter} & {\bfseries Specification} \\
-%% Data Rate & 250 Kbps for radio signals; up to 1 Mbps for analog
-%% signals \\
-%% Range & Up to 60 m in indoor/urban environments; up to 1200 m in open
-%% areas \\
-%% Transmission Power & +8 dB \\
-%% Receiver Sensitivity & −103 dB (1\% error rate) \\
-%% Supply Voltage & 2.1--3.6 V \\
-%% Current Consumption & 135 mA during transmission (19 dBm); 17 mA during
-%% reception \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries Table 1 - Technical specifications},
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  hlines,
+  vlines,
+}
+\textbf{Parameter} & \textbf{Specification}\\
+Data
+			Rate & 250
+			Kbps for radio signals; up to 1 Mbps for analog signals\\
+Range & Up
+			to 60 m in indoor/urban environments; up to 1200 m in open areas\\
+Transmission
+			Power & +8
+			dB\\
+Receiver
+			Sensitivity & −103
+			dB (1\% error rate)\\
+Supply
+			Voltage & 2.1–3.6
+			V\\
+Current
+			Consumption & 135
+			mA during transmission (19 dBm); 17 mA during reception
+\end{longtblr}
 
 \begin{multicols}{2}
 A directional antenna array, consisting of four patch antennas, was
@@ -334,19 +340,19 @@ protocol, which spans a wide frequency range with 16 channels spaced 5
 MHz apart, the antenna includes an air gap to enhance performance. This
 design ensures optimal impedance matching and effective radiation across
 the required frequency bands.
-\end{multicols}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image42}
+	\includegraphics[width=0.4\textwidth]{media/ict/image42}
 	\caption*{Fig.2 - Geometrical parameters of the patch antenna}
 \end{figure}
 
-\begin{multicols}{2}
 The width of the microstrip patch antenna is calculated using Equation
 (1):
 
-\[W = \frac{c}{2f_{0}\sqrt{\frac{\varepsilon_{r} + 1}{2}}} (1)\]
+\begin{equation}
+W = \frac{c}{2f_{0}\sqrt{\frac{\varepsilon_{r} + 1}{2}}}
+\end{equation}
 
 where:
 
@@ -364,24 +370,30 @@ required:
 
 1. \emph{Effective dielectric constant} (\(\varepsilon_{reff}\)) is
 calculated using Equation (2):
-\[\varepsilon_{reff} = \frac{\varepsilon_{r} + 1}{2} + \frac{\varepsilon_{r} - 1}{2}\left\lbrack 1 + \frac{12h}{W} \right\rbrack^{- \frac{1}{2}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (2)\]
+
+\begin{equation}
+\varepsilon_{reff} = \frac{\varepsilon_{r} + 1}{2} + \frac{\varepsilon_{r} - 1}{2}\left\lbrack 1 + \frac{12h}{W} \right\rbrack^{- \frac{1}{2}}
+\end{equation}
 
 where: \(h\) - thickness of the dielectric substrate.
 
-\setcounter{enumi}{1}
+2. \emph{Effective length} (\(L_{eff}\)) is determined by Equation (3):
 
-1. \emph{Effective length} (\(L_{eff}\)) is determined by Equation (3):
-\[L_{eff} = \frac{c}{2f_{0}\sqrt{\epsilon_{reff}}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (3)\]
+\begin{equation}
+L_{eff} = \frac{c}{2f_{0}\sqrt{\epsilon_{reff}}}
+\end{equation}
 
-\setcounter{enumi}{2}
+3. \emph{Extension in length} (ΔL) is obtained from Equation (4):
 
-1. \emph{Extension in length} (ΔL) is obtained from Equation (4):
-\[\mathrm{\Delta}L = 0.412h\frac{(\varepsilon_{reff} + 0.3)(\frac{W}{h} + 0.264)}{(\varepsilon_{reff} - 0.258)(\frac{W}{h} + 0.8)}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (4)\]
+\begin{equation}
+\mathrm{\Delta}L = 0.412h\frac{(\varepsilon_{reff} + 0.3)(\frac{W}{h} + 0.264)}{(\varepsilon_{reff} - 0.258)(\frac{W}{h} + 0.8)}
+\end{equation}
 
-\setcounter{enumi}{3}
+4. \emph{The actual length} (L) of the patch is computed as:
 
-1. \emph{The actual length} (L) of the patch is computed as:
-\[L = L_{eff} - 2\mathrm{\Delta}L\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (5)\]
+\begin{equation}
+L = L_{eff} - 2\mathrm{\Delta}L
+\end{equation}
 
 \emph{{\bfseries 2.4. Machine learning techniques.}} After collecting the
 data, it was processed and analyzed using machine learning techniques
@@ -416,59 +428,73 @@ Mean Absolute Error.
 the average squared difference between actual and predicted values, as
 shown in Equation (6):
 
-\[L\left( y,\widehat{y} \right) = \frac{1}{2}\sum_{i = 1}^{n}{{(y_{i} - {\widehat{y}}_{i})}^{2}\ }\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (6)\]
+\begin{equation}
+L\left( y,\widehat{y} \right) = \frac{1}{2}\sum_{i = 1}^{n}{{(y_{i} - {\widehat{y}}_{i})}^{2}\ }
+\end{equation}
 
 where:
 
-
 - \(y_{i}\): Actual value.
 
-- \({\widehat{y}}_{i}\)\hspace{0pt}: Predicted value.
+- \({\widehat{y}}_{i}\): Predicted value.
 
-- \emph{n}: Number of data points.
+- \(n\): Number of data points.
+
 \emph{Root Mean Squared Error (RMSE):} This loss function is used to
 measure the square root of the average squared difference between actual
 and predicted values, as shown in Equation (7)
 
-\[RMSE = \sqrt{\frac{1}{n}\sum_{i = 0}^{n - 1}{(y_{i} - {\widehat{y}}_{i})}^{2}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (7)\ \]
+\begin{equation}
+RMSE = \sqrt{\frac{1}{n}\sum_{i = 0}^{n - 1}{(y_{i} - {\widehat{y}}_{i})}^{2}}
+\end{equation}
 
 where:
-
 
 - \(y_{i}\): Actual value.
 
 - \({\widehat{y}}_{i}\)\hspace{0pt}: Predicted value.
 
-- \emph{n}: Number of data points.
+- \(n\): Number of data points.
+
 \emph{Coefficient of Determination (R\textsuperscript{2}):} This metric
 evaluates how well the model explains the variance in the target
 variable. It is expressed as:
 
-\[R^{2} = 1 - \frac{{SS}_{res}}{{SS}_{tot}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (7)\]
+\begin{equation}
+R^{2} = 1 - \frac{{SS}_{res}}{{SS}_{tot}}
+\end{equation}
 
 where:
-
 
 - \({SS}_{res}\) is the residual sum of squares.
 
 - \({SS}_{tot}\) is the total sum of squares.
+
 \emph{Mean Absolute Error (MAE):} This loss function measures the
 average absolute difference between actual and predicted values, as
-shown in Equation (8):
+shown in Equation (9):
 
-\[MAE = \frac{1}{n}\sum_{i = 0}^{n - 1}{(|y_{i} - {\widehat{y}}_{i}|)\ }\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (8)\]
+\begin{equation}
+MAE = \frac{1}{n}\sum_{i = 0}^{n - 1}{(|y_{i} - {\widehat{y}}_{i}|)}
+\end{equation}
 
 where:
 
-
 - \(y_{i}\): Actual value.
 
-- \({\widehat{y}}_{i}\)\hspace{0pt}: Predicted value.
+- \({\widehat{y}}_{i}\): Predicted value.
 
-- \emph{n}: Number of data points.
+- \(n\): Number of data points.
+
 {\bfseries Results and Discussion.} To improve the gain of a single patch
 antenna, an antenna array consisting of four patch antennas was
 assembled, as shown in Figure 3.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{media/ict/image43}
+	\caption*{Fig.3 - The appearance of the patch antenna}
+\end{figure}
 
 During initial experiments, it was determined that the gain of a single
 patch antenna was insufficient, leading to packet loss during
@@ -481,15 +507,7 @@ Achieving proper phase alignment within the array was critical to
 maximize the gain in the desired direction while minimizing signal
 strength in other directions. This was accomplished through precise
 placement and phase delay adjustments for each antenna in the array.
-\end{multicols}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image43}
-	\caption*{Fig.3 - The appearance of the patch antenna}
-\end{figure}
-
-\begin{multicols}{2}
 The reflection coefficient (S\textsubscript{22}) of the antenna array
 was studied in the frequency range from 2.2 to 2.7 GHz. The Figure 4
 shows that the minimum value of the reflection coefficient, equal to
@@ -501,9 +519,25 @@ antenna suitable.
 \end{multicols}
 
 \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image44}
-	\caption*{Fig.4 - The reflection coefficient of the antenna array}
+   \centering
+   \begin{subfigure}{0.49\textwidth}
+   	\centering
+   	\includegraphics[width=\textwidth]{media/ict/image44}
+   	\caption*{Fig.4 - The reflection coefficient of the antenna array}
+   \end{subfigure}
+   \begin{subfigure}{0.45\textwidth}
+   	\centering
+   	\includegraphics[width=\textwidth]{media/ict/image45}
+   	\caption*{Fig.5 - The radiation patterns of the antenna}
+   \end{subfigure}
+   \begin{subfigure}{0.5\textwidth}
+       \centering
+       \includegraphics[width=\textwidth]{media/ict/image46}
+       \caption*{Fig.6 - The dependence of received signal power on distance for
+   three different antennas: monopole antenna, patch antenna, and antenna
+   array, with the same transmission power level of 18 dBm at a frequency
+   of 2.4 GHz}
+   \end{subfigure}
 \end{figure}
 
 \begin{multicols}{2}
@@ -513,15 +547,7 @@ dBi, confirming the good directionality of the antenna. Moreover, the
 radiation patterns exhibit notable similarity across the different
 frequencies, indicating the stability of the antenna's directional
 characteristics within the analyzed range.
-\end{multicols}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image45}
-	\caption*{Fig.5 - The radiation patterns of the antenna}
-\end{figure}
-
-\begin{multicols}{2}
 The Figure 6 illustrates the variation in received signal strength
 (RSSI) as a function of the distance between the transmitter and
 receiver for three types of antennas: a monopole antenna (black line), a
@@ -532,31 +558,22 @@ antenna array shows the best signal reception levels at all distances,
 confirming its superiority over the other antenna types. It is also
 observed that RSSI decreases with increasing distance for all antennas,
 which aligns with the expected theoretical behavior.
-\end{multicols}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image46}
-	\caption*{Fig.6 - The dependence of received signal power on distance for
-three different antennas: monopole antenna, patch antenna, and antenna
-array, with the same transmission power level of 18 dBm at a frequency
-of 2.4 GHz}
-\end{figure}
 
 Figure 7 and 8 illustrates the variation in RSSI values as a function of
 both distance and angular position. The graph provides a clear
 visualization of how the RSSI by the antenna array changes under
 different experimental conditions.
+\end{multicols}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image47}
+	\includegraphics[width=0.75\textwidth]{media/ict/image47}
 	\caption*{Fig.7 - RSSI dependence on distance for different measurement angles}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image48}
+	\includegraphics[width=0.75\textwidth]{media/ict/image48}
 	\caption*{Fig.8 - RSSI dependence on the measurement angle for different distances}
 \end{figure}
 
@@ -589,46 +606,45 @@ of model training and testing are presented in Tables 2 and 3,
 respectively.
 \end{multicols}
 
-{\bfseries Table 2 -Training results}
+\begin{longtblr}[
+  caption = {\bfseries Table 2 - Training results},
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  hlines,
+  vlines,
+}
+\textbf{Machine			learning algorithms} & \textbf{MAE} & \textbf{MSE} & \textbf{RMSE} & \textbf{R²			Score}\\
+XGBoost & 1,0778 & 2,8780 & 1,4091 & 0,9776\\
+Random
+			Forest & 1,4786 & 3,901165 & 1,9751 & 0,9656\\
+Support
+			Vector Machine & 7,2566 & 82,3409 & 9,0741 & 0,2748\\
+K-Nearest
+			Neighbors & 2,7802 & 15,3381 & 3,9163 & 0,8649
+\end{longtblr}
 
-%% \begin{longtable}[]{@{}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2546}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1799}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2029}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1596}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2029}}@{}}
-%% \toprule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% {\bfseries Machine learning algorithms} & {\bfseries MAE} & {\bfseries MSE} &
-%% {\bfseries RMSE} & {\bfseries R² Score} \\
-%% XGBoost & 1,0778 & 2,8780 & 1,4091 & 0,9776 \\
-%% Random Forest & 1,4786 & 3,901165 & 1,9751 & 0,9656 \\
-%% Support Vector Machine & 7,2566 & 82,3409 & 9,0741 & 0,2748 \\
-%% K-Nearest Neighbors & 2,7802 & 15,3381 & 3,9163 & 0,8649 \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries Table 3 - Testing results},
+  label = none,
+  entry = none,
+]{
+  cells = {c},
+  hlines,
+  vlines,
+}
+\textbf{Machine			learning algorithms} & \textbf{MAE} & \textbf{MSE} & \textbf{RMSE} & \textbf{R²			Score}\\
+XGBoost & 2,3568 & 3,9470 & 2,9994 & 0,9095\\
+Random
+			Forest & 3,1287 & 14,2804 & 3,7789 & 0,9002\\
+Support
+			Vector Machine & 9,0774 & 115,2343 & 10,734 & 0,2754\\
+K-Nearest
+			Neighbors & 3,2321 & 17,5434 & 4,1884 & 0,8896
+\end{longtblr}
 
-{\bfseries Table 3 - Testing results}
-
-%% \begin{longtable}[]{@{}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2546}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1799}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2029}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1596}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2029}}@{}}
-%% \toprule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% {\bfseries Machine learning algorithms} & {\bfseries MAE} & {\bfseries MSE} &
-%% {\bfseries RMSE} & {\bfseries R² Score} \\
-%% XGBoost & 2,3568 & 3,9470 & 2,9994 & 0,9095 \\
-%% Random Forest & 3,1287 & 14,2804 & 3,7789 & 0,9002 \\
-%% Support Vector Machine & 9,0774 & 115,2343 & 10,734 & 0,2754 \\
-%% K-Nearest Neighbors & 3,2321 & 17,5434 & 4,1884 & 0,8896 \\
-%% \end{longtable}
-
+\begin{multicols}{2}
 An analysis of the results showed that the XGBoost algorithm
 demonstrated the best performance. It achieved the lowest error values
 (MAE, MSE, RMSE) and the highest R² Score compared to the other models.
@@ -638,6 +654,16 @@ KNN, also showed competitive results, but their accuracy was lower,
 especially SVM, which had the worst R² Score. Thus, XGBoost is the most
 preferable choice for predicting RSSI values in this scenario.
 
+The graphs in Figures 9 and 10 show a comparison of the actual and
+predicted RSSI values \hspace{0pt}\hspace{0pt}for the training and test
+datasets, confirming the high accuracy of the model in forecasting.
+
+The decrease in RSSI values with increasing distance is a predictable
+phenomenon, described by the free-space path loss model. However,
+angular variation introduces additional complexity due to the
+directional sensitivity of the antenna array, which creates nonlinear
+dependencies.
+\end{multicols}
 
 \begin{figure}[H]
 	\centering
@@ -652,16 +678,6 @@ preferable choice for predicting RSSI values in this scenario.
 \end{figure}
 
 \begin{multicols}{2}
-The graphs in Figures 9 and 10 show a comparison of the actual and
-predicted RSSI values \hspace{0pt}\hspace{0pt}for the training and test
-datasets, confirming the high accuracy of the model in forecasting.
-
-The decrease in RSSI values with increasing distance is a predictable
-phenomenon, described by the free-space path loss model. However,
-angular variation introduces additional complexity due to the
-directional sensitivity of the antenna array, which creates nonlinear
-dependencies.
-
 {\bfseries Conclusion.} This article presents a single-anchor node
 localization method that combines ZigBee technology, directional
 antennas, and machine learning to provide a cost-effective, scalable,
@@ -707,41 +723,38 @@ Republic of Kazakhstan (Grant AP19678552).}
 (2022). Coverage, deployment and localization challenges in wireless
 sensor networks based on artificial intelligence techniques: a review.
 IEEE Access.- 2022.-Vol.10.-P.30232-30257.
-
 \href{https://doi.org/10.1109/ACCESS.2022.3156729}{DOI
 10.1109/ACCESS.2022.3156729}
 
 2. Xin, T. I. A. N., Guoliang, W. E. I., \& Gannan, W. A. N. G. (2022).
 Review of wireless sensor network localization//Information and
 Control.-2022.-Vol.51(1).-P.69-87.
-
 DOI 10.13976/j.cnki.xk.2022.1177
 
 3. Aly, H., Basalamah, A., \& Youssef, M. (2017). Accurate and
-energy-efficient GPS-less outdoor localization// ACM Transactions on
+energy-efficient GPS-less outdoor \\localization// ACM Transactions on
 Spatial Algorithms and Systems (TSAS).-2017.-Vol.3(2).-P.1-31.
 \href{https://doi.org/10.1145/3085575}{DOI 10.1145/3085575}
 
-4.  DOI
+4. Luo, J., Yin, Z., Gui, L., \& Yang, X. (2023, April). Accurate
+localization for indoor and outdoor scenario by GPS and UWB
+fusion. In 2023 9th International Conference on Control, Automation
+and Robotics (ICCAR) (pp. 411-416). IEEE. DOI
 10.1109/iccar57134.2023.10151723
 
-5. 
-
-Huang, Y. F., Chen, G. Y., \& Wu, H. C. (2024, July). An
+5. Huang, Y. F., Chen, G. Y., \& Wu, H. C. (2024, July). An
 Adaptive Three-Dimensional Indoor Positioning Using Multi-Anchor UWB
 Wireless Communications. In 2024 International Conference on Consumer
 Electronics-Taiwan (ICCE-Taiwan) (pp.521-522). IEEE.
-
-DOI 10.1109/ICCE-Taiwan62264.2024.10674260
+DOI \\10.1109/ICCE-Taiwan62264.2024.10674260
 
 7. Fu, Y. (2017). Single anchor node real-time positioning algorithm
-based on the antenna array. International journal of distributed sensor
+based on the antenna array. \\International journal of distributed sensor
 networks.-~2017-vol.13(5).-P.15501477177
-
-DOI 10.1177/1550147717709963
+DOI \\10.1177/1550147717709963
 
 8. Wang, Ren, et al. Single-antenna super-resolution positioning with
-nonseparable toroidal pulses.// Communications
+nonseparable toroidal pulses.// \\Communications
 Physicsю-2024.-Vol.7(1).-Num.356.
 DOI:\href{http://dx.doi.org/10.1038/s42005-024-01850-z}{10.1038/s42005-024-01850-z}
 
@@ -751,8 +764,8 @@ single-anchor indoor localization using an ESPAR antenna// Sensors.-
 10.3390/s21103431}
 
 10. Schmidt, S. O., Cimdins, M., John, F., \& Hellbrück, H. SALOS-A UWB
-Single-Anchor Indoor Localization System Based on a Statistical
-Multipath Propagation Model// Sensors.-2024.-Vol.24(8).-P.2428.
+Single-Anchor Indoor \\Localization System Based on a Statistical
+Multipath Propagation Model// Sensors.-2024.-Vol.24(8). -P.2428.
 \href{https://doi.org/10.3390/s24082428}{DOI 10.3390/s24082428}
 
 11. Wang, Z., Liu, M., \& Zhang, Y. (2019, October). Mobile localization
@@ -782,29 +795,19 @@ conference on knowledge discovery and data mining (pp.785-794). DOI
 \emph{{\bfseries Information about the authors}}
 
 Zholamanov B.N. \emph{-} PhD student, Al-Farabi Kazakh National
-University, Almaty, Kazakhstan, e-mail:
-
-\href{mailto:zholamanov.batyrbek@kaznu.kz}{\nolinkurl{zholamanov.batyrbek@kaznu.kz}};
+University, Almaty, Kazakhstan, e-mail: \href{mailto:zholamanov.batyrbek@kaznu.kz}{\nolinkurl{zholamanov.batyrbek@kaznu.kz}};
 
 Nurgaliyev M.K. - PhD, Al-Farabi Kazakh National University, Almaty,
-Kazakhstan, e-mail:
-
-\href{mailto:madiyar.nurgaliyev@kaznu.edu.kz}{\nolinkurl{madiyar.nurgaliyev@kaznu.edu.kz}};
+Kazakhstan, e-mail: \href{mailto:madiyar.nurgaliyev@kaznu.edu.kz}{\nolinkurl{madiyar.nurgaliyev@kaznu.edu.kz}};
 
 Bolatbek A.B. - PhD student, Al-Farabi Kazakh National University,
-Almaty, Kazakhstan, e-mail:
-
-\href{mailto:bolatbek.askhat@kaznu.kz}{\nolinkurl{bolatbek.askhat@kaznu.kz}};
+Almaty, Kazakhstan, e-mail: \href{mailto:bolatbek.askhat@kaznu.kz}{\nolinkurl{bolatbek.askhat@kaznu.kz}};
 
 Kopbay K.T. - PhD student, Al-Farabi Kazakh National University, Almaty,
-Kazakhstan, e-mail:
-
-\href{mailto:kopbay\_kymbat2@kaznu.edu.kz}{\nolinkurl{kopbay\_kymbat2@kaznu.edu.kz}};
+Kazakhstan, e-mail: \href{mailto:kopbay\_kymbat2@kaznu.edu.kz}{\nolinkurl{kopbay\_kymbat2@kaznu.edu.kz}};
 
 Kozhabek D.A. - master student, Al-Farabi Kazakh National University,
-Almaty, Kazakhstan, e-mail:
-
-\href{mailto:kozhabek\_dariga1@kaznu.edu.kz}{\nolinkurl{kozhabek\_dariga1@kaznu.edu.kz}},
+Almaty, Kazakhstan, e-mail: \href{mailto:kozhabek\_dariga1@kaznu.edu.kz}{\nolinkurl{kozhabek\_dariga1@kaznu.edu.kz}},
 
 \emph{{\bfseries Авторлар туралы мәлімет}}
 

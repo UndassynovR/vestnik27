@@ -92,7 +92,7 @@ e-mail: \href{mailto:jomartova@mail.ru}{jomartova@mail.ru}
 Жұмыста ұсынылған алгоритмдер физикалық, химиялық және экономикалық
 процестердің әртүрлі сипаттағы сигналдарды өңдеуде қолданылуы мүмкін.
 
-{\bfseries Түйінді сөздер:} интеллектуалды жүйе, Фурье түрлендірулері,
+{\bfseries Түйін сөздер:} интеллектуалды жүйе, Фурье түрлендірулері,
 сигналды тазалау, дауысты тану, шырылдау.
 
 \begin{articleheader}
@@ -260,17 +260,15 @@ Transform) представляет собой обобщение вейвлет
 
 Существуют различные типы чирплетов:
 
-
 1. Гауссовый чирплет (Gaussian Chirplet) - основан на гауссовых
 вейвлетах;
 
-1. Фурье-чирплет (Fourier Chirplet) - базируется на преобразованиях
+2. Фурье-чирплет (Fourier Chirplet) - базируется на преобразованиях
 Фурье;
 
-1. Вейвлет-чирплет (Wavelet Chirplet) -- модифицирует классическое
+3. Вейвлет-чирплет (Wavelet Chirplet) -- модифицирует классическое
 вейвлет-преобразование, добавляя компоненту изменяющейся частоты.
 Основные преимущества чирплет-преобразования:
-
 
 - Адаптивность к изменяющимся частотам: даёт возможность анализировать
 сигналы со сложной временной и частотной структурой.
@@ -282,125 +280,70 @@ Transform) представляет собой обобщение вейвлет
 - Универсальность: может применяться в задачах обработки акустических,
 радиолокационных и биомедицинских сигналов {[}8-10{]}.
 Чирп-сигнал можно описать следующим образом:
-\end{multicols}
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9463}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0537}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% 
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% (1)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+s(t)=Ae^{j(2\pi f_0t+\pi kt^2)}
+\end{equation}
 
-где: \emph{A} -- амплитуда,
---
-начальная частота, \emph{k} -- коэффициент изменения частоты во времени
+где: $A$ -- амплитуда, $f_0$ -- начальная частота, $k$ --
+коэффициент изменения частоты во времени
 (чирп), \emph{j} -- мнимая единица
-().
+($j=\sqrt{-1}$).
 
 Базисные функции чирплет-преобразования записываются как:
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9470}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0530}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% 
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% (2)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+\psi_{a,b,k}(t)=\frac{1}{\sqrt{a}}e^{j2\pi kt^2}\psi \left(\frac{t-b}{a}\right)
+\end{equation}
 
 где:
 
-- 
--- базовая вейвлет-функция,
+- $\psi(t)$ -- базовая вейвлет-функция,
 
-- 
--- фазовый множитель, который модулирует вейвлет, добавляя эффект
-чирпа.
-Чирплет-преобразование позволяет разложить сигнал в базис, состоящий из
-чирповых сигналов разной частоты и частотного наклона.
+- $e^{j2\pi kt^2}$ -- фазовый множитель, который модулирует вейвлет,
+добавляя эффект чирпа.
+
+Чирплет-преобразование позволяет разложить
+сигнал в базис, состоящий из чирповых сигналов разной частоты и
+частотного наклона.
 
 Базисные функции в чирплет-преобразовании представляют собой растянутые,
 сдвинутые и искривленные версии исходного вейвлета.
 
-Рассмотрим некоторую последовательность
-
-измерений
-.
+Рассмотрим некоторую последовательность $s_i$ измерений $i=\overline{0,N}$.
 
 Чирплет-преобразование можно вычислять дискретно для сигнала
-\emph{s}{[}\emph{i}{]} следующим образом:
+$s[i]$ следующим образом:
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9463}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0537}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% 
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% (3)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+Ch(s,a,b,k)=\sum^{N-1}_{i=0}s_i\cdot\psi_{a,b,k}^*(i)
+\end{equation}
 
 где:
 
 
-- \emph{N} -- длина сигнала,
+- $N$ -- длина сигнала,
 
-- 
--- дискретные отсчёты сигнала,
+- $s_i$ -- дискретные отсчёты сигнала,
 
-- 
--- дискретная чирплет-функция
+- $\psi_{a,b,k}^*$ -- дискретная чирплет-функция
 
-- \emph{a} -- масштабный параметр,
+- $a$ -- масштабный параметр,
 
-- \emph{b} -- временной сдвиг,
+- $b$ -- временной сдвиг,
 
-- \emph{k} -- параметр чирпа,
+- $k$ -- параметр чирпа,
 
 - * -- обозначает комплексное сопряжение.
 В дискретном случае чирплет-функция может быть представлена как:
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9470}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0530}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% 
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% (4)
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
+\begin{equation}
+\psi_{a,b,k}(i) = \frac{1}{\sqrt{a}} e^{j2\pi ki^2} \psi\left(\frac{i-b}{a}\right)
+\end{equation}
 
-\begin{multicols}{2}
 Алгоритм реализации чиплет-обработки исходного сигнала.
 
-Шаг 1. Пусть дана последовательность
-
-измерений
-.
+Шаг 1. Пусть дана последовательность $s_i$ измерений $i=\overline{0,N}$.
 
 Выполняется фильтрация шума на основе быстрого преобразования Фурье
 (FFT). Для этого определяется амплитудный порог для удаления шума. Далее
@@ -408,9 +351,7 @@ Transform) представляет собой обобщение вейвлет
 сигнал
 
 Шаг 2. Для каждого набора параметров \emph{a,b,k} создается массив
-базисных функций
-по
-формуле (4).
+базисных функций $\psi_{a,b,k}(i),i=\overline{1,N}$ по формуле (4).
 
 Шаг 3. Вычисляются коэффициенты преобразования по формуле (3)
 
@@ -421,9 +362,8 @@ Transform) представляет собой обобщение вейвлет
 
 Шаг 6. Выбираем из отсортированного массива первые Ka элементы.
 
-В результате выполнения эого шага получим следующие частотные и
-амплитудные коэффиценты
-.
+В результате выполнения этого шага получим следующие частотные и
+амплитудные коэффиценты $A_j, T_j, j = \overline{1, Ka}$.
 
 \emph{{\bfseries Программная реализация}}
 
@@ -458,35 +398,38 @@ Transform) представляет собой обобщение вейвлет
 исходного сигнала.
 \end{multicols}
 
-
 \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image64}
-	\caption*{Рис.1 - Исходный аудиосигнал}
+   \centering
+   \begin{subfigure}{0.45\textwidth}
+   	\centering
+   	\includegraphics[width=\textwidth,height=0.8\textwidth]{media/ict/image64}
+   	\caption*{Рис.1 - Исходный аудиосигнал}
+   \end{subfigure}
+   \begin{subfigure}{0.45\textwidth}
+   	\centering
+   	\includegraphics[width=\textwidth,height=0.8\textwidth]{media/ict/image65}
+   	\caption*{Рис.2 - Очищенный аудиосигнал}
+   \end{subfigure}
 \end{figure}
 
 \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image65}
-	\caption*{Рис.2 - Очищенный аудиосигнал}
+   \centering
+   \begin{subfigure}{0.45\textwidth}
+   	\centering
+   	\includegraphics[width=\textwidth,height=0.8\textwidth]{media/ict/image66}
+   	\caption*{Рис.3 - Чирплетный аудиосигнал}
+   \end{subfigure}
+   \begin{subfigure}{0.45\textwidth}
+   	\centering
+   	\includegraphics[width=\textwidth,height=0.8\textwidth]{media/ict/image67}
+   	\caption*{Рис.4 - Амплитудный спектр чирплетного аудиосигнала}
+   \end{subfigure}
 \end{figure}
 
 \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image66}
-	\caption*{Рис.3 - Чирплетный аудиосигнал}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image67}
-	\caption*{Рис.4 - Амплитудный спектр чирплетного аудиосигнала}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict/image68}
-	\caption*{Рис.5 - Фазовый спектр чирплетного аудиосигнала}
+   \centering
+   \includegraphics[width=0.45\textwidth]{media/ict/image68}
+   \caption*{Рис.5 - Фазовый спектр чирплетного аудиосигнала}
 \end{figure}
 
 \begin{multicols}{2}
@@ -494,11 +437,9 @@ Transform) представляет собой обобщение вейвлет
 достаточно вычисления трех гармоник (Ka=3). В результате обработки
 голосового файла вычисляются 6 характеристик:
 
-1) частотные коэффициенты (основные тоны) --
-;
+1) частотные коэффициенты (основные тоны) -- $T_m,m=\overline{1,kg}$;
 
-2) амплитудные коэффициенты разложения
-.
+2) амплитудные коэффициенты разложения $A_m,m=\overline{1,kg}$.
 
 Для отработки предложенного алгоритма были подготовлены аудиозаписи 50
 студентов Международного инженерно-технологического университета г.
@@ -553,7 +494,7 @@ Transform) представляет собой обобщение вейвлет
 978-5-7996-1497-3
 
 6. Дворкович В.П., Дворкович А.В. Оконные функции для гармонического
-анализа сигналов. -- Москва: Техносфера, 2016. - 208 c. ISBN
+анализа сигналов. -- \\Москва: Техносфера, 2016. - 208 c. ISBN
 978-5-94836-432-2
 
 7. Фрик П.Г. Обработка и анализ сигналов и изображений в физических
@@ -561,7 +502,7 @@ Transform) представляет собой обобщение вейвлет
 978-5-7944-4025-6
 
 8. Тульский И.Н. Повышение эффективности передачи мультимедийной
-информации методом чирплет-преобразования //Диссер. канд.техн. наук по
+информации методом \\чирплет-преобразования //Диссер. канд.техн. наук по
 спец.05.13.17 - Теоретические основы информатики, Красноярск, 2012. -
 119с
 
@@ -578,7 +519,7 @@ Transform) представляет собой обобщение вейвлет
 
 11. M. Aliaskar, T. Mazakov, A. Mazakova, S. Jomartova, T. Shormanov.
 Human voice identification based on the detection of fundamental
-harmonics // IEEE 7th International Energy Conference
+harmonics // IEEE 7th International Energy Conference\\
 (ENERGYCON)\emph{,} 2022, pp.1-4. DOI
 10.1109/ENERGYCON53164.2022.9830471.
 
@@ -627,7 +568,7 @@ jeksperimentah. - Perm': Permskij GNIU, 2023. - 115s.
 ISBN 978-5-7944-4025-6. {[}in Russian{]}
 
 8. Tul' skij I.N. Povyshenie jeffektivnosti peredachi
-mul' timedijnoj informacii metodom
+mul' timedijnoj informacii metodom\\
 chirplet-preobrazovanija //Disser. kand.tehn. nauk po spec.05.13.17 -
 Teoreticheskie osnovy informatiki, Krasnojarsk, 2012. -- 119 s. {[}in
 Russian{]}
@@ -644,7 +585,7 @@ logiki prinjatija reshenij //Avt. disser. kand.tehn. nauk po spec.
 
 11. M. Aliaskar, T. Mazakov, A. Mazakova, S. Jomartova, T. Shormanov.
 Human voice identification based on the detection of fundamental
-harmonics // IEEE 7th International Energy Conference
+harmonics // IEEE 7th International Energy Conference\\
 (ENERGYCON)\emph{,} 2022, pp.1-4. DOI
 10.1109/ENERGYCON53164.2022.9830471.
 

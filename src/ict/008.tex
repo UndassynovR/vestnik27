@@ -1,15 +1,24 @@
 \id{IRSTI 50.01.85}{}
 
-\sectionwithauthors{}{CONTROL EQUATIONS FOR THE PROPAGATION OF NONLINEAR WAVES IN
+\begin{articleheader}
+\sectionwithauthors{U. Kayumova, A. Mussabekov, A. Brener, Razali Bin Yaakob, A. Yegenova}{CONTROL EQUATIONS FOR THE PROPAGATION OF NONLINEAR WAVES IN
 VISCOUS FILM FLOWS WITH A MASS SOURCE}
 
+{\bfseries
+\textsuperscript{1}U. Kayumova\textsuperscript{\envelope },
+\textsuperscript{1}A. Mussabekov,
+\textsuperscript{1}A. Brener,
+\textsuperscript{2}Razali Bin Yaakob,
+\textsuperscript{1}A. Yegenova
+}
+\end{articleheader}
 
 \begin{affiliation}
 \textsuperscript{1}M.Auezov South Kazakhstan University, Shymkent, Kazakhstan,
 
-\textsuperscript{2}~University~Putra~Malaysia, Kuala-Lumpur, Malaysia
+\textsuperscript{2}University Putra Malaysia, Kuala-Lumpur, Malaysia
 
-\raggedright \textsuperscript{\envelope } Correspondent-author: \href{mailto:dreams\_dream@mail.ru}{dreams\_dream@mail.ru}
+\raggedright \textsuperscript{\envelope }Correspondent-author: \href{mailto:dreams\_dream@mail.ru}{dreams\_dream@mail.ru}
 \end{affiliation}
 
 The paper devotes to theoretical description and mathematical modelling
@@ -166,12 +175,20 @@ sources, in particular during film condensation {[}12{]}.
 
 The general form of the evolutionary equation in this case can be
 represented in the following form {[}12, 20{]}
+\end{multicols}
+\begin{equation}
+\frac{\partial j}{\partial t}
++ \frac{\partial}{\partial x} \left(
+    \frac{f_2}{f_1^2} \cdot \frac{j^2}{h}
+\right)
++ \frac{j}{f_1 h^2} \left(
+    f_3 \nu_w - \mathit{Ih}
+\right)
+= g_{\mathit{ef}} h + \frac{\sigma h}{\rho} \cdot \frac{\mathit{dK}_S}{\mathit{dx}}
+\end{equation}
 
-.
-(1)
-
-It is important to note that in the studied problem there is a parameter
-,
+\begin{multicols}{2}
+It is important to note that in the studied problem there is a parameter $I$,
 which is a control parameter characterizing the intensity of the mass
 source in the system.
 
@@ -181,45 +198,104 @@ distance from the initial point, the intensity of the mass source can be
 considered small {[}21{]}. At the same time, since we are talking about
 films of small thickness compared to the characteristic length of
 surface waves, we can introduce a small parameter
-,
-into the model, where is the average velocity of the condensate flow in
-the unperturbed film in the area under consideration. With the help of
-such a small parameter, it becomes possible to scale the model by
-introducing slow variables
-and
-, as
-well as a fast phase variable
-.
+$\varepsilon=Ij/\hat{j_0}$,
+into the model, where is the average velocity of the condensate flow
+in the unperturbed film in the area under consideration. With the help
+of such a small parameter, it becomes possible to scale the model by
+introducing slow variables $t=et$ and $z=ex$, as well as a fast phase
+variable $h=q(z,t)/e$.
 
 The following system of evolutionary equations reads
+\end{multicols}
 
+\begin{multline*}
+\varepsilon \left(
+    \frac{\partial j}{\partial \eta}
+    + \frac{1}{\varepsilon} \frac{\partial j}{\partial \eta} \cdot \frac{\partial \theta}{\partial \tau}
+\right)
++ \varepsilon A \left[
+    \frac{\partial}{\partial z} \left( \frac{j^2}{h} \right)
+    + \frac{1}{\varepsilon} \frac{\partial}{\partial \eta} \left( \frac{j^2}{h} \right) \cdot \frac{\partial \theta}{\partial z}
+\right]
++ \left( B + \varepsilon B_1 \right) \cdot \frac{j}{h^2}
+- g_{\mathit{ef}} h =\\
+= \varepsilon^3 K_1 h \left[
+    \frac{\partial^3 h}{\partial z^3}
+    + \frac{3}{\varepsilon} \frac{\partial^3 h}{\partial z^2 \partial \eta} \cdot \frac{\partial \theta}{\partial z}
+    + \frac{3}{\varepsilon^2} \frac{\partial^3 h}{\partial z \partial \eta^2} \cdot \left( \frac{\partial \theta}{\partial z} \right)^2
+    + \frac{3}{\varepsilon} \frac{\partial^2 h}{\partial z\, \partial \eta} \frac{\partial^2 \theta}{\partial z^2}
++ \frac{3}{\varepsilon^2} \frac{\partial^2 h}{\partial \eta^2} \frac{\partial \theta}{\partial z} \frac{\partial^2 \theta}{\partial z^2}\right.\\\left.
++ \frac{1}{\varepsilon^3} \frac{\partial^3 h}{\partial \eta^3} \left( \frac{\partial \theta}{\partial z} \right)^3
++ \frac{1}{\varepsilon} \frac{\partial h}{\partial \eta} \frac{\partial^3 \theta}{\partial z^3}
+\right],
+\end{multline*}
 
-
-,
-
-(2)
-
-.
+\begin{equation}
+\varepsilon \left[ \frac{\partial h}{\partial \tau}
++ \frac{1}{\varepsilon} \frac{\partial h}{\partial \eta} \cdot \frac{\partial \theta}{\partial \tau} \right]
++ \varepsilon \left[ \frac{\partial j}{\partial z}
++ \frac{1}{\varepsilon} \frac{\partial j}{\partial \eta} \cdot \frac{\partial \theta}{\partial z} \right]
+= \varepsilon \cdot \frac{\hat{j}_0}{h}.
+\end{equation}
 
 A solution to the basic system can be presented in the form of
 expansions in powers of a small parameter
 
-,
-(3)
+\begin{equation}
+j = \sum_{i=0}^{N} \varepsilon^i J_i(\tau, z, \eta) \bigg|_{\eta = \frac{\theta}{\varepsilon}} + \varepsilon^{N+1} R_{1N}(\tau, z, \eta, \varepsilon),
+\end{equation}
 
-.
-(4)
+\begin{equation}
+h = \sum_{i=0}^{N} \varepsilon^i H_i(\tau, z, \eta) \bigg|_{\eta = \frac{\theta}{\varepsilon}} + \varepsilon^{N+1} R_{2N}(\tau, z, \eta, \varepsilon).
+\end{equation}
 
 The zeroth order of the system reads
 
 
-
-(5)
+\begin{equation}
+\varepsilon^0 \Rightarrow 
+\left\{
+\begin{aligned}
+&\frac{\partial \theta}{\partial \tau} \cdot \frac{\partial J_0}{\partial \eta}
++ A \frac{\partial \theta}{\partial z} \cdot \frac{\partial}{\partial \eta} \left( \frac{J_0^2}{H_0} \right)
++ B \cdot \frac{J_0}{H_0^2}
+= g_{\mathit{ef}} H_0 + K_1 \left( \frac{\partial \theta}{\partial z} \right)^3 H_0 \cdot \frac{\partial^3 H_0}{\partial \eta^3},
+\\[1ex]
+&\frac{\partial \theta}{\partial \tau} \cdot \frac{\partial H_0}{\partial \eta}
++ \frac{\partial \theta}{\partial z} \cdot \frac{\partial J_0}{\partial \eta}
+= 0.
+\end{aligned}
+\right.
+\end{equation}
 
 The firth order reads:
 
-(6)
+\begin{equation}
+\varepsilon^1 \Rightarrow
+\left\{
+\begin{aligned}
+&\frac{\partial \theta}{\partial \tau} \cdot \frac{\partial J_1}{\partial \eta}
++ A \frac{\partial \theta}{\partial z} \cdot \frac{\partial}{\partial \eta} \left( \frac{2J_0}{H_0} - J_1 \right)
+- A \frac{\partial \theta}{\partial z} \cdot \frac{\partial}{\partial \eta} \left( \frac{J_0^2}{H_0^2} - H_1 \right) \\
+&\quad + B \cdot \frac{J_1}{H_0^2}
+- 2B \cdot \frac{J_0}{H_0^3} H_1
+- g_{\mathit{ef}} H_1
+- K_1 H_0 \cdot \frac{\partial^3 H_1}{\partial \eta^3} \left( \frac{\partial \theta}{\partial z} \right)^3
++ K_1 H_1 \left( \frac{\partial \theta}{\partial z} \right)^3 \cdot \frac{\partial^3 H_0}{\partial \eta^3} \\
+&\quad = - A \cdot \frac{\partial}{\partial z} \left( \frac{J_0^2}{H_0} \right)
+- B_1 \cdot \frac{J_0}{H_0^2}
++ 3K_1 H_0 \cdot \frac{\partial^3 H_0}{\partial z\, \partial \eta^2} \left( \frac{\partial \theta}{\partial z} \right)^2 \\
+&\qquad + 3K_1 H_0 \cdot \frac{\partial^2 H_0}{\partial \eta^2} \cdot \frac{\partial \theta}{\partial z} \cdot \frac{\partial^2 \theta}{\partial z^2}, \\[1.5ex]
+&\frac{\partial \theta}{\partial \tau} \cdot \frac{\partial H_1}{\partial \eta}
++ \frac{\partial \theta}{\partial z} \cdot \frac{\partial J_1}{\partial \eta}
+= \frac{\langle j_0 \rangle}{H_0}
+- \frac{\partial H_0}{\partial \tau}
+- \frac{\partial J_0}{\partial z}.
+\end{aligned}
+\right.
+\end{equation}
 
+\begin{multicols}{2}
 Next, we sequentially obtain recurrence relations for the following
 orders of expansion. Note that all systems, except the first, are linear
 with respect to the sought functions and are decoupled.
@@ -229,108 +305,121 @@ it is important to note that, unlike {[}22, 23{]}, the systems can be
 decoupled without the additional assumption of a constant phase
 velocity. It follows from relations (5)
 
-.
-(7)
+\begin{equation}
+J_0 = - \frac{\dfrac{\partial \theta}{\partial \tau}}{\dfrac{\partial \theta}{\partial z}} H_0 + \Psi(\tau, z).
+\end{equation}
 
-From the physical meaning of the problem under
-consideration,
-which leads to the following equation
-for
+From the physical meaning of the problem under consideration,
+$Y(t,z)=0$, which leads to the following equation for $H_0$
+\end{multicols}
 
-.
-(8)
+\begin{equation}
+\frac{\left( \dfrac{\partial \theta}{\partial \tau} \right)^2}{\dfrac{\partial \theta}{\partial z}} (A - 1) \cdot \frac{\partial H_0}{\partial \eta}
+- K_1 \left( \frac{\partial \theta}{\partial z} \right)^3 H_0 \cdot \frac{\partial^3 H_0}{\partial \eta^3}
+= g_{\mathit{ef}} H_0 + \frac{\dfrac{\partial \theta}{\partial \tau}}{\dfrac{\partial \theta}{\partial z}} \cdot \frac{B}{H_0}.
+\end{equation}
 
+\begin{multicols}{2}
 The systems for subsequent approximations can be similarly decoupled.
 Moreover, there is a quasi-linear relationship between the flow rates
 and thicknesses as functions of fast and slow variables.
 
-.
-(9)
+\begin{equation}
+J_i = - \frac{\dfrac{\partial \theta}{\partial \tau}}{\dfrac{\partial \theta}{\partial z}} H_i + F\left(H_{i-1}, J_{i-1} \, ; \, \tau, z \right).
+\end{equation}
 
 The analysis of the model allows us to conclude that the surface
-pressure gradient along the film flow, caused by the variable curvature
-of the surface, contributes to the dispersion of waves only in the zero
-order, since waves of higher orders evolve under the influence of the
-effects of variability of physical characteristics. Literature analysis
-shows that the value of the coefficient
-is
-different, namely:
-of
-or ,
-for different liquids depending on the type of liquid {[}24{]}.
-Therefore, in this paper, it is proposed to introduce a correction
+pressure gradient along the film flow, caused by the variable
+curvature of the surface, contributes to the dispersion of waves only
+in the zero order, since waves of higher orders evolve under the
+influence of the effects of variability of physical
+characteristics. Literature analysis shows that the value of the
+coefficient $K_1$ is different, namely: $\varepsilon$ of or
+$\varepsilon^2$, for different liquids depending on the type of liquid
+{[}24{]}.  Therefore, in this paper, it is proposed to introduce a
+correction $H_{02}$ into the solution of equation (8) to evaluate the
+effect of surface tension, taking into account the effect of surface
+tension: $H=H_{01}+H_{02}$.  In this case, the inequality
+$H_{02}<<H_{01}$ is valid.
 
-into the solution of equation (8) to evaluate the effect of surface
-tension, taking into account the effect of surface tension:
-.
-In this case, the inequality
-is
-valid.
+As a result, we obtain the following equation for $H_{01}$
+\end{multicols}
 
-As a result, we obtain the following equation for
-
-
-.
-(10)
+\begin{equation}
+\frac{\left( \dfrac{\partial \theta}{\partial \tau} \right)^2}{\dfrac{\partial \theta}{\partial z}} (A - 1) \cdot \frac{\partial H_{01}}{\partial \eta}
+= \frac{g H_{01}^2 + B \cdot \dfrac{\partial \theta / \partial \tau}{\partial \theta / \partial z}}{H_{01}}.
+\end{equation}
 
 The resulting equation has an obvious traveling wave solution
 
-,
-(11)
+\begin{equation}
+H_{01} = \sqrt{
+\left( H_{02}^2(\eta_0) + S_1 \right)
+\exp\left( 2g S_2 (\eta - \eta_0) \right)
+- S_1
+}.
+\end{equation}
 
 Here
 
-,
-.
-(12)
+\begin{equation}
+S_1 = \frac{B \left( \dfrac{\partial \theta}{\partial \tau} \right)}{g \left( \dfrac{\partial \theta}{\partial z} \right)}, \quad
+S_2 = \frac{\left( \dfrac{\partial \theta}{\partial z} \right)}{\left( \dfrac{\partial \theta}{\partial \tau} \right)^2 (A - 1)}.
+\end{equation}
 
 Discarding terms of the second and higher orders of smallness with
-respect to the
-correction,
-we obtain the equation
+respect to the correction, $H_{02}$ we obtain the equation
 
+\begin{equation}
+\frac{\left( \dfrac{\partial \theta}{\partial \tau} \right)^2}{\dfrac{\partial \theta}{\partial z}} (A - 1) \cdot \frac{\partial H_{01}}{\partial \eta}
+= H_{02} \left[ g - \frac{B \left( \dfrac{\partial \theta}{\partial \tau} \right) / \left( \dfrac{\partial \theta}{\partial z} \right)}{H_{01}^2} \right]
++ K \left( \frac{\partial \theta}{\partial z} \right)^3 H_{01} \cdot \frac{\partial^3 H_{01}}{\partial \eta^3}
++ K \left( \frac{\partial \theta}{\partial z} \right)^3 H_{01} \cdot \frac{\partial^3 H_{02}}{\partial \eta^3}
+\end{equation}
 
+\begin{multicols}{2}
+Let' s supposed the first term is of higher order of smallness in the
+right-hand side, that leads to homogeneous equation. As it is shown in
+{[}12{]} the Wronskian of a homogeneous equation of such type is zero,
+because of the absence of second derivative $\frac{\partial
+H_{02}}{\partial \eta^2}$ {[}12{]}. From this it follows that
+resulting equation does not contain monotonically increasing
+solutions. So, for the possibility of the appearance of oscillating
+solutions in the form of a distortion of the wave profile of the
+ripple type, the following condition must be satisfied
 
-.
+\begin{equation}
+(A - 1) \cdot \frac{\partial \theta}{\partial z} < 0
+\end{equation}
 
-(13)
+The last inequality relates the integral characteristics of the
+velocity profile in the film, depending on the varying temperature
+across the film thickness, and the wave number of the carrier wave. If
+inequality (14) is not satisfied, then we can expect that a small
+disturbance of the carrier wave profile will be smoothed out by
+capillary forces {[}12{]}.
 
-Let' s supposed the first term is of higher order of
-smallness in the right-hand side, that leads to homogeneous equation. As
-it is shown in {[}12{]} the Wronskian of a homogeneous equation of such
-type is zero, because of the absence of second derivative
-
-{[}12{]}. From this it follows that resulting equation does not contain
-monotonically increasing solutions. So, for the possibility of the
-appearance of oscillating solutions in the form of a distortion of the
-wave profile of the ripple type, the following condition must be
-satisfied
-
-
-(14)
-
-The last inequality relates the integral characteristics of the velocity
-profile in the film, depending on the varying temperature across the
-film thickness, and the wave number of the carrier wave. If inequality
-(14) is not satisfied, then we can expect that a small disturbance of
-the carrier wave profile will be smoothed out by capillary forces
-{[}12{]}.
-
-From inequality (14) it follows the
-condition.
+From inequality (14) it follows the condition $A<1$.
 
 Since the wave number and frequency in a film of variable flow rate
 change with time, at least two terms in their expansion in a Taylor
 series should be saved.
+\end{multicols}
 
-
-(15)
+\begin{equation}
+\theta(z, \tau, \varepsilon) = \beta(\tau, \varepsilon) \left(z + \varphi(\tau, \varepsilon)\right)
++ \beta_1(\tau, \varepsilon) \left(z + \varphi(\tau, \varepsilon)\right)^2
+\end{equation}
 
 Thus, the following evolution equation reads
 
-.
-(16)
+\begin{equation}
+\beta \left( \frac{\partial \varphi}{\partial \tau} \right)^2 (A - 1) \cdot \frac{\partial H_0}{\partial \eta}
+- K_1 \beta^3 H_0 \cdot \frac{\partial^3 H_0}{\partial \eta^3}
+= g_{\mathit{ef}} H_0 + \frac{\partial \varphi}{\partial \tau} \cdot \frac{B}{H_0}.
+\end{equation}
 
+\begin{multicols}{2}
 In order for building mathematical models for the evolution of wave
 disturbances of the condensate film profile, the methods of the
 century-old perturbation theory should be used {[}12{]}.
@@ -338,114 +427,149 @@ century-old perturbation theory should be used {[}12{]}.
 With the help of supposition of the stationary flow regime nearby the
 stability boundary, the process can be considered as quasi-stationary.
 
-Under the condition of the slowness of the
-functions
-and
-,
+Under the condition of the slowness of the functions $j_0$ and $h_0$,
 describing stationary solutions, it should be valid a certain relation
-to
-be valid, where
-
-and
-
-are disturbances of the stationary solution of the film condensation
+to $j_1=L(h_1)$ be valid, where $j_1<<j_0$ and $h_1<<h_0$ are
+disturbances of the stationary solution of the film condensation
 problem, and is also a slow function. Unlike {[}24{]}, to describe the
 evolution of the wave packet in the weakly nonlinear approximation, we
 leave the second-order terms.
 
 As a result, the following relation is correct
+\end{multicols}
 
-,
-(17)
+\begin{equation}
+\frac{\partial j_1}{\partial t}
++ \alpha_1 \frac{\partial j_1}{\partial x}
++ \alpha_2 \frac{\partial h_1}{\partial x}
++ \alpha_3 \frac{\partial^3 h_1}{\partial x^3}
++ \alpha_4 j_1
++ \alpha_5 h_1
+=
+\beta_1 j_1 \frac{\partial j_1}{\partial x}
++ \beta_2 h_1 \frac{\partial h_1}{\partial x}
++ \beta_3 j_1^2
++ \beta_4 h_1^2,
+\end{equation}
 
-.
-
-(18)
+\begin{equation}
+\frac{\partial h_1}{\partial t} + \frac{\partial j_1}{\partial x}
+= \mathit{zh}_1 + z_2 h_1^2.
+\end{equation}
 
 The coefficients of resulting system (17), (18) of equations play the
 role of control parameters:
 
-;
-;
-;
-;
+\begin{equation*}
+\alpha_1 = \frac{2 f_2}{f_1^2} \cdot \frac{j_0}{h_0};\quad
+\alpha_2 = - \frac{f_2}{f_1^2} \cdot \frac{j_0^2}{h_0^2};\quad
+\alpha_3 = - \frac{\sigma}{\rho} \, h_0;\quad
+\alpha_4 =
+\frac{2 f_2}{f_1^2} \cdot \frac{\partial}{\partial x} \left( \frac{j_0}{h_0} \right)
++ \frac{1}{h_0} \left( \frac{\nu_w f_3}{f_1} - \frac{\lambda \Delta T}{r \rho f_1} \right);
+\end{equation*}
 
-;
+\begin{equation}
+\alpha_5 =
+- \frac{f_2}{f_1^2} \cdot \frac{\partial}{\partial x} \left( \frac{j_0^2}{h_0^2} \right)
+- \left( \frac{\nu_w f_3}{f_1} - \frac{\lambda \Delta T}{r \rho f_1} \right) \cdot \frac{2 j_0}{h_0^3}
+- g
+- \frac{\sigma}{\rho} \cdot \frac{\partial^3 h_0}{\partial x^3};
+\end{equation}
 
-(19)
+\begin{equation}
+\beta_1 = \frac{2 f_2}{f_1^2} \cdot \frac{1}{h_0};\quad
+\beta_2 = \frac{2 f_2}{f_1^2} \cdot \frac{j_0^2}{h_0^3};\quad
+\beta_3 = - \frac{f_2}{f_1^2 h_0^2} \cdot \frac{\partial h_0}{\partial x};\quad
+\beta_4 = \frac{f_2}{f_1^2} \cdot \frac{\partial}{\partial x} \left( \frac{j_0^2}{h_0^3} \right)
++ \left( \frac{\nu_w f_3}{f_1} - \frac{\lambda \Delta T}{r \rho f_1} \right) \cdot \frac{3 j_0}{h_0^4};\quad
+\end{equation}
 
-;
-;
-;
-;
-(20)
+\begin{equation}
+z_1 = - \frac{\lambda \Delta T}{r \rho h_0^2};\quad
+z_2 = \frac{\lambda \Delta T}{r \rho h_0^3}.
+\end{equation}
 
-;
-.
-
-(21)
-
-Let us introduce new stretched variables
-and
+Let us introduce new stretched variables $X=\varepsilon x,\quad T=\varepsilon t$
+and $\eta=\frac{\theta(X,T)}{\varepsilon}$
 a fast variable
 .
 
 Then we can look for a solution to the system (17), (18) in the form
 
-,.
-(22)
+\begin{equation}
+h_1 = H \exp(\eta), \quad j_1 = J \exp(\eta).
+\end{equation}
 
 Then, dividing the terms of the equations by powers of the small
 parameter and discarding rapidly oscillating components of small
-amplitude of the type
-and
-, we arrive at an approximate linear system for the amplitudes
+amplitude of the type $H^2\exp(2\eta)$ and $J^2\exp(2\eta)$, we arrive
+at an approximate linear system for the amplitudes
 
-,
+\begin{equation}
+J \left[ \frac{\partial \theta}{\partial T} + \alpha_1(X) \frac{\partial \theta}{\partial X} + \alpha_4(X) \right]
++ H \left[ \alpha_2(X) \frac{\partial \theta}{\partial X} + \alpha_3(X) \left( \frac{\partial \theta}{\partial X} \right)^3 + \alpha_5(X) \right] = 0,
+\end{equation}
 
-(23)
-
-.
-
-(24)
+\begin{equation}
+J \frac{\partial \theta}{\partial X} + H \left( \frac{\partial \theta}{\partial T} - z_1(X) \right) = 0.
+\end{equation}
 
 For the solvability of system (23), (24), the dispersion relation must
 be satisfied
 
-.
+\begin{equation}
+\left[
+\begin{matrix}
+\frac{\partial \theta}{\partial T} + \alpha_1 \frac{\partial \theta}{\partial X} + \alpha_4 \\
+\alpha_2 \frac{\partial \theta}{\partial X} + \alpha_3 \left( \frac{\partial \theta}{\partial X} \right)^3 + \alpha_5 \\
+\frac{\partial \theta}{\partial X} \\
+\frac{\partial \theta}{\partial T} - z_1
+\end{matrix}
+\right]
+= 0.
+\end{equation}
 
-(25)
+From this it follows the desired representation for $J=L(X,T)H$, where
 
-From this it follows the desired representation for
-,
+\begin{equation}
+L(X, T) = \frac{\frac{\partial \theta}{\partial T - z_1}}{\frac{\partial \theta}{\partial X}},
+\end{equation}
 
-where
-.
+Considering $L(X,T)$ that is a function of slow variables, and
+substituting the last relation into the original system, we arrive at
+a zero-order equation for the function that is the film thickness
+simulation:
 
-(26)
-
-Considering
-that
-is a function of slow variables, and substituting the last relation into
-the original system, we arrive at a zero-order equation for the function
-that is the film thickness simulation:
-
-.
-(27)
+\begin{equation}
+\frac{\partial h_1}{\partial t}
++ \left( \alpha_1 + \frac{\alpha_2}{L} \right) \frac{\partial h_1}{\partial X}
++ \alpha_3 \frac{\partial^3 h_1}{\partial X^3}
++ \left( \alpha_4 + \frac{\alpha_5}{L} \right) h_1
+=
+\left( \beta_1 L + \frac{\beta_2}{L} \right) h_1 \frac{\partial h_1}{\partial X}
++ \left( \beta_3 L + \frac{\beta_4}{L} \right) h_1^2.
+\end{equation}
 
 In the resulting equation, it is convenient to switch to a moving
 coordinate system:
 
-.
-
-(28)
+\begin{equation}
+t; \quad \xi = t - \int \frac{dX}{\alpha_1 + \frac{\alpha_2}{L}}.
+\end{equation}
 
 As a result, the following govern equation has been derived
 
-.
+\begin{equation}
+\frac{\partial h_1}{\partial t}
++ \frac{\beta_1 L + \frac{\beta_2}{L}}{\alpha_1 + \frac{\alpha_2}{L}} h_1 \frac{\partial h_1}{\partial \xi}
+- \frac{\alpha_3}{\alpha_1 + \frac{\alpha_2}{L}} \frac{\partial^3 h_1}{\partial \xi^3}
+=
+- \left( \alpha_4 + \frac{\alpha_5}{L} \right) h_1
++ \left( \beta_3 L + \frac{\beta_4}{L} \right) h_1^2.
+\end{equation}
 
-(29)
-
+\begin{multicols}{2}
 The resulting equation is close in structure to the Korteweg-de-Vries
 equation {[}12, 25{]} with a nonlinear perturbation of the right-hand
 side and slowly changing coefficients. The presence of such a
@@ -478,12 +602,11 @@ Motion.-2022.-Vol.114.103018. DOI 10.1016/j.wavemoti.2022.103018
 2. Mukhopadhyay S., Mukhopadhyay A. Waves and instabilities of
 viscoelastic fluid film flowing down an inclined wavy bottom//Physical
 Review E.- 2020-Vol.102(2): 023117.
-
-DOI 10.1103/ Physl RevE.102.023117
+DOI \\10.1103/ Physl RevE.102.023117
 
 3. Ogrosky H. R. Linear stability and nonlinear dynamics in a long-wave
 model of film flows inside a tube in the presence of surfactant//Journal
-of Fluid Mechanics.-2021.- Vol.908.- P.1-16. DOI
+of Fluid Mechanics.-2021.- Vol.908.- P.1-16. DOI\\
 \href{https://doi.org/10.1017/jfm.2020.878}{10.1017/jfm.2020.878}
 
 4. Zakaria K., Sirwah M. A. Nonlinear dynamics of a liquid film flow
@@ -494,14 +617,12 @@ Plus-2022.-Vol.137(9):1087. DOI 10.1140/epjp/s13360-022-03249-7
 5. Beloglazkin A. N., Shkadov V. Y. Nonlinear Waves in Film Viscous
 Liquid Flows at Arbitrary Kapitsa Numbers //Fluid Dynamics.-2021.-Vol
 56(4).- P.539-551.
-
 DOI\href{http://dx.doi.org/10.1134/S0015462821040029}{10.1134/S0015462821040029}
 
 6. Mukhopadhyay S., Mukhopadhyay A. Hydrodynamic instability and wave
 formation of a viscous film flowing down a slippery inclined substrate:
-Effect of odd-viscosity//European Journal of
-Mechanics-B/Fluids.-2021.-Vol.89.- P.161-170.
-
+Effect of odd-viscosity // European Journal of
+Mechanics-B / Fluids.-2021.-Vol.89.- P.161-170.
 DOI 10.1016/j.euromechflu.2021.05.013
 
 7. Duruk S. Nonlinear dynamics of thin liquid films subjected to
@@ -511,7 +632,6 @@ DOI \href{http://dx.doi.org/10.1063/5.0008220}{10.1063/5.0008220}
 8. Lerisson G., Ledda P. G., Balestra G., Gallaire F. Instability of a
 thin viscous film flowing under an inclined substrate: steady
 patterns//Journal of Fluid Mechanics.-2020.Vol.898.
-
 DOI \href{http://dx.doi.org/10.1017/jfm.2020.396}{10.1017/jfm.2020.396}
 
 9. Mukhopadhyay S., Cellier N., Mukhopadhyay A. Long-wave instabilities
@@ -552,11 +672,11 @@ Sciences.-2020.-Vol.13(3):1888.2023.
 \href{https://doi.org/10.3390/app13031888}{}
 
 16. Ranganathan U., Chattopadhyay G., Tiwari N. Evolution of a thin film
-down an incline: A new perspective//Physics of Fluids.-2020.-Vol.32(1).
+down an incline: A new \\perspective // Physics of Fluids .-2020.-Vol.32(1).
 DOI \href{http://dx.doi.org/10.1063/1.5127815}{10.1063/1.5127815}
 
-17. Zhou G., Prosperetti A. Cаpillary waves on a falling film//Physical
-Review Fluids.-2020.-Vol.5(11):114005. DOI
+17. Zhou G., Prosperetti A. Cаpillary waves on a falling film // Physical
+Review Fluids .-2020.-Vol.5(11) : 114005. DOI
 \href{http://dx.doi.org/10.1103/PhysRevFluids.5.114005}{10.1103/PhysRevFluids.5.114005}
 
 18. Akylas T. R. David J. Benney: Nonlinear wave and instability
@@ -573,14 +693,12 @@ Motion}.- 2023.- Vol.118:103123. DOI
 20. Singh G., Tiwari N. Stability of traveling waves of a thermoviscous
 liquid film down the outer surface of a cylinder//Physical Review
 Fluids.-2024.-Vol.9(2): 024002.
-
 DOI 10.1103/PhysRevFluids.9.024002
 
 21. Sojahrood A. J., Haghi H., Karshafian R., Kolios M. C. Classification
 of the major nonlinear regimes of oscillations, oscillation properties,
 and mechanisms of wave energy dissipation in the nonlinear oscillations
 of coated and uncoated bubbles//Physics of Fluids.-2021.-V.33(1):16105
-
 DOI \href{http://dx.doi.org/10.1063/5.0032766}{10.1063/5.0032766}
 
 22. Helal M. A., Badawi S. E., Mahmoud W. Wave propagation over a beach
@@ -588,15 +706,14 @@ within a nonlinear theory//Inf. Sci. Lett.-2022.-V.11(05).-P.1741-1755.
 DOI 10.18576/isl/110531
 
 23. Dong X., Chen W. Numerical analysis of wave effect on steam--air
-condensation on a vertical surface//Annals of Nuclear
+condensation on a vertical surface // Annals of Nuclear
 Energy.-2022.-Vol.168.108872.
-
 DOI 10.1016/j.anucene.2021.108872
 
 24. Choi Y., Son G., Lee G. Numerical simulation of wavy film
 condensation in a vertical channel with non-condensable
 gas//International Journal of Heat and Mass
-Transfer.-2022.-~Vol.149:119173. DOI
+Transfer.-2022.-~Vol.149:119173. DOI\\
 10.1016/j.ijheatmasstransfer.2019.119173
 
 25. Iqbal M., Faridi W. A., Algethamie R., Alomari F. A., Murad M. A. S.,
@@ -611,37 +728,35 @@ Electronics.-2024.-Vol.56(7):1189. ~DOI
 \emph{{\bfseries Information about the authors}}
 
 Kayumova U.- doctoral student, South Kazakhstan University. M. Auezova,
-Shymkent, Kazakhstan, e-mail:dreams\_dream@mail.ru;
+Shymkent, Kazakhstan, e-mail: \\dreams\_dream@mail.ru;
 
 Musabekov A.- PhD., Associate Professor, South Kazakhstan University
 named after M. Auezov, Shymkent, Kazakhstan,
-e-mail:musabekov\_a@rambler.ru;
+e-mail: musabekov\_a@rambler.ru;
 
 Brener A.- Doctor of Technical Sciences, Professor, South Kazakhstan
-University. M. Auezova, Shymkent, Kazakhstan, e-mail:amb\_52@mail.ru;
+University. M. Auezova, Shymkent, Kazakhstan, e-mail: amb\_52@mail.ru;
 
 Razaliy Bin Yaakob- PhD, Associate Professor, Universiti Putra Malaysia,
-Kuala Lumpur, Malaysia, e-mail: razaliy@upm.edu.my;
+Kuala Lumpur, Malaysia, e-mail: \\razaliy@upm.edu.my;
 
 Egenova A.-PhD, South Kazakhstan University. M. Auezova, Shymkent,
-Kazakhstan, e-mail:aegenova@mail.ru
+Kazakhstan, e-mail: aegenova@mail.ru
 
 \emph{{\bfseries Сведения об авторах}}
 
 Каюмова У.- докторант, Южно-Казахстанский университет им. М. Ауэзова, г.
-Шымкент, Казахстан,
-e-mail:
+Шымкент, Казахстан, e-mail: \\dreams\_dream@mail.ru;
 
 Мусабеков А. - к.т.н., ассоциированный профессор, Южно-Казахстанский
-университет имени М. Ауэзова, Шымкент, Казахстан, e-mail:
-musabekov\_a@rambler.ru;
+университет имени М. Ауэзова, Шымкент, Казахстан, e-mail: musabekov\_a@rambler.ru;
 
 Бренер A.- д.т.н., профессор, Южно-Казахстанский университет им. М.
-Ауэзова, г. Шымкент, Казахстан, e-mail: amb\_52@mail.ru;
+Ауэзова, г. Шымкент, Казахстан, e-mail: \\amb\_52@mail.ru;
 
 Разали Бин Якуб- PhD, ассоциированный профессор, Университет Путра
-Малайзия, Куала-Лумпур, Малайзия, e- mail:razaliy@upm.edu.my;
+Малайзия, Куала-Лумпур, Малайзия, e-mail: razaliy@upm.edu.my;
 
 Егенова A.- доктор PhD Южно-Казахстанский университет им. М. Ауэзова, г.
-Шымкент, Казахстан, e-mail:aegenova@mail.ru
+Шымкент, Казахстан, e-mail: \\aegenova@mail.ru
 \end{authorinfo}

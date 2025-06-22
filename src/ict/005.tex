@@ -291,69 +291,7 @@ SCORING және сараптамалық сауалнама үлгілерін 
 нақты есептейтін егжей-тегжейлі алгоритмдер әрдайым берілмейді. Ал
 сандық әдістер объективті бағалауға қолайлы, дегенмен оларға дәл мәлімет
 пен білікті мамандар қажет (1 кесте) {[}11{]}.
-\end{multicols}
 
-{\bfseries 1 - кесте. Ақпараттық қауіпсіздік саясатының тиімділігін бағалауға арналған әдістемелік амалдарды салыстырмалы талдау}
-
-%% \begin{longtable}[]{@{}
-%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1458}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1721}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1668}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1669}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1364}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2120}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% Тәсіл
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Бағалау түрі (сапалық/
-%% 
-%% сандық)
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Басымдық (тәуекел / бақылау)
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Метрикалар немесе KPI
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Артықшылықтары
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Шектеулері
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% 1. ISO/IEC 27001 & Сапалық / ішінара сандық & Теңгерімді (тәуекел
-%% 
-%% +бақылау) & Жалпы: инцидент саны, сәйкестік пайызы \% & Халықаралық
-%% ауқым, жүйелік қамту & Нақты өлшемдерді таңдаудың ресми алгоритмін
-%% қамтамасыз етпейді \\
-%% 2. COBIT & Сапалық / жетілу деңгейі үлгісі & Бақылау
-%% 
-%% + процестер & Жетілудің деңгейлері & IT-басқаруды кеңінен қамтиды &
-%% Негізгі фокус тек АҚ-те емес \\
-%% 3. OCTAVE & Жартылай сандық & Тәуекелге бағытталған & Тәуекелдердің
-%% сандық индексі & Тәуекелді талдаудың егжей-тегжейлі сипаттамасы & Шағын
-%% ұйымдар үшін тым күрделі болуы мүмкін \\
-%% 4. FMEA & Сандық & Тәуекелге негізделген & RPN (Risk Priority Number) &
-%% Сандық көрсеткіштер нақты анықталады & Ақаулар ықтималдығын сипаттайтын
-%% деректердің толық болуы шарт \\
-%% 5. NIST Cybersecurity Framework & Сапалық/жетілу шкалалары & Тәуекел
-%% 
-%% + бақылау & Категориялар мен жетілу деңгейлері & Әмбебап үлгі, оны
-%% бейімдеу жеңіл & Жергілікті нормалармен сәйкес келмеуі мүмкін \\
-%% 6. ML/AI-based әдістер & Сандық/зияткерлік талдау & Тәуекел, аномалиялар
-%% & Аномалия белсенділігінің көрсеткіштері & Жаңа қатерлерге икемді
-%% икемделу & Деректер жиыны сапалы болуын талап етеді, әзірлеу күрделі \\
-%% 7. SCORING (авторлық әдістер) & Әртүрлі метрикалар & Бақылау
-%% 
-%% + тәуекел & Персоналдың тәртібін бағалау & Адами аспектіні қамтиды &
-%% Жалпыға ортақ есептеу стандарты жоқ, әр компанияға бейімдеу қажет \\
-%% 8. Сараптамалық сауалнама & Сапалық & Шартты (модельсіз) & Балдық
-%% бағалау & Қолдануға оңай & Субъективтілігі жоғары, басымдықты нақты
-%% бөлетін құралдар шектеулі \\
-%% \end{longtable}
-
-\begin{multicols}{2}
 1 кестеде жүргізілген талдау бірыңғай мінсіз әдістің жоқ екенін
 көрсетеді. Тәуекелдерді сандық бағалау қажет болғанда OCTAVE, FMEA,
 AI/ML қолданылады. IT Governance құрылымына интеграция жасау көзделген
@@ -374,6 +312,80 @@ SCORING -- ұйымдардың ішкі процедураларына бағы
 техникалық және ұйымдастырушылық қырларды қамту үшін бірнеше әдісті
 үйлестіруді жөн санайды {[}13{]}.
 
+\end{multicols}
+
+\begin{longtblr}[
+  caption = {\bfseries 1 - кесте. Ақпараттық қауіпсіздік саясатының тиімділігін бағалауға арналған әдістемелік амалдарды салыстырмалы талдау},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[121]Q[121]Q[127]Q[158]Q[175]Q[233]},
+  rows = {font=\footnotesize},
+  cells = {c},
+  hlines,
+  vlines,
+}
+Тәсіл & {Бағалау түрі (сапалық/ \\сандық)} & Басымдық
+			(тәуекел / бақылау) & Метрикалар
+			немесе KPI & Артықшыл\-ықтары & Шектеулері\\
+1.
+			ISO/IEC 27001 & Сапалық
+			/ ішінара сандық & {Теңгерімді (тәуекел \\+бақылау)} & Жалпы:
+			инцидент саны, сәйкестік пайызы \% & Халықаралық
+			ауқым, жүйелік қамту & Нақты
+			өлшемдерді таңдаудың ресми алгоритмін
+			қамтамасыз етпейді\\
+2.
+			COBIT & Сапалық / жетілу деңгейі үлгісі & {Бақылау \\+ процестер} & Жетілудің
+			деңгейлері & IT-басқаруды
+			кеңінен қамтиды & Негізгі
+			фокус тек АҚ-те емес\\
+3.
+			OCTAVE & Жартылай
+			сандық & Тәуекелге
+			бағытталған & Тәуекелдердің
+			сандық индексі & Тәуекелді
+			талдаудың егжей-тегжейлі сипаттамасы & Шағын
+			ұйымдар үшін тым күрделі болуы мүмкін\\
+4.
+			FMEA & Сандық & Тәуекелге
+			негізделген & RPN
+			(Risk Priority Number) & Сандық
+			көрсеткіштер нақты анықталады & Ақаулар
+			ықтималдығын сипаттайтын деректердің
+			толық болуы шарт\\
+5.
+			NIST Cyber\-security Framework & Сапалық / жетілу
+			шкалалары & {Тәуекел \\+ бақылау} & Категориялар
+			мен жетілу деңгейлері & Әмбебап
+			үлгі, оны бейімдеу жеңіл & Жергілікті
+			нормалармен сәйкес келмеуі мүмкін\\
+6.
+			ML/AI-based әдістер & Сандық / зияткерлік
+			талдау & Тәуекел,
+			аномалиялар & Аномалия
+			белсенділігінің көрсеткіштері & Жаңа
+			қатерлерге икемді икемделу & Деректер
+			жиыны сапалы болуын талап етеді,
+			әзірлеу күрделі\\
+7.
+			SCORING (авторлық әдістер) & Әртүрлі
+			метрикалар & {Бақылау \\+ тәуекел} & Персоналдың
+			тәртібін бағалау & Адами
+			аспектіні қамтиды & Жалпыға
+			ортақ есептеу стандарты жоқ, әр
+			компанияға бейімдеу қажет\\
+8.
+			Сараптамалық сауалнама & Сапалық & Шартты
+			(модельсіз) & Балдық
+			бағалау & Қолдануға
+			оңай & Субъективтілігі
+			жоғары, басымдықты нақты бөлетін
+			құралдар шектеулі
+\end{longtblr}
+
+\begin{multicols}{2}
 Ұйымдардың ақпараттық қауіпсіздік саясатының тиімділігін талдау бес
 негізгі сала бойынша жүргізілді:
 
@@ -398,59 +410,68 @@ SCORING -- ұйымдардың ішкі процедураларына бағы
 тәуекелдерді басқарудағы әлсіз көрсеткіштер ерекше назар аударуды қажет
 етеді {[}14{]}.
 
-{\bfseries 2 - кесте. Ақпараттық қауіпсіздік саясатының тиімділігіне әсер
-ететін негізгі факторлар}
-
-%% \begin{longtable}[]{@{}
-%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2153}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2087}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1307}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1271}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1517}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1665}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\centering
-%% Фактор
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Сипаттамасы
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Метрика мысалы
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Ықпал деңгейі
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Ресурстар
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-%% Ұсыныстар
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% 1. Технологиялық инфрақұрылым & Заманауи қорғаныс жүйелерін,
-%% антивирустарды, брандмауэрлерді, IDS/IPS пайдалануы & Негізгі
-%% IT-сегменттерді қамту пайызы & Жоғары & Лицензиялар, жабдық &
-%% Инфрақұрылымды жаңарту, аудит жүргізу \\
-%% 2. Құқықтық реттеу & Заңнамалық, салалық регламенттерді сақтауы &
-%% Бұзушылықтар / айыппұлдар саны & Жоғары & Заң бөлімі & Комплаенс бөлімін
-%% құру, нормативтерді қадағалау \\
-%% 3. Персонал мәдениеті & Хабардарлық, тәртіп, АҚ саясатын орындаудағы
-%% ынтасы & Оқыту деңгейі (сауалнамалар) & Маңызды & Тренинг, HR & Тұрақты
-%% оқыту, марапаттау, тестілеу \\
-%% 4. Басқарушылық қолдау & Басшылықтың қатысуы, бюджет бөлу, басымдық беру
-%% & Жылдық қаржыландыру көлемі & Маңызды & Менеджмент, қаржы & Қажетті
-%% ресурстарды жеткілікті бөлу, KPI енгізу \\
-%% 5. Тәуекел-менеджмент & Тәуекелдерді анықтау, бағалау және өңдеу жүйесі
-%% & Кешіктірілген тәуекелдер саны, Risk Level & Жоғары & АҚ мамандары,
-%% жобалар & Тәуекелдерді тұрақты қайта бағалау, автоматтандыру \\
-%% 6. Ұйымдастырушылық құрылым & Рөлдер, жауапты тұлғалар және
-%% өкілеттіктердің айқын бөлінуі & Ұйымдық жетілу индексі (maturity) &
-%% Орташа & Ұйым сызбасы, регламенттер & Регламенттерді жаңарту, жауапты
-%% тұлғаларды тағайындау \\
-%% 7. Қаржы-экономикалық факторлар & Қорғаныс шараларының құны, жобалардың
-%% ROI, тәуекел мен пайданы салыстыру & ИБ жобаларының ROI, TCO & Жоғары &
-%% Қаржы бөлімі & Шығындарды оңтайландыру, басымдықтарды нақты көрсеткіштер
-%% бойынша түзу \\
-%% \end{longtable}
+\begin{longtblr}[
+  caption = {\bfseries 2 - кесте. Ақпараттық қауіпсіздік саясатының тиімділігіне әсер ететін негізгі факторлар},
+  label = none,
+  entry = none,
+]{
+  width = \linewidth,
+  colspec = {Q[133]Q[248]Q[144]Q[71]Q[108]Q[233]},
+  rows = {font=\footnotesize},
+  cells = {c},
+  hlines,
+  vlines,
+}
+Фактор & Сипаттамасы & Метрика
+			мысалы & Ықпал
+			деңгейі & Ресурстар & Ұсыныстар\\
+1.Технология\-лық
+			инфрақұрылым & Заманауи
+			қорғаныс жүйелерін, антивирустарды,
+			брандмауэрлерді, IDS/IPS пайдалануы & Негізгі
+			IT-сегменттерді қамту пайызы & Жоғары & Лицензия\-лар,
+			жабдық & Инфрақұрылымды
+			жаңарту, аудит жүргізу\\
+2.
+			Құқықтық реттеу & Заңнамалық,
+			салалық регламенттерді сақтауы & Бұзушылықтар
+			/ айыппұлдар саны & Жоғары & Заң
+			бөлімі & Комплаенс
+			бөлімін құру, нормативтерді қадағалау\\
+3.
+			Персонал мәдениеті & Хабардарлық,
+			тәртіп, АҚ саясатын орындаудағы ынтасы & Оқыту
+			деңгейі (сауалнамалар) & Маңызды & Тренинг,
+			HR & Тұрақты
+			оқыту, марапаттау, тестілеу\\
+4.
+			Басқарушылық қолдау & Басшылықтың
+			қатысуы, бюджет бөлу, басымдық беру & Жылдық
+			қаржыландыру көлемі & Маңызды & Менеджмент,
+			қаржы & Қажетті
+			ресурстарды жеткілікті бөлу, KPI енгізу\\
+5.
+			Тәуекел-менеджмент & Тәуекелдерді
+			анықтау, бағалау және өңдеу жүйесі & Кешіктірілген
+			тәуекелдер саны, Risk Level & Жоғары & АҚ
+			мамандары, жобалар & Тәуекелдерді
+			тұрақты қайта бағалау, автоматтандыру\\
+6.
+			Ұйымдастырушылық құрылым & Рөлдер,
+			жауапты тұлғалар және өкілеттіктердің
+			айқын бөлінуі & Ұйымдық
+			жетілу индексі (maturity) & Орташа & Ұйым
+			сызбасы, регламенттер & Регламенттерді
+			жаңарту, жауапты тұлғаларды тағайындау\\
+7.
+			Қаржы-экономикалық факторлар & Қорғаныс
+			шараларының құны, жобалардың ROI, тәуекел
+			мен пайданы салыстыру & ИБ
+			жобаларының ROI, TCO & Жоғары & Қаржы
+			бөлімі & Шығындарды
+			оңтайландыру, басымдықтарды нақты
+			көрсеткіштер бойынша түзу
+\end{longtblr}
 
 \begin{multicols}{2}
 2 - кестеде ақпараттық қауіпсіздік саясатының табыстылығының негізгі
@@ -615,7 +636,7 @@ Crises» (April 26-28, 2024). Tokyo, Japan- Б.462--468
 
 9. Ali R. F., Dominic P. D. D., Ali S. E. A., Rehman M., Sohail, A.
 Information Security Behavior and Information Security Policy
-Compliance: A Systematic Literature Review for Identifying the
+Compliance: A Systematic Literature Review for Identifying the\\
 Transformation Process from Noncompliance to Compliance // Applied
 Sciences. - 2021. - Vol.11:3383.
 \href{https://doi.org/10.3390/app11083383}{}
@@ -664,7 +685,7 @@ Technologies and Innovation. -- 2021. -Vol.6(1).- P.31-38. DOI
 10.46604/aiti.2021.5476.
 
 2. Sirotskij A.A., Reznichenko S.A. Formalizovannaja
-model'{} audita informacionnoj bezopasnosti organizacii
+model'{} audita informacionnoj bezopasnosti \\organizacii
 na predmet sootvetstvija trebovanijam standartov //
 Bezopasnost'{} informacionnyh tehnologij.-2021.-T.28(3).-
 S.103-117. DOI 10.26583/bit.2021.3.09.{[}in Russian{]}
@@ -684,7 +705,7 @@ https://adilet.zan.kz/kaz/docs/V2100024227 - Zhүgіngen kүnі: 09.01.2024.
 A New Method for Evaluating and Prioritization Security Risk in
 Information System Applying FMEA //Proceedings of International
 Conference on Information Technology and Applications: ICITA 2021. --
-Singapore:Springer Nature Singapore, 2022.-P.561-572. DOI
+Singapore : Springer Nature Singapore, 2022.-P.561-572. DOI
 10.1007/978-981-16-7618- 5-49
 
 6. Poljakova T. A., Minbaleev A. V., Bojchenko I. S. Problemy pravovogo
@@ -697,7 +718,6 @@ upravlenija. - 2018. - №.3 (52). -- S.32-36. {[}in Russian{]}
 қauіpsіzdіktің maңyzy // Proceedings of the15thInternational Scientific
 and Practical Conference «Scientific Horizon in the Context of Social
 Crises» (April 26-28, 2024). Tokyo, Japan- B.462--468
-
 DOI 10.51582/interconf.2024.198/{[}in Kazakh{]}
 
 8. Shan' gin, V. F. Informacionnaja
@@ -706,7 +726,7 @@ ISBN 978-5-94074-768-0. {[}in Russian{]}
 
 9. Ali R. F., Dominic P. D. D., Ali S. E. A., Rehman M., Sohail, A.
 Information Security Behavior and Information Security Policy
-Compliance: A Systematic Literature Review for Identifying the
+Compliance: A Systematic Literature Review for Identifying the\\
 Transformation Process from Noncompliance to Compliance // Applied
 Sciences. - 2021. - Vol.11:3383.
 \href{https://doi.org/10.3390/app11083383}{}
@@ -730,7 +750,7 @@ informatika.- 2023.-T.18(1).- S.96-110. DOI
 13. Musabaev R., Kasymzhanov B., Kalieva G., Ibraeva, V. Razrabotka
 informacionnyh tehnologij i sistem dlja stimulirovanija ustojchivogo
 razvitija lichnosti kak odna iz osnov razvitija Cifrovogo
-Kazahstana//Problemy optimizacii slozhnyh sistem.-2018. - S.39-46.
+Kazahstana // Problemy optimizacii slozhnyh sistem.-2018. - S.39-46.
 {[}in Russian{]}
 
 14. Aldoseri A., Al-Khalifa K. N., Hamouda A. M. Methodological approach
@@ -741,7 +761,7 @@ transformation //Applied System Innovation. -2024.- Vol.7(1). - P.14.
 15. Kozyr'{} N. S., Oganesjan L. L. Jekonomicheskie
 aspekty informacionnoj bezopasnosti: uchebnik i praktikum dlja vuzov. --
 Moskva: Izdatel' stvo Jurajt, 2025. - 131 s. ISBN
-978-5-534-17863-0 https://urait.ru/bcode/568708 - Data
+978-5-534-17863-0 \href{https://urait.ru/bcode/568708}{https://urait.ru} - Data
 obrashhenija:13.01.2025. {[}in Russian{]}
 \end{references}
 
@@ -781,5 +801,5 @@ b.buribaev@gmail.com;
 
 Serikkazhina M. S. - Master' s student of the Faculty of
 Information Technologies, NJSC «Al-Farabi Kazakh National
-university»,Almaty, Kazakhstan, е-mail: maigulserikkazhina@mail.ru\
+university», Almaty, Kazakhstan, е-mail: maigulserikkazhina@mail.ru\
 \end{authorinfo}

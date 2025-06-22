@@ -1,106 +1,583 @@
 (undo-tree-save-format-version . 1)
-"4d9d7e095925e07967316caa629bb82c00987695"
-[nil nil nil nil (26698 30378 951979 255000) 0 nil]
-([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 25) (undo-tree-id15 . -9) (t 26689 8840 696509 10000)) nil (26698 30378 951978 410000) 0 nil])
-([nil nil (25) nil (26698 30378 951977 119000) 0 nil])
-([nil nil ((43 . 45) (25 . 43) (#("sectionw" 0 8 (face font-lock-keyword-face fontified t)) . -25) (undo-tree-id11 . -8) (undo-tree-id12 . -8) (undo-tree-id13 . -8) 33 (29 . 33) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -29) (undo-tree-id14 . -1) (24 . 30)) nil (26698 30378 951976 296000) 0 nil])
-([nil nil ((#("{\\bfseries Б.Е.
-Ихсанова}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-{\\bfseries \\textsuperscript{\\envelope },
-Б.
-Бөрібаев}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-
-{\\bfseries , М.С.
-Сериккажина}
-\\begin{figure}[H]
-	\\centering
-	\\includegraphics[width=0.8\\textwidth]{media/ict/image16}
-	\\caption*{}
-\\end{figure}
-" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 24 (face (bold) fontified t) 24 26 (fontified t) 26 32 (face font-lock-keyword-face fontified t) 32 33 (fontified t latex-env-pair t) 33 39 (face font-lock-function-name-face fontified t latex-env-pair t) 39 40 (fontified t latex-env-pair t) 40 45 (fontified t) 45 55 (face font-lock-keyword-face fontified t) 55 57 (fontified t) 57 73 (face font-lock-keyword-face fontified t) 73 83 (fontified t) 83 93 (face font-lock-keyword-face fontified t) 93 95 (fontified t) 95 112 (face font-lock-builtin-face fontified t) 112 115 (fontified t) 115 124 (face font-lock-keyword-face fontified t) 124 127 (fontified t) 127 131 (face font-lock-keyword-face fontified t) 131 132 (fontified t latex-env-pair t) 132 138 (face font-lock-function-name-face fontified t latex-env-pair t) 138 139 (fontified t latex-env-pair t) 139 141 (fontified t) 141 150 (face font-lock-keyword-face fontified t) 150 151 (face (bold) fontified t) 151 167 (face (font-lock-keyword-face bold) fontified t) 167 168 (face (bold) fontified t) 168 177 (face (font-lock-keyword-face bold) fontified t) 177 192 (face (bold) fontified t) 192 194 (fontified t) 194 200 (face font-lock-keyword-face fontified t) 200 201 (fontified t latex-env-pair t) 201 207 (face font-lock-function-name-face fontified t latex-env-pair t) 207 208 (fontified t latex-env-pair t) 208 213 (fontified t) 213 223 (face font-lock-keyword-face fontified t) 223 225 (fontified t) 225 241 (face font-lock-keyword-face fontified t) 241 251 (fontified t) 251 261 (face font-lock-keyword-face fontified t) 261 263 (fontified t) 263 280 (face font-lock-builtin-face fontified t) 280 283 (fontified t) 283 292 (face font-lock-keyword-face fontified t) 292 295 (fontified t) 295 299 (face font-lock-keyword-face fontified t) 299 300 (fontified t latex-env-pair t) 300 306 (face font-lock-function-name-face fontified t latex-env-pair t) 306 307 (fontified t latex-env-pair t) 307 310 (fontified t) 310 319 (face font-lock-keyword-face fontified t) 319 338 (face (bold) fontified t) 338 340 (fontified t) 340 346 (face font-lock-keyword-face fontified t) 346 347 (fontified t latex-env-pair t) 347 353 (face font-lock-function-name-face fontified t latex-env-pair t) 353 354 (fontified t latex-env-pair t) 354 359 (fontified t) 359 369 (face font-lock-keyword-face fontified t) 369 371 (fontified t) 371 387 (face font-lock-keyword-face fontified t) 387 397 (fontified t) 397 407 (face font-lock-keyword-face fontified t) 407 409 (fontified t) 409 426 (face font-lock-builtin-face fontified t) 426 429 (fontified t) 429 438 (face font-lock-keyword-face fontified t) 438 441 (fontified t) 441 445 (face font-lock-keyword-face fontified t) 445 446 (fontified t latex-env-pair t) 446 452 (face font-lock-function-name-face fontified t latex-env-pair t) 452 453 (fontified t latex-env-pair t) 453 454 (fontified t)) . 169) (undo-tree-id1 . -453) (undo-tree-id2 . -441) (undo-tree-id3 . -14) (undo-tree-id4 . -441) (undo-tree-id5 . -14) (undo-tree-id6 . -26) (undo-tree-id7 . -127) (undo-tree-id8 . -194) (undo-tree-id9 . -295) (undo-tree-id10 . -441) 610) nil (26698 30378 951971 880000) 0 nil])
+"92ad67c61f2ac85a86f32f1e6718beab7704c843"
+[nil nil nil nil (26710 33449 744923 827000) 0 nil]
+([nil nil ((#("%% \\begin{longtable}[]{@{}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1458}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1721}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1668}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1669}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1364}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.2120}}@{}}
+%% \\toprule\\noalign{}
+%% \\begin{minipage}[b]{\\linewidth}\\centering
+%% Тәсіл
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Бағалау түрі (сапалық/
+%% 
+%% сандық)
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Басымдық (тәуекел / бақылау)
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Метрикалар немесе KPI
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Артықшылықтары
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Шектеулері
+%% \\end{minipage} \\\\
+%% \\midrule\\noalign{}
+%% \\endhead
+%% \\bottomrule\\noalign{}
+%% \\endlastfoot
+%% 1. ISO/IEC 27001 & Сапалық / ішінара сандық & Теңгерімді (тәуекел
+%% 
+%% +бақылау) & Жалпы: инцидент саны, сәйкестік пайызы \\% & Халықаралық
+%% ауқым, жүйелік қамту & Нақты өлшемдерді таңдаудың ресми алгоритмін
+%% қамтамасыз етпейді \\\\
+%% 2. COBIT & Сапалық / жетілу деңгейі үлгісі & Бақылау
+%% 
+%% + процестер & Жетілудің деңгейлері & IT-басқаруды кеңінен қамтиды &
+%% Негізгі фокус тек АҚ-те емес \\\\
+%% 3. OCTAVE & Жартылай сандық & Тәуекелге бағытталған & Тәуекелдердің
+%% сандық индексі & Тәуекелді талдаудың егжей-тегжейлі сипаттамасы & Шағын
+%% ұйымдар үшін тым күрделі болуы мүмкін \\\\
+%% 4. FMEA & Сандық & Тәуекелге негізделген & RPN (Risk Priority Number) &
+%% Сандық көрсеткіштер нақты анықталады & Ақаулар ықтималдығын сипаттайтын
+%% деректердің толық болуы шарт \\\\
+%% 5. NIST Cybersecurity Framework & Сапалық/жетілу шкалалары & Тәуекел
+%% 
+%% + бақылау & Категориялар мен жетілу деңгейлері & Әмбебап үлгі, оны
+%% бейімдеу жеңіл & Жергілікті нормалармен сәйкес келмеуі мүмкін \\\\
+%% 6. ML/AI-based әдістер & Сандық/зияткерлік талдау & Тәуекел, аномалиялар
+%% & Аномалия белсенділігінің көрсеткіштері & Жаңа қатерлерге икемді
+%% икемделу & Деректер жиыны сапалы болуын талап етеді, әзірлеу күрделі \\\\
+%% 7. SCORING (авторлық әдістер) & Әртүрлі метрикалар & Бақылау
+%% 
+%% + тәуекел & Персоналдың тәртібін бағалау & Адами аспектіні қамтиды &
+%% Жалпыға ортақ есептеу стандарты жоқ, әр компанияға бейімдеу қажет \\\\
+%% 8. Сараптамалық сауалнама & Сапалық & Шартты (модельсіз) & Балдық
+%% бағалау & Қолдануға оңай & Субъективтілігі жоғары, басымдықты нақты
+%% бөлетін құралдар шектеулі \\\\
+%% \\end{longtable}
+" 0 3 (face font-lock-comment-delimiter-face fontified t) 3 9 (face font-lock-comment-face fontified t) 9 18 (face font-lock-comment-face latex-env-pair t fontified t) 18 20 (face font-lock-comment-face latex-env-pair t fontified t) 20 27 (face font-lock-comment-face fontified t) 27 32 (face font-lock-comment-delimiter-face fontified t) 32 107 (face font-lock-comment-face fontified t) 107 112 (face font-lock-comment-delimiter-face fontified t) 112 187 (face font-lock-comment-face fontified t) 187 192 (face font-lock-comment-delimiter-face fontified t) 192 267 (face font-lock-comment-face fontified t) 267 272 (face font-lock-comment-delimiter-face fontified t) 272 347 (face font-lock-comment-face fontified t) 347 352 (face font-lock-comment-delimiter-face fontified t) 352 427 (face font-lock-comment-face fontified t) 427 432 (face font-lock-comment-delimiter-face fontified t) 432 511 (face font-lock-comment-face fontified t) 511 514 (face font-lock-comment-delimiter-face fontified t) 514 533 (face font-lock-comment-face fontified t) 533 536 (face font-lock-comment-delimiter-face fontified t) 536 542 (face font-lock-comment-face fontified t) 542 552 (face font-lock-comment-face latex-env-pair t fontified t) 552 578 (face font-lock-comment-face fontified t) 578 581 (face font-lock-comment-delimiter-face fontified t) 581 587 (face font-lock-comment-face fontified t) 587 590 (face font-lock-comment-delimiter-face fontified t) 590 594 (face font-lock-comment-face fontified t) 594 604 (face font-lock-comment-face latex-env-pair t fontified t) 604 613 (face font-lock-comment-face fontified t) 613 623 (face font-lock-comment-face latex-env-pair t fontified t) 623 649 (face font-lock-comment-face fontified t) 649 652 (face font-lock-comment-delimiter-face fontified t) 652 675 (face font-lock-comment-face fontified t) 675 678 (face font-lock-comment-delimiter-face fontified t) 678 679 (face font-lock-comment-face fontified t) 679 682 (face font-lock-comment-delimiter-face fontified t) 682 690 (face font-lock-comment-face fontified t) 690 693 (face font-lock-comment-delimiter-face fontified t) 693 697 (face font-lock-comment-face fontified t) 697 707 (face font-lock-comment-face latex-env-pair t fontified t) 707 716 (face font-lock-comment-face fontified t) 716 726 (face font-lock-comment-face latex-env-pair t fontified t) 726 752 (face font-lock-comment-face fontified t) 752 755 (face font-lock-comment-delimiter-face fontified t) 755 784 (face font-lock-comment-face fontified t) 784 787 (face font-lock-comment-delimiter-face fontified t) 787 791 (face font-lock-comment-face fontified t) 791 801 (face font-lock-comment-face latex-env-pair t fontified t) 801 810 (face font-lock-comment-face fontified t) 810 820 (face font-lock-comment-face latex-env-pair t fontified t) 820 846 (face font-lock-comment-face fontified t) 846 849 (face font-lock-comment-delimiter-face fontified t) 849 871 (face font-lock-comment-face fontified t) 871 874 (face font-lock-comment-delimiter-face fontified t) 874 878 (face font-lock-comment-face fontified t) 878 888 (face font-lock-comment-face latex-env-pair t fontified t) 888 897 (face font-lock-comment-face fontified t) 897 907 (face font-lock-comment-face latex-env-pair t fontified t) 907 933 (face font-lock-comment-face fontified t) 933 936 (face font-lock-comment-delimiter-face fontified t) 936 951 (face font-lock-comment-face fontified t) 951 954 (face font-lock-comment-delimiter-face fontified t) 954 958 (face font-lock-comment-face fontified t) 958 968 (face font-lock-comment-face latex-env-pair t fontified t) 968 977 (face font-lock-comment-face fontified t) 977 987 (face font-lock-comment-face latex-env-pair t fontified t) 987 1013 (face font-lock-comment-face fontified t) 1013 1016 (face font-lock-comment-delimiter-face fontified t) 1016 1027 (face font-lock-comment-face fontified t) 1027 1030 (face font-lock-comment-delimiter-face fontified t) 1030 1034 (face font-lock-comment-face fontified t) 1034 1044 (face font-lock-comment-face latex-env-pair t fontified t) 1044 1048 (face font-lock-comment-face fontified t) 1048 1051 (face font-lock-comment-delimiter-face fontified t) 1051 1070 (face font-lock-comment-face fontified t) 1070 1073 (face font-lock-comment-delimiter-face fontified t) 1073 1082 (face font-lock-comment-face fontified t) 1082 1085 (face font-lock-comment-delimiter-face fontified t) 1085 1107 (face font-lock-comment-face fontified t) 1107 1110 (face font-lock-comment-delimiter-face fontified t) 1110 1123 (face font-lock-comment-face fontified t) 1123 1126 (face font-lock-comment-delimiter-face fontified t) 1126 1192 (face font-lock-comment-face fontified t) 1192 1195 (face font-lock-comment-delimiter-face fontified t) 1195 1196 (face font-lock-comment-face fontified t) 1196 1199 (face font-lock-comment-delimiter-face fontified t) 1199 1267 (face font-lock-comment-face fontified t) 1267 1270 (face font-lock-comment-delimiter-face fontified t) 1270 1337 (face font-lock-comment-face fontified t) 1337 1340 (face font-lock-comment-delimiter-face fontified t) 1340 1362 (face font-lock-comment-face fontified t) 1362 1365 (face font-lock-comment-delimiter-face fontified t) 1365 1418 (face font-lock-comment-face fontified t) 1418 1421 (face font-lock-comment-delimiter-face fontified t) 1421 1422 (face font-lock-comment-face fontified t) 1422 1425 (face font-lock-comment-delimiter-face fontified t) 1425 1493 (face font-lock-comment-face fontified t) 1493 1496 (face font-lock-comment-delimiter-face fontified t) 1496 1500 (face font-lock-comment-face fontified t) 1500 1518 (face font-lock-comment-face fontified t) 1518 1528 (face font-lock-comment-face fontified t) 1528 1531 (face font-lock-comment-delimiter-face fontified t) 1531 1599 (face font-lock-comment-face fontified t) 1599 1602 (face font-lock-comment-delimiter-face fontified t) 1602 1674 (face font-lock-comment-face fontified t) 1674 1677 (face font-lock-comment-delimiter-face fontified t) 1677 1718 (face font-lock-comment-face fontified t) 1718 1721 (face font-lock-comment-delimiter-face fontified t) 1721 1793 (face font-lock-comment-face fontified t) 1793 1796 (face font-lock-comment-delimiter-face fontified t) 1796 1868 (face font-lock-comment-face fontified t) 1868 1871 (face font-lock-comment-delimiter-face fontified t) 1871 1903 (face font-lock-comment-face fontified t) 1903 1906 (face font-lock-comment-delimiter-face fontified t) 1906 1975 (face font-lock-comment-face fontified t) 1975 1978 (face font-lock-comment-delimiter-face fontified t) 1978 1979 (face font-lock-comment-face fontified t) 1979 1982 (face font-lock-comment-delimiter-face fontified t) 1982 2049 (face font-lock-comment-face fontified t) 2049 2052 (face font-lock-comment-delimiter-face fontified t) 2052 2117 (face font-lock-comment-face fontified t) 2117 2120 (face font-lock-comment-delimiter-face fontified t) 2120 2193 (face font-lock-comment-face fontified t) 2193 2196 (face font-lock-comment-delimiter-face fontified t) 2196 2262 (face font-lock-comment-face fontified t) 2262 2265 (face font-lock-comment-delimiter-face fontified t) 2265 2337 (face font-lock-comment-face fontified t) 2337 2340 (face font-lock-comment-delimiter-face fontified t) 2340 2401 (face font-lock-comment-face fontified t) 2401 2404 (face font-lock-comment-delimiter-face fontified t) 2404 2405 (face font-lock-comment-face fontified t) 2405 2408 (face font-lock-comment-delimiter-face fontified t) 2408 2477 (face font-lock-comment-face fontified t) 2477 2480 (face font-lock-comment-delimiter-face fontified t) 2480 2549 (face font-lock-comment-face fontified t) 2549 2552 (face font-lock-comment-delimiter-face fontified t) 2552 2618 (face font-lock-comment-face fontified t) 2618 2621 (face font-lock-comment-delimiter-face fontified t) 2621 2689 (face font-lock-comment-face fontified t) 2689 2692 (face font-lock-comment-delimiter-face fontified t) 2692 2721 (face font-lock-comment-face fontified t) 2721 2724 (face font-lock-comment-delimiter-face fontified t) 2724 2728 (face font-lock-comment-face fontified t) 2728 2739 (face font-lock-comment-face latex-env-pair t fontified t) 2739 2740 (face font-lock-comment-face fontified t)) . 15757) (undo-tree-id38 . -2721) (undo-tree-id39 . -2721) (undo-tree-id40 . -14) (undo-tree-id41 . -2739) (undo-tree-id42 . -2740) (undo-tree-id43 . 1) (undo-tree-id44 . -2721) (undo-tree-id45 . -2740)) nil (26710 33453 601065 826000) 0 nil] [nil nil ((nil rear-nonsticky nil 17823 . 17824) (nil fontified nil 15757 . 17824) (15757 . 17824) (#("%% \\begin{longtable}[]{@{}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1458}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1721}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1668}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1669}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1364}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.2120}}@{}}
+%% \\toprule\\noalign{}
+%% \\begin{minipage}[b]{\\linewidth}\\centering
+%% Тәсіл
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Бағалау түрі (сапалық/
+%% 
+%% сандық)
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Басымдық (тәуекел / бақылау)
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Метрикалар немесе KPI
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Артықшылықтары
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Шектеулері
+%% \\end{minipage} \\\\
+%% \\midrule\\noalign{}
+%% \\endhead
+%% \\bottomrule\\noalign{}
+%% \\endlastfoot
+%% 1. ISO/IEC 27001 & Сапалық / ішінара сандық & Теңгерімді (тәуекел
+%% 
+%% +бақылау) & Жалпы: инцидент саны, сәйкестік пайызы \\% & Халықаралық
+%% ауқым, жүйелік қамту & Нақты өлшемдерді таңдаудың ресми алгоритмін
+%% қамтамасыз етпейді \\\\
+%% 2. COBIT & Сапалық / жетілу деңгейі үлгісі & Бақылау
+%% 
+%% + процестер & Жетілудің деңгейлері & IT-басқаруды кеңінен қамтиды &
+%% Негізгі фокус тек АҚ-те емес \\\\
+%% 3. OCTAVE & Жартылай сандық & Тәуекелге бағытталған & Тәуекелдердің
+%% сандық индексі & Тәуекелді талдаудың егжей-тегжейлі сипаттамасы & Шағын
+%% ұйымдар үшін тым күрделі болуы мүмкін \\\\
+%% 4. FMEA & Сандық & Тәуекелге негізделген & RPN (Risk Priority Number) &
+%% Сандық көрсеткіштер нақты анықталады & Ақаулар ықтималдығын сипаттайтын
+%% деректердің толық болуы шарт \\\\
+%% 5. NIST Cybersecurity Framework & Сапалық/жетілу шкалалары & Тәуекел
+%% 
+%% + бақылау & Категориялар мен жетілу деңгейлері & Әмбебап үлгі, оны
+%% бейімдеу жеңіл & Жергілікті нормалармен сәйкес келмеуі мүмкін \\\\
+%% 6. ML/AI-based әдістер & Сандық/зияткерлік талдау & Тәуекел, аномалиялар
+%% & Аномалия белсенділігінің көрсеткіштері & Жаңа қатерлерге икемді
+%% икемделу & Деректер жиыны сапалы болуын талап етеді, әзірлеу күрделі \\\\
+%% 7. SCORING (авторлық әдістер) & Әртүрлі метрикалар & Бақылау
+%% 
+%% + тәуекел & Персоналдың тәртібін бағалау & Адами аспектіні қамтиды &
+%% Жалпыға ортақ есептеу стандарты жоқ, әр компанияға бейімдеу қажет \\\\
+%% 8. Сараптамалық сауалнама & Сапалық & Шартты (модельсіз) & Балдық
+%% бағалау & Қолдануға оңай & Субъективтілігі жоғары, басымдықты нақты
+%% бөлетін құралдар шектеулі \\\\
+%% \\end{longtable}" 0 3 (face font-lock-comment-delimiter-face fontified t) 3 9 (face font-lock-comment-face fontified t) 9 18 (face font-lock-comment-face latex-env-pair t fontified t) 18 20 (face font-lock-comment-face latex-env-pair t fontified t) 20 27 (face font-lock-comment-face fontified t) 27 32 (face font-lock-comment-delimiter-face fontified t) 32 107 (face font-lock-comment-face fontified t) 107 112 (face font-lock-comment-delimiter-face fontified t) 112 187 (face font-lock-comment-face fontified t) 187 192 (face font-lock-comment-delimiter-face fontified t) 192 267 (face font-lock-comment-face fontified t) 267 272 (face font-lock-comment-delimiter-face fontified t) 272 347 (face font-lock-comment-face fontified t) 347 352 (face font-lock-comment-delimiter-face fontified t) 352 427 (face font-lock-comment-face fontified t) 427 432 (face font-lock-comment-delimiter-face fontified t) 432 511 (face font-lock-comment-face fontified t) 511 514 (face font-lock-comment-delimiter-face fontified t) 514 533 (face font-lock-comment-face fontified t) 533 536 (face font-lock-comment-delimiter-face fontified t) 536 542 (face font-lock-comment-face fontified t) 542 552 (face font-lock-comment-face latex-env-pair t fontified t) 552 578 (face font-lock-comment-face fontified t) 578 581 (face font-lock-comment-delimiter-face fontified t) 581 587 (face font-lock-comment-face fontified t) 587 590 (face font-lock-comment-delimiter-face fontified t) 590 594 (face font-lock-comment-face fontified t) 594 604 (face font-lock-comment-face latex-env-pair t fontified t) 604 613 (face font-lock-comment-face fontified t) 613 623 (face font-lock-comment-face latex-env-pair t fontified t) 623 649 (face font-lock-comment-face fontified t) 649 652 (face font-lock-comment-delimiter-face fontified t) 652 675 (face font-lock-comment-face fontified t) 675 678 (face font-lock-comment-delimiter-face fontified t) 678 679 (face font-lock-comment-face fontified t) 679 682 (face font-lock-comment-delimiter-face fontified t) 682 690 (face font-lock-comment-face fontified t) 690 693 (face font-lock-comment-delimiter-face fontified t) 693 697 (face font-lock-comment-face fontified t) 697 707 (face font-lock-comment-face latex-env-pair t fontified t) 707 716 (face font-lock-comment-face fontified t) 716 726 (face font-lock-comment-face latex-env-pair t fontified t) 726 752 (face font-lock-comment-face fontified t) 752 755 (face font-lock-comment-delimiter-face fontified t) 755 784 (face font-lock-comment-face fontified t) 784 787 (face font-lock-comment-delimiter-face fontified t) 787 791 (face font-lock-comment-face fontified t) 791 801 (face font-lock-comment-face latex-env-pair t fontified t) 801 810 (face font-lock-comment-face fontified t) 810 820 (face font-lock-comment-face latex-env-pair t fontified t) 820 846 (face font-lock-comment-face fontified t) 846 849 (face font-lock-comment-delimiter-face fontified t) 849 871 (face font-lock-comment-face fontified t) 871 874 (face font-lock-comment-delimiter-face fontified t) 874 878 (face font-lock-comment-face fontified t) 878 888 (face font-lock-comment-face latex-env-pair t fontified t) 888 897 (face font-lock-comment-face fontified t) 897 907 (face font-lock-comment-face latex-env-pair t fontified t) 907 933 (face font-lock-comment-face fontified t) 933 936 (face font-lock-comment-delimiter-face fontified t) 936 951 (face font-lock-comment-face fontified t) 951 954 (face font-lock-comment-delimiter-face fontified t) 954 958 (face font-lock-comment-face fontified t) 958 968 (face font-lock-comment-face latex-env-pair t fontified t) 968 977 (face font-lock-comment-face fontified t) 977 987 (face font-lock-comment-face latex-env-pair t fontified t) 987 1013 (face font-lock-comment-face fontified t) 1013 1016 (face font-lock-comment-delimiter-face fontified t) 1016 1027 (face font-lock-comment-face fontified t) 1027 1030 (face font-lock-comment-delimiter-face fontified t) 1030 1034 (face font-lock-comment-face fontified t) 1034 1044 (face font-lock-comment-face latex-env-pair t fontified t) 1044 1048 (face font-lock-comment-face fontified t) 1048 1051 (face font-lock-comment-delimiter-face fontified t) 1051 1070 (face font-lock-comment-face fontified t) 1070 1073 (face font-lock-comment-delimiter-face fontified t) 1073 1082 (face font-lock-comment-face fontified t) 1082 1085 (face font-lock-comment-delimiter-face fontified t) 1085 1107 (face font-lock-comment-face fontified t) 1107 1110 (face font-lock-comment-delimiter-face fontified t) 1110 1123 (face font-lock-comment-face fontified t) 1123 1126 (face font-lock-comment-delimiter-face fontified t) 1126 1192 (face font-lock-comment-face fontified t) 1192 1195 (face font-lock-comment-delimiter-face fontified t) 1195 1196 (face font-lock-comment-face fontified t) 1196 1199 (face font-lock-comment-delimiter-face fontified t) 1199 1267 (face font-lock-comment-face fontified t) 1267 1270 (face font-lock-comment-delimiter-face fontified t) 1270 1337 (face font-lock-comment-face fontified t) 1337 1340 (face font-lock-comment-delimiter-face fontified t) 1340 1362 (face font-lock-comment-face fontified t) 1362 1365 (face font-lock-comment-delimiter-face fontified t) 1365 1418 (face font-lock-comment-face fontified t) 1418 1421 (face font-lock-comment-delimiter-face fontified t) 1421 1422 (face font-lock-comment-face fontified t) 1422 1425 (face font-lock-comment-delimiter-face fontified t) 1425 1493 (face font-lock-comment-face fontified t) 1493 1496 (face font-lock-comment-delimiter-face fontified t) 1496 1518 (face font-lock-comment-face fontified t) 1518 1528 (face font-lock-comment-face fontified t) 1528 1531 (face font-lock-comment-delimiter-face fontified t) 1531 1599 (face font-lock-comment-face fontified t) 1599 1602 (face font-lock-comment-delimiter-face fontified t) 1602 1674 (face font-lock-comment-face fontified t) 1674 1677 (face font-lock-comment-delimiter-face fontified t) 1677 1718 (face font-lock-comment-face fontified t) 1718 1721 (face font-lock-comment-delimiter-face fontified t) 1721 1793 (face font-lock-comment-face fontified t) 1793 1796 (face font-lock-comment-delimiter-face fontified t) 1796 1868 (face font-lock-comment-face fontified t) 1868 1871 (face font-lock-comment-delimiter-face fontified t) 1871 1903 (face font-lock-comment-face fontified t) 1903 1906 (face font-lock-comment-delimiter-face fontified t) 1906 1975 (face font-lock-comment-face fontified t) 1975 1978 (face font-lock-comment-delimiter-face fontified t) 1978 1979 (face font-lock-comment-face fontified t) 1979 1982 (face font-lock-comment-delimiter-face fontified t) 1982 2049 (face font-lock-comment-face fontified t) 2049 2052 (face font-lock-comment-delimiter-face fontified t) 2052 2117 (face font-lock-comment-face fontified t) 2117 2120 (face font-lock-comment-delimiter-face fontified t) 2120 2193 (face font-lock-comment-face fontified t) 2193 2196 (face font-lock-comment-delimiter-face fontified t) 2196 2262 (face font-lock-comment-face fontified t) 2262 2265 (face font-lock-comment-delimiter-face fontified t) 2265 2337 (face font-lock-comment-face fontified t) 2337 2340 (face font-lock-comment-delimiter-face fontified t) 2340 2401 (face font-lock-comment-face fontified t) 2401 2404 (face font-lock-comment-delimiter-face fontified t) 2404 2405 (face font-lock-comment-face fontified t) 2405 2408 (face font-lock-comment-delimiter-face fontified t) 2408 2477 (face font-lock-comment-face fontified t) 2477 2480 (face font-lock-comment-delimiter-face fontified t) 2480 2549 (face font-lock-comment-face fontified t) 2549 2552 (face font-lock-comment-delimiter-face fontified t) 2552 2618 (face font-lock-comment-face fontified t) 2618 2621 (face font-lock-comment-delimiter-face fontified t) 2621 2689 (face font-lock-comment-face fontified t) 2689 2692 (face font-lock-comment-delimiter-face fontified t) 2692 2721 (face font-lock-comment-face fontified t) 2721 2724 (face font-lock-comment-delimiter-face fontified t) 2724 2728 (face font-lock-comment-face fontified t) 2728 2739 (face font-lock-comment-face latex-env-pair t fontified t)) . 15757) (undo-tree-id4 . -1599) (undo-tree-id5 . -14) (undo-tree-id6 . -2721) (undo-tree-id7 . -14) (undo-tree-id8 . -2721) (undo-tree-id9 . -2738) 18497 (t 26707 60558 684110 592000)) ((15757 . 18496) (#("% \\usepackage{tabularray}
+\\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  width = \\linewidth,
+  colspec = {Q[121]Q[121]Q[127]Q[158]Q[175]Q[233]},
+  cells = {c},
+  hlines,
+  vlines,
+}
+Тәсіл & {
+			Бағалау
+			түрі (сапалық/
+			\\\\сандық)
+		} & Басымдық
+			(тәуекел / бақылау) & Метрикалар
+			немесе KPI & Артықшылықтары & Шектеулері\\\\
+1.
+			ISO/IEC 27001 & Сапалық
+			/ ішінара сандық & {
+			Теңгерімді
+			(тәуекел
+			\\\\+бақылау)
+		} & Жалпы:
+			инцидент саны, сәйкестік пайызы \\% & Халықаралық
+			ауқым, жүйелік қамту & Нақты
+			өлшемдерді таңдаудың ресми алгоритмін
+			қамтамасыз етпейді\\\\
+2.
+			COBIT & Сапалық
+			/ жетілу деңгейі үлгісі & {
+			Бақылау
+			
+			
+			\\\\+
+			процестер
+		} & Жетілудің
+			деңгейлері & IT-басқаруды
+			кеңінен қамтиды & Негізгі
+			фокус тек АҚ-те емес\\\\
+3.
+			OCTAVE & Жартылай
+			сандық & Тәуекелге
+			бағытталған & Тәуекелдердің
+			сандық индексі & Тәуекелді
+			талдаудың егжей-тегжейлі сипаттамасы & Шағын
+			ұйымдар үшін тым күрделі болуы мүмкін\\\\
+4.
+			FMEA & Сандық & Тәуекелге
+			негізделген & RPN
+			(Risk Priority Number) & Сандық
+			көрсеткіштер нақты анықталады & Ақаулар
+			ықтималдығын сипаттайтын деректердің
+			толық болуы шарт\\\\
+5.
+			NIST Cybersecurity Framework & Сапалық/жетілу
+			шкалалары & {
+			Тәуекел
+			\\\\+
+			бақылау
+		} & Категориялар
+			мен жетілу деңгейлері & Әмбебап
+			үлгі, оны бейімдеу жеңіл & Жергілікті
+			нормалармен сәйкес келмеуі мүмкін\\\\
+6.
+			ML/AI-based әдістер & Сандық/зияткерлік
+			талдау & Тәуекел,
+			аномалиялар & Аномалия
+			белсенділігінің көрсеткіштері & Жаңа
+			қатерлерге икемді икемделу & Деректер
+			жиыны сапалы болуын талап етеді,
+			әзірлеу күрделі\\\\
+7.
+			SCORING (авторлық әдістер) & Әртүрлі
+			метрикалар & {
+			Бақылау
+			\\\\+
+			тәуекел
+		} & Персоналдың
+			тәртібін бағалау & Адами
+			аспектіні қамтиды & Жалпыға
+			ортақ есептеу стандарты жоқ, әр
+			компанияға бейімдеу қажет\\\\
+8.
+			Сараптамалық сауалнама & Сапалық & Шартты
+			(модельсіз) & Балдық
+			бағалау & Қолдануға
+			оңай & Субъективтілігі
+			жоғары, басымдықты нақты бөлетін
+			құралдар шектеулі
+\\end{longtblr}" 0 2 (face font-lock-comment-delimiter-face fontified nil) 2 26 (face font-lock-comment-face fontified nil) 26 32 (face font-lock-keyword-face fontified nil) 32 33 (latex-env-pair t fontified nil) 33 41 (face font-lock-function-name-face latex-env-pair t fontified nil) 41 42 (latex-env-pair t fontified nil) 42 43 (fontified nil) 43 44 (fontified nil) 44 89 (fontified nil) 89 99 (face font-lock-keyword-face fontified nil) 99 232 (fontified nil) 232 234 (face font-lock-warning-face fontified nil) 234 336 (fontified nil) 336 338 (face font-lock-warning-face fontified nil) 338 422 (fontified nil) 422 424 (face font-lock-warning-face fontified nil) 424 482 (fontified nil) 482 484 (face font-lock-keyword-face fontified nil) 484 593 (fontified nil) 593 595 (face font-lock-warning-face fontified nil) 595 671 (fontified nil) 671 673 (face font-lock-warning-face fontified nil) 673 785 (fontified nil) 785 787 (face font-lock-warning-face fontified nil) 787 983 (fontified nil) 983 985 (face font-lock-warning-face fontified nil) 985 1176 (fontified nil) 1176 1178 (face font-lock-warning-face fontified nil) 1178 1262 (fontified nil) 1262 1264 (face font-lock-warning-face fontified nil) 1264 1401 (fontified nil) 1401 1408 (fontified nil) 1408 1410 (fontified nil face font-lock-warning-face) 1410 1411 (fontified nil) 1411 1500 (fontified nil) 1500 1504 (fontified nil) 1504 1543 (fontified nil) 1543 1544 (fontified nil) 1544 1639 (fontified nil) 1639 1641 (fontified nil face font-lock-warning-face) 1641 1717 (fontified nil) 1717 1719 (fontified nil face font-lock-warning-face) 1719 1872 (fontified nil) 1872 1874 (fontified nil face font-lock-warning-face) 1874 2053 (fontified nil) 2053 2057 (fontified nil face font-lock-keyword-face) 2057 2058 (fontified nil latex-env-pair t) 2058 2066 (fontified nil face font-lock-function-name-face latex-env-pair t) 2066 2067 (fontified nil latex-env-pair t rear-nonsticky nil)) . 15757) (undo-tree-id30 . 2041) (undo-tree-id31 . -2066) (undo-tree-id32 . -2066) (undo-tree-id33 . -664) (undo-tree-id34 . 2024) (undo-tree-id35 . -43) (undo-tree-id36 . -43) (undo-tree-id37 . -43) (nil fontified nil 17631 . 17810) (nil fontified nil 17629 . 17631) (nil fontified nil 17476 . 17629) (nil fontified nil 17474 . 17476) (nil fontified nil 17398 . 17474) (nil fontified nil 17396 . 17398) (nil fontified nil 17301 . 17396) (nil fontified t 17300 . 17301) (nil fontified t 17261 . 17300) (nil fontified t 17257 . 17261) (nil fontified t 17168 . 17257) (nil fontified t 17167 . 17168) (nil fontified t 17165 . 17167) (nil fontified t 17158 . 17165) (nil fontified t 17021 . 17158) (nil fontified t 17019 . 17021) (nil fontified t 16935 . 17019) (nil fontified t 16933 . 16935) (nil fontified t 16742 . 16933) (nil fontified t 16740 . 16742) (nil fontified t 16544 . 16740) (nil fontified t 16542 . 16544) (nil fontified t 16430 . 16542) (nil fontified t 16428 . 16430) (nil fontified t 16352 . 16428) (nil fontified t 16350 . 16352) (nil fontified t 16241 . 16350) (nil fontified t 16239 . 16241) (nil fontified t 16181 . 16239) (nil fontified t 16179 . 16181) (nil fontified t 16095 . 16179) (nil fontified t 16093 . 16095) (nil fontified t 15991 . 16093) (nil fontified t 15989 . 15991) (nil fontified t 15856 . 15989) (nil fontified t 15846 . 15856) (nil fontified t 15801 . 15846) (nil fontified t 15800 . 15801) (nil fontified t 15799 . 15800) (nil fontified t 15798 . 15799) (nil fontified t 15790 . 15798) (nil fontified t 15789 . 15790) (nil fontified t 15783 . 15789) (nil fontified t 15759 . 15783) (nil fontified t 15757 . 15759) (nil rear-nonsticky t 17823 . 17824)) (26710 33449 274237 351000) 0 nil])
+([nil nil ((#("p" 0 1 (fontified t)) . -15756) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1) 15757 (15756 . 15757) (15755 . 15756) (t 26710 33453 603432 37000) 15626) nil (26710 33465 784341 951000) 0 nil])
+([nil nil ((#("% \\usepackage{tabularray}
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 26 (face font-lock-comment-face fontified t)) . 15757) (undo-tree-id3 . -25)) ((15757 . 15783)) (26710 33448 850958 438000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 17822 . 17823) (nil fontified nil 15756 . 17823) (15756 . 17823)) nil (26710 33465 784340 619000) 0 nil])
+([nil nil ((#("{\\bfseries 1 - кесте. Ақпараттық қауіпсіздік саясатының тиімділігін бағалауға арналған әдістемелік амалдарды салыстырмалы талдау}
+" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 128 (face (bold) fontified t) 128 130 (fontified t)) . -15626) 15756) ((15626 . 15756)) (26710 33448 541919 836000) 0 nil])
+([nil nil ((#("% \\usepackage{tabularray}
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 26 (face font-lock-comment-face fontified t)) . 15756) (undo-tree-id52 . -26) (undo-tree-id53 . -25) (undo-tree-id54 . -26)) nil (26710 33465 784340 58000) 0 nil])
+([nil nil ((15644 . 15645) 15627) ((#("
+" 0 1 (fontified t)) . 15644) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1) (undo-tree-id25 . -1) (undo-tree-id26 . -1) (undo-tree-id27 . -1) (undo-tree-id28 . -1) (undo-tree-id29 . -1)) (26710 33448 163876 59000) 0 nil])
+([nil nil ((#("{\\bfseries 1 - кесте. Ақпараттық қауіпсіздік саясатының тиімділігін бағалауға арналған әдістемелік амалдарды салыстырмалы талдау}
+" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 128 (face (bold) fontified t) 128 129 (fontified t) 129 130 (fontified t)) . -15626) (undo-tree-id46 . -130) (undo-tree-id47 . -130) (undo-tree-id48 . -130) (undo-tree-id49 . -130) (undo-tree-id50 . -130) (undo-tree-id51 . -130) 15756) nil (26710 33465 784338 515000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 15786 . 15787) (nil fontified nil 15645 . 15787) (15645 . 15787)) ((#("  caption = {\\bfseries 1 - кесте. Ақпараттық қауіпсіздік саясатының тиімділігін бағалауға арналған әдістемелік амалдарды салыстырмалы талдау}," 0 13 (fontified nil) 13 22 (face font-lock-keyword-face fontified nil) 22 140 (face (bold) fontified nil) 140 141 (fontified nil) 141 142 (fontified nil rear-nonsticky nil)) . 15645) (nil rear-nonsticky t 15786 . 15787)) (26710 33447 232202 983000) 0 nil])
+([nil nil ((15643 . 15644) 15626) nil (26710 33465 784329 668000) 0 nil])
 ([nil nil ((#("
-" 0 1 (fontified t)) . 169) (undo-tree-id0 . 1)) nil (26698 30378 952079 271000) 0 nil])
-([nil nil ((295 . 296) (#("
-" 0 1 (fontified t)) . -295) (undo-tree-id24 . -1) (undo-tree-id25 . -1) (undo-tree-id26 . -1) (undo-tree-id27 . -1) 235) nil (26698 30457 82400 522000) 0 nil] [nil nil ((170 . 192) (323 . 343)) ((#("\\end{articleheader}
-" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 18 (face font-lock-function-name-face fontified t latex-env-pair t) 18 19 (fontified t latex-env-pair t) 19 20 (fontified t)) . 323) (undo-tree-id16 . 20) (#("\\begin{articleheader}
-" 0 6 (face font-lock-keyword-face fontified t) 6 7 (latex-env-pair t fontified t) 7 20 (face font-lock-function-name-face latex-env-pair t fontified t) 20 21 (latex-env-pair t fontified t) 21 22 (fontified t)) . 170)) (26698 30378 951940 407000) 0 nil])
-([nil nil ((170 . 190) (323 . 341) 170) nil (26698 30457 82212 486000) 0 nil])
+" 0 1 (fontified t)) . 15626) (undo-tree-id0 . -1) (undo-tree-id1 . -1)) ((15626 . 15627) (t 26710 33432 875574 634000)) (26710 33432 874610 906000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 15785 . 15786) (nil fontified nil 15644 . 15786) (15644 . 15786)) nil (26710 33465 784325 480000) 0 nil])
 nil
-([nil nil ((#("{\\bfseries " 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 11 (face (bold) fontified t)) . 255) (undo-tree-id23 . -10)) nil (26698 30457 82211 594000) 0 nil])
-([nil nil ((#("}" 0 1 (fontified t)) . 282)) nil (26698 30457 82209 986000) 0 nil])
-([nil nil ((263 . 268) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -263) (undo-tree-id22 . -1) (255 . 264)) nil (26698 30457 82209 343000) 0 nil])
-([nil nil ((2475 . 2476) (#(" " 0 1 (face (bold) fontified t)) . 2475)) nil (26698 30457 82208 271000) 0 nil])
-([nil nil ((2518 . 2519)) nil (26698 30457 82207 772000) 0 nil])
-([nil nil ((#(" " 0 1 (fontified t)) . 2530)) nil (26698 30457 82207 126000) 0 nil])
-([nil nil ((2531 . 2532) (#(" " 0 1 (fontified t)) . 2531)) nil (26698 30457 82206 522000) 0 nil])
-([nil nil ((2548 . 2549)) nil (26698 30457 82206 7000) 0 nil])
-([nil nil ((2327 . 2349) (2551 . 2571) 2327) nil (26698 30457 82205 585000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 168 . 169) (#("
-" 0 1 (fontified nil)) . -254) (168 . 255)) nil (26698 30457 82204 666000) 0 nil])
-([nil nil ((24 . 46) (255 . 275)) nil (26698 30457 82204 167000) 0 nil])
-([nil nil ((2722 . 2742) (2830 . 2848)) nil (26698 30457 82203 691000) 0 nil])
-([nil nil ((5057 . 5058) (#(" " 0 1 (face (bold) fontified t)) . 5057)) nil (26698 30457 82203 42000) 0 nil])
-([nil nil ((5093 . 5094) (#(" " 0 1 (face (bold) fontified t)) . 5093)) nil (26698 30457 82202 79000) 0 nil])
-([nil nil ((#(" " 0 1 (fontified t)) . 5105)) nil (26698 30457 82201 458000) 0 nil])
-([nil nil ((5106 . 5107) (#(" " 0 1 (fontified t)) . 5106)) nil (26698 30457 82200 906000) 0 nil])
-([nil nil ((5111 . 5112) (#("
-" 0 1 (fontified t)) . -5111) 5107) nil (26698 30457 82200 263000) 0 nil])
-([nil nil ((5124 . 5125)) nil (26698 30457 82199 786000) 0 nil])
-([nil nil ((4887 . 4909) (5127 . 5147) 4887) nil (26698 30457 82199 338000) 0 nil])
-([nil nil ((5112 . 5122) (#("*" 0 1 (fontified t)) . -5112) (undo-tree-id21 . -1) 5113) nil (26698 30457 82198 567000) 0 nil])
-([nil nil ((5179 . 5199) (5273 . 5291)) nil (26698 30457 82197 84000) 0 nil])
-([nil nil ((7342 . 7363) (15551 . 15567)) nil (26698 30457 82196 619000) 0 nil])
+([nil nil ((17795 . 17797) (t 26710 33465 786348 215000)) nil (26710 33500 758915 696000) 0 nil])
+([nil nil ((#("  label = none,
+  entry = none,
+]{
+  width = \\linewidth,
+  colspec = {Q[121]Q[121]Q[127]Q[158]Q[175]Q[233]},
+  cells = {c},
+  hlines,
+  vlines,
+}
+Тәсіл & {
+			Бағалау
+			түрі (сапалық/
+			\\\\сандық)
+		} & Басымдық
+			(тәуекел / бақылау) & Метрикалар
+			немесе KPI & Артықшылықтары & Шектеулері\\\\
+1.
+			ISO/IEC 27001 & Сапалық
+			/ ішінара сандық & {
+			Теңгерімді
+			(тәуекел
+			\\\\+бақылау)
+		} & Жалпы:
+			инцидент саны, сәйкестік пайызы \\% & Халықаралық
+			ауқым, жүйелік қамту & Нақты
+			өлшемдерді таңдаудың ресми алгоритмін
+			қамтамасыз етпейді\\\\
+2.
+			COBIT & Сапалық
+			/ жетілу деңгейі үлгісі & {
+			Бақылау
+			
+			
+			\\\\+
+			процестер
+		} & Жетілудің
+			деңгейлері & IT-басқаруды
+			кеңінен қамтиды & Негізгі
+			фокус тек АҚ-те емес\\\\
+3.
+			OCTAVE & Жартылай
+			сандық & Тәуекелге
+			бағытталған & Тәуекелдердің
+			сандық индексі & Тәуекелді
+			талдаудың егжей-тегжейлі сипаттамасы & Шағын
+			ұйымдар үшін тым күрделі болуы мүмкін\\\\
+4.
+			FMEA & Сандық & Тәуекелге
+			негізделген & RPN
+			(Risk Priority Number) & Сандық
+			көрсеткіштер нақты анықталады & Ақаулар
+			ықтималдығын сипаттайтын деректердің
+			толық болуы шарт\\\\
+5.
+			NIST Cybersecurity Framework & Сапалық/жетілу
+			шкалалары & {
+			Тәуекел
+			\\\\+
+			бақылау
+		} & Категориялар
+			мен жетілу деңгейлері & Әмбебап
+			үлгі, оны бейімдеу жеңіл & Жергілікті
+			нормалармен сәйкес келмеуі мүмкін\\\\
+6.
+			ML/AI-based әдістер & Сандық/зияткерлік
+			талдау & Тәуекел,
+			аномалиялар & Аномалия
+			белсенділігінің көрсеткіштері & Жаңа
+			қатерлерге икемді икемделу & Деректер
+			жиыны сапалы болуын талап етеді,
+			әзірлеу күрделі\\\\
+7.
+			SCORING (авторлық әдістер) & Әртүрлі
+			метрикалар & {
+			Бақылау
+			\\\\+
+			тәуекел
+		} & Персоналдың
+			тәртібін бағалау & Адами
+			аспектіні қамтиды & Жалпыға
+			ортақ есептеу стандарты жоқ, әр
+			компанияға бейімдеу қажет\\\\
+8.
+			Сараптамалық сауалнама & Сапалық & Шартты
+			(модельсіз) & Балдық
+			бағалау & Қолдануға
+			оңай & Субъективтілігі
+			жоғары, басымдықты нақты бөлетін
+			құралдар шектеулі\\\\
+\\end{longtblr}
+" 0 45 (fontified t) 45 55 (face font-lock-keyword-face fontified t) 55 188 (fontified t) 188 190 (face font-lock-warning-face fontified t) 190 292 (fontified t) 292 294 (face font-lock-warning-face fontified t) 294 378 (fontified t) 378 380 (face font-lock-warning-face fontified t) 380 438 (fontified t) 438 440 (face font-lock-keyword-face fontified t) 440 549 (fontified t) 549 551 (face font-lock-warning-face fontified t) 551 627 (fontified t) 627 629 (face font-lock-warning-face fontified t) 629 741 (fontified t) 741 743 (face font-lock-warning-face fontified t) 743 939 (fontified t) 939 941 (face font-lock-warning-face fontified t) 941 1132 (fontified t) 1132 1134 (face font-lock-warning-face fontified t) 1134 1218 (fontified t) 1218 1220 (face font-lock-warning-face fontified t) 1220 1364 (fontified t) 1364 1366 (face font-lock-warning-face fontified t) 1366 1456 (fontified t) 1456 1460 (fontified t) 1460 1500 (fontified t) 1500 1595 (fontified t) 1595 1597 (face font-lock-warning-face fontified t) 1597 1673 (fontified t) 1673 1675 (face font-lock-warning-face fontified t) 1675 1828 (fontified t) 1828 1830 (face font-lock-warning-face fontified t) 1830 1988 (fontified t) 1988 2008 (fontified t) 2008 2010 (face font-lock-warning-face fontified t) 2010 2011 (fontified t) 2011 2015 (face font-lock-keyword-face fontified t) 2015 2016 (fontified t latex-env-pair t) 2016 2024 (face font-lock-function-name-face fontified t latex-env-pair t) 2024 2025 (fontified t latex-env-pair t rear-nonsticky t) 2025 2026 (fontified t)) . 15787) (undo-tree-id85 . -2024) (undo-tree-id86 . -2024) (undo-tree-id87 . -2025) (undo-tree-id88 . 16) (undo-tree-id89 . -2026) (undo-tree-id90 . -2026) (undo-tree-id91 . -2024) (undo-tree-id92 . -2024) (undo-tree-id93 . -620) (undo-tree-id94 . -620) (undo-tree-id95 . -132) (undo-tree-id96 . -132) (undo-tree-id97 . -616) (undo-tree-id98 . -616) (undo-tree-id99 . -2011) (undo-tree-id100 . -2011) (undo-tree-id101 . -620) (undo-tree-id102 . -2024) (undo-tree-id103 . -620) (undo-tree-id104 . -2009) (t 26710 33500 761107 612000)) nil (26710 33525 25547 323000) 0 nil])
+([nil nil ((#("\\begin{longtblr}[
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (latex-env-pair t fontified t) 7 15 (face font-lock-function-name-face latex-env-pair t fontified t) 15 16 (latex-env-pair t fontified t) 16 17 (fontified t) 17 18 (fontified t)) . 15626) (undo-tree-id83 . -17) (undo-tree-id84 . -18)) nil (26710 33525 25497 690000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 17835 . 17836) (nil fontified nil 15769 . 17836) (15769 . 17836)) nil (26710 33525 25496 758000) 0 nil])
+([nil nil ((#("  caption = {\\bfseries 1 - кесте. Ақпараттық қауіпсіздік саясатының тиімділігін бағалауға арналған әдістемелік амалдарды салыстырмалы талдау},
+" 0 13 (fontified t) 13 22 (face font-lock-keyword-face fontified t) 22 140 (face (bold) fontified t) 140 141 (fontified t) 141 142 (rear-nonsticky t fontified t) 142 143 (fontified t)) . 15626) (undo-tree-id58 . -143) (undo-tree-id59 . -143) (undo-tree-id60 . -143) (undo-tree-id61 . -142) (undo-tree-id62 . -143) (undo-tree-id63 . -143) (undo-tree-id64 . -143) (undo-tree-id65 . -143) (undo-tree-id66 . -143) (undo-tree-id67 . -143) (undo-tree-id68 . -143) (undo-tree-id69 . -143) (undo-tree-id70 . -143) (undo-tree-id71 . -143) (undo-tree-id72 . -143) (undo-tree-id73 . -143) (undo-tree-id74 . -143) (undo-tree-id75 . -143) (undo-tree-id76 . -143) (undo-tree-id77 . -143) (undo-tree-id78 . -143) (undo-tree-id79 . -143) (undo-tree-id80 . -143) (undo-tree-id81 . -143) (undo-tree-id82 . -143)) nil (26710 33525 25495 566000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 15671 . 15672) (#("
+" 0 1 (fontified nil)) . -15812) (15669 . 15813) 15652) nil (26710 33554 45085 977000) 0 nil])
+([nil nil ((#("% \\usepackage{tabularray}
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 25 (face font-lock-comment-face fontified t) 25 26 (face font-lock-comment-face fontified t)) . 15626) (undo-tree-id110 . -25) (undo-tree-id111 . -26) (t 26710 33554 876735 403000)) nil (26710 33557 20520 757000) 0 nil] [nil nil ((#("  width = \\linewidth,
+" 0 10 (fontified t) 10 20 (face font-lock-keyword-face fontified t) 20 22 (fontified t)) . 15848) (undo-tree-id108 . -21) (undo-tree-id109 . -22) (t 26710 33525 27940 695000)) ((15848 . 15870)) (26710 33553 737697 799000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 17853 . 17854) (nil fontified nil 15787 . 17854) (15787 . 17854) (#("  label = none,
+  entry = none,
+]{
+  width = \\linewidth,
+  colspec = {Q[121]Q[121]Q[127]Q[158]Q[175]Q[233]},
+  cells = {c},
+  hlines,
+  vlines,
+}
+Тәсіл & {
+			Бағалау
+			түрі (сапалық/
+			\\\\сандық)
+		} & Басымдық
+			(тәуекел / бақылау) & Метрикалар
+			немесе KPI & Артықшылықтары & Шектеулері\\\\
+1.
+			ISO/IEC 27001 & Сапалық
+			/ ішінара сандық & {
+			Теңгерімді
+			(тәуекел
+			\\\\+бақылау)
+		} & Жалпы:
+			инцидент саны, сәйкестік пайызы \\% & Халықаралық
+			ауқым, жүйелік қамту & Нақты
+			өлшемдерді таңдаудың ресми алгоритмін
+			қамтамасыз етпейді\\\\
+2.
+			COBIT & Сапалық
+			/ жетілу деңгейі үлгісі & {
+			Бақылау
+			
+			
+			\\\\+
+			процестер
+		} & Жетілудің
+			деңгейлері & IT-басқаруды
+			кеңінен қамтиды & Негізгі
+			фокус тек АҚ-те емес\\\\
+3.
+			OCTAVE & Жартылай
+			сандық & Тәуекелге
+			бағытталған & Тәуекелдердің
+			сандық индексі & Тәуекелді
+			талдаудың егжей-тегжейлі сипаттамасы & Шағын
+			ұйымдар үшін тым күрделі болуы мүмкін\\\\
+4.
+			FMEA & Сандық & Тәуекелге
+			негізделген & RPN
+			(Risk Priority Number) & Сандық
+			көрсеткіштер нақты анықталады & Ақаулар
+			ықтималдығын сипаттайтын деректердің
+			толық болуы шарт\\\\
+5.
+			NIST Cybersecurity Framework & Сапалық/жетілу
+			шкалалары & {
+			Тәуекел
+			\\\\+
+			бақылау
+		} & Категориялар
+			мен жетілу деңгейлері & Әмбебап
+			үлгі, оны бейімдеу жеңіл & Жергілікті
+			нормалармен сәйкес келмеуі мүмкін\\\\
+6.
+			ML/AI-based әдістер & Сандық/зияткерлік
+			талдау & Тәуекел,
+			аномалиялар & Аномалия
+			белсенділігінің көрсеткіштері & Жаңа
+			қатерлерге икемді икемделу & Деректер
+			жиыны сапалы болуын талап етеді,
+			әзірлеу күрделі\\\\
+7.
+			SCORING (авторлық әдістер) & Әртүрлі
+			метрикалар & {
+			Бақылау
+			\\\\+
+			тәуекел
+		} & Персоналдың
+			тәртібін бағалау & Адами
+			аспектіні қамтиды & Жалпыға
+			ортақ есептеу стандарты жоқ, әр
+			компанияға бейімдеу қажет\\\\
+8.
+			Сараптамалық сауалнама & Сапалық & Шартты
+			(модельсіз) & Балдық
+			бағалау & Қолдануға
+			оңай & Субъективтілігі
+			жоғары, басымдықты нақты бөлетін
+			құралдар шектеулі
+\\end{longtblr}" 0 35 (fontified t) 35 45 (fontified t) 45 55 (face font-lock-keyword-face fontified t) 55 57 (fontified t) 57 108 (fontified t) 108 109 (fontified t) 109 123 (fontified t) 123 124 (fontified t) 124 188 (fontified t) 188 190 (face font-lock-warning-face fontified t) 190 292 (fontified t) 292 294 (face font-lock-warning-face fontified t) 294 378 (fontified t) 378 380 (face font-lock-warning-face fontified t) 380 438 (fontified t) 438 440 (face font-lock-keyword-face fontified t) 440 549 (fontified t) 549 551 (face font-lock-warning-face fontified t) 551 627 (fontified t) 627 629 (face font-lock-warning-face fontified t) 629 741 (fontified t) 741 743 (face font-lock-warning-face fontified t) 743 939 (fontified t) 939 941 (face font-lock-warning-face fontified t) 941 1132 (fontified t) 1132 1134 (face font-lock-warning-face fontified t) 1134 1218 (fontified t) 1218 1220 (face font-lock-warning-face fontified t) 1220 1357 (fontified t) 1357 1364 (fontified t) 1364 1366 (fontified t face font-lock-warning-face) 1366 1367 (fontified t) 1367 1456 (fontified t) 1456 1460 (fontified t) 1460 1500 (fontified t) 1500 1595 (fontified t) 1595 1597 (face font-lock-warning-face fontified t) 1597 1609 (fontified t) 1609 1624 (fontified t) 1624 1641 (fontified t) 1641 1673 (fontified t) 1673 1675 (face font-lock-warning-face fontified t) 1675 1828 (fontified t) 1828 1830 (face font-lock-warning-face fontified t) 1830 2009 (fontified t) 2009 2013 (face font-lock-keyword-face fontified t) 2013 2014 (fontified t latex-env-pair t) 2014 2022 (face font-lock-function-name-face fontified t latex-env-pair t) 2022 2023 (fontified t latex-env-pair t rear-nonsticky t)) . 15787) (undo-tree-id172 . -2009) (undo-tree-id173 . -2022) (undo-tree-id174 . -2022) (undo-tree-id175 . -616) (undo-tree-id176 . -616) (undo-tree-id177 . -2009) (undo-tree-id178 . -2009) (undo-tree-id179 . -620) (undo-tree-id180 . -35) (undo-tree-id181 . -144) (undo-tree-id182 . -616) (undo-tree-id183 . -2009) (undo-tree-id184 . -620) (undo-tree-id185 . -616) (undo-tree-id186 . -616) (undo-tree-id187 . -2009) (undo-tree-id188 . -2009) (undo-tree-id189 . -620) (undo-tree-id190 . -2009) (undo-tree-id191 . -620) (undo-tree-id192 . -2009) (t 26710 33557 22720 643000)) nil (26710 33674 797163 428000) 0 nil])
+([nil nil ((#("  colspec = {Q[121]Q[121]Q[127]Q[158]Q[175]Q[233]},
+" 0 51 (fontified t) 51 52 (fontified t)) . 15848) (undo-tree-id105 . -51) (undo-tree-id106 . -51) (undo-tree-id107 . -52)) ((15848 . 15900) (t 26710 33549 883769 748000)) (26710 33549 882250 263000) 0 nil])
+([nil nil ((#("\\begin{longtblr}[
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (latex-env-pair t fontified t) 7 15 (face font-lock-function-name-face latex-env-pair t fontified t) 15 16 (latex-env-pair t fontified t) 16 17 (fontified t) 17 18 (fontified t)) . 15626) (undo-tree-id170 . -17) (undo-tree-id171 . -18)) nil (26710 33674 797157 16000) 0 nil])
+nil
+([nil nil ((#("% \\usepackage{tabularray}
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 26 (face font-lock-comment-face fontified t)) . 15769) (undo-tree-id168 . -25) (undo-tree-id169 . -26)) nil (26710 33674 797155 753000) 0 nil])
+([nil nil ((#("  caption = {\\bfseries 1 - кесте. Ақпараттық қауіпсіздік саясатының тиімділігін бағалауға арналған әдістемелік амалдарды салыстырмалы талдау},
+" 0 1 (fontified t) 1 2 (fontified t rear-nonsticky t) 2 13 (fontified t) 13 22 (face font-lock-keyword-face fontified t) 22 140 (face (bold) fontified t) 140 141 (fontified t) 141 142 (fontified t rear-nonsticky t) 142 143 (fontified t)) . 15626) (undo-tree-id112 . -143) (undo-tree-id113 . -143) (undo-tree-id114 . -142) (undo-tree-id115 . -143) (undo-tree-id116 . -143) (undo-tree-id117 . -2) (undo-tree-id118 . -143) (undo-tree-id119 . -143) (undo-tree-id120 . -143) (undo-tree-id121 . -143) (undo-tree-id122 . -143) (undo-tree-id123 . -143) (undo-tree-id124 . -143) (undo-tree-id125 . -143) (undo-tree-id126 . -143) (undo-tree-id127 . -143) (undo-tree-id128 . -143) (undo-tree-id129 . -143) (undo-tree-id130 . -143) (undo-tree-id131 . -143) (undo-tree-id132 . -143) (undo-tree-id133 . -143) (undo-tree-id134 . -143) (undo-tree-id135 . -142) (undo-tree-id136 . -143) (undo-tree-id137 . -143) (undo-tree-id138 . -143) (undo-tree-id139 . -143) (undo-tree-id140 . -143) (undo-tree-id141 . -143) (undo-tree-id142 . -143) (undo-tree-id143 . -143) (undo-tree-id144 . -143) (undo-tree-id145 . -143) (undo-tree-id146 . -143) (undo-tree-id147 . -143) (undo-tree-id148 . -143) (undo-tree-id149 . -143) (undo-tree-id150 . -143) (undo-tree-id151 . -143) (undo-tree-id152 . -143) (undo-tree-id153 . -143) (undo-tree-id154 . -143) (undo-tree-id155 . -143) (undo-tree-id156 . -143) (undo-tree-id157 . -143) (undo-tree-id158 . -143) (undo-tree-id159 . -143) (undo-tree-id160 . -143) (undo-tree-id161 . -143) (undo-tree-id162 . -143) (undo-tree-id163 . -143) (undo-tree-id164 . -143) (undo-tree-id165 . -143) (undo-tree-id166 . -143) (undo-tree-id167 . -143)) nil (26710 33674 797153 910000) 0 nil])
 ([nil nil ((#("
-" 0 1 (fontified t)) . 14151)) nil (26698 30457 82195 788000) 0 nil])
-([nil nil ((#("\\emph{" 0 5 (face (font-lock-keyword-face bold) fontified t) 5 6 (face (bold) fontified t)) . 14116) (undo-tree-id19 . -5) (undo-tree-id20 . -6)) nil (26698 30457 82194 775000) 0 nil])
-([nil nil ((#("}" 0 1 (fontified t)) . 14117) (undo-tree-id17 . -1) (undo-tree-id18 . -1)) nil (26698 30457 82191 560000) 0 nil])
-([nil nil ((38249 . 38250) 14143) nil (26698 30457 82175 982000) 0 nil])
-([nil nil ((15593 . 15594) (t 26698 30457 86497 734000)) nil (26698 30520 629970 580000) 0 nil])
-([nil nil ((15595 . 15596)) nil (26698 30520 629970 139000) 0 nil])
-([nil nil ((15658 . 15659) (#("
-" 0 1 (face (bold) fontified t)) . -15658) 15595) nil (26698 30520 629969 574000) 0 nil])
-([nil nil ((18453 . 18474) (20005 . 20021)) nil (26698 30520 629969 55000) 0 nil])
+" 0 1 (fontified nil)) . -15786) (15643 . 15787) 15626) nil (26710 33674 797073 580000) 0 nil])
+([nil nil ((apply -3 15644 15790 undo--wrap-and-run-primitive-undo 15644 15790 ((15646 . 15649) (t 26710 33674 799910 457000)))) nil (26710 33678 545838 518000) 0 nil])
+([nil nil ((#("		" 0 2 (fontified nil)) . 17467) (#("
+" 0 1 (fontified t)) . -17467) (17459 . 17460) (#("			" 0 3 (fontified nil)) . 17459) (#("
+" 0 1 (fontified t)) . -17459) (17455 . 17456) (#("			" 0 3 (fontified nil)) . 17455) (#("
+" 0 1 (fontified t)) . -17455) (#("			" 0 3 (fontified nil)) . 17448) (undo-tree-id193 . 3) (#("
+" 0 1 (fontified t)) . -17448) (undo-tree-id194 . 1) 17447 (t 26710 33678 547884 675000)) nil (26710 33731 595478 815000) 0 nil])
+([nil nil ((#("		" 0 2 (fontified nil)) . 17012) (#("
+" 0 1 (fontified t)) . -17012) (17004 . 17005) (#("			" 0 3 (fontified nil)) . 17004) (#("
+" 0 1 (fontified t)) . -17004) (17000 . 17001) (#("			" 0 3 (fontified nil)) . 17000) (#("
+" 0 1 (fontified t)) . -17000) (#("			" 0 3 (fontified nil)) . 16993) (#("
+" 0 1 (fontified t)) . -16993) 16992 (t 26710 33731 597519 796000)) nil (26710 33738 804918 297000) 0 nil])
+([nil nil ((#("		" 0 2 (fontified nil)) . 16415) (#("
+" 0 1 (fontified t)) . -16415) (16405 . 16406) (#("			" 0 3 (fontified nil)) . 16405) (#("
+" 0 1 (fontified t)) . -16405) (16401 . 16402) (#("			" 0 3 (fontified nil)) . 16401) (#("
+" 0 1 (fontified t)) . -16401) (#("			" 0 3 (fontified nil)) . 16401) (#("
+" 0 1 (fontified t)) . -16401) (undo-tree-id195 . -1) (#("			" 0 3 (fontified nil)) . 16401) (#("
+" 0 1 (fontified t)) . -16401) (#("			" 0 3 (fontified nil)) . 16394) (#("
+" 0 1 (fontified t)) . -16394) 16393 (t 26710 33738 807470 201000)) nil (26710 33746 73030 30000) 0 nil])
+([nil nil ((#("		" 0 2 (fontified nil)) . 16169) (#("
+" 0 1 (fontified t)) . -16169) (undo-tree-id196 . -1) (16157 . 16158) (#("			" 0 3 (fontified nil)) . 16157) (#("
+" 0 1 (fontified t)) . -16157) (undo-tree-id197 . -1) (16148 . 16149) (#("			" 0 3 (fontified nil)) . 16148) (#("
+" 0 1 (fontified t)) . -16148) (undo-tree-id198 . -1) (#("			" 0 3 (fontified nil)) . 16138) (#("
+" 0 1 (fontified t)) . -16138) (undo-tree-id199 . -1) 16137 (t 26710 33746 75420 203000)) nil (26710 33753 754642 563000) 0 nil])
+([nil nil ((#("		" 0 2 (fontified nil)) . 15977) (#("
+" 0 1 (fontified t)) . -15977) (undo-tree-id200 . -1) (15967 . 15968) (#("			" 0 3 (fontified nil)) . 15967) (#("
+" 0 1 (fontified t)) . -15967) (undo-tree-id201 . -1) (15952 . 15953) (#("			" 0 3 (fontified nil)) . 15952) (#("
+" 0 1 (fontified t)) . -15952) (undo-tree-id202 . -1) (#("			" 0 3 (fontified nil)) . 15945) (#("
+" 0 1 (fontified t)) . -15945) (undo-tree-id203 . -1) 15944 (t 26710 33753 757367 357000)) nil (26710 33760 932127 253000) 0 nil])
+([nil nil ((apply 3 15644 15786 undo--wrap-and-run-primitive-undo 15644 15786 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -15646) 15702 (t 26710 33760 934317 983000)))) nil (26710 37704 393996 813000) 0 nil])
+([nil nil ((16047 . 16049) (t 26710 37704 400190 489000)) nil (26710 37719 553722 804000) 0 nil])
+([nil nil ((16336 . 16337) (#("			" 0 3 (fontified nil)) . 16336) (#("
+" 0 1 (fontified t)) . -16336) 16335 (t 26710 37719 556086 227000)) nil (26710 37740 343086 752000) 0 nil])
+([nil nil ((16919 . 16920)) nil (26710 37740 343086 221000) 0 nil])
+([nil nil ((16918 . 16919)) nil (26710 37740 343082 334000) 0 nil])
+([nil nil ((17130 . 17131) (t 26710 37740 344943 216000)) nil (26710 37748 88585 494000) 0 nil])
+([nil nil ((17129 . 17130)) nil (26710 37748 88582 7000) 0 nil])
+([nil nil ((16890 . 16892) (t 26710 37748 90889 929000)) nil (26710 38870 542208 83000) 0 nil])
+([nil nil ((#("1 кестеде жүргізілген талдау бірыңғай мінсіз әдістің жоқ екенін
+көрсетеді. Тәуекелдерді сандық бағалау қажет болғанда OCTAVE, FMEA,
+AI/ML қолданылады. IT Governance құрылымына интеграция жасау көзделген
+жағдайда ISO/IEC 27001 немесе COBIT тартымды болып келеді. ISO/IEC 27001
+Annex A бөлімінде бірқатар бақылау шаралары қарастырылған, бірақ
+тәуекелдерді бағалаудың егжей-тегжейлі алгоритмі берілмеген. COBIT - IT
+Governance бойынша жалпы база, соның ішінде АҚ аспектілерін қамтиды.
+OCTAVE (CERT әзірлеген) -- активтерді, қатерлерді және осалдықтарды
+талдап, басымдықты айқындауды ұсынады. FMEA бастапқыда инженерлік
+ақауларды болдырмау үшін қолданылған, кейін IT саласына бейімделген
+{[}12{]}. NIST-- АҚШ және басқа елдерде кең тараған жүйе, Identify,
+Protect, Detect, Respond, Recover функцияларын қамтиды. ML/AI
+негізіндегі шешімдер үлкен деректерге сүйеніп, аномалияларды анықтауда
+қолданылады, бірақ басқару практикасында әлі де қалыптасу үстінде.
+SCORING -- ұйымдардың ішкі процедураларына бағытталып, адами факторды
+ескеретін үлгілер тобы. Сараптамалық сауалнамалар -- бастапқы кезеңде
+пайдалы, бірақ формалды оңтайландыруға келмейді. Кейбір ұйымдар
+техникалық және ұйымдастырушылық қырларды қамту үшін бірнеше әдісті
+үйлестіруді жөн санайды {[}13{]}.
+
+" 0 59 (fontified t) 59 64 (fontified t) 64 111 (fontified t) 111 124 (fontified t) 124 132 (fontified t) 132 140 (fontified t) 140 203 (fontified t) 203 266 (fontified t) 266 276 (fontified t) 276 665 (fontified t) 665 667 (fontified t) 667 684 (fontified t) 684 700 (fontified t) 700 719 (fontified t) 719 752 (fontified t) 752 821 (fontified t) 821 836 (fontified t) 836 880 (fontified t) 880 885 (fontified t) 885 953 (fontified t) 953 954 (fontified t) 954 995 (fontified t) 995 1022 (fontified t) 1022 1131 (fontified t) 1131 1142 (fontified t) 1142 1156 (fontified t) 1156 1160 (fontified t) 1160 1224 (fontified t) 1224 1258 (fontified t) 1258 1259 (fontified t)) . 17765) (undo-tree-id204 . -1258) (undo-tree-id205 . -1258) (undo-tree-id206 . -1258) (undo-tree-id207 . -1258) (undo-tree-id208 . -1258) (undo-tree-id209 . -1258) (undo-tree-id210 . -1258) (undo-tree-id211 . -1258) (undo-tree-id212 . -1258) (undo-tree-id213 . -1258) (undo-tree-id214 . -1258) 19023 (t 26710 38870 545168 497000)) nil (26710 38913 263228 733000) 0 nil])
+([nil nil ((15608 . 15609) 15562) nil (26710 38913 263216 139000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 15609 . 15610) (#("
+" 0 1 (fontified nil)) . -16868) (15609 . 16869)) nil (26710 38913 263212 392000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 21683 . 21684) (nil fontified nil 19872 . 21684) (19872 . 21684) (#("%% \\begin{longtable}[]{@{}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.2153}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.2087}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1307}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1271}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1517}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 10\\tabcolsep) * \\real{0.1665}}@{}}
+%% \\toprule\\noalign{}
+%% \\begin{minipage}[b]{\\linewidth}\\centering
+%% Фактор
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Сипаттамасы
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Метрика мысалы
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Ықпал деңгейі
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Ресурстар
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Ұсыныстар
+%% \\end{minipage} \\\\
+%% \\midrule\\noalign{}
+%% \\endhead
+%% \\bottomrule\\noalign{}
+%% \\endlastfoot
+%% 1. Технологиялық инфрақұрылым & Заманауи қорғаныс жүйелерін,
+%% антивирустарды, брандмауэрлерді, IDS/IPS пайдалануы & Негізгі
+%% IT-сегменттерді қамту пайызы & Жоғары & Лицензиялар, жабдық &
+%% Инфрақұрылымды жаңарту, аудит жүргізу \\\\
+%% 2. Құқықтық реттеу & Заңнамалық, салалық регламенттерді сақтауы &
+%% Бұзушылықтар / айыппұлдар саны & Жоғары & Заң бөлімі & Комплаенс бөлімін
+%% құру, нормативтерді қадағалау \\\\
+%% 3. Персонал мәдениеті & Хабардарлық, тәртіп, АҚ саясатын орындаудағы
+%% ынтасы & Оқыту деңгейі (сауалнамалар) & Маңызды & Тренинг, HR & Тұрақты
+%% оқыту, марапаттау, тестілеу \\\\
+%% 4. Басқарушылық қолдау & Басшылықтың қатысуы, бюджет бөлу, басымдық беру
+%% & Жылдық қаржыландыру көлемі & Маңызды & Менеджмент, қаржы & Қажетті
+%% ресурстарды жеткілікті бөлу, KPI енгізу \\\\
+%% 5. Тәуекел-менеджмент & Тәуекелдерді анықтау, бағалау және өңдеу жүйесі
+%% & Кешіктірілген тәуекелдер саны, Risk Level & Жоғары & АҚ мамандары,
+%% жобалар & Тәуекелдерді тұрақты қайта бағалау, автоматтандыру \\\\
+%% 6. Ұйымдастырушылық құрылым & Рөлдер, жауапты тұлғалар және
+%% өкілеттіктердің айқын бөлінуі & Ұйымдық жетілу индексі (maturity) &
+%% Орташа & Ұйым сызбасы, регламенттер & Регламенттерді жаңарту, жауапты
+%% тұлғаларды тағайындау \\\\
+%% 7. Қаржы-экономикалық факторлар & Қорғаныс шараларының құны, жобалардың
+%% ROI, тәуекел мен пайданы салыстыру & ИБ жобаларының ROI, TCO & Жоғары &
+%% Қаржы бөлімі & Шығындарды оңтайландыру, басымдықтарды нақты көрсеткіштер
+%% бойынша түзу \\\\
+%% \\end{longtable}" 0 3 (face font-lock-comment-delimiter-face fontified t) 3 9 (face font-lock-comment-face fontified t) 9 20 (face font-lock-comment-face fontified t latex-env-pair t) 20 27 (face font-lock-comment-face fontified t) 27 32 (face font-lock-comment-delimiter-face fontified t) 32 33 (face font-lock-comment-face fontified t) 33 78 (fontified t face font-lock-comment-face) 78 107 (fontified t face font-lock-comment-face) 107 112 (face font-lock-comment-delimiter-face fontified t) 112 146 (face font-lock-comment-face fontified t) 146 187 (face font-lock-comment-face fontified t) 187 192 (face font-lock-comment-delimiter-face fontified t) 192 267 (face font-lock-comment-face fontified t) 267 272 (face font-lock-comment-delimiter-face fontified t) 272 279 (face font-lock-comment-face fontified t) 279 347 (face font-lock-comment-face fontified t) 347 352 (face font-lock-comment-delimiter-face fontified t) 352 416 (face font-lock-comment-face fontified t) 416 427 (face font-lock-comment-face fontified t) 427 432 (face font-lock-comment-delimiter-face fontified t) 432 511 (face font-lock-comment-face fontified t) 511 514 (face font-lock-comment-delimiter-face fontified t) 514 533 (face font-lock-comment-face fontified t) 533 536 (face font-lock-comment-delimiter-face fontified t) 536 542 (face font-lock-comment-face fontified t) 542 550 (face font-lock-comment-face fontified t latex-env-pair t) 550 552 (face font-lock-comment-face fontified t latex-env-pair t) 552 578 (face font-lock-comment-face fontified t) 578 581 (face font-lock-comment-delimiter-face fontified t) 581 588 (face font-lock-comment-face fontified t) 588 591 (face font-lock-comment-delimiter-face fontified t) 591 595 (face font-lock-comment-face fontified t) 595 605 (face font-lock-comment-face fontified t latex-env-pair t) 605 614 (face font-lock-comment-face fontified t) 614 618 (face font-lock-comment-face fontified t latex-env-pair t) 618 624 (face font-lock-comment-face fontified t latex-env-pair t) 624 650 (face font-lock-comment-face fontified t) 650 652 (face font-lock-comment-delimiter-face fontified t) 652 653 (face font-lock-comment-delimiter-face fontified t) 653 665 (face font-lock-comment-face fontified t) 665 668 (face font-lock-comment-delimiter-face fontified t) 668 672 (face font-lock-comment-face fontified t) 672 682 (face font-lock-comment-face fontified t latex-env-pair t) 682 691 (face font-lock-comment-face fontified t) 691 701 (face font-lock-comment-face fontified t latex-env-pair t) 701 720 (face font-lock-comment-face fontified t) 720 727 (face font-lock-comment-face fontified t) 727 730 (face font-lock-comment-delimiter-face fontified t) 730 745 (face font-lock-comment-face fontified t) 745 748 (face font-lock-comment-delimiter-face fontified t) 748 752 (face font-lock-comment-face fontified t) 752 762 (face font-lock-comment-face fontified t latex-env-pair t) 762 771 (face font-lock-comment-face fontified t) 771 781 (face font-lock-comment-face fontified t latex-env-pair t) 781 807 (face font-lock-comment-face fontified t) 807 810 (face font-lock-comment-delimiter-face fontified t) 810 824 (face font-lock-comment-face fontified t) 824 827 (face font-lock-comment-delimiter-face fontified t) 827 831 (face font-lock-comment-face fontified t) 831 841 (face font-lock-comment-face fontified t latex-env-pair t) 841 850 (face font-lock-comment-face fontified t) 850 860 (face font-lock-comment-face fontified t latex-env-pair t) 860 886 (face font-lock-comment-face fontified t) 886 887 (face font-lock-comment-delimiter-face fontified t) 887 889 (face font-lock-comment-delimiter-face fontified t) 889 899 (face font-lock-comment-face fontified t) 899 902 (face font-lock-comment-delimiter-face fontified t) 902 906 (face font-lock-comment-face fontified t) 906 916 (face font-lock-comment-face fontified t latex-env-pair t) 916 925 (face font-lock-comment-face fontified t) 925 935 (face font-lock-comment-face fontified t latex-env-pair t) 935 961 (face font-lock-comment-face fontified t) 961 964 (face font-lock-comment-delimiter-face fontified t) 964 974 (face font-lock-comment-face fontified t) 974 977 (face font-lock-comment-delimiter-face fontified t) 977 981 (face font-lock-comment-face fontified t) 981 991 (face font-lock-comment-face fontified t latex-env-pair t) 991 995 (face font-lock-comment-face fontified t) 995 998 (face font-lock-comment-delimiter-face fontified t) 998 1017 (face font-lock-comment-face fontified t) 1017 1020 (face font-lock-comment-delimiter-face fontified t) 1020 1029 (face font-lock-comment-face fontified t) 1029 1032 (face font-lock-comment-delimiter-face fontified t) 1032 1054 (face font-lock-comment-face fontified t) 1054 1057 (face font-lock-comment-delimiter-face fontified t) 1057 1070 (face font-lock-comment-face fontified t) 1070 1073 (face font-lock-comment-delimiter-face fontified t) 1073 1134 (face font-lock-comment-face fontified t) 1134 1137 (face font-lock-comment-delimiter-face fontified t) 1137 1199 (face font-lock-comment-face fontified t) 1199 1202 (face font-lock-comment-delimiter-face fontified t) 1202 1264 (face font-lock-comment-face fontified t) 1264 1267 (face font-lock-comment-delimiter-face fontified t) 1267 1308 (face font-lock-comment-face fontified t) 1308 1311 (face font-lock-comment-delimiter-face fontified t) 1311 1377 (face font-lock-comment-face fontified t) 1377 1380 (face font-lock-comment-delimiter-face fontified t) 1380 1453 (face font-lock-comment-face fontified t) 1453 1456 (face font-lock-comment-delimiter-face fontified t) 1456 1489 (face font-lock-comment-face fontified t) 1489 1492 (face font-lock-comment-delimiter-face fontified t) 1492 1561 (face font-lock-comment-face fontified t) 1561 1564 (face font-lock-comment-delimiter-face fontified t) 1564 1607 (face font-lock-comment-face fontified t) 1607 1636 (fontified t face font-lock-comment-face) 1636 1639 (face font-lock-comment-delimiter-face fontified t) 1639 1670 (face font-lock-comment-face fontified t) 1670 1673 (face font-lock-comment-delimiter-face fontified t) 1673 1746 (face font-lock-comment-face fontified t) 1746 1749 (face font-lock-comment-delimiter-face fontified t) 1749 1818 (face font-lock-comment-face fontified t) 1818 1821 (face font-lock-comment-delimiter-face fontified t) 1821 1847 (face font-lock-comment-face fontified t) 1847 1864 (face font-lock-comment-face fontified t) 1864 1867 (face font-lock-comment-delimiter-face fontified t) 1867 1939 (face font-lock-comment-face fontified t) 1939 1942 (face font-lock-comment-delimiter-face fontified t) 1942 2011 (face font-lock-comment-face fontified t) 2011 2014 (face font-lock-comment-delimiter-face fontified t) 2014 2078 (face font-lock-comment-face fontified t) 2078 2081 (face font-lock-comment-delimiter-face fontified t) 2081 2141 (face font-lock-comment-face fontified t) 2141 2144 (face font-lock-comment-delimiter-face fontified t) 2144 2212 (face font-lock-comment-face fontified t) 2212 2215 (face font-lock-comment-delimiter-face fontified t) 2215 2285 (face font-lock-comment-face fontified t) 2285 2288 (face font-lock-comment-delimiter-face fontified t) 2288 2313 (face font-lock-comment-face fontified t) 2313 2316 (face font-lock-comment-delimiter-face fontified t) 2316 2388 (face font-lock-comment-face fontified t) 2388 2391 (face font-lock-comment-delimiter-face fontified t) 2391 2463 (face font-lock-comment-face fontified t) 2463 2466 (face font-lock-comment-delimiter-face fontified t) 2466 2539 (face font-lock-comment-face fontified t) 2539 2542 (face font-lock-comment-delimiter-face fontified t) 2542 2558 (face font-lock-comment-face fontified t) 2558 2561 (face font-lock-comment-delimiter-face fontified t) 2561 2565 (face font-lock-comment-face fontified t) 2565 2576 (face font-lock-comment-face fontified t latex-env-pair t)) . 19872) (undo-tree-id249 . -2558) (undo-tree-id250 . -2575) (undo-tree-id251 . -824) (undo-tree-id252 . -2558) 22449 (t 26710 38913 265874 609000)) nil (26710 38999 905051 915000) 0 nil])
 ([nil nil ((#("
-" 0 1 (fontified t)) . 19834)) nil (26698 30520 629968 436000) 0 nil])
-([nil nil ((20055 . 20056)) nil (26698 30520 629968 97000) 0 nil])
-([nil nil ((20054 . 20055)) nil (26698 30520 629967 607000) 0 nil])
-([nil nil ((20122 . 20123)) nil (26698 30520 629966 771000) 0 nil])
-([nil nil ((20121 . 20122)) nil (26698 30520 629966 268000) 0 nil])
-([nil nil ((20492 . 20493)) nil (26698 30520 629965 921000) 0 nil])
-([nil nil ((20491 . 20492)) nil (26698 30520 629965 508000) 0 nil])
-([nil nil ((23160 . 23161)) nil (26698 30520 629965 9000) 0 nil])
-([nil nil ((23159 . 23160)) nil (26698 30520 629964 478000) 0 nil])
-([nil nil ((23158 . 23179) (23715 . 23731)) nil (26698 30520 629964 89000) 0 nil])
+" 0 1 (fontified t)) . 19871) (undo-tree-id233 . -1) (undo-tree-id234 . -1) (undo-tree-id235 . -1) (undo-tree-id236 . -1) (undo-tree-id237 . -1) (undo-tree-id238 . -1) (undo-tree-id239 . -1) (undo-tree-id240 . -1) (undo-tree-id241 . -1) (undo-tree-id242 . -1) (undo-tree-id243 . -1) (undo-tree-id244 . -1) (undo-tree-id245 . -1) (undo-tree-id246 . -1) (undo-tree-id247 . -1) (undo-tree-id248 . -1)) nil (26710 38999 905050 61000) 0 nil])
+([nil nil ((#("% \\usepackage{tabularray}
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 25 (face font-lock-comment-face fontified t) 25 26 (face font-lock-comment-face fontified t)) . 19871) (undo-tree-id232 . -25)) nil (26710 38999 905044 90000) 0 nil])
+([nil nil ((19844 . 19845) (#("
+" 0 1 (face (bold) fontified t)) . -19844) 19771) nil (26710 38999 905043 118000) 0 nil])
+([nil nil ((#("{\\bfseries 2 - кесте. Ақпараттық қауіпсіздік саясатының тиімділігіне әсер ететін негізгі факторлар}
+" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 73 (face (bold) fontified t) 73 74 (face (bold) fontified t) 74 98 (face (bold) fontified t) 98 100 (fontified t)) . -19771) (undo-tree-id215 . -73) (undo-tree-id216 . -73) (undo-tree-id217 . -72) (undo-tree-id218 . -100) (undo-tree-id219 . -100) (undo-tree-id220 . -100) (undo-tree-id221 . -100) (undo-tree-id222 . -100) (undo-tree-id223 . -100) (undo-tree-id224 . -100) (undo-tree-id225 . -100) (undo-tree-id226 . -100) (undo-tree-id227 . -100) (undo-tree-id228 . -100) (undo-tree-id229 . -100) (undo-tree-id230 . -100) (undo-tree-id231 . -73) 19871) nil (26710 38999 905042 407000) 0 nil])
+([nil nil ((19788 . 19789) 19771) nil (26710 38999 905029 72000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 19900 . 19901) (nil fontified nil 19789 . 19901) (19789 . 19901)) nil (26710 38999 905024 714000) 0 nil])
+([nil nil ((20057 . 20060) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -20057) (undo-tree-id253 . -1) (20047 . 20058) (20046 . 20047) (t 26710 38999 911278 550000) 20045) nil (26710 39304 646309 68000) 0 nil])
+([nil nil ((#("\\footnotesize
+" 0 1 (face font-lock-keyword-face fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 14 (fontified t)) . 20047) (undo-tree-id327 . -13) (undo-tree-id328 . 1) (undo-tree-id329 . -5) (undo-tree-id330 . -1) (undo-tree-id331 . -1) (undo-tree-id332 . -12) (undo-tree-id333 . -1) 20048) nil (26710 39313 481591 159000) 0 nil] [nil nil ((#("footnotesize" 0 12 (face font-lock-keyword-face fontified t)) . 20048) (undo-tree-id254 . -11) (undo-tree-id255 . -4) (undo-tree-id257 . -3) (undo-tree-id259 . -2) (undo-tree-id261 . -2) (undo-tree-id263 . -2) (undo-tree-id265 . -1) (undo-tree-id267 . -1) (undo-tree-id269 . -11) (undo-tree-id271 . -12) (t 26710 39238 949634 142000)) ((20048 . 20060)) (26710 39304 130610 273000) 0 nil])
+([nil nil ((19782 . 19785) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -19782) (undo-tree-id326 . -1) (19771 . 19783) (19770 . 19771) 19770) nil (26710 39313 481587 442000) 0 nil])
+([nil nil ((20048 . 20053)) ((#("small" 0 5 (face font-lock-keyword-face fontified t)) . 20048) (undo-tree-id272 . -4) (undo-tree-id273 . -5) (undo-tree-id274 . -4) (undo-tree-id275 . -4) (undo-tree-id276 . -4) (undo-tree-id277 . -4) (undo-tree-id278 . -4) (undo-tree-id279 . -4) (undo-tree-id280 . -4) (undo-tree-id281 . -4) (undo-tree-id282 . -4) (undo-tree-id283 . -4) (undo-tree-id284 . -4) (undo-tree-id285 . -4) (undo-tree-id286 . -4) (undo-tree-id287 . -4) (undo-tree-id288 . -4) (undo-tree-id289 . -4) (undo-tree-id290 . -4) (undo-tree-id291 . -4) (undo-tree-id292 . -4) (undo-tree-id293 . -4) (undo-tree-id294 . -4) (undo-tree-id295 . -4) (undo-tree-id296 . -4) (undo-tree-id297 . -4) (undo-tree-id298 . -4) (undo-tree-id299 . -4) (undo-tree-id300 . -4) (undo-tree-id301 . -4) (undo-tree-id302 . -4) (undo-tree-id303 . -4) (undo-tree-id304 . -4) (undo-tree-id305 . -4) (undo-tree-id306 . -4) (undo-tree-id307 . -4) (undo-tree-id308 . -4) (undo-tree-id309 . -4) (undo-tree-id310 . -4) (undo-tree-id311 . -4) (undo-tree-id312 . -4) (undo-tree-id313 . -4) (undo-tree-id314 . -4) (undo-tree-id315 . -4) (undo-tree-id316 . -4) (undo-tree-id317 . -4) (undo-tree-id318 . -4) (undo-tree-id319 . -4) (undo-tree-id320 . -4) (undo-tree-id321 . -4) (undo-tree-id322 . -4) (undo-tree-id323 . -4) (undo-tree-id324 . -4) (undo-tree-id325 . -4) (t 26710 39283 499327 676000)) (26710 39283 496894 658000) 0 nil])
+([nil nil ((21685 . 21686)) nil (26710 39313 481575 670000) 0 nil])
+nil
+([nil nil ((#("  " 0 2 (fontified t)) . -20025) (undo-tree-id360 . -2) 20027 (20024 . 20027) (t 26710 39313 484121 402000) 19974) nil (26710 39429 539745 440000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 20045 . 20046) (nil fontified nil 20025 . 20046) (20025 . 20046)) nil (26710 39429 539744 589000) 0 nil])
+([nil nil ((20025 . 20029) 20045) nil (26710 39429 539744 278000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20027)) nil (26710 39429 539743 897000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 20027)) nil (26710 39429 539743 597000) 0 nil])
+([nil nil ((20050 . 20053) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -20050) (undo-tree-id358 . -1) (20041 . 20051) (#("small" 0 5 (face font-lock-keyword-face fontified t)) . 20041) (undo-tree-id359 . -4)) nil (26710 39429 539743 56000) 0 nil])
+([nil nil ((#("{\\footnotesize
+" 0 1 (fontified t) 1 14 (face font-lock-keyword-face fontified t) 14 15 (fontified t)) . 19771) (undo-tree-id336 . -15) (undo-tree-id337 . -15) (undo-tree-id338 . -15) (undo-tree-id339 . -14) (undo-tree-id340 . -15) (undo-tree-id341 . -15) (undo-tree-id342 . -15) (undo-tree-id343 . -15) (undo-tree-id344 . -15) (undo-tree-id345 . -15) (undo-tree-id346 . -15) (undo-tree-id347 . -15) (undo-tree-id348 . -15) (undo-tree-id349 . -15) (undo-tree-id350 . -15) (undo-tree-id351 . -15) (undo-tree-id352 . -15) (undo-tree-id353 . -15) (undo-tree-id354 . -15) (undo-tree-id355 . -15) (undo-tree-id356 . -13) (undo-tree-id357 . -15) 19784) nil (26710 39429 539741 683000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 21701) (undo-tree-id334 . -1) (undo-tree-id335 . -1)) nil (26710 39429 539729 580000) 0 nil])
+([nil nil ((20176 . 20178) (t 26710 39429 542311 486000)) nil (26710 43538 646154 938000) 0 nil])
+([nil nil ((20348 . 20350) (t 26710 43538 648794 37000)) nil (26710 43556 479566 24000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 17157 . 17158) (#("
+" 0 1 (fontified nil)) . -17186) (17155 . 17187) 17104 (t 26710 43556 481733 363000)) nil (26710 43579 812916 511000) 0 nil])
+([nil nil ((29818 . 29820) (t 26710 43579 815654 181000)) nil (26710 43622 618124 680000) 0 nil])
+([nil nil ((31921 . 31923) (t 26710 43622 620509 545000)) nil (26710 43645 96194 525000) 0 nil])
+([nil nil ((32917 . 32918) (t 26710 43645 99433 905000)) nil (26710 43668 861771 447000) 0 nil])
+([nil nil ((32919 . 32920)) nil (26710 43668 861767 490000) 0 nil])
 ([nil nil ((#("
-" 0 1 (fontified t)) . 23735)) nil (26698 30520 629963 258000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 23750 . 23751) (#("
-" 0 1 (fontified nil)) . -23751) (23750 . 23752) 23735) nil (26698 30520 629962 373000) 0 nil])
-([nil nil ((23765 . 23766)) nil (26698 30520 629961 577000) 0 nil])
-([nil nil ((23764 . 23765)) nil (26698 30520 629960 945000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 23841) (undo-tree-id29 . -1) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (undo-tree-id32 . -1) (undo-tree-id33 . -1) (undo-tree-id34 . -1) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) (undo-tree-id38 . -1) (undo-tree-id39 . -1)) nil (26698 30520 629959 705000) 0 nil])
-([nil nil ((#(".
-" 0 1 (fontified t) 1 2 (fontified t)) . 23841) (undo-tree-id28 . -1)) nil (26698 30520 629948 924000) 0 nil])
-([nil nil ((23842 . 23863) (28904 . 28920)) nil (26698 30520 629938 341000) 0 nil])
-([nil nil ((#("
-" 0 1 (fontified t)) . 27868)) nil (26698 30520 629936 923000) 0 nil])
-([nil nil ((28941 . 28956) (28964 . 28977)) nil (26698 30520 629936 492000) 0 nil])
-([nil nil ((28993 . 29012) (32901 . 32918)) nil (26698 30520 629934 932000) 0 nil])
-([nil nil ((32938 . 32953) (32961 . 32974)) nil (26698 30520 629934 272000) 0 nil])
-([nil nil ((32990 . 33009) (37045 . 37062)) nil (26698 30520 629933 750000) 0 nil])
-([nil nil ((37082 . 37101) (38496 . 38513)) nil (26698 30520 629929 309000) 0 nil])
-([nil nil ((5127 . 5128) (t 26698 30520 633805 734000)) nil (26698 30560 622794 279000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 110 . 111) (nil fontified nil 66 . 111) (66 . 111) 65 (t 26698 30560 625740 712000)) nil (26703 39965 618335 568000) 0 nil])
-([nil current ((#("
-" 0 1 (rear-nonsticky t fontified t)) . -110) (undo-tree-id40 . -1) (undo-tree-id41 . -1) (undo-tree-id42 . -1) (undo-tree-id43 . -1) (undo-tree-id44 . -1) (undo-tree-id45 . -1) (undo-tree-id46 . -1) (undo-tree-id47 . -1) (undo-tree-id48 . -1) (undo-tree-id49 . -1) (undo-tree-id50 . -1) (undo-tree-id51 . -1) (undo-tree-id52 . -1) (undo-tree-id53 . -1) (undo-tree-id54 . -1) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1) (undo-tree-id58 . -1) (undo-tree-id59 . -1) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (undo-tree-id65 . -1) (undo-tree-id66 . -1) (undo-tree-id67 . -1) (undo-tree-id68 . -1) (undo-tree-id69 . -1) (undo-tree-id70 . -1) (undo-tree-id71 . -1) (undo-tree-id72 . -1) (undo-tree-id73 . -1) (undo-tree-id74 . -1) (undo-tree-id75 . -1) (undo-tree-id76 . -1) (undo-tree-id77 . -1) (undo-tree-id78 . -1) (undo-tree-id79 . -1) 46) nil (26703 39965 618331 806000) 0 nil])
+" 0 1 (fontified t)) . -33550) (undo-tree-id361 . -1) (t 26710 43668 864354 149000)) nil (26710 43685 657599 187000) 0 nil])
+([nil nil ((33924 . 33926) (t 26710 43685 664297 895000)) nil (26710 43695 798748 747000) 0 nil])
+([nil nil ((#("i" 0 1 (face font-lock-warning-face fontified nil)) . -33926) (undo-tree-id416 . -1) (33926 . 33927) (t 26710 43695 801264 0)) nil (26710 43712 400900 153000) 0 nil])
+([nil nil ((35049 . 35050) (#("\\" 0 1 (face font-lock-keyword-face fontified t)) . -35049) (undo-tree-id364 . -1) (undo-tree-id365 . -1) (undo-tree-id366 . -1) (undo-tree-id367 . -1) (undo-tree-id368 . -1) (undo-tree-id369 . -1) (undo-tree-id370 . -1) (undo-tree-id371 . -1) (undo-tree-id372 . -1) (undo-tree-id373 . -1) (undo-tree-id374 . -1) (undo-tree-id375 . -1) (undo-tree-id376 . -1) (undo-tree-id377 . -1) (undo-tree-id378 . -1) (undo-tree-id379 . -1) (undo-tree-id380 . -1) (undo-tree-id381 . -1) (undo-tree-id382 . -1) (undo-tree-id383 . -1) (undo-tree-id384 . -1) (undo-tree-id385 . -1) (undo-tree-id386 . -1) (undo-tree-id387 . -1) (undo-tree-id388 . -1) (undo-tree-id389 . -1) (undo-tree-id390 . -1) (undo-tree-id391 . -1) (undo-tree-id392 . -1) (undo-tree-id393 . -1) (undo-tree-id394 . -1) (#("\\" 0 1 (face font-lock-warning-face fontified t)) . -35050) (undo-tree-id395 . -1) (undo-tree-id396 . -1) (undo-tree-id397 . -1) (undo-tree-id398 . -1) (undo-tree-id399 . -1) (undo-tree-id400 . -1) (undo-tree-id401 . -1) (undo-tree-id402 . -1) (undo-tree-id403 . -1) (undo-tree-id404 . -1) (undo-tree-id405 . -1) (undo-tree-id406 . -1) (undo-tree-id407 . -1) (undo-tree-id408 . -1) (undo-tree-id409 . -1) (undo-tree-id410 . -1) (undo-tree-id411 . -1) (undo-tree-id412 . -1) (undo-tree-id413 . -1) (undo-tree-id414 . -1) (undo-tree-id415 . -1) 35051 (35049 . 35051) (t 26710 43695 801264 0)) nil (26710 43712 400898 470000) 0 nil])
+([nil nil ((35047 . 35048) (#("\\" 0 1 (fontified nil)) . -35047) (undo-tree-id362 . -1) (#("\\" 0 1 (fontified nil)) . -35048) (undo-tree-id363 . -1) 35049 (35047 . 35049)) nil (26710 43712 400879 124000) 0 nil])
+([nil nil ((35574 . 35628) (#("https://urait.ru/bcode/568708" 0 29 (fontified t)) . -35574) (undo-tree-id417 . -28) (undo-tree-id418 . -28) 35603 (t 26710 43712 404208 563000)) nil (26710 43723 271246 974000) 0 nil])
+([nil current ((37041 . 37042) (t 26710 43723 274172 319000)) nil (26710 43745 594808 338000) 0 nil])
 nil
