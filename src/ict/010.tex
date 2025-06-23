@@ -274,9 +274,11 @@ Triplet loss принципі триплеттерге негізделген. �
 
 - Теріс сурет (negative) - анкорлық суреттегі адамнан өзгеше адамның
 бейнесі.
+\end{multicols}
 
-{\bfseries 1-сурет. Триплет шығыны}
+{\bfseries 1 - сурет. Триплет шығыны}
 
+\begin{multicols}{2}
 Мақсат - якорь мен оң кескіндер арасындағы қашықтықты азайту және якорь
 мен теріс кескіндер арасындағы қашықтықты барынша арттыру. Математикалық
 тұрғыдан бұл модельдің беттерді ажырата алуын қамтамасыз ететін жоғалту
@@ -523,34 +525,17 @@ DeepFace кітапханасы алдын ала анықталған клас�
 3,7\% уақыт (сурет 2ә).
 \end{multicols}
 
-%% \begin{longtable}[]{@{}
-%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4999}}
-%%   >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5001}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{media/ict2/image158}
 	\caption*{}
 \end{figure}
 
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{media/ict2/image159}
 	\caption*{}
 \end{figure}
-
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% {\bfseries 2а- cурет. Бір сағаттың ішінде тіркелген жазбалар} & {\bfseries 2ә-
-%% cурет. Эксперимент нәтижесі бойынша құрастырылған диаграмма} \\
-%% \end{longtable}
 
 Алынған мәліметтер негізінде қызметкердің күн ішінде эмоцияларының
 өзгеру динамикасын көрсететін аналитикалық диаграмма құрастырылды.
@@ -559,12 +544,6 @@ DeepFace кітапханасы алдын ала анықталған клас�
 көрсетуі мүмкін. Қайғы мен ашудың мерзімді көріністері жұмыс
 процесіндегі стресстік сәттермен байланысты болуы мүмкін (Сурет 3).
 
-%% \begin{longtable}[]{@{}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4635}}
-%%   >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5365}}@{}}
-%% \toprule\noalign{}
-%% \begin{minipage}[b]{\linewidth}\raggedright
-%% 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{media/ict2/image160}
@@ -577,22 +556,13 @@ DeepFace кітапханасы алдын ала анықталған клас�
 	\caption*{}
 \end{figure}
 
-%% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%% 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{media/ict2/image162}
-	\caption*{}
+	\caption*{3 - сурет. Әзірлеу нәтижелері}
 \end{figure}
 
-%% \end{minipage} \\
-%% \midrule\noalign{}
-%% \endhead
-%% \bottomrule\noalign{}
-%% \endlastfoot
-%% \end{longtable}
 
-{\bfseries 3-сурет. Әзірлеу нәтижелері}
 
 Бұл эксперимент қызметкерлердің эмоционалдық жағдайын автоматтандырылған
 бақылау мүмкіндігін растады. Алынған мәліметтерді жұмысшылардың
@@ -604,15 +574,11 @@ Raspberry Pi платформасында қашықтағы жұмыс үсте
 бағдарламасын қолданамыз (Сурет 4). Адрестік жолға алған VNC сервердің
 адресін енгіземіз, жұмыс үстеліне қосыламыз.
 
-
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{media/ict2/image163}
-	\caption*{}
+	\caption*{4 - сурет. Қашықтағы жұмыс үстеліне қосылу}
 \end{figure}
-
-
-{\bfseries 4-сурет. Қашықтағы жұмыс үстеліне қосылу}
 
 Face-recognition кітапханасы жұмыс істеу үшін dlib кітапханасын талап
 етеді. Бірақ та dlib кітапханасының компиляциясы жедел жадының үлкен
@@ -632,16 +598,13 @@ Face-recognition кітапханасы жұмыс істеу үшін dlib кі
 программасы жазылады (\$ sudo apt-get install build-essential cmake).
 Жүктеу файлы төмендегі 5 суретте көрсетілген.
 
-
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{media/ict2/image164}
-	\caption*{}
+	\caption*{5 - сурет. Жүктеу файлын өзгерту}
 \end{figure}
 
-
-{\bfseries 5-сурет. Жүктеу файлын өзгерту}
-
+\begin{multicols}{2}
 Dlib кітапханасын орнатқаннан кейін face-recognition және қалған керекті
 кітапханалар орнатылды: \$pip install face-recognition, deepface,
 opencv-python, firebase-admin, datetime.
@@ -676,45 +639,48 @@ Raspberry Pi сияқты ресурсты көп қажет ететін пла
 Осылайша, әзірленген жүйе компьютерлік көру мен жасанды интеллект арқылы
 қызметкерлердің мінез-құлқын интеллектуалды талдауға бағытталған маңызды
 қадам болып табылады.
+\end{multicols}
 
+\begin{center}
 {\bfseries Әдебиеттер}
+\end{center}
 
-
+\begin{references}
 1. Jonathan K. Foster, Matthew Korban, Peter Youngs, Ginger S. Watson,
 Scott T. Acton. Automatic classification of activities in classroom
 videos// Computers and Education: Artificial Intelligence. -2024. -
 Vol.6: 100207. \href{https://doi.org/10.1016/j.caeai.2024.100207}{DOI
 10.1016/j.caeai.2024.100207}
 
-1. Xiaohuan Song. Emotional recognition and feedback of students in
+2. Xiaohuan Song. Emotional recognition and feedback of students in
 English e-learning based on computer vision and face recognition
 algorithms// Entertainment Computing. -2025. - Vol.52, 100847.
 \href{https://doi.org/10.1016/j.entcom.2024.100847}{DOI
 10.1016/j.entcom.2024.100847}
 
-1. Manuel A. Solis-Arrazola, Raul E. Sanchez-Yañez, Carlos H.
+3. Manuel A. Solis-Arrazola, Raul E. Sanchez-Yañez, Carlos H.
 Garcia-Capulin, Horacio Rostro-Gonzalez. Enhancing image-based facial
 expression recognition through muscle activation-based facial feature
 extraction// Computer Vision and Image Understanding. -2024. - Vol.
 240: 103927. \href{https://doi.org/10.1016/j.cviu.2024.103927}{DOI
 10.1016/j.cviu.2024.103927}
 
-1. Jianyang Zhang, Wei Wang, Xiangyu Li, Yanjiang Han. Recognizing facial
+4. Jianyang Zhang, Wei Wang, Xiangyu Li, Yanjiang Han. Recognizing facial
 expressions based on pyramid multi-head grid and spatial attention
 network// Computer Vision and Image Understanding. -2024. -
 Vol.244:104010. \href{https://doi.org/10.1016/j.cviu.2024.104010}{DOI
 10.1016/j.cviu.2024.104010}
 
-1. Zhao X., Wang L., Zhang Y. et al. A review of convolutional neural
+5. Zhao X., Wang L., Zhang Y. et al. A review of convolutional neural
 networks in computer vision// Artif Intell . - 2024. - Vol.57:99.
 \href{https://doi.org/10.1007/s10462-024-10721-6}{DOI10.1007/s10462-024-10721-6}
 
-1. Huang ZY., Chiang CC., Chen JH. et al. A study on computer vision for
+6. Huang ZY., Chiang CC., Chen JH. et al. A study on computer vision for
 facial emotion recognition// Sci Rep. -2023. -Vol.13: 8425.
 \href{https://doi.org/10.1038/s41598-023-35446-4}{DOI
 10.1038/s41598-023-35446-4}
 
-1. Borriero A. et al. Explainable Emotion Decoding for~Human and~Computer
+7. Borriero A. et al. Explainable Emotion Decoding for~Human and~Computer
 Vision// Communications in Computer and Information Science№ - 2024. -
 Vol.2154. - P.178-201
 \href{https://doi.org/10.1007/978-3-031-63797-1_10}{DOI
@@ -738,7 +704,9 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR).~-
 2015. ~- Р.~815--823.
 \href{https://doi.org/10.1109/CVPR.2015.7298682}{DOI
 10.1109/CVPR.2015.7298682}
+\end{references}
 
+\begin{authorinfo}
 \emph{{\bfseries Авторлар туралы мәліметтер}}
 
 Есенгалиева Ж.С. - PhD, доцент, Л.Н. Гумилев атындағы Еуразия ұлттық
@@ -757,9 +725,7 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR).~-
 
 Yessengaliyeva Zh.S. - PhD, associate professor, Eurasian national
 university, Astana, Kazakhstan
-
-е-mail:
-\href{mailto:jannayess@gmail.com}{\nolinkurl{jannayess@gmail.com}};
+е-mail: \href{mailto:jannayess@gmail.com}{\nolinkurl{jannayess@gmail.com}};
 
 Kairzhan R.S. - master student, Eurasian national university, Astana,
 Kazakhstan, е-mail:
@@ -768,3 +734,4 @@ Kazakhstan, е-mail:
 Glazyrina N.S. - PhD, associate professor, Eurasian national university,
 Astana, Kazakhstan, е-mail:
 \href{mailto:glazirinan@yandex.ru}{\nolinkurl{glazirinan@yandex.ru}}\
+\end{authorinfo}
