@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"7f311b7bcf055e2bc6ac1c98d7bbe081e522639c"
+"2e3fb3ac44efdc177f19bee6e7d235ca301e37e8"
 [nil nil nil nil (26709 629 492257 642000) 0 nil]
 ([nil nil ((nil rear-nonsticky nil 577 . 578) (nil fontified nil 557 . 578) (557 . 578) (#("e-mail: " 0 8 (fontified t)) . 557) (undo-tree-id0 . -8) (undo-tree-id1 . -7) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -2) (undo-tree-id13 . -2) (undo-tree-id14 . -2) (undo-tree-id15 . -2) (undo-tree-id16 . -2) (undo-tree-id17 . -3) (undo-tree-id18 . -3) (undo-tree-id19 . -3) (undo-tree-id20 . -3) (undo-tree-id21 . -3) (undo-tree-id22 . -4) (undo-tree-id23 . -4) (undo-tree-id24 . -4) (undo-tree-id25 . -4) (undo-tree-id26 . -4) (undo-tree-id27 . -4) (undo-tree-id28 . -4) (undo-tree-id29 . -4) (undo-tree-id30 . -4) (undo-tree-id31 . -4) (undo-tree-id32 . -4) (undo-tree-id33 . -4) (undo-tree-id34 . -4) (undo-tree-id35 . -4) (undo-tree-id36 . -4) (undo-tree-id37 . -5) (undo-tree-id38 . -5) (undo-tree-id39 . -5) (undo-tree-id40 . -5) (undo-tree-id41 . -5) (undo-tree-id42 . -5) (undo-tree-id43 . -5) (undo-tree-id44 . -5) (undo-tree-id45 . -5) (undo-tree-id46 . -5) (undo-tree-id47 . -5) (undo-tree-id48 . -5) (undo-tree-id49 . -5) (undo-tree-id50 . -5) (undo-tree-id51 . -5) (undo-tree-id52 . -6) (undo-tree-id53 . -6) (undo-tree-id54 . -6) (undo-tree-id55 . -6) (undo-tree-id56 . -6) (undo-tree-id57 . -6) (undo-tree-id58 . -6) (undo-tree-id59 . -6) (undo-tree-id60 . -6) (undo-tree-id61 . -6) (undo-tree-id62 . -6) (undo-tree-id63 . -6) (undo-tree-id64 . -6) (undo-tree-id65 . -6) (undo-tree-id66 . -6) (undo-tree-id67 . -7) (undo-tree-id68 . -7) (undo-tree-id69 . -7) (undo-tree-id70 . -7) (undo-tree-id71 . -7) (undo-tree-id72 . -7) (undo-tree-id73 . -7) (undo-tree-id74 . -7) (undo-tree-id75 . -7) (undo-tree-id76 . -7) (undo-tree-id77 . -7) (undo-tree-id78 . -7) (undo-tree-id79 . -7) (undo-tree-id80 . -7) (undo-tree-id81 . -7) (undo-tree-id82 . -7) (undo-tree-id83 . -8) (undo-tree-id84 . -8) (undo-tree-id85 . -7) 565 (t 26706 24326 916274 120000)) nil (26709 629 492252 700000) 0 nil])
 ([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 10712) (t 26709 629 495504 707000)) nil (26709 775 225630 949000) 0 nil])
@@ -549,7 +549,7 @@ nil
 ([nil nil ((#(" " 0 1 (fontified t)) . 25593)) nil (26709 2323 163368 860000) 0 nil])
 ([nil nil ((#(" " 0 1 (fontified t)) . 25593)) nil (26709 2323 163367 377000) 0 nil])
 ([nil nil ((25593 . 25597)) nil (26709 2323 163363 115000) 0 nil])
-([nil current ((#("%% \\begin{longtable}[]{@{}
+([nil nil ((#("%% \\begin{longtable}[]{@{}
 %%   >{\\raggedright\\arraybackslash}p{(\\linewidth - 16\\tabcolsep) * \\real{0.1030}}
 %%   >{\\centering\\arraybackslash}p{(\\linewidth - 16\\tabcolsep) * \\real{0.0882}}
 %%   >{\\centering\\arraybackslash}p{(\\linewidth - 16\\tabcolsep) * \\real{0.1030}}
@@ -585,4 +585,149 @@ nil
 %% ОТММ & 89.06 & 3.9194 & 0.8552 \\\\
 %% \\end{longtable}
 " 0 3 (face font-lock-comment-delimiter-face fontified t) 3 9 (face font-lock-comment-face fontified t) 9 20 (face font-lock-comment-face fontified t latex-env-pair t) 20 27 (face font-lock-comment-face fontified t) 27 32 (face font-lock-comment-delimiter-face fontified t) 32 81 (face font-lock-comment-face fontified t) 81 109 (face font-lock-comment-face fontified t) 109 114 (face font-lock-comment-delimiter-face fontified t) 114 189 (face font-lock-comment-face fontified t) 189 194 (face font-lock-comment-delimiter-face fontified t) 194 269 (face font-lock-comment-face fontified t) 269 274 (face font-lock-comment-delimiter-face fontified t) 274 344 (face font-lock-comment-face fontified t) 344 349 (face font-lock-comment-face fontified t) 349 354 (face font-lock-comment-delimiter-face fontified t) 354 359 (face font-lock-comment-face fontified t) 359 360 (face font-lock-comment-face fontified t) 360 417 (face font-lock-comment-face fontified t) 417 429 (face font-lock-comment-face fontified t) 429 433 (face font-lock-comment-delimiter-face fontified t) 433 434 (face font-lock-comment-delimiter-face fontified t) 434 457 (face font-lock-comment-face fontified t) 457 458 (face font-lock-comment-face fontified t) 458 509 (face font-lock-comment-face fontified t) 509 514 (face font-lock-comment-delimiter-face fontified t) 514 522 (face font-lock-comment-face fontified t) 522 524 (face font-lock-comment-face fontified t) 524 589 (fontified t face font-lock-comment-face) 589 591 (face font-lock-comment-delimiter-face fontified t) 591 594 (face font-lock-comment-delimiter-face fontified t) 594 603 (face font-lock-comment-face fontified t) 603 669 (face font-lock-comment-face fontified t) 669 674 (face font-lock-comment-delimiter-face fontified t) 674 755 (face font-lock-comment-face fontified t) 755 758 (face font-lock-comment-delimiter-face fontified t) 758 777 (face font-lock-comment-face fontified t) 777 780 (face font-lock-comment-delimiter-face fontified t) 780 789 (face font-lock-comment-face fontified t) 789 792 (face font-lock-comment-delimiter-face fontified t) 792 814 (face font-lock-comment-face fontified t) 814 817 (face font-lock-comment-delimiter-face fontified t) 817 830 (face font-lock-comment-face fontified t) 830 833 (face font-lock-comment-delimiter-face fontified t) 833 899 (face font-lock-comment-face fontified t) 899 902 (face font-lock-comment-delimiter-face fontified t) 902 919 (face font-lock-comment-face fontified t) 919 922 (face font-lock-comment-delimiter-face fontified t) 922 1036 (face font-lock-comment-face fontified t) 1036 1039 (face font-lock-comment-delimiter-face fontified t) 1039 1070 (face font-lock-comment-face fontified t) 1070 1073 (face font-lock-comment-delimiter-face fontified t) 1073 1100 (face font-lock-comment-face fontified t) 1100 1128 (face font-lock-comment-face fontified t) 1128 1131 (face font-lock-comment-delimiter-face fontified t) 1131 1181 (face font-lock-comment-face fontified t) 1181 1184 (face font-lock-comment-delimiter-face fontified t) 1184 1235 (face font-lock-comment-face fontified t) 1235 1238 (face font-lock-comment-delimiter-face fontified t) 1238 1271 (face font-lock-comment-face fontified t) 1271 1273 (face font-lock-comment-delimiter-face fontified t) 1273 1274 (face font-lock-comment-delimiter-face fontified t) 1274 1305 (face font-lock-comment-face fontified t) 1305 1388 (face font-lock-comment-face fontified t) 1388 1391 (face font-lock-comment-delimiter-face fontified t) 1391 1422 (face font-lock-comment-face fontified t) 1422 1424 (face font-lock-comment-face fontified t) 1424 1427 (face font-lock-comment-delimiter-face fontified t) 1427 1484 (face font-lock-comment-face fontified t) 1484 1487 (face font-lock-comment-delimiter-face fontified t) 1487 1500 (face font-lock-comment-face fontified t) 1500 1537 (face font-lock-comment-face fontified t) 1537 1540 (face font-lock-comment-delimiter-face fontified t) 1540 1591 (face font-lock-comment-face fontified t) 1591 1594 (face font-lock-comment-delimiter-face fontified t) 1594 1628 (face font-lock-comment-face fontified t) 1628 1631 (face font-lock-comment-delimiter-face fontified t) 1631 1745 (face font-lock-comment-face fontified t) 1745 1748 (face font-lock-comment-delimiter-face fontified t) 1748 1781 (face font-lock-comment-face fontified t) 1781 1784 (face font-lock-comment-delimiter-face fontified t) 1784 1841 (face font-lock-comment-face fontified t) 1841 1844 (face font-lock-comment-delimiter-face fontified t) 1844 1896 (face font-lock-comment-face fontified t) 1896 1899 (face font-lock-comment-delimiter-face fontified t) 1899 1929 (face font-lock-comment-face fontified t) 1929 1950 (face font-lock-comment-face fontified t) 1950 1953 (face font-lock-comment-delimiter-face fontified t) 1953 1987 (face font-lock-comment-face fontified t) 1987 1990 (face font-lock-comment-delimiter-face fontified t) 1990 1994 (face font-lock-comment-face fontified t) 1994 2005 (face font-lock-comment-face fontified t latex-env-pair t) 2005 2006 (face font-lock-comment-face fontified t)) . 26630) (undo-tree-id849 . -1987) (undo-tree-id850 . -25) (undo-tree-id851 . -1987) (undo-tree-id852 . -2005) (undo-tree-id853 . -1987) (undo-tree-id854 . -1987) (undo-tree-id855 . -779) (undo-tree-id856 . -779) (undo-tree-id857 . -349) (undo-tree-id858 . -835) (undo-tree-id859 . -878) (undo-tree-id860 . -878) (undo-tree-id861 . -25) (undo-tree-id862 . -2006) (undo-tree-id863 . -2006) (undo-tree-id864 . -2006) (undo-tree-id865 . -2006) (undo-tree-id866 . -2006) (undo-tree-id867 . -2006) (undo-tree-id868 . -1987) (undo-tree-id869 . -1987) (undo-tree-id870 . -1987) (undo-tree-id871 . -1987) (undo-tree-id872 . -1987) (undo-tree-id873 . -1987) (undo-tree-id874 . -1987) (undo-tree-id875 . -1987) (undo-tree-id876 . -1987) (undo-tree-id877 . -1987) (undo-tree-id878 . -1987) (undo-tree-id879 . -1987) (undo-tree-id880 . -1987) (undo-tree-id881 . -1987) (undo-tree-id882 . -1987) (undo-tree-id883 . -1987) (undo-tree-id884 . -1987) (undo-tree-id885 . -1987) (undo-tree-id886 . -2006) 28617 (t 26709 2323 170139 887000)) nil (26709 2379 228736 139000) 0 nil])
+([nil nil ((#("\\href{mailto:" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 13 (face tex-verbatim fontified t)) . 578) (undo-tree-id48 . -12) (t 26712 55164 243309 929000)) nil (26714 14021 33248 534000) 0 nil])
+([nil nil ((#("}{nurjigit.10.93@gmail.com}" 0 27 (fontified t)) . 602) (undo-tree-id47 . -26)) nil (26714 14021 33247 572000) 0 nil])
+([nil nil ((#("\\href{mailto:" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 13 (face tex-verbatim fontified t)) . 2226) (undo-tree-id46 . -12)) nil (26714 14021 33246 860000) 0 nil])
+([nil nil ((#("}{nurjigit.10.93@gmail.com}" 0 27 (fontified t)) . 2250) (undo-tree-id45 . -26)) nil (26714 14021 33246 239000) 0 nil])
+([nil nil ((#("\\href{mailto:" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 13 (face tex-verbatim fontified t)) . 3811) (undo-tree-id44 . -12)) nil (26714 14021 33245 418000) 0 nil])
+([nil nil ((#("}{nurjigit.10.93@gmail.com}" 0 27 (fontified t)) . 3835) (undo-tree-id43 . -26)) nil (26714 14021 33244 636000) 0 nil])
+([nil nil ((#("\\href{https://orcid.org/0009-0006-7802-9577}{}\\
+" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 43 (face tex-verbatim fontified t) 43 48 (fontified t)) . 36089) (undo-tree-id41 . -47) (undo-tree-id42 . -46) 36135) nil (26714 14021 33243 614000) 0 nil])
+([nil nil ((#(" ORCID:" 0 7 (fontified t)) . 36081) (undo-tree-id40 . -6)) nil (26714 14021 33242 743000) 0 nil])
+([nil nil ((#("\\href{https://orcid.org/0000-0002-5723-6642}{}
+" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 43 (face tex-verbatim fontified t) 43 47 (fontified t)) . 35869) (undo-tree-id38 . -46) (undo-tree-id39 . -11) 35880) nil (26714 14021 33239 487000) 0 nil])
+([nil nil ((#("+77751210103 ORCID:
+" 0 20 (fontified t)) . 35849) (undo-tree-id37 . -19)) nil (26714 14021 33237 904000) 0 nil])
+([nil nil ((#("+77473074366
+" 0 13 (fontified t)) . 36002) (undo-tree-id36 . -12)) nil (26714 14021 33236 992000) 0 nil])
+([nil nil ((36000 . 36001) (#(";" 0 1 (fontified t)) . 36000) (36000 . 36001) (#("," 0 1 (fontified t)) . 36000)) nil (26714 14021 33233 996000) 0 nil])
+([nil nil ((35822 . 35823) (#("
+" 0 1 (fontified t)) . -35822) 35821) nil (26714 14021 33231 692000) 0 nil])
+([nil nil ((35827 . 35831) (#("i" 0 1 (fontified nil)) . -35827) (undo-tree-id29 . -1) (35826 . 35828) (#("e" 0 1 (fontified t)) . -35826) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (undo-tree-id32 . -1) (#("a" 0 1 (fontified t)) . -35827) (undo-tree-id33 . -1) (undo-tree-id34 . -1) (undo-tree-id35 . -1) 35828 (35823 . 35828)) nil (26714 14021 33230 380000) 0 nil])
+([nil nil ((35985 . 35990) (#("e" 0 1 (fontified nil)) . -35985) (undo-tree-id27 . -1) (#("a" 0 1 (fontified nil)) . -35986) (undo-tree-id28 . -1) 35987 (35982 . 35987)) nil (26714 14021 33226 552000) 0 nil])
+([nil nil ((35453 . 35458) (#("e" 0 1 (fontified nil)) . -35453) (undo-tree-id25 . -1) (#("a" 0 1 (fontified nil)) . -35454) (undo-tree-id26 . -1) 35455 (35450 . 35455)) nil (26714 14021 33225 120000) 0 nil])
+([nil nil ((35219 . 35224) (#("e" 0 1 (fontified nil)) . -35219) (#("a" 0 1 (fontified nil)) . -35220) 35221 (35216 . 35221)) nil (26714 14021 33223 637000) 0 nil])
+([nil nil ((#("+77751210103 ORCID:
+" 0 20 (fontified t)) . 35250) (undo-tree-id19 . -19) (undo-tree-id20 . -7) (undo-tree-id21 . -7) (undo-tree-id22 . -7) (undo-tree-id23 . -7) (undo-tree-id24 . -20) 35257) nil (26714 14021 33222 735000) 0 nil])
+([nil nil ((#("\\href{https://orcid.org/0000-0002-5723-6642}{}
+" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 43 (face tex-verbatim fontified t) 43 46 (fontified t) 46 47 (fontified t)) . 35250) (undo-tree-id7 . -46) (undo-tree-id8 . -46) (undo-tree-id9 . -7) (undo-tree-id10 . -7) (undo-tree-id11 . -7) (undo-tree-id12 . -7) (undo-tree-id13 . -7) (undo-tree-id14 . -7) (undo-tree-id15 . -7) (undo-tree-id16 . -7) (undo-tree-id17 . -7) (undo-tree-id18 . -47) 35257) nil (26714 14021 33122 497000) 0 nil])
+([nil nil ((#("+77473074366 ORCID:
+" 0 20 (fontified t)) . 35427) (undo-tree-id5 . -19) (undo-tree-id6 . -20)) nil (26714 14021 33114 432000) 0 nil])
+([nil nil ((#("\\href{https://orcid.org/0009-0006-7802-9577}{}
+" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 43 (face tex-verbatim fontified t) 43 46 (fontified t) 46 47 (fontified t)) . 35427) (undo-tree-id2 . -46) (undo-tree-id3 . -46) (undo-tree-id4 . -47)) nil (26714 14021 33112 578000) 0 nil])
+([nil nil ((35425 . 35426) (#("," 0 1 (fontified t)) . 35425) (undo-tree-id1 . -1)) nil (26714 14021 33109 973000) 0 nil])
+([nil nil ((35248 . 35249) (#("," 0 1 (fontified t)) . 35248) (undo-tree-id0 . -1)) nil (26714 14021 33108 160000) 0 nil])
+([nil nil ((35737 . 35738) (#("," 0 1 (fontified t)) . 35737)) nil (26714 14021 33081 840000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 34724) (t 26714 14021 37690 996000)) nil (26714 14033 610849 689000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 34723)) nil (26714 14033 610849 368000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 34722)) nil (26714 14033 610849 78000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 34673)) nil (26714 14033 610848 807000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 34673)) nil (26714 14033 610848 617000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 34673)) nil (26714 14033 610848 16000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 34673)) nil (26714 14033 610847 535000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . 34673)) nil (26714 14033 610846 964000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 34673)) nil (26714 14033 611016 823000) 0 nil])
+([nil nil ((34673 . 34740) (#("https://doi.org/10.1007/978-3-030-62404-0_3" 0 42 (fontified t) 42 43 (face (subscript) display (raise -0.2) fontified t)) . -34673) (undo-tree-id208 . -42) (undo-tree-id209 . -41) (undo-tree-id210 . -42) 34716) nil (26714 14051 257321 802000) 0 nil] [nil nil ((34673 . 34741) (#("https://doi.org/10.1007/978-3-030-62404-0_3
+" 0 42 (fontified t) 42 43 (face (subscript) display (raise -0.2) fontified t) 43 44 (fontified t)) . -34673) (undo-tree-id49 . -41) (undo-tree-id50 . -41) (undo-tree-id51 . -41) (undo-tree-id52 . -41) (undo-tree-id53 . -41) (undo-tree-id54 . -41) (undo-tree-id55 . -41) (undo-tree-id56 . -41) (undo-tree-id57 . -41) (undo-tree-id58 . -41) (undo-tree-id59 . -41) (undo-tree-id60 . -41) (undo-tree-id61 . -44) 34717) ((34673 . 34717) (#("\\href{https://doi.org/10.1007/978-3-030-62404-0_3
+}{https://doi.org}" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 49 (face tex-verbatim fontified t) 49 50 (face tex-verbatim fontified t) 50 68 (fontified t)) . 34673) (undo-tree-id62 . 18)) (26714 14033 610843 567000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 34549)) nil (26714 14051 257320 821000) 0 nil])
+nil
+([nil nil ((#("{" 0 1 (fontified t)) . 34548)) nil (26714 14051 257320 660000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 34547)) nil (26714 14051 257320 380000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 34501)) nil (26714 14051 257320 149000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 34501)) nil (26714 14051 257319 919000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 34501)) nil (26714 14051 257319 618000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 34501)) nil (26714 14051 257319 188000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . 34501)) nil (26714 14051 257318 917000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 34501)) nil (26714 14051 257318 667000) 0 nil])
+([nil nil ((34501 . 34565) (#("https://doi.org/10.3390/agronomy12112799" 0 40 (fontified t)) . -34501) (undo-tree-id206 . -39) (undo-tree-id207 . -39) 34541) nil (26714 14070 943615 498000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 34342 . 34343) (nil fontified nil 34328 . 34343) (34328 . 34343)) nil (26714 14077 619389 913000) 0 nil] [nil nil ((#("}" 0 1 (fontified t)) . 34328)) ((34328 . 34329)) (26714 14070 578610 230000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 34066) (t 26714 14077 622807 968000)) nil (26714 14101 231524 938000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 34327)) ((34327 . 34328)) (26714 14068 870645 482000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 34065)) nil (26714 14101 231524 637000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 34326)) ((34326 . 34327)) (26714 14068 515569 776000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 34064)) nil (26714 14101 231524 286000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 34270)) ((34270 . 34271)) (26714 14068 332620 748000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 34016)) nil (26714 14101 231524 126000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 34270)) ((34270 . 34271)) (26714 14068 148863 221000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 34016)) nil (26714 14101 231523 765000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 34270)) ((34270 . 34271)) (26714 14067 938534 188000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 34016)) nil (26714 14101 231523 525000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 34270)) ((34270 . 34271)) (26714 14067 707473 250000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 34016)) nil (26714 14101 231523 275000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . 34270)) ((34270 . 34271)) (26714 14067 358468 478000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . 34016)) nil (26714 14101 231523 114000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 34270)) ((34270 . 34271)) (26714 14056 613582 943000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 34016)) nil (26714 14101 231522 764000) 0 nil])
+([nil nil ((34266 . 34267) (#("11. https://doi.org/10.1016/j.enconman.2014.12.046\\%20
+" 0 4 (fontified t) 4 50 (fontified t) 50 52 (face font-lock-keyword-face fontified t) 52 54 (fontified t) 54 55 (fontified t)) . 34266) (undo-tree-id214 . -54) (undo-tree-id215 . -53) (undo-tree-id216 . -4) (undo-tree-id217 . 1) (undo-tree-id218 . -53) (undo-tree-id219 . -4) (undo-tree-id220 . -4) (undo-tree-id221 . -53) (undo-tree-id222 . -4) 34270) ((34266 . 34321) (#("
+" 0 1 (fontified t)) . 34266) (undo-tree-id223 . 1)) (26714 14056 613424 135000) 0 nil] [nil nil ((34266 . 34267) (34266 . 34267) (#("11. https://doi.org/10.1016/j.enconman.2014.12.046\\%20
+" 0 4 (fontified t) 4 50 (fontified t) 50 52 (face font-lock-keyword-face fontified t) 52 54 (fontified t) 54 55 (fontified t)) . 34266) (undo-tree-id63 . -54) (undo-tree-id64 . -53) (undo-tree-id65 . -4) (undo-tree-id66 . 1) (undo-tree-id67 . -4) (undo-tree-id68 . -53) (undo-tree-id69 . -4) (undo-tree-id70 . -4) (undo-tree-id71 . -4) (undo-tree-id72 . -4) (undo-tree-id73 . -4) (undo-tree-id74 . -4) (undo-tree-id75 . -4) (undo-tree-id76 . -4) (undo-tree-id77 . -4) (undo-tree-id78 . -4) (undo-tree-id79 . -4) (undo-tree-id80 . -4) (undo-tree-id81 . -4) (undo-tree-id82 . -4) (undo-tree-id83 . -4) (undo-tree-id84 . -4) (undo-tree-id85 . -4) (undo-tree-id86 . -4) (undo-tree-id87 . -4) (undo-tree-id88 . -54) (undo-tree-id89 . -54) (undo-tree-id90 . -54) (undo-tree-id91 . -54) (undo-tree-id92 . -54) (undo-tree-id93 . -54) (undo-tree-id94 . -54) (undo-tree-id95 . -54) (undo-tree-id96 . -54) (undo-tree-id97 . -54) (undo-tree-id98 . -54) (undo-tree-id99 . -54) (undo-tree-id100 . -54) (undo-tree-id101 . -54) (undo-tree-id102 . -54) (undo-tree-id103 . -54) (undo-tree-id104 . -54) (undo-tree-id105 . -54) (undo-tree-id106 . -54) (undo-tree-id107 . -54) (undo-tree-id108 . -53) (undo-tree-id109 . -53) (undo-tree-id110 . -53) (undo-tree-id111 . -53) (undo-tree-id112 . -53) (undo-tree-id113 . -53) (undo-tree-id114 . -53) (undo-tree-id115 . -53) (undo-tree-id116 . -53) (undo-tree-id117 . -53) (undo-tree-id118 . -53) (undo-tree-id119 . -53) (undo-tree-id120 . -53) (undo-tree-id121 . -53) (undo-tree-id122 . -53) (undo-tree-id123 . -53) (undo-tree-id124 . -53) (undo-tree-id125 . -53) (undo-tree-id126 . -53) (undo-tree-id127 . -53) (undo-tree-id128 . -53) (undo-tree-id129 . -53) (undo-tree-id130 . -53) (undo-tree-id131 . -53) (undo-tree-id132 . -53) (undo-tree-id133 . -53) (undo-tree-id134 . -53) (undo-tree-id135 . -53) (undo-tree-id136 . -53) (undo-tree-id137 . -53) (undo-tree-id138 . -53) (undo-tree-id139 . -53) (undo-tree-id140 . -53) (undo-tree-id141 . -53) (undo-tree-id142 . -53) (undo-tree-id143 . -53) (undo-tree-id144 . -53) (undo-tree-id145 . -53) (undo-tree-id146 . -53) (undo-tree-id147 . -53) (undo-tree-id148 . -53) (undo-tree-id149 . -53) (undo-tree-id150 . -53) (undo-tree-id151 . -53) (undo-tree-id152 . -53) (undo-tree-id153 . -53) (undo-tree-id154 . -53) (undo-tree-id155 . -53) (undo-tree-id156 . -53) (undo-tree-id157 . -53) (undo-tree-id158 . -53) (undo-tree-id159 . -53) (undo-tree-id160 . -53) (undo-tree-id161 . -53) (undo-tree-id162 . -53) (undo-tree-id163 . -53) (undo-tree-id164 . -53) (undo-tree-id165 . -53) (undo-tree-id166 . -53) (undo-tree-id167 . -53) (undo-tree-id168 . -53) (undo-tree-id169 . -53) (undo-tree-id170 . -53) (undo-tree-id171 . -53) (undo-tree-id172 . -53) (undo-tree-id173 . -53) (undo-tree-id174 . -53) (undo-tree-id175 . -53) (undo-tree-id176 . -53) (undo-tree-id177 . -53) (undo-tree-id178 . -53) (undo-tree-id179 . -53) (undo-tree-id180 . -53) (undo-tree-id181 . -53) (undo-tree-id182 . -53) (undo-tree-id183 . -53) (undo-tree-id184 . -53) (undo-tree-id185 . -53) (undo-tree-id186 . -53) (undo-tree-id187 . -53) (undo-tree-id188 . -53) (undo-tree-id189 . -53) (undo-tree-id190 . -53) (undo-tree-id191 . -53) (undo-tree-id192 . -53) (undo-tree-id193 . -53) (undo-tree-id194 . -53) (undo-tree-id195 . -53) (undo-tree-id196 . -53) (undo-tree-id197 . -53) (undo-tree-id198 . -53) (undo-tree-id199 . -53) (undo-tree-id200 . -54) (undo-tree-id201 . -4) (undo-tree-id202 . -53) (undo-tree-id203 . -55) (undo-tree-id204 . -55) (undo-tree-id205 . -55) 34319) ((34266 . 34321) (#("
+" 0 1 (fontified nil)) . 34266) (undo-tree-id211 . 1) (#("l" 0 1 (fontified t)) . 34266) (undo-tree-id212 . -1) (undo-tree-id213 . -1)) (26714 14051 257310 842000) 0 nil])
+([nil nil ((34016 . 34082) (#("https://doi.org/10.1016/j.rser.2017.05.083" 0 42 (fontified t)) . -34016) (undo-tree-id256 . -41) (undo-tree-id257 . -41) (undo-tree-id258 . -41) 34058) nil (26714 14101 231522 473000) 0 nil])
+nil
+nil
+([nil nil ((#("}" 0 1 (fontified t)) . 33569)) nil (26714 14101 231521 251000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 33568)) nil (26714 14101 231521 10000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 33567)) nil (26714 14101 231520 780000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 33515)) nil (26714 14101 231520 539000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 33515)) nil (26714 14101 231520 209000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 33515)) nil (26714 14101 231519 958000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 33515)) nil (26714 14101 231519 227000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . 33515)) nil (26714 14101 231518 997000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 33515)) nil (26714 14101 231518 706000) 0 nil])
+([nil nil ((33515 . 33585) (#("https://doi.org/10.1016/j.apenergy.2011.07.043" 0 46 (fontified t)) . -33515) (undo-tree-id253 . -45) (undo-tree-id254 . -45) (undo-tree-id255 . -45) 33561) nil (26714 14101 231518 295000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 33065)) nil (26714 14101 231517 43000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 33064)) nil (26714 14101 231516 792000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 33063)) nil (26714 14101 231516 432000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 33013)) nil (26714 14101 231516 271000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 33013)) nil (26714 14101 231516 81000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 33013)) nil (26714 14101 231515 841000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 33013)) nil (26714 14101 231515 660000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . 33013)) nil (26714 14101 231515 400000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 33013)) nil (26714 14101 231515 99000) 0 nil])
+([nil nil ((33013 . 33081) (#("https://doi.org/10.1371/journal.pone.0293613" 0 44 (fontified t)) . -33013) (undo-tree-id241 . -43) (undo-tree-id242 . -43) (undo-tree-id243 . -43) (undo-tree-id244 . -43) (undo-tree-id245 . -43) (undo-tree-id246 . -43) (undo-tree-id247 . -43) (undo-tree-id248 . -43) (undo-tree-id249 . -43) (undo-tree-id250 . -43) (undo-tree-id251 . -43) (undo-tree-id252 . -44) 33057) nil (26714 14101 231679 698000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 32785)) nil (26714 14124 210466 466000) 0 nil] [nil nil ((33012 . 33013) (#("
+" 0 1 (fontified t)) . -33012) (undo-tree-id224 . -1) (undo-tree-id225 . -1) (undo-tree-id226 . -1) (undo-tree-id227 . -1) (undo-tree-id228 . -1) (undo-tree-id229 . -1) (undo-tree-id230 . -1) (undo-tree-id231 . -1) (undo-tree-id232 . -1) (undo-tree-id233 . -1) (undo-tree-id234 . -1) (undo-tree-id235 . -1) (undo-tree-id236 . -1) (undo-tree-id237 . -1) (undo-tree-id238 . -1) (undo-tree-id239 . -1) (undo-tree-id240 . -1) 33011) ((33012 . 33013) (#(" " 0 1 (fontified t)) . 33012)) (26714 14101 231506 663000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 32784)) nil (26714 14124 210466 305000) 0 nil])
+nil
+([nil nil ((#("}" 0 1 (fontified t)) . 32783)) nil (26714 14124 210466 65000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 32744)) nil (26714 14124 210465 814000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 32744)) nil (26714 14124 210465 564000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 32744)) nil (26714 14124 210465 113000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 32744)) nil (26714 14124 210464 783000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . 32744)) nil (26714 14124 210464 622000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 32744)) nil (26714 14124 210464 352000) 0 nil])
+([nil nil ((32744 . 32801) (#("https://doi.org/10.3390/a15100365" 0 33 (fontified t)) . -32744) (undo-tree-id266 . -32) (undo-tree-id267 . -15) (undo-tree-id268 . -32) 32777) nil (26714 14124 210463 981000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 32508)) nil (26714 14124 210462 208000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 32507)) nil (26714 14124 210461 967000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 32455)) nil (26714 14124 210461 707000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 32455)) nil (26714 14124 210461 426000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 32455)) nil (26714 14124 210461 196000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 32455)) nil (26714 14124 210460 845000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . 32455)) nil (26714 14124 210460 585000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 32455)) nil (26714 14124 210460 354000) 0 nil])
+([nil nil ((32455 . 32525) (#("https://doi.org/10.1016/j.jclepro.2021.126775}" 0 45 (fontified t) 45 46 (fontified t)) . -32455) (undo-tree-id263 . -45) (undo-tree-id264 . -45) (undo-tree-id265 . -45) 32501) nil (26714 14124 210460 24000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 32283)) nil (26714 14124 210458 501000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 32282)) nil (26714 14124 210458 340000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 32281)) nil (26714 14124 210458 60000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 32232)) nil (26714 14124 210457 900000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 32232)) nil (26714 14124 210457 589000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 32232)) nil (26714 14124 210457 419000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 32232)) nil (26714 14124 210457 138000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . 32232)) nil (26714 14124 210456 978000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 32232)) nil (26714 14124 210456 777000) 0 nil])
+([nil nil ((32232 . 32299) (#("https://doi.org/10.1016/j.matpr.2020.08.635" 0 43 (fontified t)) . -32232) (undo-tree-id261 . -42) (undo-tree-id262 . -42) 32275) nil (26714 14124 210456 517000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 32010)) nil (26714 14124 210455 94000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 32009)) nil (26714 14124 210454 804000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 32008)) nil (26714 14124 210454 523000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 31968)) nil (26714 14124 210454 253000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 31968)) nil (26714 14124 210453 922000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 31968)) nil (26714 14124 210453 662000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 31968)) nil (26714 14124 210453 361000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . 31968)) nil (26714 14124 210453 181000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 31968)) nil (26714 14124 210452 730000) 0 nil])
+([nil nil ((31968 . 32026) (#("https://doi.org/10.1093/ce/zkac023" 0 34 (fontified t)) . -31968) (undo-tree-id259 . -33) (undo-tree-id260 . -33) 32002) nil (26714 14124 210450 105000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 32537) (undo-tree-id269 . -1) (undo-tree-id270 . -1) (undo-tree-id271 . -1) (undo-tree-id272 . -1) (undo-tree-id273 . -1) (undo-tree-id274 . -1) (undo-tree-id275 . -1) (undo-tree-id276 . -1) (undo-tree-id277 . -1) (undo-tree-id278 . -1) (undo-tree-id279 . -1) (undo-tree-id280 . -1) (undo-tree-id281 . -1) (undo-tree-id282 . -1) (undo-tree-id283 . -1) (undo-tree-id284 . -1) (undo-tree-id285 . -1) (t 26714 14124 214902 224000)) nil (26714 14243 478304 495000) 0 nil])
+([nil current ((35863 . 35865) (t 26714 14243 483135 644000)) nil (26714 14390 812460 108000) 0 nil])
 nil

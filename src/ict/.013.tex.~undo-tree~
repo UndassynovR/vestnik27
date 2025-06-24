@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"2cb08c178d8f760899ae506e85c00ad162547666"
+"3cfd7df6e3e90c7cdc3c8007f1bbf35546987478"
 [nil nil nil nil (26712 58031 207899 878000) 0 nil]
 ([nil nil ((#("
 {\\bfseries \\textsuperscript{1}А.Тулегулов}
@@ -500,5 +500,36 @@ nil
 nil
 ([nil nil ((#("3" 0 1 (fontified t)) . 23616) (t 26713 1433 232441 800000)) nil (26713 1438 793393 458000) 0 nil])
 ([nil nil ((#("." 0 1 (fontified t)) . 23616)) nil (26713 1438 793392 316000) 0 nil])
-([nil current ((#(" " 0 1 (fontified t)) . 23616)) nil (26713 1438 793386 806000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 23616)) nil (26713 1438 793386 806000) 0 nil])
+([nil nil ((#("\\href{mailto:Nomad13@mail.ru}{\\nolinkurl{" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 28 (face tex-verbatim fontified t) 28 30 (fontified t) 30 40 (face font-lock-keyword-face fontified t) 40 41 (fontified t)) . 23216) (undo-tree-id44 . -40) (undo-tree-id45 . -40) (undo-tree-id46 . -40) (undo-tree-id47 . -40) 23256 (t 26713 1438 797469 914000)) nil (26714 13177 89569 951000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 23231)) nil (26714 13177 89568 278000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 23231)) nil (26714 13177 89567 958000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 23049)) nil (26714 13177 89567 567000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 23049)) nil (26714 13177 89567 226000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 23049)) nil (26714 13177 89566 876000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 23049)) nil (26714 13177 89566 525000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . 23049)) nil (26714 13177 89566 234000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 23049)) nil (26714 13177 89565 844000) 0 nil])
+([nil nil ((#("m" 0 1 (fontified t)) . 23049)) nil (26714 13177 89565 523000) 0 nil])
+([nil nil ((#("a" 0 1 (fontified t)) . 23049)) nil (26714 13177 89565 203000) 0 nil])
+([nil nil ((#("i" 0 1 (fontified t)) . 23049)) nil (26714 13177 89564 872000) 0 nil])
+([nil nil ((#("l" 0 1 (fontified t)) . 23049)) nil (26714 13177 89564 491000) 0 nil])
+([nil nil ((#("t" 0 1 (fontified t)) . 23049)) nil (26714 13177 89564 221000) 0 nil])
+([nil nil ((#("o" 0 1 (fontified t)) . 23049)) nil (26714 13177 89563 960000) 0 nil])
+([nil nil ((#(":" 0 1 (fontified t)) . 23049)) nil (26714 13177 89563 790000) 0 nil])
+([nil nil ((#("}{\\nolinkurl{Dzhum@mail.ru}}" 0 2 (fontified t) 2 12 (face font-lock-keyword-face fontified t) 12 13 (fontified t) 13 26 (face tex-verbatim fontified t) 26 28 (fontified t)) . 23062) (undo-tree-id43 . -27)) nil (26714 13177 89563 569000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 22734) (undo-tree-id41 . -1) (undo-tree-id42 . -1)) nil (26714 13177 89562 938000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 22734) (undo-tree-id39 . -1) (undo-tree-id40 . -1)) nil (26714 13177 89562 267000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 22734) (undo-tree-id37 . -1) (undo-tree-id38 . -1)) nil (26714 13177 89561 486000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 22734) (undo-tree-id35 . -1) (undo-tree-id36 . -1)) nil (26714 13177 89560 734000) 0 nil])
+([nil nil ((#("f" 0 1 (fontified t)) . 22734) (undo-tree-id33 . -1) (undo-tree-id34 . -1)) nil (26714 13177 89559 762000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 22734) (undo-tree-id31 . -1) (undo-tree-id32 . -1)) nil (26714 13177 89558 851000) 0 nil])
+([nil nil ((#("m" 0 1 (fontified t)) . 22734) (undo-tree-id29 . -1) (undo-tree-id30 . -1)) nil (26714 13177 89557 839000) 0 nil])
+([nil nil ((#("a" 0 1 (fontified t)) . 22734) (undo-tree-id27 . -1) (undo-tree-id28 . -1)) nil (26714 13177 89556 827000) 0 nil])
+([nil nil ((#("i" 0 1 (fontified t)) . 22734) (undo-tree-id25 . -1) (undo-tree-id26 . -1)) nil (26714 13177 89555 474000) 0 nil])
+([nil nil ((#("l" 0 1 (fontified t)) . 22734) (undo-tree-id23 . -1) (undo-tree-id24 . -1)) nil (26714 13177 89554 322000) 0 nil])
+([nil nil ((#("t" 0 1 (fontified t)) . 22734) (undo-tree-id21 . -1) (undo-tree-id22 . -1)) nil (26714 13177 89498 337000) 0 nil])
+([nil nil ((#("o" 0 1 (fontified t)) . 22734) (undo-tree-id19 . -1) (undo-tree-id20 . -1)) nil (26714 13177 89497 305000) 0 nil])
+([nil nil ((#(":" 0 1 (fontified t)) . 22734) (undo-tree-id17 . -1) (undo-tree-id18 . -1)) nil (26714 13177 89496 93000) 0 nil])
+([nil current ((#("}{\\nolinkurl{tad62@ya.ru}}" 0 2 (fontified t) 2 12 (face font-lock-keyword-face fontified t) 12 13 (fontified t) 13 24 (face tex-verbatim fontified t) 24 26 (fontified t)) . 22745) (undo-tree-id0 . -25) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -26)) nil (26714 13177 89492 115000) 0 nil])
 nil

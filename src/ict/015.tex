@@ -357,11 +357,11 @@ Each classifier \(h_{j}\) produces a binary prediction
 define the following scores for the probabilities of belonging to class
 +1 and class −1 based on the OOB predictions:
 
-\[score_{i}^{(1)} = \frac{1}{M_{OOB}(x_{i})}\sum_{j \in \mathcal{J}_{OOB}(x_{i})}^{}{\mathbb{I}\left( h_{j}\left( x_{i} \right) = + 1 \right)\ ,}\]
+\[score_{i}^{(1)} = \frac{1}{M_{OOB}(x_{i})}\sum_{j \in \mathcal{J}_{OOB}(x_{i})}^{}{I\left( h_{j}\left( x_{i} \right) = + 1 \right)\ ,}\]
 
 \[score_{i}^{(2)} = 1 - score_{i}^{(1)}\ ,\]
 
-where \(\mathbb{I( \bullet )}\) is an indicator function that equals 1
+where \(I( \cdot )\) is an indicator function that equals 1
 if the condition inside the parentheses is met, and 0 otherwise. Thus,
 \(score_{i}^{(1)}\) represents the fraction of OOB classifiers that
 voted for class +1, while \(score_{i}^{(2)}\) is the fraction that voted
@@ -403,15 +403,7 @@ attack.
 {\bfseries Results and Discussion.} Figure 2 shows part of a script for
 simulating a data poisoning attack, in particular an attack on
 availability.
-\end{multicols}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict2/image225}
-	\caption*{Fig.2 - Matlab script}
-\end{figure}
-
-\begin{multicols}{2}
 Figure 3 shows three graphs describing the original, clean data on which
 the model is trained, and the data after the data poisoning attack has
 been implemented. The first graph clearly shows the division between the
@@ -432,22 +424,9 @@ goal of the attack.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict2/image226}
-	\caption*{}
+	\includegraphics[width=0.8\textwidth]{media/ict2/image225}
+	\caption*{Fig.2 - Matlab script}
 \end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict2/image227}
-	\caption*{}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict2/image228}
-	\caption*{}
-\end{figure}
-{\bfseries Fig.3 - Graphs for original, poisoned and mitigated data}
 
 \begin{multicols}{2}
 The following results were obtained: accuracy on clean model: 94.00\%,
@@ -484,7 +463,26 @@ require sophisticated setting up, limiting their realistic application
 in real-time. The advantage of OOB Margin Filtering is that it is a
 single pass through the data with OOB predictions, which has
 significantly less computational expense.
+\end{multicols}
 
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{media/ict2/image226}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{media/ict2/image227}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{media/ict2/image228}
+    \end{subfigure}
+    \caption*{{\bfseries Fig.3 - Graphs for original, poisoned and mitigated data}}
+\end{figure}
+
+\begin{multicols}{2}
 Finally, in terms of originality, the method described here has
 individual well-researched components (OOB prediction analysis, margin
 calculation, and outlier filtering), but their combination to combat
@@ -539,7 +537,7 @@ break data sanitization defenses //Machine Learning. - 2022. - P.1-47.
 DOI 10.48550/arXiv.1811.00741
 
 5. Tolpegin V. et al. Data poisoning attacks against federated learning
-systems //Computer security--ESORICs 2020: 25th European symposium on
+systems //Computer security -- ESORICs 2020: 25th European symposium on
 research in computer security, ESORICs 2020, guildford, UK, September
 14-18, 2020, proceedings, part i 25. - Springer International
 Publishing, 2020. - P.480-501. DOI 10.48550/arXiv.2007.08432
@@ -590,16 +588,13 @@ Conference on Machine Learning. -- PMLR, 2021. -- P.9389-9398. DOI
 \emph{{\bfseries Information about the authors}}
 
 Amirova A.S. - PhD, assistant professor, Astana IT University, Astana,
-Kazakhstan, e-mail:
-\href{mailto:akzhibek.amirova@astanait.edu.kz}{};
+Kazakhstan, e-mail: akzhibek.amirova@astanait.edu.kz;
 
 Yesmagambetova M.M.- PhD, assistant professor, Karaganda University of
-Kazpotrebsoyuz, Karaganda, Kazakhstan e-mail:
-\href{mailto:marzhan1983@mail.ru}{};
+Kazpotrebsoyuz, Karaganda, Kazakhstan e-mail: marzhan1983@mail.ru;
 
 Yesmagambetov T.U.- master, senior lecturer, Karaganda University of
-Kazpotrebsoyuz, Karaganda, Kazakhstan e-mail:
-\href{mailto:Timur198300@mail.ru}{};
+Kazpotrebsoyuz, Karaganda, Kazakhstan e-mail: \\Timur198300@mail.ru;
 
 Petrova I.Yu. - Doctor of Technical Sciences, Professor, Department of
 Higher and Applied Mathematics, Astrakhan State Technical University,
@@ -611,20 +606,18 @@ of Kazpotrebsoyuz, Karaganda, Kazakhstan e-mail: Tentl@mail.ru/
 \emph{{\bfseries Сведения об авторах}}
 
 Амирова А.С. - PhD, ассистент профессор, Astana IT University, Астана,
-Казахстан, e-mail:
+Казахстан, e-mail: \\akzhibek.amirova@astanait.edu.kz;
 
-Есмагамбетова М.М.- PhD, доцент - Карагандинский университет
-Казпотребсоюза, Караганда, Казахстан e-mail:
-\href{mailto:marzhan1983@mail.ru}{};
+Есмагамбетова М.М. - PhD, доцент - Карагандинский университет
+Казпотребсоюза, Караганда, Казахстан e-mail: \\marzhan1983@mail.ru;
 
 Есмагамбетов Т.У.- магистр, старший преподаватель - Карагандинский
-университет Казпотребсоюза, Караганда, Казахстан e-mail:
+университет Казпотребсоюза, Караганда, Казахстан e-mail: Timur198300@mail.ru;
 
 Петрова И.Ю. - доктор технических наук, профессор, кафедра Высшая и
 прикладная математика Астраханского государственного
-технического~университета, e-mail
-\href{mailto:irina.petrova1011@gmail.com}{};
+технического университета, e-mail irina.petrova1011@gmail.com;
 
-Тен Т.Л. -- доктор технических наук, профессор, Карагандинский
+Тен Т.Л. - доктор технических наук, профессор, Карагандинский
 университет Казпотребсоюза, Караганда, Казахстан e-mail: Tentl@mail.ru
 \end{authorinfo}
