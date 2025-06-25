@@ -262,3 +262,17 @@
 }
 
 \renewcommand{\nolinkurl}[1]{#1}
+
+
+\newcommand*{\tcap}[2][]{%
+  \begin{center}
+    \parbox{0.9\textwidth}{\centering\textbf{% Adjust width as needed (0.8, 0.85, 0.9, etc.)
+      \ifx\\#1\\% Check if optional argument is empty
+        #2%
+      \else
+        #2%
+      \fi
+    }}
+  \end{center}
+  \vspace{-1em}
+}
