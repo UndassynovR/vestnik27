@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"acee124efff7fa34aae46380fd200a31d09e8e6a"
+"1da120fe555b2fd2237ff06608ddd43ee7b0c080"
 [nil nil nil nil (26686 42381 764224 3000) 0 nil]
 ([nil nil ((nil rear-nonsticky nil 677 . 678) (nil fontified nil 656 . 678) (656 . 678) (655 . 656) (t 26676 20011 168533 926000) 634) nil (26686 42381 764218 540000) 0 nil])
 ([nil nil ((apply -3 7334 7357 undo--wrap-and-run-primitive-undo 7334 7357 ((7334 . 7337) 7349 (t 26686 42381 772866 560000)))) nil (26686 42415 31282 976000) 0 nil])
@@ -464,5 +464,9 @@ nil
 }
 " 0 12 (face font-lock-keyword-face fontified t) 12 13 (fontified t) 13 18 (face font-lock-function-name-face fontified t) 18 25 (fontified t) 25 27 (face font-lock-comment-face fontified t) 27 29 (fontified t) 29 35 (face font-lock-keyword-face fontified t) 35 36 (latex-env-pair t fontified t) 36 42 (face font-lock-function-name-face latex-env-pair t fontified t) 42 43 (latex-env-pair t fontified t) 43 44 (fontified t) 44 48 (fontified t) 48 55 (face font-lock-keyword-face fontified t) 55 59 (fontified t) 59 69 (face font-lock-keyword-face fontified t) 69 71 (fontified t) 71 81 (face font-lock-keyword-face fontified t) 81 129 (face font-lock-comment-face fontified t) 129 135 (fontified t) 135 139 (face font-lock-keyword-face fontified t) 139 141 (face font-lock-warning-face fontified t) 141 143 (fontified t) 143 145 (face font-lock-warning-face fontified t) 145 183 (face font-lock-comment-face fontified t) 183 193 (fontified t) 193 195 (face font-lock-comment-face fontified t) 195 201 (fontified t) 201 206 (face font-lock-keyword-face fontified t) 206 217 (fontified t) 217 219 (face font-lock-comment-face fontified t) 219 225 (fontified t) 225 228 (face font-lock-keyword-face fontified t) 228 237 (fontified t) 237 241 (face font-lock-keyword-face fontified t) 241 242 (fontified t latex-env-pair t) 242 248 (face font-lock-function-name-face fontified t latex-env-pair t) 248 249 (fontified t latex-env-pair t) 249 250 (fontified t) 250 252 (fontified t) 252 259 (face font-lock-keyword-face fontified t) 259 264 (fontified t) 264 265 (fontified t) 265 266 (fontified t) 266 267 (fontified t rear-nonsticky t) 267 268 (fontified t)) . 8856) (undo-tree-id6891 . -263) (undo-tree-id6892 . -267) (undo-tree-id6893 . -267) (undo-tree-id6894 . -15) (undo-tree-id6895 . -267) (undo-tree-id6896 . 4) (undo-tree-id6897 . -268) (undo-tree-id6898 . -235) (undo-tree-id6899 . -263) (undo-tree-id6900 . -267) (undo-tree-id6901 . -268) 9123) nil (26715 40208 874846 485000) 0 nil])
 ([nil nil ((nil rear-nonsticky nil 9131 . 9132) (nil fontified nil 8856 . 9132) (8856 . 9132)) nil (26715 40208 874831 827000) 0 nil])
-([nil current ((9132 . 9133) 9115) nil (26715 40208 874826 627000) 0 nil])
+([nil nil ((9132 . 9133) 9115) nil (26715 40208 874826 627000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 9133 . 9134) (#("
+" 0 1 (fontified nil face font-lock-comment-face)) . -9157) (9133 . 9158) (t 26715 48619 483412 405000)) nil (26715 57101 279280 834000) 0 nil])
+([nil nil ((apply 2 9134 9155 undo--wrap-and-run-primitive-undo 9134 9155 ((#("% " 0 2 (face font-lock-comment-delimiter-face fontified t)) . -9134)))) nil (26715 57101 279280 353000) 0 nil])
+([nil current ((9155 . 9156) 9134) nil (26715 57101 279276 486000) 0 nil])
 nil

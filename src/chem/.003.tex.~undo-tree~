@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"f3cdbb8f85c22d08295d8a08ed74cce7ac104358"
+"9cc8271a44d3bed072eedc303d3d8e3acef1b097"
 [nil nil nil nil (26715 41439 85526 239000) 0 nil]
 ([nil nil ((96 . 97) (#("
 " 0 1 (face (bold) fontified t)) . -96) 24 (t 26715 40779 131977 293000)) nil (26715 41439 85525 597000) 0 nil])
@@ -1633,5 +1633,181 @@ of L.N. Gumilyov, Astana, Kazakhstan, e-mail:
 ([nil nil ((42377 . 42378)) nil (26715 44086 54065 163000) 0 nil])
 ([nil nil ((42774 . 42775)) nil (26715 44086 54064 953000) 0 nil])
 ([nil nil ((42772 . 42773)) nil (26715 44086 54064 512000) 0 nil])
-([nil current ((43227 . 43228)) nil (26715 44086 54060 474000) 0 nil])
+([nil nil ((43227 . 43228)) nil (26715 44086 54060 474000) 0 nil])
+([nil nil ((#("\\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  width = \\linewidth,
+  colspec = {Q[83]Q[133]Q[123]Q[104]Q[200]Q[73]Q[81]Q[140]},
+  cells = {c},
+  cell{1}{1} = {r=2}{},
+  cell{1}{2} = {r=2}{},
+  cell{1}{3} = {c=2}{0.226\\linewidth},
+  cell{1}{5} = {r=2}{},
+  cell{1}{6} = {c=2}{0.154\\linewidth},
+  cell{1}{8} = {r=2}{},
+  cell{3}{1} = {c=8}{0.937\\linewidth},
+  vlines,
+  hline{1,3-7} = {-}{},
+  hline{2} = {3-4,6-7}{},
+}
+Temp\\-erat\\-ure,
+			K & S(BET),			m\\textsuperscript{2}/g			(based on N2) & Equivalent
+			surface area (S), m²/g (based on CO2) &  & Specific			surface S(DFT),			m\\textsuperscript{2}/g			(according to H2) & Amount
+			of adsorbed H2
+			gas &  & Heat
+			of adsorption of H2,
+			kJ/mol\\\\
+ &  & Dubinin-Radushkev\\-ich & Dubinin-Astakhov &  & \\% & mg/g & \\\\
+Powdered			activated adsorbent Shoptykol:KOH (1:0.5) 900\\textsuperscript{0}С &  &  &  &  &  &  & \\\\
+77 & {
+			926,6728
+			\\\\~} & {
+			706,124
+			\\\\~} & {
+			1605,444
+			\\\\~} & 1184,29 & 1,48 & 14,8203 & 17,31\\\\
+273,15 & - & - & - & - & 0,021 & 0,21024 & -\\\\
+298 & - & - & - & - & 0,0083 & 0,08570 & -
+\\end{longtblr}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (latex-env-pair t fontified t) 7 15 (face font-lock-function-name-face latex-env-pair t fontified t) 15 16 (latex-env-pair t fontified t) 16 63 (fontified t) 63 73 (face font-lock-keyword-face fontified t) 73 225 (fontified t) 225 235 (face font-lock-keyword-face fontified t) 235 288 (fontified t) 288 298 (face font-lock-keyword-face fontified t) 298 351 (fontified t) 351 361 (face font-lock-keyword-face fontified t) 361 430 (fontified t) 430 432 (face font-lock-keyword-face fontified t) 432 436 (fontified t) 436 438 (face font-lock-keyword-face fontified t) 438 461 (fontified t) 461 477 (face font-lock-keyword-face fontified t) 477 588 (fontified t) 588 604 (face font-lock-keyword-face fontified t) 604 707 (fontified t) 707 709 (face font-lock-warning-face fontified t) 709 733 (fontified t) 733 735 (face font-lock-keyword-face fontified t) 735 763 (fontified t) 763 765 (face font-lock-keyword-face fontified t) 765 775 (fontified t) 775 777 (face font-lock-warning-face fontified t) 777 834 (fontified t) 834 850 (face font-lock-keyword-face fontified t) 850 875 (fontified t) 875 877 (face font-lock-warning-face fontified t) 877 900 (fontified t) 900 902 (face font-lock-warning-face fontified t) 902 923 (fontified t) 923 925 (face font-lock-warning-face fontified t) 925 947 (fontified t) 947 949 (face font-lock-warning-face fontified t) 949 986 (fontified t) 986 988 (face font-lock-warning-face fontified t) 988 1033 (fontified t) 1033 1035 (face font-lock-warning-face fontified t) 1035 1079 (fontified t) 1079 1083 (face font-lock-keyword-face fontified t) 1083 1084 (latex-env-pair t fontified t) 1084 1092 (face font-lock-function-name-face latex-env-pair t fontified t) 1092 1093 (latex-env-pair t fontified t) 1093 1094 (fontified t)) . 27752) (undo-tree-id0 . -53) (undo-tree-id1 . -1079) (undo-tree-id2 . -6) (undo-tree-id3 . -1079) (undo-tree-id4 . -81) (undo-tree-id5 . -1079) (undo-tree-id6 . -1079) (undo-tree-id7 . -1093) 28831 (t 26715 48619 433412 670000)) nil (26715 48736 503393 404000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 28646 . 28647) (#("
+" 0 1 (fontified nil)) . -29740) (28646 . 29741) 28486) nil (26715 48737 518841 76000) 0 nil] [nil nil ((nil rear-nonsticky nil 28647 . 28648) (#("
+" 0 1 (fontified nil)) . -29741) (28647 . 29742)) ((#("
+\\begin{longtblr}[
+  label = none,
+  entry = none,
+]{
+  width = \\linewidth,
+  colspec = {Q[83]Q[133]Q[123]Q[104]Q[200]Q[73]Q[81]Q[140]},
+  cells = {c},
+  cell{1}{1} = {r=2}{},
+  cell{1}{2} = {r=2}{},
+  cell{1}{3} = {c=2}{0.226\\linewidth},
+  cell{1}{5} = {r=2}{},
+  cell{1}{6} = {c=2}{0.154\\linewidth},
+  cell{1}{8} = {r=2}{},
+  cell{3}{1} = {c=8}{0.937\\linewidth},
+  vlines,
+  hline{1,3-7} = {-}{},
+  hline{2} = {3-4,6-7}{},
+}
+Temp\\-erat\\-ure,
+			K & S(BET),			m\\textsuperscript{2}/g			(based on N2) & Equivalent
+			surface area (S), m²/g (based on CO2) &  & Specific			surface S(DFT),			m\\textsuperscript{2}/g			(according to H2) & Amount
+			of adsorbed H2
+			gas &  & Heat
+			of adsorption of H2,
+			kJ/mol\\\\
+ &  & Dubinin-Radushkev\\-ich & Dubinin-Astakhov &  & \\% & mg/g & \\\\
+Powdered			activated adsorbent Shoptykol:KOH (1:0.5) 900\\textsuperscript{0}С &  &  &  &  &  &  & \\\\
+77 & {
+			926,6728
+			\\\\~} & {
+			706,124
+			\\\\~} & {
+			1605,444
+			\\\\~} & 1184,29 & 1,48 & 14,8203 & 17,31\\\\
+273,15 & - & - & - & - & 0,021 & 0,21024 & -\\\\
+298 & - & - & - & - & 0,0083 & 0,08570 & -
+\\end{longtblr}
+" 0 1 (rear-nonsticky nil fontified nil) 1 7 (face font-lock-keyword-face fontified nil) 7 8 (fontified nil latex-env-pair t) 8 16 (face font-lock-function-name-face fontified nil latex-env-pair t) 16 17 (fontified nil latex-env-pair t) 17 19 (fontified nil) 19 64 (fontified t) 64 74 (face font-lock-keyword-face fontified t) 74 226 (fontified t) 226 236 (face font-lock-keyword-face fontified t) 236 289 (fontified t) 289 299 (face font-lock-keyword-face fontified t) 299 352 (fontified t) 352 362 (face font-lock-keyword-face fontified t) 362 431 (fontified t) 431 433 (face font-lock-keyword-face fontified t) 433 437 (fontified t) 437 439 (face font-lock-keyword-face fontified t) 439 462 (fontified t) 462 478 (face font-lock-keyword-face fontified t) 478 589 (fontified t) 589 605 (face font-lock-keyword-face fontified t) 605 708 (fontified t) 708 710 (face font-lock-warning-face fontified t) 710 734 (fontified t) 734 736 (face font-lock-keyword-face fontified t) 736 764 (fontified t) 764 766 (face font-lock-keyword-face fontified t) 766 776 (fontified t) 776 778 (face font-lock-warning-face fontified t) 778 835 (fontified t) 835 851 (face font-lock-keyword-face fontified t) 851 876 (fontified t) 876 878 (face font-lock-warning-face fontified t) 878 901 (fontified t) 901 903 (face font-lock-warning-face fontified t) 903 924 (fontified t) 924 926 (face font-lock-warning-face fontified t) 926 948 (fontified t) 948 950 (face font-lock-warning-face fontified t) 950 987 (fontified t) 987 989 (face font-lock-warning-face fontified t) 989 1034 (fontified t) 1034 1036 (face font-lock-warning-face fontified t) 1036 1080 (fontified t) 1080 1084 (face font-lock-keyword-face fontified nil) 1084 1085 (fontified nil latex-env-pair t) 1085 1093 (face font-lock-function-name-face fontified nil latex-env-pair t) 1093 1094 (fontified nil latex-env-pair t) 1094 1095 (fontified nil)) . 28647) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1094) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (29741 . 29742) (nil rear-nonsticky t 28647 . 28648)) (26715 48736 503191 65000) 0 nil])
+([nil nil ((#("
+%% \\begin{longtable}[]{@{}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 14\\tabcolsep) * \\real{0.0973}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 14\\tabcolsep) * \\real{0.1375}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 14\\tabcolsep) * \\real{0.1339}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 14\\tabcolsep) * \\real{0.1340}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 14\\tabcolsep) * \\real{0.1489}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 14\\tabcolsep) * \\real{0.1191}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 14\\tabcolsep) * \\real{0.1171}}
+%%   >{\\centering\\arraybackslash}p{(\\linewidth - 14\\tabcolsep) * \\real{0.1122}}@{}}
+%% \\toprule\\noalign{}
+%% \\multirow{2}{=}{\\begin{minipage}[b]{\\linewidth}\\centering
+%% Temperature, K
+%% \\end{minipage}} &
+%% \\multirow{2}{=}{\\begin{minipage}[b]{\\linewidth}\\centering
+%% S(\\textsubscript{BET}), m\\textsuperscript{2}/g (based on
+%% N\\textsubscript{2})
+%% \\end{minipage}} &
+%% \\multicolumn{2}{>{\\centering\\arraybackslash}p{(\\linewidth - 14\\tabcolsep) * \\real{0.2679} + 2\\tabcolsep}}{%
+%% \\begin{minipage}[b]{\\linewidth}\\centering
+%% Equivalent surface area (S), m²/g (based on CO\\textsubscript{2})
+%% \\end{minipage}} &
+%% \\multirow{2}{=}{\\begin{minipage}[b]{\\linewidth}\\centering
+%% Specific surface S\\textsubscript{(DFT)}, m\\textsuperscript{2}/g
+%% (according to H\\textsubscript{2})
+%% \\end{minipage}} &
+%% \\multicolumn{2}{>{\\centering\\arraybackslash}p{(\\linewidth - 14\\tabcolsep) * \\real{0.2362} + 2\\tabcolsep}}{%
+%% \\begin{minipage}[b]{\\linewidth}\\centering
+%% Amount of adsorbed H\\textsubscript{2} gas
+%% \\end{minipage}} &
+%% \\multirow{2}{=}{\\begin{minipage}[b]{\\linewidth}\\centering
+%% Heat of adsorption of H\\textsubscript{2}, kJ/mol
+%% \\end{minipage}} \\\\
+%% & & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Dubinin-Radushkevich
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% Dubinin-Astakhov
+%% \\end{minipage} & & \\begin{minipage}[b]{\\linewidth}\\centering
+%% \\%
+%% \\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\centering
+%% mg/g
+%% \\end{minipage} \\\\
+%% \\midrule\\noalign{}
+%% \\endhead
+%% \\bottomrule\\noalign{}
+%% \\endlastfoot
+%% \\multicolumn{8}{@{}>{\\centering\\arraybackslash}p{(\\linewidth - 14\\tabcolsep) * \\real{1.0000} + 14\\tabcolsep}@{}}{%
+%% Powdered activated adsorbent Shoptykol:KOH (1:0.5)
+%% 900\\textsuperscript{0}С} \\\\
+%% 77 & 926,6728 & 706,124 & 1605,444 & 1184,29 & 1,48 & 14,8203 & 17,31 \\\\
+%% 273,15 & - & - & - & - & 0,021 & 0,21024 & - \\\\
+%% 298 & - & - & - & - & 0,0083 & 0,08570 & - \\\\
+%% \\end{longtable}
+" 0 1 (fontified t) 1 4 (face font-lock-comment-delimiter-face fontified t) 4 10 (face font-lock-comment-face fontified t) 10 21 (face font-lock-comment-face fontified t latex-env-pair t) 21 28 (face font-lock-comment-face fontified t) 28 33 (face font-lock-comment-delimiter-face fontified t) 33 108 (face font-lock-comment-face fontified t) 108 113 (face font-lock-comment-delimiter-face fontified t) 113 188 (face font-lock-comment-face fontified t) 188 193 (face font-lock-comment-delimiter-face fontified t) 193 268 (face font-lock-comment-face fontified t) 268 273 (face font-lock-comment-delimiter-face fontified t) 273 348 (face font-lock-comment-face fontified t) 348 353 (face font-lock-comment-delimiter-face fontified t) 353 428 (face font-lock-comment-face fontified t) 428 433 (face font-lock-comment-delimiter-face fontified t) 433 508 (face font-lock-comment-face fontified t) 508 513 (face font-lock-comment-delimiter-face fontified t) 513 588 (face font-lock-comment-face fontified t) 588 593 (face font-lock-comment-delimiter-face fontified t) 593 606 (face font-lock-comment-face fontified t) 606 672 (face font-lock-comment-face fontified t) 672 675 (face font-lock-comment-delimiter-face fontified t) 675 694 (face font-lock-comment-face fontified t) 694 697 (face font-lock-comment-delimiter-face fontified t) 697 719 (face font-lock-comment-face fontified t) 719 729 (face font-lock-comment-face fontified t latex-env-pair t) 729 755 (face font-lock-comment-face fontified t) 755 758 (face font-lock-comment-delimiter-face fontified t) 758 773 (face font-lock-comment-face fontified t) 773 776 (face font-lock-comment-delimiter-face fontified t) 776 780 (face font-lock-comment-face fontified t) 780 790 (face font-lock-comment-face fontified t latex-env-pair t) 790 794 (face font-lock-comment-face fontified t) 794 797 (face font-lock-comment-delimiter-face fontified t) 797 819 (face font-lock-comment-face fontified t) 819 829 (face font-lock-comment-face fontified t latex-env-pair t) 829 855 (face font-lock-comment-face fontified t) 855 858 (face font-lock-comment-delimiter-face fontified t) 858 915 (face font-lock-comment-face fontified t) 915 918 (face font-lock-comment-delimiter-face fontified t) 918 938 (face font-lock-comment-face fontified t) 938 941 (face font-lock-comment-delimiter-face fontified t) 941 945 (face font-lock-comment-face fontified t) 945 955 (face font-lock-comment-face fontified t latex-env-pair t) 955 959 (face font-lock-comment-face fontified t) 959 962 (face font-lock-comment-delimiter-face fontified t) 962 971 (face font-lock-comment-face fontified t) 971 1070 (face font-lock-comment-face fontified t) 1070 1073 (face font-lock-comment-delimiter-face fontified t) 1073 1079 (face font-lock-comment-face fontified t) 1079 1089 (face font-lock-comment-face fontified t latex-env-pair t) 1089 1115 (face font-lock-comment-face fontified t) 1115 1118 (face font-lock-comment-delimiter-face fontified t) 1118 1183 (face font-lock-comment-face fontified t) 1183 1186 (face font-lock-comment-delimiter-face fontified t) 1186 1190 (face font-lock-comment-face fontified t) 1190 1200 (face font-lock-comment-face fontified t latex-env-pair t) 1200 1204 (face font-lock-comment-face fontified t) 1204 1207 (face font-lock-comment-delimiter-face fontified t) 1207 1229 (face font-lock-comment-face fontified t) 1229 1239 (face font-lock-comment-face fontified t latex-env-pair t) 1239 1265 (face font-lock-comment-face fontified t) 1265 1268 (face font-lock-comment-delimiter-face fontified t) 1268 1332 (face font-lock-comment-face fontified t) 1332 1335 (face font-lock-comment-delimiter-face fontified t) 1335 1369 (face font-lock-comment-face fontified t) 1369 1372 (face font-lock-comment-delimiter-face fontified t) 1372 1376 (face font-lock-comment-face fontified t) 1376 1386 (face font-lock-comment-face fontified t latex-env-pair t) 1386 1390 (face font-lock-comment-face fontified t) 1390 1393 (face font-lock-comment-delimiter-face fontified t) 1393 1500 (face font-lock-comment-face fontified t) 1500 1501 (fontified t face font-lock-comment-face) 1501 1504 (face font-lock-comment-delimiter-face fontified t) 1504 1510 (face font-lock-comment-face fontified t) 1510 1520 (face font-lock-comment-face fontified t latex-env-pair t) 1520 1546 (face font-lock-comment-face fontified t) 1546 1549 (face font-lock-comment-delimiter-face fontified t) 1549 1591 (face font-lock-comment-face fontified t) 1591 1594 (face font-lock-comment-delimiter-face fontified t) 1594 1598 (face font-lock-comment-face fontified t) 1598 1608 (face font-lock-comment-face fontified t latex-env-pair t) 1608 1612 (face font-lock-comment-face fontified t) 1612 1615 (face font-lock-comment-delimiter-face fontified t) 1615 1637 (face font-lock-comment-face fontified t) 1637 1647 (face font-lock-comment-face fontified t latex-env-pair t) 1647 1673 (face font-lock-comment-face fontified t) 1673 1676 (face font-lock-comment-delimiter-face fontified t) 1676 1725 (face font-lock-comment-face fontified t) 1725 1728 (face font-lock-comment-delimiter-face fontified t) 1728 1732 (face font-lock-comment-face fontified t) 1732 1742 (face font-lock-comment-face fontified t latex-env-pair t) 1742 1747 (face font-lock-comment-face fontified t) 1747 1750 (face font-lock-comment-delimiter-face fontified t) 1750 1760 (face font-lock-comment-face fontified t) 1760 1770 (face font-lock-comment-face fontified t latex-env-pair t) 1770 1796 (face font-lock-comment-face fontified t) 1796 1799 (face font-lock-comment-delimiter-face fontified t) 1799 1820 (face font-lock-comment-face fontified t) 1820 1823 (face font-lock-comment-delimiter-face fontified t) 1823 1827 (face font-lock-comment-face fontified t) 1827 1837 (face font-lock-comment-face fontified t latex-env-pair t) 1837 1846 (face font-lock-comment-face fontified t) 1846 1856 (face font-lock-comment-face fontified t latex-env-pair t) 1856 1882 (face font-lock-comment-face fontified t) 1882 1885 (face font-lock-comment-delimiter-face fontified t) 1885 1902 (face font-lock-comment-face fontified t) 1902 1905 (face font-lock-comment-delimiter-face fontified t) 1905 1909 (face font-lock-comment-face fontified t) 1909 1919 (face font-lock-comment-face fontified t latex-env-pair t) 1919 1930 (face font-lock-comment-face fontified t) 1930 1940 (face font-lock-comment-face fontified t latex-env-pair t) 1940 1966 (face font-lock-comment-face fontified t) 1966 1969 (face font-lock-comment-delimiter-face fontified t) 1969 1972 (face font-lock-comment-face fontified t) 1972 1975 (face font-lock-comment-delimiter-face fontified t) 1975 1979 (face font-lock-comment-face fontified t) 1979 1989 (face font-lock-comment-face fontified t latex-env-pair t) 1989 1998 (face font-lock-comment-face fontified t) 1998 2008 (face font-lock-comment-face fontified t latex-env-pair t) 2008 2034 (face font-lock-comment-face fontified t) 2034 2037 (face font-lock-comment-delimiter-face fontified t) 2037 2042 (face font-lock-comment-face fontified t) 2042 2045 (face font-lock-comment-delimiter-face fontified t) 2045 2049 (face font-lock-comment-face fontified t) 2049 2059 (face font-lock-comment-face fontified t latex-env-pair t) 2059 2063 (face font-lock-comment-face fontified t) 2063 2066 (face font-lock-comment-delimiter-face fontified t) 2066 2085 (face font-lock-comment-face fontified t) 2085 2088 (face font-lock-comment-delimiter-face fontified t) 2088 2097 (face font-lock-comment-face fontified t) 2097 2100 (face font-lock-comment-delimiter-face fontified t) 2100 2122 (face font-lock-comment-face fontified t) 2122 2125 (face font-lock-comment-delimiter-face fontified t) 2125 2138 (face font-lock-comment-face fontified t) 2138 2141 (face font-lock-comment-delimiter-face fontified t) 2141 2172 (face font-lock-comment-face fontified t) 2172 2256 (face font-lock-comment-face fontified t) 2256 2259 (face font-lock-comment-delimiter-face fontified t) 2259 2310 (face font-lock-comment-face fontified t) 2310 2313 (face font-lock-comment-delimiter-face fontified t) 2313 2341 (face font-lock-comment-face fontified t) 2341 2344 (face font-lock-comment-delimiter-face fontified t) 2344 2417 (face font-lock-comment-face fontified t) 2417 2420 (face font-lock-comment-delimiter-face fontified t) 2420 2468 (face font-lock-comment-face fontified t) 2468 2471 (face font-lock-comment-delimiter-face fontified t) 2471 2517 (face font-lock-comment-face fontified t) 2517 2520 (face font-lock-comment-delimiter-face fontified t) 2520 2524 (face font-lock-comment-face fontified t) 2524 2535 (face font-lock-comment-face fontified t latex-env-pair t) 2535 2536 (face font-lock-comment-face fontified t)) . 29741) (undo-tree-id14 . -2517) (undo-tree-id15 . -2517) (undo-tree-id16 . -2535) (undo-tree-id17 . -2517) (undo-tree-id18 . -2536) (t 26715 48737 524786 640000)) nil (26715 48745 472264 785000) 0 nil])
+nil
+([nil nil ((nil rear-nonsticky nil 28223 . 28224) (nil fontified nil 27752 . 28224) (27752 . 28224) (t 26715 48745 480744 459000)) nil (26715 48782 127652 360000) 0 nil])
+([nil nil ((28224 . 28225) 28223) nil (26715 48782 127651 7000) 0 nil])
+([nil nil ((#("% \\usepackage{tabularray}
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 26 (face font-lock-comment-face fontified t)) . 27752) (undo-tree-id19 . -25)) nil (26715 48782 127648 192000) 0 nil])
+([nil nil ((27929 . 27930) (#("			" 0 3 (fontified t)) . 27929) (undo-tree-id20 . -2) (undo-tree-id21 . -1) (t 26715 48782 133550 135000)) nil (26715 48800 651403 940000) 0 nil])
+([nil nil ((28053 . 28054) (#("			" 0 3 (fontified nil)) . 28053) (#("
+" 0 1 (fontified t)) . -28053) (28032 . 28033) (#("			" 0 3 (fontified nil)) . 28032) (#("
+" 0 1 (fontified t)) . -28032) (#("		" 0 2 (fontified nil)) . 28024) (#("
+" 0 1 (fontified t)) . -28024) (28022 . 28023) (#("			" 0 3 (fontified nil)) . 28022) (#("
+" 0 1 (fontified t)) . -28022) (28016 . 28017) (#("			" 0 3 (fontified nil)) . 28016) (#("
+" 0 1 (fontified t)) . -28016) (28013 . 28014) (#("			" 0 3 (fontified nil)) . 28013) (#("
+" 0 1 (fontified t)) . -28013) (28009 . 28010) (#("			" 0 3 (fontified nil)) . 28009) (#("
+" 0 1 (fontified t)) . -28009) (#("			" 0 3 (fontified nil)) . 28005) (#("
+" 0 1 (fontified t)) . -28005) (27992 . 27993) (#("			" 0 3 (fontified nil)) . 27992) (#("
+" 0 1 (fontified t)) . -27992) (27988 . 27989) (#("			" 0 3 (fontified nil)) . 27988) (#("
+" 0 1 (fontified t)) . -27988) (27973 . 27974) (#("			" 0 3 (fontified nil)) . 27973) (#("
+" 0 1 (fontified t)) . -27973) (27969 . 27970) (#("			" 0 3 (fontified nil)) . 27969) (#("
+" 0 1 (fontified t)) . -27969) 27929) nil (26715 48800 651680 468000) 0 nil])
+([nil nil ((#("		" 0 2 (fontified nil)) . 28088) (#("
+" 0 1 (fontified t)) . -28088) (28080 . 28081) (#("			" 0 3 (fontified nil)) . 28080) (#("
+" 0 1 (fontified t)) . -28080) (28074 . 28075) (#("			" 0 3 (fontified nil)) . 28074) (#("
+" 0 1 (fontified t)) . -28074) (#("			" 0 3 (fontified nil)) . 28064) (#("
+" 0 1 (fontified t)) . -28064) 28063) nil (26715 48803 622320 42000) 0 nil] [nil nil ((28131 . 28132) (#("
+" 0 1 (fontified t)) . -28131) (#("		" 0 2 (fontified nil)) . 28088) (#("
+" 0 1 (fontified t)) . -28088) (28080 . 28081) (#("			" 0 3 (fontified nil)) . 28080) (#("
+" 0 1 (fontified t)) . -28080) (28074 . 28075) (#("			" 0 3 (fontified nil)) . 28074) (#("
+" 0 1 (fontified t)) . -28074) (#("			" 0 3 (fontified nil)) . 28064) (#("
+" 0 1 (fontified t)) . -28064) 28063) ((28064 . 28065) (28064 . 28067) (28074 . 28075) (28074 . 28077) (#(" " 0 1 (fontified nil)) . 28074) (28080 . 28081) (28080 . 28083) (#(" " 0 1 (fontified nil)) . 28080) (28088 . 28089) (28088 . 28090) (28131 . 28132) (#(" " 0 1 (fontified t)) . 28131)) (26715 48800 651387 179000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 28063) (t 26715 48803 628436 181000)) nil (26715 48818 252758 863000) 0 nil])
+nil
+([nil nil ((#("\\" 0 1 (face font-lock-warning-face fontified t)) . 28074)) nil (26715 48818 252758 432000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 28074) (undo-tree-id24 . -1)) nil (26715 48818 252758 31000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 28085) (undo-tree-id22 . -1) (undo-tree-id23 . -1)) nil (26715 48818 252754 204000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . 35668) (35669 . 35670) (#("1" 0 1 (fontified t)) . 35468) (35469 . 35470) (#("1" 0 1 (fontified t)) . 35255) (35256 . 35257) (#("1" 0 1 (fontified t)) . 35032) (t 26715 48818 259358 612000) (35033 . 35034) 35668 (t 26715 48818 259358 612000)) nil (26715 49652 313781 777000) 0 nil])
+([nil nil ((35945 . 35946) (#("8" 0 1 (fontified t)) . 35945) (35945 . 35946) (#("1" 0 1 (fontified t)) . 35945)) nil (26715 49652 313780 654000) 0 nil])
+([nil nil ((36208 . 36209) (#("1" 0 1 (fontified t)) . 36208)) nil (26715 49652 313780 23000) 0 nil])
+([nil nil ((36412 . 36413) (#("1" 0 1 (fontified t)) . 36412)) nil (26715 49652 313779 582000) 0 nil])
+([nil nil ((36696 . 36697) (#("1" 0 1 (fontified t)) . 36696)) nil (26715 49652 313778 781000) 0 nil])
+([nil nil ((37010 . 37011) 36950) nil (26715 49652 313774 383000) 0 nil])
+([nil nil ((35910 . 35912) (t 26715 49652 320936 737000)) nil (26715 49667 775859 623000) 0 nil])
+([nil nil ((36995 . 36997) (t 26715 49667 782854 762000)) nil (26715 49688 366839 576000) 0 nil])
+([nil current ((38036 . 38038)) nil (26715 49688 366836 20000) 0 nil])
 nil
