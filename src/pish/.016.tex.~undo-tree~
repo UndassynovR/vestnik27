@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"0a9a0402aad20003d44423699489275d43eab1f0"
+"bdbdd15fbaa415d80676742ce7a6ccfc64a16aa4"
 [nil nil nil nil (26715 35974 691753 194000) 0 nil]
 ([nil nil ((#("\\begin{figure}[H]
 	\\centering
@@ -891,11 +891,84 @@ presented in table 3.
 ([nil nil ((10367 . 10369) (#("	" 0 1 (fontified t)) . 10367) (undo-tree-id39 . 1)) nil (26715 40628 154853 438000) 0 nil] [nil nil ((10366 . 10368) (#("
 " 0 1 (fontified t)) . -10366) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) 10367) ((10366 . 10367) (#("  " 0 2 (fontified t)) . 10366) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) (undo-tree-id38 . -1)) (26715 40621 4099 497000) 0 nil])
 ([nil nil ((#("r" 0 1 (fontified t)) . 15390) (undo-tree-id3085 . -1) (undo-tree-id3086 . -1)) ((15390 . 15391)) (26715 39590 609957 294000) 0 nil])
-([nil current ((12542 . 12544) (#("	" 0 1 (fontified t)) . 12542)) nil (26715 40628 154840 834000) 0 nil])
+([nil nil ((12542 . 12544) (#("	" 0 1 (fontified t)) . 12542)) nil (26715 40628 154840 834000) 0 nil])
 nil
 ([nil nil ((#("i" 0 1 (fontified t)) . 15390) (undo-tree-id3083 . -1) (undo-tree-id3084 . -1)) ((15390 . 15391)) (26715 39590 561339 348000) 0 nil])
-nil
+([nil nil ((15701 . 15722) (16221 . 16237) (t 26715 40628 159541 525000)) nil (26715 40924 591395 886000) 0 nil])
 ([nil nil ((#("e" 0 1 (fontified t)) . 15390) (undo-tree-id3081 . -1) (undo-tree-id3082 . -1)) ((15390 . 15391)) (26715 39590 510625 553000) 0 nil])
+([nil nil ((#("
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.8\\textwidth]{media/pish2/image82}
+	\\caption*{Fig.2 - Response surface of the dependence of curd product viscosity on the mass fraction of cryopowder and fat content in cream}
+\\end{figure}
+" 0 1 (fontified t) 1 7 (face font-lock-keyword-face fontified t) 7 8 (fontified t latex-env-pair t) 8 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 20 (fontified t) 20 30 (face font-lock-keyword-face fontified t) 30 31 (fontified t) 31 32 (fontified t) 32 47 (face font-lock-keyword-face fontified t) 47 48 (face font-lock-keyword-face fontified t) 48 58 (fontified t) 58 68 (face font-lock-keyword-face fontified t) 68 70 (fontified t) 70 88 (face font-lock-builtin-face fontified t) 88 89 (face font-lock-builtin-face fontified t) 89 91 (fontified t) 91 92 (fontified t) 92 101 (face font-lock-keyword-face fontified t) 101 102 (fontified t) 102 229 (fontified t) 229 230 (fontified t rear-nonsticky t) 230 232 (fontified t) 232 236 (face font-lock-keyword-face fontified t) 236 237 (fontified t latex-env-pair t) 237 243 (face font-lock-function-name-face fontified t latex-env-pair t) 243 244 (fontified t latex-env-pair t) 244 245 (fontified t)) . 18290) (undo-tree-id40 . -232) (undo-tree-id41 . -232) (undo-tree-id42 . -244) (undo-tree-id43 . -1) (undo-tree-id44 . -232) 18522 (t 26715 40924 595376 542000)) nil (26715 40957 842109 867000) 0 nil])
 ([nil nil ((#("s" 0 1 (fontified t)) . 15390) (undo-tree-id3079 . -1) (undo-tree-id3080 . -1)) ((15390 . 15391)) (26715 39590 370388 480000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 17638 . 17639) (#("
+" 0 1 (fontified nil)) . -17883) (17638 . 17884) 17626) nil (26715 40958 861388 522000) 0 nil] [nil nil ((nil rear-nonsticky nil 17625 . 17626) (#("
+" 0 1 (fontified nil)) . -17870) (17625 . 17871) 17606) ((#("
+
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.8\\textwidth]{media/pish2/image82}
+	\\caption*{Fig.2 - Response surface of the dependence of curd product viscosity on the mass fraction of cryopowder and fat content in cream}
+\\end{figure}
+" 0 1 (rear-nonsticky nil fontified nil) 1 2 (fontified nil) 2 8 (face font-lock-keyword-face fontified t) 8 9 (fontified t latex-env-pair t) 9 15 (face font-lock-function-name-face fontified t latex-env-pair t) 15 16 (fontified t latex-env-pair t) 16 21 (fontified t) 21 31 (face font-lock-keyword-face fontified t) 31 32 (fontified t) 32 33 (fontified t) 33 48 (face font-lock-keyword-face fontified t) 48 49 (face font-lock-keyword-face fontified t) 49 59 (fontified t) 59 69 (face font-lock-keyword-face fontified t) 69 71 (fontified t) 71 89 (face font-lock-builtin-face fontified t) 89 90 (face font-lock-builtin-face fontified t) 90 92 (fontified t) 92 93 (fontified t) 93 102 (face font-lock-keyword-face fontified t) 102 103 (fontified t) 103 230 (fontified t) 230 231 (fontified t rear-nonsticky t) 231 233 (fontified t) 233 237 (face font-lock-keyword-face fontified nil) 237 238 (fontified nil latex-env-pair t) 238 244 (face font-lock-function-name-face fontified nil latex-env-pair t) 244 245 (fontified nil latex-env-pair t) 245 246 (fontified nil)) . 17625) (undo-tree-id45 . -1) (undo-tree-id46 . -1) (undo-tree-id47 . -245) (undo-tree-id48 . -1) (undo-tree-id49 . -1) (undo-tree-id50 . -1) (17870 . 17871) (nil rear-nonsticky t 17625 . 17626)) (26715 40957 841922 775000) 0 nil])
 ([nil nil ((#(" " 0 1 (fontified t)) . 15390) (undo-tree-id3077 . -1) (undo-tree-id3078 . -1)) ((15390 . 15391)) (26715 39590 370210 244000) 0 nil])
+([nil nil ((17526 . 17527) (t 26715 40958 865468 250000)) nil (26715 40985 279889 149000) 0 nil])
+nil
+nil
+([nil nil ((17476 . 17477) (#("8" 0 1 (fontified t)) . 17476) (undo-tree-id55 . -1)) nil (26715 40985 279888 538000) 0 nil])
+([nil nil ((17697 . 17698) (#("8" 0 1 (fontified t)) . 17697)) nil (26715 40985 279887 787000) 0 nil])
+([nil nil ((18593 . 18594) (#("8" 0 1 (fontified t)) . 18593) (undo-tree-id54 . -1)) nil (26715 40985 279887 176000) 0 nil])
+([nil nil ((18832 . 18833) (#("8" 0 1 (fontified t)) . 18832)) nil (26715 40985 279886 304000) 0 nil])
+([nil nil ((19780 . 19781) (#("8" 0 1 (fontified t)) . 19780) (undo-tree-id53 . -1)) nil (26715 40985 279885 663000) 0 nil])
+([nil nil ((20064 . 20065) (#("8" 0 1 (fontified t)) . 20064) (undo-tree-id52 . -1)) nil (26715 40985 279884 801000) 0 nil])
+([nil nil ((20342 . 20343) (#("8" 0 1 (fontified t)) . 20342) (undo-tree-id51 . -1)) nil (26715 40985 279883 419000) 0 nil])
+([nil nil ((20610 . 20611) (#("8" 0 1 (fontified t)) . 20610)) nil (26715 40985 279866 687000) 0 nil])
+([nil nil ((#("
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.6\\textwidth]{media/pish2/image85}
+	\\caption*{Fig.5 - Sectional projections of the response surface illustrating the dependence of curd product viscosity on the mass fraction of cryopowder and fat content in cream}
+\\end{figure}
+" 0 1 (fontified t) 1 7 (face font-lock-keyword-face fontified t) 7 8 (fontified t latex-env-pair t) 8 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 20 (fontified t) 20 30 (face font-lock-keyword-face fontified t) 30 31 (fontified t) 31 32 (fontified t) 32 48 (face font-lock-keyword-face fontified t) 48 57 (fontified t) 57 58 (fontified t) 58 59 (face font-lock-keyword-face fontified t) 59 68 (face font-lock-keyword-face fontified t) 68 70 (fontified t) 70 89 (face font-lock-builtin-face fontified t) 89 91 (fontified t) 91 92 (fontified t) 92 101 (face font-lock-keyword-face fontified t) 101 102 (fontified t) 102 159 (fontified t) 159 268 (fontified t) 268 269 (fontified t rear-nonsticky t) 269 271 (fontified t) 271 275 (face font-lock-keyword-face fontified t) 275 276 (fontified t latex-env-pair t) 276 282 (face font-lock-function-name-face fontified t latex-env-pair t) 282 283 (fontified t latex-env-pair t) 283 284 (fontified t)) . 19723) (undo-tree-id56 . -271) (undo-tree-id57 . -271) (undo-tree-id58 . -283) (undo-tree-id59 . -1) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (undo-tree-id65 . -1) (undo-tree-id66 . -1) (undo-tree-id67 . -1) (undo-tree-id68 . -1) (undo-tree-id69 . -1) (undo-tree-id70 . -1) (undo-tree-id71 . -1) (undo-tree-id72 . -1) (undo-tree-id73 . -1) (undo-tree-id74 . -1) (undo-tree-id75 . -1) (undo-tree-id76 . -1) (undo-tree-id77 . -1) (undo-tree-id78 . -1) (undo-tree-id79 . -1) (undo-tree-id80 . -19) (undo-tree-id81 . -19) (undo-tree-id82 . -19) (undo-tree-id83 . -19) (undo-tree-id84 . -19) (undo-tree-id85 . -19) (undo-tree-id86 . -31) (undo-tree-id87 . -31) (undo-tree-id88 . -31) (undo-tree-id89 . -31) (undo-tree-id90 . -31) (undo-tree-id91 . -31) (undo-tree-id92 . -91) (undo-tree-id93 . -91) (undo-tree-id94 . -91) (undo-tree-id95 . -91) (undo-tree-id96 . -91) (undo-tree-id97 . -91) (undo-tree-id98 . -187) (undo-tree-id99 . -187) (undo-tree-id100 . -187) (undo-tree-id101 . -187) (undo-tree-id102 . -187) (undo-tree-id103 . -187) (undo-tree-id104 . -271) (undo-tree-id105 . -271) (undo-tree-id106 . -271) (undo-tree-id107 . -271) (undo-tree-id108 . -271) (undo-tree-id109 . -271) (undo-tree-id110 . -271) (undo-tree-id111 . -271) (undo-tree-id112 . -271) (undo-tree-id113 . -271) (undo-tree-id114 . -271) (undo-tree-id115 . -271) (undo-tree-id116 . -271) (undo-tree-id117 . -271) (undo-tree-id118 . -271) (undo-tree-id119 . -271) (undo-tree-id120 . -271) (undo-tree-id121 . -271) (undo-tree-id122 . -271) (undo-tree-id123 . -271) (undo-tree-id124 . -271) (undo-tree-id125 . -271) (undo-tree-id126 . -271) (undo-tree-id127 . -271) (undo-tree-id128 . -284) 19994 (t 26715 40985 284538 410000)) nil (26715 41042 599590 355000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 19003 . 19004) (#("
+" 0 1 (fontified nil)) . -19287) (19003 . 19288) 18991) nil (26715 41106 185236 133000) 0 nil])
+([nil nil ((18594 . 18595)) nil (26715 41109 432549 100000) 0 nil] [nil nil ((nil fontified t 18593 . 18594) (t 26715 41042 604689 142000) (#("6" 0 1 (fontified t)) . 18593) (t 26715 41042 604689 142000) (18594 . 18595) 18593 (t 26715 41042 604689 142000)) ((#("7" 0 1 (fontified nil)) . 18594) (18593 . 18594)) (26715 41104 224390 776000) 0 nil])
+([nil nil ((18834 . 18835)) nil (26715 41109 432548 539000) 0 nil])
+([nil nil ((nil fontified t 18832 . 18833) (#("6" 0 1 (fontified t)) . 18832) (18833 . 18834) 18832) ((#("7" 0 1 (fontified nil)) . 18833) (18832 . 18833) (t 26715 41086 183802 488000)) (26715 41085 799825 474000) 0 nil])
+([nil nil ((19064 . 19065)) nil (26715 41109 432543 49000) 0 nil])
+([nil nil ((nil fontified t 19061 . 19062) (#("6" 0 1 (fontified t)) . 19061) (19062 . 19063) 19061) ((#("7" 0 1 (fontified nil)) . 19062) (19061 . 19062) (t 26715 41074 54771 45000)) (26715 41074 49618 602000) 0 nil])
+([nil nil ((17698 . 17699) (t 26715 41109 438862 557000)) nil (26715 41125 646756 707000) 0 nil])
+nil
+([nil nil ((nil rear-nonsticky nil 21373 . 21374) (#("
+" 0 1 (fontified nil)) . -21389) (21373 . 21390) 21344 (t 26715 41125 651904 282000)) nil (26715 41162 601123 96000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (fontified t face font-lock-function-name-face latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 20 (fontified t) 20 21 (fontified t)) . 20772) (undo-tree-id142 . -20)) nil (26715 41162 601122 585000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 21369 . 21370) (#("
+" 0 1 (fontified nil)) . -21390) (21369 . 21391)) nil (26715 41162 601121 994000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 21353) (undo-tree-id137 . -16) (undo-tree-id138 . -15) (undo-tree-id139 . -16) (undo-tree-id140 . -16) (undo-tree-id141 . -16)) nil (26715 41162 601121 533000) 0 nil])
+([nil nil ((#("
+The analysis of the response surface behavior demonstrated that the
+optimal viscosity range of the curd product is achieved at a curd
+content of 89.6\\%, cryopowder content of 5.4\\%, and cream fat content of
+31.3\\%. The study of the error distribution in viscosity prediction
+showed that a significant number of points remained close to the line,
+indicating the accuracy of the developed model. Thus, the obtained
+results make it possible to determine the optimal formulation parameters
+of the curd product with the addition of cryopowder based on the
+developed mathematical model.
+" 0 1 (fontified t) 1 68 (fontified t) 68 69 (fontified t) 69 150 (fontified t) 150 152 (face font-lock-keyword-face fontified t) 152 179 (fontified t) 179 181 (face font-lock-keyword-face fontified t) 181 208 (fontified t) 208 212 (fontified t) 212 214 (face font-lock-keyword-face fontified t) 214 396 (fontified t) 396 414 (fontified t) 414 466 (fontified t) 466 487 (fontified t) 487 514 (fontified t) 514 552 (fontified t) 552 579 (fontified t) 579 581 (fontified t) 581 582 (fontified t rear-nonsticky t)) . 20771) (undo-tree-id129 . -552) (undo-tree-id130 . -552) (undo-tree-id131 . -581) (undo-tree-id132 . -582) (undo-tree-id133 . -1) (undo-tree-id134 . -582) (undo-tree-id135 . -1) (undo-tree-id136 . -582)) nil (26715 41162 601119 359000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 20556 . 20557) (#("
+" 0 1 (fontified nil rear-nonsticky t)) . -21138) (20556 . 21139) 20544) nil (26715 41162 601106 936000) 0 nil])
+([nil nil ((20558 . 20579) (21139 . 21155)) nil (26715 41162 601102 768000) 0 nil])
+([nil nil ((nil fontified t 21233 . 21234) (t 26715 41162 604998 920000) (#("6" 0 1 (fontified t)) . 21233) (t 26715 41162 604998 920000) (21234 . 21235) 21233 (t 26715 41162 604998 920000)) nil (26715 41182 883928 768000) 0 nil])
+([nil nil ((nil fontified t 20346 . 20347) (#("6" 0 1 (fontified t)) . 20346) (20347 . 20348) 20346) nil (26715 41182 883927 997000) 0 nil])
+([nil nil ((nil fontified t 20068 . 20069) (#("6" 0 1 (fontified t)) . 20068) (20069 . 20070) 20068) nil (26715 41182 883923 568000) 0 nil])
+([nil nil ((24108 . 24110) (t 26715 41182 888050 604000)) nil (26715 41214 540513 392000) 0 nil])
+([nil nil ((26911 . 26913) (t 26715 41214 546130 915000)) nil (26715 41240 564810 879000) 0 nil])
+([nil nil ((27049 . 27051) (t 26715 41240 569196 631000)) nil (26715 41251 979740 783000) 0 nil])
+([nil current ((27270 . 27272) (t 26715 41251 984225 374000)) nil (26715 41277 6169 724000) 0 nil])
 nil
