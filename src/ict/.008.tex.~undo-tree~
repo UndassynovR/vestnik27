@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"54f91fc748a4c9badc9af9e303f5ce3b5f303550"
+"9021d8561f6703e0b6933c1d08fb077090c64207"
 [nil nil nil nil (26710 47790 712460 964000) 0 nil]
 ([nil nil ((#(" " 0 1 (fontified t)) . 359) (t 26707 60558 685110 604000)) nil (26710 47790 712460 353000) 0 nil])
 ([nil nil ((283 . 284) (#("~" 0 1 (fontified t)) . 283) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1)) nil (26710 47790 712459 682000) 0 nil])
@@ -621,5 +621,11 @@ nil
 ([nil nil ((34344 . 34346) (t 26711 43522 513049 761000)) nil (26711 43530 243770 453000) 0 nil])
 ([nil nil ((34595 . 34597) (t 26711 43530 249008 57000)) nil (26711 43540 764206 154000) 0 nil])
 ([nil nil ((#("\\href{mailto:" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 13 (face tex-verbatim fontified t)) . 697) (undo-tree-id1 . -12) (t 26712 55164 244309 929000)) nil (26714 13422 223388 147000) 0 nil])
-([nil current ((#("}{dreams\\_dream@mail.ru}" 0 8 (fontified t) 8 10 (face font-lock-keyword-face fontified t) 10 24 (fontified t)) . 718) (undo-tree-id0 . -23)) nil (26714 13422 223383 217000) 0 nil])
+([nil nil ((#("}{dreams\\_dream@mail.ru}" 0 8 (fontified t) 8 10 (face font-lock-keyword-face fontified t) 10 24 (fontified t)) . 718) (undo-tree-id0 . -23)) nil (26714 13422 223383 217000) 0 nil])
+([nil nil ((278 . 323) 277 (t 26715 40779 269977 680000)) nil (26716 54839 129305 7000) 0 nil])
+([nil nil ((385 . 430)) nil (26716 54839 129304 586000) 0 nil])
+([nil nil ((460 . 505)) nil (26716 54839 129304 226000) 0 nil])
+([nil nil ((543 . 588)) nil (26716 54839 129303 845000) 0 nil])
+([nil nil ((620 . 665) 619) nil (26716 54839 129299 517000) 0 nil])
+([nil current ((23456 . 23458) (t 26716 54839 132411 368000)) nil (26716 54864 677134 334000) 0 nil])
 nil

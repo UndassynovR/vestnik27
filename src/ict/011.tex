@@ -4,10 +4,10 @@
 \sectionwithauthors{A.K. Shegetaeva, N.S. Smakova, A.D. Tulegulov, A. Sterenhartz}{ALGORITHM FOR MULTI-FACTORED FORECASTING OF NETWORK VULNERABILITIES: FROM CVE DATA ANALYSIS TO THE DEVELOPMENT OF A FORECASTING MODEL}
 
 {\bfseries
-\textsuperscript{1}A.K. Shegetaeva\textsuperscript{\envelope },
-\textsuperscript{2}N.S. Smakova,
-\textsuperscript{2}A.D. Tulegulov,
-\textsuperscript{3}A. Sterenhartz
+\textsuperscript{1}A.K. Shegetaeva\alink{https://orcid.org/0000-0002-9212-251X}\textsuperscript{\envelope },
+\textsuperscript{2}N.S. Smakova\alink{https://orcid.org/0009-0002-5754-4001},
+\textsuperscript{2}A.D. Tulegulov\alink{http://orcid.org/0000-0002-1195-6919},
+\textsuperscript{3}A. Sterenhartz\alink{https://orcid.org/0009-0002-9480-0596}
 }
 \end{articleheader}
 
@@ -230,7 +230,7 @@ the identified vulnerabilities, including the following key parameters:
 
 - Software that is affected by the vulnerability.
 \end{multicols}
-
+\vspace{-2em}
 \tcap{Table 1: Analysis of formal forecasting methods}
 \begin{longtblr}[
   label = none,
@@ -349,11 +349,9 @@ the identified vulnerabilities, including the following key parameters:
 			optimization rather than data analysis
 \end{longtblr}
 
-{\bfseries Fig.1 - Data from the database \url{https://vuldb.com/?archive}}
-
 \begin{multicols}{2}
 For our study we used a set of vulnerability data for further analysis
-(see Graph 1).
+(see Figure 1).
 
 We study the period from 2010 to 2025, we want to record and analyze the
 largest number of network vulnerabilities, as well as assess the
@@ -369,7 +367,21 @@ part among all types of vulnerabilities;
 
 - the degree of vulnerability criticality varies, but vulnerabilities
 with high or critical CVSS score remain the most dangerous.
+\end{multicols}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{media/ict4/image3}
+	\caption*{Fig.1 - Data from the database \url{https://vuldb.com/?archive}}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{media/ict2/image165}
+	\caption*{Fig.2 - Vulnerability prediction program codes}
+\end{figure}
+
+\begin{multicols}{2}
 Based on the components of the Common Vulnerability Scoring System
 (CVSS) vector, a numerical vulnerability score (CVSS severity score) is
 calculated.
@@ -403,15 +415,7 @@ data.
 
 - the importance of attributes was determined and the most influential
 parameters were criticality and vulnerability type.
-\end{multicols}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict2/image165}
-	\caption*{Fig.1 - Vulnerability prediction program codes}
-\end{figure}
-
-\begin{multicols}{2}
 {\bfseries Results and Discussion.} The outcome of the code depends on
 several factors, including the data we used to train the model and the
 methods used to assess accuracy and predict vulnerabilities. In our
@@ -446,7 +450,7 @@ accuracy of the prediction for each type of vulnerability.
 Accuracy: 94.14\%
 
 This means that on the test data the model was able to correctly predict
-the accuracy of the vulnerability in 94.14\% of cases (see Figure 1).
+the accuracy of the vulnerability in 94.14\% of cases (see Figure 2).
 
 Based on the above research, we present the results of the dynamics of
 network vulnerabilities registered in the CVE database in order to
@@ -483,8 +487,13 @@ plt.grid(True)
 plt.show()
 \end{lstlisting}
 
-{\bfseries Graph 2 - Result of distribution of vulnerabilities by years}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{media/ict4/image4}
+	\caption*{Fig.3 - Result of distribution of vulnerabilities by years}
+\end{figure}
 
+\begin{multicols}{2}
 1) Figure 2 illustrates the evolution of the number of network
 vulnerabilities registered in the CVE database from 2010 to 2025. The
 X-axis shows the years and the Y-axis shows the number of
@@ -493,12 +502,13 @@ an increasing trend in the number of vulnerabilities, indicating an
 increase in information security threats. The graph shows that the
 highest number of vulnerabilities was recorded in 2024, which may
 indicate an increase in the activity of attackers and an increase in
-the number of vulnerabilities in software (Graph 2).
+the number of vulnerabilities in software (Figure 3).
 
 2) Vulnerability distribution diagram by type (Pie Chart)
 To display the distribution of vulnerabilities by threat type (remote
 code execution, data leakage, etc.) we developed a prediction model in
 Python:
+\end{multicols}
 
 Python
 
@@ -566,7 +576,7 @@ plt.show() # graph
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{media/ict2/image166}
-	\caption*{Fig.3 - Result of vulnerability distribution by software category}
+	\caption*{Fig.4 - Result of vulnerability distribution by software category}
 \end{figure}
 
 \begin{multicols}{2}
@@ -579,7 +589,7 @@ chart, allowing you to quickly assess which types of software and
 networks are most vulnerable to vulnerabilities. According to the
 chart, you can see that the largest number of vulnerabilities are
 related to operating systems, which emphasizes the importance of
-protecting them (see chart 3).
+protecting them (see Figure 3).
 
 4) Prediction of vulnerabilities by type with a probability of
 For prediction, a model was developed using the Python language,
@@ -621,11 +631,11 @@ def calculate_percentages(predictions):
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{media/ict2/image167}
-	\caption*{Fig.4 - Result of the distribution of predicted vulnerabilities by type as of 2025}
+	\caption*{Fig.5 - Result of the distribution of predicted vulnerabilities by type as of 2025}
 \end{figure}
 
 \begin{multicols}{2}
-Figure 4 shows the projected distribution of different types of
+Figure 5 shows the projected distribution of different types of
 vulnerabilities for 2025. The graph shows columns, each corresponding to
 a specific type of vulnerability, with their probability of occurrence
 in percentages. The graph allows you to visually assess which types of
@@ -638,7 +648,7 @@ The data covers 15 years, which allows for a more accurate prediction of
 the number of vulnerabilities for 2025. Forecasting was also performed
 with the forecast\_vulnerabilities functions, it uses 15 years of data
 (from 2010 to 2024) to train a linear regression model and predict
-values for 2025 (see Graph 3).
+values for 2025 (see Figure 5).
 
 The results show that multi-factor network vulnerability prediction
 using formal methods and data from CVEs can be an effective tool for

@@ -4,9 +4,9 @@
 \sectionwithauthors{Ж.С. Есенгалиева, Р.С. Каиржан, Н.С. Глазырина}{RASPBERRY PI КОМПЬЮТЕРЛІК КӨРУДІ ПАЙДАЛАНАТЫН ҚЫЗМЕТКЕРЛЕРДІҢ ЭМОЦИОНАЛДЫҚ КҮЙІН ТАНУ ЖҮЙЕСІН ӘЗІРЛЕУ}
 
 {\bfseries
-Ж.С. Есенгалиева\textsuperscript{\envelope },
-Р.С. Каиржан,
-Н.С. Глазырина
+Ж.С. Есенгалиева\alink{https://orcid.org/0000-0002-5318-9850}\textsuperscript{\envelope },
+Р.С. Каиржан\alink{https://orcid.org/0009-0001-7653-9198},
+Н.С. Глазырина\alink{https://orcid.org/0000-0002-0259-774X}
 }
 \end{articleheader}
 \vspace{0.3em}
@@ -514,7 +514,23 @@ DeepFace кітапханасы алдын ала анықталған клас�
 ашулану және т.б.);
 
 - нәтижелерді деректер қорына әрі қарай талдау үшін жіберу.
+\end{multicols}
 
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.48\textwidth}
+		\centering
+		\includegraphics[width=\textwidth, height=6cm, keepaspectratio]{media/ict2/image158}
+		\caption*{2а- cурет. Бір сағаттың ішінде тіркелген жазбалар}
+	\end{subfigure}
+	\begin{subfigure}{0.48\textwidth}
+		\centering
+		\includegraphics[width=\textwidth, height=6cm, keepaspectratio]{media/ict2/image159}
+		\caption*{2ә- cурет. Эксперимент нәтижесі бойынша құрастырылған диаграмма}
+	\end{subfigure}
+\end{figure}
+
+\begin{multicols}{2}
 Мониторинг нәтижелері бойынша қызметкердің жұмыс күні ішінде болуы және
 оның эмоционалдық жағдайы туралы статистикалық мәліметтер жинақталды
 (сурет 2а). Түскі үзіліс пен қысқа үзіліс кезінде мезгіл-мезгіл жұмыстан
@@ -522,19 +538,6 @@ DeepFace кітапханасы алдын ала анықталған клас�
 Эмоциялық жағдайды талдау келесі нәтижелерді көрсетті: қуаныш - 14,8\%
 уақыт, бейтарап күй - 53,7\%, қайғы - 9,3\%, таңдану - 3,7\%, ашу -
 3,7\% уақыт (сурет 2ә).
-\end{multicols}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict2/image158}
-	\caption*{}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict2/image159}
-	\caption*{}
-\end{figure}
 
 Алынған мәліметтер негізінде қызметкердің күн ішінде эмоцияларының
 өзгеру динамикасын көрсететін аналитикалық диаграмма құрастырылды.
@@ -542,27 +545,28 @@ DeepFace кітапханасы алдын ала анықталған клас�
 шоғырлануын көрсетеді. Бақыттың жоғары пайызы жақсы жұмыс ортасын
 көрсетуі мүмкін. Қайғы мен ашудың мерзімді көріністері жұмыс
 процесіндегі стресстік сәттермен байланысты болуы мүмкін (Сурет 3).
+\end{multicols}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict2/image160}
-	\caption*{}
+	\begin{subfigure}{0.48\textwidth}
+		\centering
+		\includegraphics[height=8cm]{media/ict2/image161}
+	\end{subfigure}
+	\begin{subfigure}{0.48\textwidth}
+		\centering
+		\includegraphics[height=8cm]{media/ict2/image162}
+	\end{subfigure}
+    \caption*{3 - сурет. Әзірлеу нәтижелері}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict2/image161}
-	\caption*{}
+	\includegraphics[width=0.7\textwidth]{media/ict2/image163}
+	\caption*{4 - сурет. Қашықтағы жұмыс үстеліне қосылу}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict2/image162}
-	\caption*{3 - сурет. Әзірлеу нәтижелері}
-\end{figure}
-
-
-
+\begin{multicols}{2}
 Бұл эксперимент қызметкерлердің эмоционалдық жағдайын автоматтандырылған
 бақылау мүмкіндігін растады. Алынған мәліметтерді жұмысшылардың
 эмоционалдық фонына әсер ететін факторларды әрі қарай талдау және еңбек
@@ -572,12 +576,6 @@ Raspberry Pi платформасында қашықтағы жұмыс үсте
 пайдаландық. Қашықтағы жұмыс үстеліне қосылу үшін Real VNC Viewer
 бағдарламасын қолданамыз (Сурет 4). Адрестік жолға алған VNC сервердің
 адресін енгіземіз, жұмыс үстеліне қосыламыз.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{media/ict2/image163}
-	\caption*{4 - сурет. Қашықтағы жұмыс үстеліне қосылу}
-\end{figure}
 
 Face-recognition кітапханасы жұмыс істеу үшін dlib кітапханасын талап
 етеді. Бірақ та dlib кітапханасының компиляциясы жедел жадының үлкен
@@ -596,6 +594,7 @@ Face-recognition кітапханасы жұмыс істеу үшін dlib кі
 командалары арқылы қайтадан қосамыз. Содан кейін dlib орнату үшін cmake
 программасы жазылады (\$ sudo apt-get install build-essential cmake).
 Жүктеу файлы төмендегі 5 суретте көрсетілген.
+\end{multicols}
 
 \begin{figure}[H]
 	\centering
@@ -653,20 +652,20 @@ Vol.6: 100207. \href{https://doi.org/10.1016/j.caeai.2024.100207}{DOI
 
 2. Xiaohuan Song. Emotional recognition and feedback of students in
 English e-learning based on computer vision and face recognition
-algorithms// Entertainment Computing. -2025. - Vol.52, 100847.
+algorithms// Entertainment Computing. -2025. - Vol.52, 100847.\\
 \href{https://doi.org/10.1016/j.entcom.2024.100847}{DOI
 10.1016/j.entcom.2024.100847}
 
 3. Manuel A. Solis-Arrazola, Raul E. Sanchez-Yañez, Carlos H.
 Garcia-Capulin, Horacio Rostro-Gonzalez. Enhancing image-based facial
 expression recognition through muscle activation-based facial feature
-extraction// Computer Vision and Image Understanding. -2024. - Vol.
-240: 103927. \href{https://doi.org/10.1016/j.cviu.2024.103927}{DOI
+extra\-ction// Computer Vision and Image Understanding. -2024. - Vol.
+240: 103927. \href{https://doi.org/10.1016/j.cviu.2024.103927}{DOI\\
 10.1016/j.cviu.2024.103927}
 
 4. Jianyang Zhang, Wei Wang, Xiangyu Li, Yanjiang Han. Recognizing facial
 expressions based on pyramid multi-head grid and spatial attention
-network// Computer Vision and Image Understanding. -2024. -
+network// Computer Vision and Image Understanding. -2024. -\\
 Vol.244:104010. \href{https://doi.org/10.1016/j.cviu.2024.104010}{DOI
 10.1016/j.cviu.2024.104010}
 
@@ -688,7 +687,7 @@ Vol.2154. - P.178-201
 8. Esengalieva Zh., Oralbekova Zh., Turarova M. Medicina salasynda
 komp' juterlіk kөru әdіsterіnің negіzіnde grafikalyқ
 aқparatty өңdeu// ҚazTBU habarshysy. -2024. - T.3(24). - С.119-129.
-\href{https://doi.org/10.58805/kazutb.v.3.24-423}{DOI
+\href{https://doi.org/10.58805/kazutb.v.3.24-423}{DOI\\
 10.58805/kazutb.v.3.24-423}. {[}in Kazakh{]}
 
 9. Batyr Z., Omarov B., Ziyatbekova G., Mailybayeva A. Traffic sign
@@ -709,13 +708,13 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR).~-
 \emph{{\bfseries Авторлар туралы мәліметтер}}
 
 Есенгалиева Ж.С. - PhD, доцент, Л.Н. Гумилев атындағы Еуразия ұлттық
-университеті, Астана, Қазақстан, е-mail: jannayess@gmail.com;
+университеті, Астана, Қазақстан, е-mail: \\jannayess@gmail.com;
 
 Каиржан Р.С. - магистрант, Л.Н. Гумилев атындағы Еуразия ұлттық
-университеті, Астана, Қазақстан, е-mail: kairzanrinat@gmail.com;
+университеті, Астана, Қазақстан, е-mail: \\kairzanrinat@gmail.com;
 
 Глазырина Н.С. - PhD, доцент, Л.Н. Гумилев атындағы Еуразия ұлттық
-университеті, Астана, Қазақстан, е-mail: glazirinan@yandex.ru;
+университеті, Астана, Қазақстан, е-mail: \\glazirinan@yandex.ru;
 
 \emph{{\bfseries Information about the authors}}
 

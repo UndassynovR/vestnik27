@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"e76c01364a48b181257bc6c3f7bb6088e0a7f37f"
+"d42fb668714f34c6299ea8f97aa660248432fa80"
 [nil nil nil nil (26716 22059 311036 151000) 0 nil]
 ([nil nil ((374 . 419)) ((#("\\alink{https://orcid.org/0000-0002-5723-6642}" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 44 (fontified t foreign-selection nil) 44 45 (fontified t)) . 374) (undo-tree-id4 . -44) (undo-tree-id5 . -44) (undo-tree-id6 . -44) (undo-tree-id7 . -44) (undo-tree-id8 . -44) (undo-tree-id9 . -44) (undo-tree-id10 . -44) (undo-tree-id11 . -44) (undo-tree-id12 . -44) (undo-tree-id13 . -44) (undo-tree-id14 . -44) (undo-tree-id15 . -44) (undo-tree-id16 . -44) (undo-tree-id17 . -44) (undo-tree-id18 . -44) (undo-tree-id19 . -44) (undo-tree-id20 . -44) (undo-tree-id21 . -44) (undo-tree-id22 . -44)) (26716 22061 579950 505000) 0 nil] [nil nil ((374 . 1845) 344 (t 26715 48619 482412 411000)) ((#("\\alink{(defun latex-insert-alink-from-clipboard ()
   \"Inserts a LaTeX \\\\alink{} link with the clipboard text at the appropriate position on the current line.\"
@@ -139,10 +139,22 @@ nil
           (goto-char line-end)
           (insert (format \"\\\\alink{%s}\" clipboard-text))))))))
 }" 0 6 (face font-lock-keyword-face fontified t) 6 70 (fontified t) 70 72 (face font-lock-warning-face fontified t) 72 138 (fontified t) 138 140 (face font-lock-warning-face fontified t) 140 573 (fontified t) 573 575 (face font-lock-warning-face fontified t) 575 577 (face font-lock-warning-face fontified t) 577 1037 (fontified t) 1037 1039 (face font-lock-warning-face fontified t) 1039 1045 (fontified t) 1045 1068 (face font-lock-comment-face fontified t) 1068 1200 (fontified t) 1200 1202 (face font-lock-warning-face fontified t) 1202 1208 (fontified t) 1208 1231 (face font-lock-comment-face fontified t) 1231 1346 (fontified t) 1346 1348 (face font-lock-warning-face fontified t) 1348 1354 (fontified t) 1354 1382 (face font-lock-comment-face fontified t) 1382 1383 (fontified t)) . 357)) (26716 21980 403317 816000) 0 nil] [nil nil ((nil rear-nonsticky nil 401 . 402) (nil fontified nil 357 . 402) (357 . 402)) ((#("\\alink{https://orcid.org/0000-0002-5723-6642}" 0 6 (face font-lock-keyword-face fontified nil) 6 44 (fontified nil) 44 45 (rear-nonsticky nil fontified nil)) . 357) (nil rear-nonsticky t 401 . 402)) (26716 21976 512860 831000) 0 nil])
-([nil current ((445 . 490) 444) nil (26716 22070 503913 361000) 0 nil] [nil nil ((445 . 490)) ((#("\\alink{https://orcid.org/0000-0002-5723-6642}" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 44 (fontified t foreign-selection nil) 44 45 (fontified t)) . 445)) (26716 22062 135940 481000) 0 nil])
+([nil nil ((445 . 490) 444) nil (26716 22070 503913 361000) 0 nil] [nil nil ((445 . 490)) ((#("\\alink{https://orcid.org/0000-0002-5723-6642}" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 44 (fontified t foreign-selection nil) 44 45 (fontified t)) . 445)) (26716 22062 135940 481000) 0 nil])
 ([nil nil ((445 . 490) 444) ((#("\\alink{https://orcid.org/0009-0006-7802-9577}" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 44 (fontified t foreign-selection nil) 44 45 (fontified t)) . 445) (t 26716 22012 41369 608000)) (26716 22012 39330 90000) 0 nil])
 nil
 nil
+([nil nil ((32039 . 32040) (#("
+" 0 1 (fontified t)) . -32039) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) 32025 (t 26716 51261 441280 711000)) nil (26716 51772 187397 144000) 0 nil])
 nil
 nil
+([nil nil ((32318 . 32319) (#("
+" 0 1 (fontified t)) . -32318) (undo-tree-id2 . -1) 32317) nil (26716 51772 187388 387000) 0 nil])
+([nil nil ((32556 . 32557) (#("
+" 0 1 (fontified t)) . -32556) (undo-tree-id1 . -1) 32544) nil (26716 51772 187387 105000) 0 nil])
+([nil nil ((32860 . 32861) (#("
+" 0 1 (fontified t)) . -32860) 32859) nil (26716 51772 187385 272000) 0 nil])
+([nil nil ((33144 . 33145) (#("
+" 0 1 (fontified t)) . -33144) (undo-tree-id0 . -1) 33143) nil (26716 51772 187384 59000) 0 nil])
+([nil current ((33661 . 33662) (#("
+" 0 1 (fontified t)) . -33661) 33660) nil (26716 51772 187356 959000) 0 nil])
 nil

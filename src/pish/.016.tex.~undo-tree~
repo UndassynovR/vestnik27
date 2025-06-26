@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"bdbdd15fbaa415d80676742ce7a6ccfc64a16aa4"
+"ae9bcca47a8edc3238d2a5b3a6b668484853425c"
 [nil nil nil nil (26715 35974 691753 194000) 0 nil]
 ([nil nil ((#("\\begin{figure}[H]
 	\\centering
@@ -970,5 +970,13 @@ developed mathematical model.
 ([nil nil ((24108 . 24110) (t 26715 41182 888050 604000)) nil (26715 41214 540513 392000) 0 nil])
 ([nil nil ((26911 . 26913) (t 26715 41214 546130 915000)) nil (26715 41240 564810 879000) 0 nil])
 ([nil nil ((27049 . 27051) (t 26715 41240 569196 631000)) nil (26715 41251 979740 783000) 0 nil])
-([nil current ((27270 . 27272) (t 26715 41251 984225 374000)) nil (26715 41277 6169 724000) 0 nil])
+([nil nil ((27270 . 27272) (t 26715 41251 984225 374000)) nil (26715 41277 6169 724000) 0 nil])
+([nil nil ((249 . 294) 248 (t 26715 41277 10288 222000)) nil (26716 64639 26399 378000) 0 nil])
+([nil nil ((336 . 381)) nil (26716 64639 26398 757000) 0 nil])
+([nil nil ((396 . 441)) nil (26716 64639 26398 376000) 0 nil])
+([nil current ((452 . 497) 451) nil (26716 64684 542900 156000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (latex-env-pair t fontified t) 5 14 (face font-lock-function-name-face latex-env-pair t fontified t) 14 15 (latex-env-pair t fontified t) 15 16 (fontified t)) . 15497) (undo-tree-id2 . -14) (undo-tree-id3 . -15) 15511 (t 26716 64639 31241 226000)) ((15497 . 15513)) (26716 64684 135171 363000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 21 (fontified t)) . 15865) (undo-tree-id0 . -20) (undo-tree-id1 . -21)) ((15865 . 15886) (t 26716 64674 310451 667000)) (26716 64674 305733 426000) 0 nil])
 nil
