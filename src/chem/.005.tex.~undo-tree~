@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"0aea29cb2f82a48fd06f0171b247b26705d6c9d0"
+"aa90cabf872abc6a689a019b972bea5e64f1d782"
 [nil nil nil nil (26715 54522 285797 723000) 0 nil]
 ([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 25) (undo-tree-id396 . -9) (t 26715 48619 434412 665000)) nil (26715 54522 285797 42000) 0 nil])
 ([nil nil ((79 . 80) (#("
@@ -1465,5 +1465,60 @@ e-mail:
 ([nil nil ((nil rear-nonsticky nil 39793 . 39794) (nil fontified nil 39792 . 39794) (39792 . 39794) 39791) nil (26715 57851 595613 136000) 0 nil])
 ([nil nil ((40319 . 40321) (t 26715 57851 601466 44000)) nil (26715 57875 742164 508000) 0 nil])
 ([nil nil ((40422 . 40424) (t 26715 57875 747338 27000)) nil (26715 57894 91965 704000) 0 nil])
-([nil current ((41596 . 41598) (t 26715 57894 97240 741000)) nil (26715 57922 404590 667000) 0 nil])
+([nil nil ((41596 . 41598) (t 26715 57894 97240 741000)) nil (26715 57922 404590 667000) 0 nil])
+([nil nil ((318 . 363) 317 (t 26715 57922 411090 644000)) nil (26717 28340 33003 662000) 0 nil])
+([nil nil ((425 . 470)) nil (26717 28340 33003 71000) 0 nil])
+([nil nil ((504 . 552)) nil (26717 28340 33002 440000) 0 nil])
+([nil nil ((585 . 630)) nil (26717 28340 33001 758000) 0 nil])
+([nil nil ((662 . 707) 661) nil (26717 28340 33001 97000) 0 nil])
+([nil nil ((#("%" 0 1 (face font-lock-comment-face fontified t foreign-selection nil)) . 529) (undo-tree-id6 . -1) (undo-tree-id7 . -1)) nil (26717 28340 33000 216000) 0 nil])
+([nil nil ((#("2" 0 1 (fontified t foreign-selection nil)) . 529) (undo-tree-id4 . -1) (undo-tree-id5 . -1)) nil (26717 28340 32997 420000) 0 nil])
+([nil nil ((#("0" 0 1 (fontified t foreign-selection nil)) . 529) (undo-tree-id2 . -1) (undo-tree-id3 . -1)) nil (26717 28340 33090 524000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 30383 . 30384) (#("
+" 0 1 (fontified nil)) . -30558) (30383 . 30559) (t 26717 28340 451863 576000)) nil (26717 28475 588426 737000) 0 nil] [nil nil ((#("0" 0 1 (fontified t foreign-selection nil)) . 529) (undo-tree-id0 . -1) (undo-tree-id1 . -1)) ((529 . 530)) (26717 28340 32990 738000) 0 nil])
+([nil nil ((#("Fig.1 - Change in retail prices for margarine for 2011-2024" 0 59 (fontified t)) . 30485) (undo-tree-id20 . -58) (undo-tree-id21 . -12) 30497) nil (26717 28475 588425 385000) 0 nil])
+nil
+([nil nil ((#("{\\bfseries Рис.5 - Гранулометрический состав сырых окатышей}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 59 (face (bold) fontified t) 59 60 (fontified t)) . -30500) (undo-tree-id16 . -14) (undo-tree-id17 . -14) (undo-tree-id18 . -14) (undo-tree-id19 . -14) 30561) nil (26717 28475 588424 413000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 30532 . 30533) (nil fontified nil 30485 . 30533) (30485 . 30533)) nil (26717 28475 588422 830000) 0 nil])
+([nil nil ((30464 . 30465) (30460 . 30464) (#("pish4" 0 5 (face font-lock-builtin-face fontified t)) . 30460) (undo-tree-id15 . -4)) nil (26717 28475 588422 519000) 0 nil])
+([nil nil ((30471 . 30472) (#("4" 0 1 (face font-lock-builtin-face fontified t)) . 30471)) nil (26717 28475 588421 708000) 0 nil])
+([nil nil ((nil fontified t 30471 . 30472) (nil face font-lock-builtin-face 30471 . 30472) (#("6" 0 1 (face font-lock-builtin-face fontified t)) . 30471) (30472 . 30473) 30471) nil (26717 28475 588421 267000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 30688 . 30689) (#("
+" 0 1 (fontified nil)) . -30852) (30688 . 30853)) nil (26717 28475 588420 556000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 30689)) nil (26717 28475 588419 904000) 0 nil])
+([nil nil ((#("Рис.5 - Гранулометрический состав сырых окатышей" 0 47 (fontified t) 47 48 (fontified t rear-nonsticky t)) . 30789) (undo-tree-id13 . -47) (undo-tree-id14 . -3) 30792) nil (26717 28475 588419 193000) 0 nil])
+([nil nil ((#("{\\bfseries Рис.6 - Прочностные характеристики сырых и сухих окатышей}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 68 (face (bold) fontified t) 68 69 (fontified t)) . -30804) (undo-tree-id9 . -14) (undo-tree-id10 . -14) (undo-tree-id11 . -14) (undo-tree-id12 . -14) 30874) nil (26717 28475 588417 159000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 30845 . 30846) (nil fontified nil 30789 . 30846) (30789 . 30846)) nil (26717 28475 588414 444000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 30861) (undo-tree-id8 . -1)) nil (26717 28475 588411 579000) 0 nil])
+([nil nil ((#("
+" 0 1 (rear-nonsticky t fontified t)) . 30383) (t 26717 28475 594180 601000)) nil (26717 28514 338934 735000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 30547)) nil (26717 28514 338934 364000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 21 (fontified t)) . 30860) (undo-tree-id31 . -20)) nil (26717 28514 338934 144000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 30547 . 30548) (#("
+" 0 1 (fontified nil)) . -30568) (30547 . 30569)) nil (26717 28514 338933 653000) 0 nil])
+([nil nil ((#("
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.8\\textwidth]{media/chem4/image7}
+	\\caption*{Рис.6 - Прочностные характеристики сырых и сухих окатышей}
+\\end{figure}
+" 0 1 (fontified t rear-nonsticky t) 1 7 (face font-lock-keyword-face fontified t) 7 8 (fontified t latex-env-pair t) 8 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 18 (fontified t) 18 19 (fontified t) 19 20 (fontified t) 20 30 (face font-lock-keyword-face fontified t) 30 31 (fontified t) 31 32 (fontified t) 32 48 (face font-lock-keyword-face fontified t) 48 58 (fontified t) 58 68 (face font-lock-keyword-face fontified t) 68 70 (fontified t) 70 87 (face font-lock-builtin-face fontified t) 87 88 (face font-lock-builtin-face fontified t) 88 90 (fontified t) 90 91 (fontified t) 91 100 (face font-lock-keyword-face fontified t) 100 101 (fontified t) 101 157 (fontified t) 157 158 (fontified t rear-nonsticky t) 158 160 (fontified t) 160 164 (face font-lock-keyword-face fontified t) 164 165 (fontified t latex-env-pair t) 165 171 (face font-lock-function-name-face fontified t latex-env-pair t) 171 172 (fontified t latex-env-pair t) 172 173 (fontified t)) . 30707) (undo-tree-id25 . -172) (undo-tree-id26 . -160) (undo-tree-id27 . -160) (undo-tree-id28 . -173) (undo-tree-id29 . -173) (undo-tree-id30 . -160) 30867) nil (26717 28514 338933 162000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 31513 . 31514) (#("
+" 0 1 (fontified nil)) . -31686) (31513 . 31687) 31498) nil (26717 28514 338929 886000) 0 nil])
+([nil nil ((#("\\vspace{10em}" 0 7 (face font-lock-keyword-face fontified t) 7 13 (fontified t)) . 31687) (undo-tree-id22 . -12) (undo-tree-id23 . -13) (undo-tree-id24 . -13)) nil (26717 28514 338927 30000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 35349 . 35350) (#("
+" 0 1 (fontified nil)) . -35522) (35349 . 35523) (t 26717 28514 344977 683000)) nil (26717 28570 835948 228000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t rear-nonsticky t)) . 35350)) nil (26717 28570 835947 567000) 0 nil])
+([nil nil ((#("Рис.6 - Прочностные характеристики сырых и сухих окатышей" 0 56 (fontified t) 56 57 (fontified t rear-nonsticky t)) . 35450) (undo-tree-id37 . -56) (undo-tree-id38 . -3) 35453) nil (26717 28570 835947 227000) 0 nil])
+([nil nil ((#("{\\bfseries Рис.7 - Качественные характеристики обожженных окатышей}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 66 (face (bold) fontified t) 66 67 (fontified t)) . -35465) (undo-tree-id33 . -14) (undo-tree-id34 . -14) (undo-tree-id35 . -14) (undo-tree-id36 . -14) 35533) nil (26717 28570 835946 84000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 35504 . 35505) (nil fontified nil 35450 . 35505) (35450 . 35505)) nil (26717 28570 835920 837000) 0 nil])
+([nil nil ((nil fontified t 35436 . 35437) (nil face font-lock-builtin-face 35436 . 35437) (#("7" 0 1 (face font-lock-builtin-face fontified t)) . 35436) (35437 . 35438) 35436) nil (26717 28570 835920 206000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 35520) (undo-tree-id32 . -1)) nil (26717 28570 835917 361000) 0 nil])
+([nil current ((nil fontified t 35436 . 35437) (t 26717 28570 841676 446000) (nil face font-lock-builtin-face 35436 . 35437) (t 26717 28570 841676 446000) (#("8" 0 1 (face font-lock-builtin-face fontified t)) . 35436) (t 26717 28570 841676 446000) (35437 . 35438) 35436 (t 26717 28570 841676 446000)) nil (26717 28577 746693 323000) 0 nil])
 nil

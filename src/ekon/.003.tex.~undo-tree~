@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"4e7521752891dba14fd2a8b2179bc68a087e83e6"
+"1d78aeb79873c3148c271779007ecd5caa52907a"
 [nil nil nil nil (26699 55038 434905 832000) 0 nil]
 ([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 25) (undo-tree-id79 . -9) (t 26689 8827 851864 879000)) nil (26699 55038 434904 653000) 0 nil])
 ([nil nil ((64 . 65) (#("
@@ -96,5 +96,97 @@ Baidalinova}
 " 0 1 (fontified t)) . 338) (undo-tree-id6 . -1)) nil (26706 24587 949821 342000) 0 nil])
 nil
 ([nil nil ((24 . 46) (338 . 358) 24 (t 26706 24587 953315 435000)) nil (26706 24616 157520 357000) 0 nil])
-([nil current ((#(" " 0 1 (fontified t)) . 593) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (t 26706 24616 162629 95000)) nil (26706 24624 11979 662000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 593) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (t 26706 24616 162629 95000)) nil (26706 24624 11979 662000) 0 nil])
+([nil nil ((#("А.Ж. Байгужинова" 0 16 (face (bold) fontified t)) . 241) (undo-tree-id2 . -15) (t 26707 60558 682110 567000)) nil (26717 35784 60724 469000) 0 nil])
+([nil nil ((#("А.С. Байдалинова" 0 16 (fontified t)) . 262) (undo-tree-id1 . -15)) nil (26717 35784 60723 728000) 0 nil])
+([nil nil ((#("Ж.З. Байгиреева" 0 15 (fontified t)) . 310) (undo-tree-id0 . -14)) nil (26717 35784 60722 555000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 254 . 255) (nil fontified nil 241 . 255) (241 . 255) 240) nil (26717 35784 60704 71000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 289 . 290) (nil fontified nil 276 . 290) (276 . 290) 275) nil (26717 35784 60703 209000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 351 . 352) (nil fontified nil 338 . 352) (338 . 352) 337) nil (26717 35784 60702 318000) 0 nil])
+([nil nil ((243 . 244)) nil (26717 35784 60698 821000) 0 nil])
+([nil nil ((256 . 301) (t 26717 35784 62432 313000)) nil (26717 35800 613528 50000) 0 nil])
+([nil nil ((336 . 381) 335) nil (26717 35800 613527 459000) 0 nil])
+([nil nil ((443 . 488) 442) nil (26717 35800 613523 803000) 0 nil])
+([nil nil ((11938 . 11939) (#("
+" 0 1 (face (bold) fontified t)) . -11938) 11865 (t 26717 35800 615340 955000)) nil (26717 35875 100021 399000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 11864 . 11865) (#("
+" 0 1 (fontified nil)) . -12039) (11864 . 12040)) nil (26717 35875 100021 78000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 11865)) nil (26717 35875 100020 757000) 0 nil])
+([nil nil ((11940 . 11944) (#("pish4" 0 5 (face font-lock-builtin-face fontified t)) . 11940) (undo-tree-id20 . -4)) nil (26717 35875 100020 367000) 0 nil])
+([nil nil ((#("4" 0 1 (face font-lock-builtin-face fontified t)) . 11950) (11951 . 11952) 11950) nil (26717 35875 100019 635000) 0 nil])
+([nil nil ((nil fontified t 11950 . 11951) (nil face font-lock-builtin-face 11950 . 11951) (#("3" 0 1 (face font-lock-builtin-face fontified t)) . 11950) (11951 . 11952) 11950) nil (26717 35875 100019 174000) 0 nil])
+([nil nil ((nil fontified t 11950 . 11951) (nil face font-lock-builtin-face 11950 . 11951) (#("2" 0 1 (face font-lock-builtin-face fontified t)) . 11950) (11951 . 11952) 11950) nil (26717 35875 100018 593000) 0 nil])
+([nil nil ((#("Fig.1 - Change in retail prices for margarine for 2011-2024" 0 59 (fontified t)) . 11964) (undo-tree-id18 . -58) (undo-tree-id19 . -44) 12008) nil (26717 35875 100018 213000) 0 nil])
+([nil nil ((#("{\\bfseries Fig.1 - Dynamics of consumption of milk and dairy products per capita in 2020-2023, kg}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 73 (face (bold) fontified t) 73 74 (face (bold) fontified t) 74 97 (face (bold) fontified t) 97 98 (fontified t)) . -11979) (undo-tree-id15 . -11) (undo-tree-id16 . -11) (undo-tree-id17 . -11) 12078) nil (26717 35875 100016 279000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 12049 . 12050) (nil fontified nil 11964 . 12050) (11964 . 12050)) nil (26717 35875 100015 197000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 12052 . 12053) (#("
+" 0 1 (fontified nil)) . -12150) (12051 . 12151) 12049) nil (26717 35875 100014 766000) 0 nil])
+([nil nil ((#("Fig.1 - Dynamics of consumption of milk and dairy products per capita in 2020-2023, kg" 0 85 (fontified t) 85 86 (fontified t rear-nonsticky t)) . 12063) (undo-tree-id13 . -85) (undo-tree-id14 . -3) 12066) nil (26717 35875 100014 305000) 0 nil])
+([nil nil ((#("\\emph{Note -- compiled by the authors on the basis of past research}" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 67 (face (italic) fontified t) 67 68 (fontified t)) . 12080) (undo-tree-id12 . -67)) nil (26717 35875 100013 203000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 12130 . 12131) (nil fontified nil 12063 . 12131) (12063 . 12131)) nil (26717 35875 100012 422000) 0 nil])
+([nil nil ((12068 . 12074) (#("l" 0 1 (face font-lock-keyword-face fontified t)) . -12068) (undo-tree-id8 . -1) 12069 (12068 . 12069) (#("a" 0 1 (face font-lock-keyword-face fontified t)) . -12068) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) 12069 (12064 . 12069) (12063 . 12064)) nil (26717 35875 100011 680000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 12157) (undo-tree-id7 . -1)) nil (26717 35875 100009 466000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 12157) (undo-tree-id5 . 1) (undo-tree-id6 . -1)) nil (26717 35875 100008 334000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 12157) (undo-tree-id3 . 1) (undo-tree-id4 . -1)) nil (26717 35875 100003 936000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 13722 . 13723) (#("
+" 0 1 (fontified nil)) . -13836) (13722 . 13837) (t 26717 35875 101926 994000)) nil (26717 35893 154541 861000) 0 nil])
+([nil nil ((nil fontified t 13808 . 13809) (nil face font-lock-builtin-face 13808 . 13809) (#("1" 0 1 (face font-lock-builtin-face fontified t)) . 13808) (13809 . 13810) 13808) nil (26717 35893 154541 229000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 13824 . 13825) (#("
+" 0 1 (fontified nil)) . -13836) (13823 . 13837) 13822) nil (26717 35893 154540 268000) 0 nil])
+([nil nil ((13836 . 13846) (#("normal" 0 6 (face font-lock-keyword-face fontified t)) . -13836) (undo-tree-id35 . -6) (undo-tree-id36 . -6) (undo-tree-id37 . -6) 13842 (13835 . 13842)) nil (26717 35893 154539 626000) 0 nil])
+([nil nil ((#("\\emph{Note -- compiled by the authors on the basis of past research}" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 67 (face (italic) fontified t) 67 68 (fontified t)) . 13937) (undo-tree-id34 . -67)) nil (26717 35893 154538 234000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 13913 . 13914) (nil fontified nil 13846 . 13914) (13846 . 13914)) nil (26717 35893 154537 653000) 0 nil])
+([nil nil ((#("{\\bfseries Fig.2 -Dynamics of global production of raw milk, million tons}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 73 (face (bold) fontified t) 73 74 (fontified t)) . -13929) (undo-tree-id25 . -73) (undo-tree-id26 . -73) (undo-tree-id27 . -73) (undo-tree-id28 . -73) (undo-tree-id29 . -73) (undo-tree-id30 . -73) (undo-tree-id31 . -73) (undo-tree-id32 . -73) (undo-tree-id33 . -73) 14004) nil (26717 35893 154537 102000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 13883 . 13884) (nil fontified nil 13822 . 13884) (13822 . 13884)) nil (26717 35893 154527 273000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 13991) (undo-tree-id24 . -1)) nil (26717 35893 154526 652000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 13991) (undo-tree-id22 . 1) (undo-tree-id23 . -1)) nil (26717 35893 154525 670000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 13991) (undo-tree-id21 . 1)) nil (26717 35893 154521 202000) 0 nil])
+([nil nil ((13802 . 13803) (t 26717 35893 156826 5000)) nil (26717 35903 362631 4000) 0 nil])
+([nil nil ((11944 . 11945)) nil (26717 35903 362626 796000) 0 nil])
+([nil nil ((#("
+In Kazakhstan, according to the results of 2022, the average per capita
+consumption of milk and dairy products reached 226 kg. It should be
+noted that for the last 5 years, the highest level of consumption of
+milk and dairy products in the country was recorded in 2020 and amounted
+to 259.4 kg per capita. In 2023, the per capita consumption of milk and
+dairy products was - 227.2 kg/year. Including an average consumption of
+13 liters of kefir, 4.2 kilograms of cottage cheese, and 3.8 kilograms
+of sour cream. For comparison, in New Zealand, the consumption of milk
+and dairy products is 366 kg per capita, and in some European countries,
+the figures are even higher: in Austria - 401 kg, Germany - 428 kg,
+Finland - 434 kg {[}3{]}.
+" 0 39 (fontified t) 39 73 (fontified t) 73 736 (fontified t)) . 11112) (undo-tree-id39 . -710) (undo-tree-id40 . -735) (undo-tree-id41 . -710) (undo-tree-id42 . -710) 11822 (t 26717 35903 364768 801000)) nil (26717 35923 937534 782000) 0 nil])
+([nil nil ((11443 . 11444) 11423) nil (26717 35923 937531 867000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 11443 . 11444) (#("
+" 0 1 (fontified nil)) . -12179) (11443 . 12180) 11423) nil (26717 35923 937531 115000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 11444) (undo-tree-id38 . -1)) nil (26717 35923 937527 298000) 0 nil])
+([nil nil ((#("8" 0 1 (fontified t)) . 11185) (t 26717 35923 939653 279000) (11186 . 11187) 11185 (t 26717 35923 939653 279000)) nil (26717 35932 962677 688000) 0 nil])
+([nil nil ((#("
+{\\bfseries Results and Discussion.} According to the recommendations of the
+World Health Organization, the optimal norm of consumption of milk and
+dairy products is 330-340 kg per year. At the same time, according to
+the scientifically based physiological norms of food consumption,
+approved by the order of the Minister of National Economy of the
+Republic of Kazakhstan in 2016, the average per capita consumption rate
+of milk and dairy products in the country is - 301 kg/year {[}2{]}.
+
+However, in most countries, the actual level of consumption does not
+reach 300 kg per year. For example, in 2022 this indicator amounted to
+258 kg in Armenia and Azerbaijan, 295 kg in the USA, 213 kg in
+Kyrgyzstan, and 241 kg in Russia.
+" 0 2 (fontified t) 2 11 (face font-lock-keyword-face fontified t) 11 35 (face (bold) fontified t) 35 727 (fontified t)) . 10385) (undo-tree-id43 . -693) (undo-tree-id44 . -726) (undo-tree-id45 . -693) (undo-tree-id46 . -693) 11078 (t 26717 35932 964602 512000)) nil (26717 35950 788507 420000) 0 nil])
+([nil nil ((10716 . 10717) 10696) nil (26717 35950 788498 473000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 10716 . 10717) (#("
+" 0 1 (fontified nil)) . -11443) (10716 . 11444) 10696) nil (26717 35950 788497 832000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 10717)) nil (26717 35950 788497 140000) 0 nil])
+([nil current ((nil fontified t 10458 . 10459) (#("7" 0 1 (fontified t)) . 10458) (10459 . 10460) 10458) nil (26717 35950 788492 973000) 0 nil])
 nil

@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"abfc890d8a578f96b54851e18b3e95ccf28f3f94"
+"7ec37e8e129c716976c4b25930757e323e11162e"
 [nil nil nil nil (26715 60719 838497 368000) 0 nil]
 ([nil nil ((#("\\begin{figure}[H]
 	\\centering
@@ -2857,7 +2857,77 @@ nil
 ([nil nil ((#("~" 0 1 (fontified t)) . 59494)) nil (26716 3394 22577 510000) 0 nil])
 ([nil nil ((#("}" 0 1 (fontified t)) . 59494)) nil (26716 3394 22576 949000) 0 nil])
 ([nil nil ((#("~" 0 1 (fontified t)) . -60703) (60704 . 60705) (#("~" 0 1 (fontified t)) . -60401) (60402 . 60403) (#("~" 0 1 (fontified t)) . -59879) (59880 . 59881)) nil (26716 3394 22572 30000) 0 nil])
-([nil nil ((60796 . 60798) (t 26716 3394 32185 476000)) nil (26716 3428 461275 116000) 0 nil])
-([nil current ((61262 . 61264) (t 26716 3410 682105 890000)) nil (26716 3429 683731 555000) 0 nil] [nil nil ((61260 . 61262) (t 26716 3410 682105 890000)) ((#("\\\\" 0 2 (face font-lock-warning-face fontified t)) . 61260) (undo-tree-id3532 . -1) (undo-tree-id3533 . -1) (undo-tree-id3534 . -1) (undo-tree-id3535 . -1)) (26716 3428 457274 32000) 0 nil])
+([nil nil ((60796 . 60798) (t 26716 3394 32185 476000)) nil (26717 34364 670424 570000) 0 nil])
+([nil nil ((61262 . 61264)) ((#("\\\\" 0 2 (fontified nil)) . 61262) (t 26716 3429 695013 955000)) (26717 34365 867414 849000) 0 nil] [nil nil ((61260 . 61262) (t 26716 3410 682105 890000)) ((#("\\\\" 0 2 (face font-lock-warning-face fontified t)) . 61260) (undo-tree-id3532 . -1) (undo-tree-id3533 . -1) (undo-tree-id3534 . -1) (undo-tree-id3535 . -1)) (26716 3428 457274 32000) 0 nil])
+([nil nil ((391 . 436) 390 (t 26716 3429 695013 955000)) nil (26717 34424 494629 144000) 0 nil])
 nil
+([nil nil ((505 . 550) 504) nil (26717 34424 494628 422000) 0 nil])
+([nil nil ((590 . 635)) nil (26717 34424 494627 881000) 0 nil])
+([nil nil ((673 . 718)) nil (26717 34424 494627 381000) 0 nil])
+([nil nil ((759 . 804)) nil (26717 34424 494626 549000) 0 nil])
+([nil nil ((846 . 891)) nil (26717 34424 494626 288000) 0 nil])
+([nil nil ((920 . 965)) nil (26717 34424 494626 68000) 0 nil])
+([nil nil ((1003 . 1048)) nil (26717 34424 494625 747000) 0 nil])
+([nil nil ((1083 . 1128)) nil (26717 34424 494625 267000) 0 nil])
+([nil nil ((1160 . 1205) 1159) nil (26717 34424 494621 469000) 0 nil])
+([nil nil ((3235 . 3237) (t 26717 34424 504641 963000)) nil (26717 34449 421735 809000) 0 nil])
+([nil nil ((3412 . 3414) (t 26717 34449 431697 605000)) nil (26717 34471 720687 682000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 19020) (undo-tree-id0 . -1) (t 26717 34471 730738 603000)) nil (26717 34506 916067 300000) 0 nil])
+([nil nil ((#("At the initial stage of the thermal processing of potassium humate,
+there is a process of dehydration, accompanied by the release of water
+and volatile compounds with a low molecular weight. As the temperature
+continues to rise, the decomposition of carboxyl, phenolic, and other
+oxygen-containing functional groups commences, resulting in the emission
+of CO\\textsubscript{2}, CO, and a minor amount of volatile organic
+compounds.
+
+" 0 19 (fontified t) 19 68 (fontified t) 68 358 (fontified t) 358 372 (face font-lock-keyword-face fontified t) 372 432 (fontified t)) . 22039) (undo-tree-id1 . -431) (undo-tree-id2 . -431) (undo-tree-id3 . -431) (undo-tree-id4 . -431) 22470 (t 26717 34506 925787 308000)) nil (26717 34548 819261 798000) 0 nil])
+([nil nil ((19086 . 19087) 19042) nil (26717 34548 819252 300000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 19087 . 19088) (#("
+" 0 1 (fontified nil)) . -19519) (19087 . 19520)) nil (26717 34548 819247 571000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 19519) (undo-tree-id13 . 1) (t 26717 34548 830817 907000)) nil (26717 34598 473695 410000) 0 nil])
+([nil nil ((#("
+\\begin{multicols}{2}
+With an increase in temperature, aromatic and aliphatic components of
+the humate structure undergo destruction, leading to the formation of
+resinous intermediate products. These substances can participate in
+structural reorganization processes, contributing to the creation of
+more thermodynamically stable carbon systems.
+
+At higher temperatures ranging from 600 to 700 degrees Celsius,
+carbonization and condensation reactions become predominant, resulting
+in the production of a carbonaceous residue with a highly porous
+structure.. The presence of potassium in a given environment promotes
+the catalytic breakdown of organic constituents, thereby facilitating
+the creation of microporous carbon materials. This process is of utmost
+significance in the manufacturing of activated carbon and sorbent
+materials. The findings regarding the elemental composition of the
+examined samples are detailed in Table 5 and illustrated in Figure 1.
+\\end{multicols}
+" 0 1 (fontified t) 1 7 (face font-lock-keyword-face fontified t) 7 8 (fontified t latex-env-pair t) 8 17 (face font-lock-function-name-face fontified t latex-env-pair t) 17 18 (fontified t latex-env-pair t) 18 22 (fontified t) 22 91 (fontified t) 91 92 (fontified t) 92 102 (fontified t) 102 162 (fontified t) 162 345 (fontified t) 345 891 (fontified t) 891 961 (fontified t) 961 965 (face font-lock-keyword-face fontified t) 965 966 (fontified t latex-env-pair t) 966 975 (face font-lock-function-name-face fontified t latex-env-pair t) 975 976 (fontified t latex-env-pair t) 976 977 (fontified t)) . 22449) (undo-tree-id5 . -961) (undo-tree-id6 . -976) (undo-tree-id7 . -961) (undo-tree-id8 . -22) (undo-tree-id9 . -1) (undo-tree-id10 . -345) (undo-tree-id11 . -961) (undo-tree-id12 . -961) 23410) nil (26717 34598 473694 168000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 23299 . 23300) (#("
+" 0 1 (fontified nil)) . -24276) (23299 . 24277) 23285) nil (26717 34598 473678 618000) 0 nil])
+([nil nil ((24404 . 24406) (t 26717 34598 484823 789000)) nil (26717 34647 850113 996000) 0 nil])
+([nil nil ((24565 . 24567)) nil (26717 34647 850113 605000) 0 nil])
+([nil nil ((24731 . 24733)) nil (26717 34647 850113 4000) 0 nil])
+([nil nil ((24892 . 24894)) nil (26717 34647 850112 453000) 0 nil])
+([nil nil ((25058 . 25060)) nil (26717 34647 850111 972000) 0 nil])
+([nil nil ((25219 . 25221)) nil (26717 34647 850107 193000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . 25220) (t 26717 34647 860803 751000) (25221 . 25222) 25220 (t 26717 34647 860803 751000)) nil (26717 34672 194577 256000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . 25059) (25060 . 25061) 25059) nil (26717 34672 194576 825000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . 24893) (24894 . 24895) 24893) nil (26717 34672 194576 404000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . 24732) (24733 . 24734) 24732) nil (26717 34672 194575 763000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . 24566) (24567 . 24568) 24566) nil (26717 34672 194574 280000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . 24405) (24406 . 24407) 24405) nil (26717 34672 194570 533000) 0 nil])
+([nil nil ((#("4" 0 1 (fontified t)) . 39585) (t 26717 34672 203816 277000) (39586 . 39587) 39585 (t 26717 34672 203816 277000)) nil (26717 34780 264570 465000) 0 nil])
+([nil nil ((nil fontified t 39585 . 39586) (#("5" 0 1 (fontified t)) . 39585) (39586 . 39587) 39585) nil (26717 34780 264570 44000) 0 nil])
+([nil nil ((nil fontified t 39585 . 39586) (#("6" 0 1 (fontified t)) . 39585) (39586 . 39587) 39585) nil (26717 34780 264569 623000) 0 nil])
+([nil nil ((#("5" 0 1 (fontified t)) . 42013) (42014 . 42015) 42013) nil (26717 34780 264569 92000) 0 nil])
+([nil nil ((nil fontified t 42013 . 42014) (#("6" 0 1 (fontified t)) . 42013) (42014 . 42015) 42013) nil (26717 34780 264567 980000) 0 nil])
+([nil nil ((nil fontified t 42013 . 42014) (#("7" 0 1 (fontified t)) . 42013) (42014 . 42015) 42013) nil (26717 34780 264564 303000) 0 nil])
+([nil nil ((#("6" 0 1 (fontified t)) . 45301) (t 26717 34780 273786 866000) (45302 . 45303) 45301 (t 26717 34780 273786 866000)) nil (26717 34794 122452 238000) 0 nil])
+([nil nil ((nil fontified t 45301 . 45302) (#("7" 0 1 (fontified t)) . 45301) (45302 . 45303) 45301) nil (26717 34794 122451 377000) 0 nil])
+([nil nil ((nil fontified t 45301 . 45302) (#("8" 0 1 (fontified t)) . 45301) (45302 . 45303) 45301) nil (26717 34794 122447 600000) 0 nil])
+([nil current ((48479 . 48481) (#("7" 0 1 (fontified t)) . -48479) (undo-tree-id14 . -1) 48480 (t 26717 34794 131773 972000)) nil (26717 34814 954921 209000) 0 nil])
 nil

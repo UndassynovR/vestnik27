@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"9cc8271a44d3bed072eedc303d3d8e3acef1b097"
+"fb085af59c91763de765d5934d910d477162737a"
 [nil nil nil nil (26715 41439 85526 239000) 0 nil]
 ([nil nil ((96 . 97) (#("
 " 0 1 (face (bold) fontified t)) . -96) 24 (t 26715 40779 131977 293000)) nil (26715 41439 85525 597000) 0 nil])
@@ -1809,5 +1809,58 @@ nil
 ([nil nil ((37010 . 37011) 36950) nil (26715 49652 313774 383000) 0 nil])
 ([nil nil ((35910 . 35912) (t 26715 49652 320936 737000)) nil (26715 49667 775859 623000) 0 nil])
 ([nil nil ((36995 . 36997) (t 26715 49667 782854 762000)) nil (26715 49688 366839 576000) 0 nil])
-([nil current ((38036 . 38038)) nil (26715 49688 366836 20000) 0 nil])
+([nil nil ((38036 . 38038)) nil (26715 49688 366836 20000) 0 nil])
+([nil nil ((341 . 386) 340 (t 26715 49688 373745 605000)) nil (26717 27154 757127 182000) 0 nil])
+([nil nil ((452 . 497)) nil (26717 27154 757126 771000) 0 nil])
+([nil nil ((535 . 580)) nil (26717 27154 757126 501000) 0 nil])
+([nil nil ((621 . 666)) nil (26717 27154 757126 160000) 0 nil])
+([nil nil ((708 . 753)) nil (26717 27154 757125 940000) 0 nil])
+([nil nil ((794 . 839)) nil (26717 27154 757125 669000) 0 nil])
+([nil nil ((877 . 922)) nil (26717 27154 757125 148000) 0 nil])
+([nil nil ((957 . 1002) 956) nil (26717 27215 959970 364000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 31571 . 31572) (#("
+" 0 1 (fontified nil)) . -31746) (31571 . 31747) (t 26717 27154 764370 458000)) nil (26717 27233 413142 567000) 0 nil] [nil nil ((#("
+" 0 1 (fontified t)) . -31755) 31583 (t 26717 27154 764370 458000)) ((31755 . 31756)) (26717 27215 959747 267000) 0 nil])
+([nil nil ((#("Fig.1 - Change in retail prices for margarine for 2011-2024" 0 59 (fontified t)) . 31673) (undo-tree-id1 . -58) (undo-tree-id2 . -4) 31677) nil (26717 27233 413141 705000) 0 nil])
+nil
+([nil nil ((31648 . 31653) (#("pish4" 0 5 (face font-lock-builtin-face fontified t)) . 31648) (undo-tree-id0 . -4)) nil (26717 27233 413326 20000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 31872 . 31873) (#("
+" 0 1 (fontified nil)) . -31987) (31872 . 31988)) nil (26717 27251 690952 775000) 0 nil] [nil nil ((nil rear-nonsticky nil 31871 . 31872) (#("
+" 0 1 (fontified nil)) . -31986) (31871 . 31987) 31870) ((#("
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.8\\textwidth]{media/chem4/image4}
+	\\caption*{}
+\\end{figure}
+" 0 1 (rear-nonsticky nil fontified nil) 1 7 (face font-lock-keyword-face fontified nil) 7 8 (fontified nil latex-env-pair t) 8 14 (face font-lock-function-name-face fontified nil latex-env-pair t) 14 15 (fontified nil latex-env-pair t) 15 19 (fontified nil) 19 20 (fontified t) 20 30 (face font-lock-keyword-face fontified t) 30 31 (fontified t) 31 32 (fontified t) 32 48 (face font-lock-keyword-face fontified t) 48 58 (fontified t) 58 68 (face font-lock-keyword-face fontified t) 68 70 (fontified t) 70 88 (face font-lock-builtin-face fontified t) 88 90 (fontified t) 90 91 (fontified t) 91 100 (face font-lock-keyword-face fontified t) 100 103 (fontified t) 103 107 (face font-lock-keyword-face fontified nil) 107 108 (fontified nil latex-env-pair t) 108 114 (face font-lock-function-name-face fontified nil latex-env-pair t) 114 115 (fontified nil latex-env-pair t) 115 116 (fontified nil)) . 31871) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -115) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (31986 . 31987) (nil rear-nonsticky t 31871 . 31872)) (26717 27233 413115 205000) 0 nil])
+([nil nil ((#("{\\bfseries Fig.9 - Change in specific surface area using the (BET) method for hydrogen (\\%) from the temperature of the powdered activated adsorbent \"Shoptykol: KOH\" (1:0.5) at 900ºC}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 88 (face (bold) fontified t) 88 90 (face (font-lock-keyword-face bold) fontified t) 90 182 (face (bold) fontified t) 182 183 (fontified t)) . -31688) (undo-tree-id9 . -182) (undo-tree-id10 . -183) 31872) nil (26717 27251 690952 63000) 0 nil])
+nil
+([nil nil ((nil rear-nonsticky nil 31843 . 31844) (nil fontified nil 31673 . 31844) (31673 . 31844)) nil (26717 27251 690943 838000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 31859)) nil (26717 27251 690942 836000) 0 nil])
+([nil nil ((#("{\\bfseries Fig.10 - Change in the amount of adsorbed hydrogen as a function of temperature for the powdered activated adsorbent \"Shoptykol: KOH\" (1:0.5) at 900ºC}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 17 (face (bold) fontified t) 17 161 (face (bold) fontified t) 161 162 (fontified t)) . -31975) 32138) nil (26717 27251 690941 293000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 32109 . 32110) (nil fontified nil 31960 . 32110) (31960 . 32110)) nil (26717 27251 690937 897000) 0 nil])
+([nil nil ((#("
+" 0 1 (rear-nonsticky t fontified t)) . 31859) (undo-tree-id11 . -1) (t 26717 27251 697810 813000)) nil (26717 27253 175049 371000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 31572) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (t 26717 27253 181802 111000)) nil (26717 27256 615436 208000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 32123) (undo-tree-id12 . -1)) nil (26717 27256 615431 509000) 0 nil])
+([nil nil ((#("4" 0 1 (face font-lock-builtin-face fontified t)) . 31658) (t 26717 27256 621781 921000) (31659 . 31660) 31658 (t 26717 27256 621781 921000)) nil (26717 27299 8292 172000) 0 nil])
+([nil nil ((nil fontified t 31658 . 31659) (nil face font-lock-builtin-face 31658 . 31659) (#("3" 0 1 (face font-lock-builtin-face fontified t)) . 31658) (31659 . 31660) 31658) nil (26717 27299 8291 581000) 0 nil])
+([nil nil ((nil fontified t 31658 . 31659) (nil face font-lock-builtin-face 31658 . 31659) (#("2" 0 1 (face font-lock-builtin-face fontified t)) . 31658) (31659 . 31660) 31658) nil (26717 27299 8290 339000) 0 nil])
+([nil nil ((#("4" 0 1 (face font-lock-builtin-face fontified t)) . 31944) (31945 . 31946) 31944) nil (26717 27299 8289 437000) 0 nil])
+([nil nil ((nil fontified t 31944 . 31945) (nil face font-lock-builtin-face 31944 . 31945) (#("3" 0 1 (face font-lock-builtin-face fontified t)) . 31944) (31945 . 31946) 31944) nil (26717 27299 8405 695000) 0 nil])
+([nil nil ((#("The data indicate that low temperatures (-200°C) are optimal for
+maximizing both specific surface area and hydrogen adsorption capacity.
+As the temperature increases, the surface area reduces, leading to a
+significant decline in hydrogen adsorption efficiency.
+
+" 0 262 (fontified t)) . 32145) (undo-tree-id17 . -261) (undo-tree-id18 . -261) (undo-tree-id19 . -59) (undo-tree-id20 . -261) (undo-tree-id21 . -261) 32406 (t 26717 27299 283529 796000)) nil (26717 27391 398325 969000) 0 nil] [nil nil ((nil fontified t 31944 . 31945) (nil face font-lock-builtin-face 31944 . 31945) (#("2" 0 1 (face font-lock-builtin-face fontified t)) . 31944) (31945 . 31946) 31944) ((#("1" 0 1 (face font-lock-builtin-face fontified nil)) . 31945) (31944 . 31945)) (26717 27299 8284 999000) 0 nil])
+([nil nil ((31554 . 31555) 31498) nil (26717 27391 398322 914000) 0 nil])
+nil
+([nil nil ((nil rear-nonsticky nil 31555 . 31556) (#("
+" 0 1 (fontified nil)) . -31817) (31555 . 31818)) nil (26717 27391 398322 282000) 0 nil])
+([nil current ((#("
+" 0 1 (fontified t)) . 31817) (undo-tree-id15 . 1) (undo-tree-id16 . -1)) nil (26717 27391 398318 716000) 0 nil])
 nil

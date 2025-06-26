@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"ed61c04f5c1c6a1e37954e09e9f5d768a5d8b551"
+"82c14cc09cd892b68eefd068f558768b307ceffc"
 [nil nil nil nil (26716 55055 262591 173000) 0 nil]
 ([nil nil ((245 . 290) 244 (t 26715 40779 272977 688000)) nil (26716 55055 262590 271000) 0 nil])
 ([nil nil ((332 . 377)) nil (26716 55055 262589 299000) 0 nil])
@@ -155,5 +155,134 @@ nil
 ([nil nil ((nil rear-nonsticky nil 26218 . 26219) (#("
 " 0 1 (fontified nil)) . -26377) (26218 . 26378) 26206) nil (26716 55725 77916 880000) 0 nil])
 ([nil nil ((#("8" 0 1 (fontified t)) . 26276) (t 26716 55725 80116 633000) (26277 . 26278) 26276 (t 26716 55725 80116 633000)) nil (26716 55736 282293 497000) 0 nil])
-([nil current ((26379 . 26400) (28061 . 28077) (t 26716 55736 284343 271000)) nil (26716 55776 346985 469000) 0 nil])
+([nil nil ((26379 . 26400) (28061 . 28077) (t 26716 55736 284343 271000)) nil (26716 55776 346985 469000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 14358 . 14359) (#("
+" 0 1 (fontified nil)) . -14535) (14358 . 14536) (t 26717 10309 624956 286000)) nil (26717 11985 904246 418000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 14359)) nil (26717 11986 991369 359000) 0 nil])
+([nil nil ((#("Рис.1 - Архитектура информационной системы извлечения данных" 0 60 (fontified t)) . 14460) (undo-tree-id56 . -58) (undo-tree-id57 . -59) (undo-tree-id58 . -58) (undo-tree-id59 . -58) 14518) nil (26717 12001 789667 490000) 0 nil] [nil nil ((#("{\\bfseries 1 - сурет. Триплет шығыны}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 36 (face (bold) fontified t) 36 37 (fontified t)) . -14535) 14573) ((14535 . 14572)) (26717 11985 904353 328000) 0 nil])
+([nil nil ((#("{\\bfseries 1 - сурет. Триплет шығыны}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 36 (face (bold) fontified t) 36 37 (fontified t)) . -14475) (undo-tree-id52 . -14) (undo-tree-id53 . -14) (undo-tree-id54 . -14) (undo-tree-id55 . -14) 14513) nil (26717 12001 789664 895000) 0 nil])
+([nil nil ((#("Рис.1 - Архитектура информационной системы извлечения данных" 0 60 (fontified t)) . 14460) (undo-tree-id0 . -59) (undo-tree-id1 . -60) (undo-tree-id2 . -60) (undo-tree-id3 . -60) (undo-tree-id4 . -60) (undo-tree-id5 . -60) (undo-tree-id6 . -60) (undo-tree-id7 . -60) (undo-tree-id8 . -60) (undo-tree-id9 . -60) (undo-tree-id10 . -60) (undo-tree-id11 . -60) (undo-tree-id12 . -60) (undo-tree-id13 . -60) (undo-tree-id14 . -60) (undo-tree-id15 . -60) (undo-tree-id16 . -59) (undo-tree-id17 . -59) (undo-tree-id18 . -59) (undo-tree-id19 . -59) (undo-tree-id20 . -59) (undo-tree-id21 . -59) (undo-tree-id22 . -59) (undo-tree-id23 . -59) (undo-tree-id24 . -59) (undo-tree-id25 . -59) (undo-tree-id26 . -58) (undo-tree-id27 . -58) (undo-tree-id28 . -58) (undo-tree-id29 . -58) (undo-tree-id30 . -58) (undo-tree-id31 . -58) (undo-tree-id32 . -58) (undo-tree-id33 . -58) (undo-tree-id34 . -58) (undo-tree-id35 . -58) (undo-tree-id36 . -58) (undo-tree-id37 . -58) (undo-tree-id38 . -58) (undo-tree-id39 . -58) (undo-tree-id40 . -58) (undo-tree-id41 . -58) (undo-tree-id42 . -58) (undo-tree-id43 . -58) (undo-tree-id44 . -58) (undo-tree-id45 . -58) (undo-tree-id46 . -58) (undo-tree-id47 . -58) (undo-tree-id48 . -58) (undo-tree-id49 . -58) (undo-tree-id50 . -60) 14518) ((14460 . 14520)) (26717 11985 904242 130000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 14484 . 14485) (nil fontified nil 14460 . 14485) (14460 . 14485)) nil (26717 12001 789662 250000) 0 nil])
+nil
+([nil nil ((14437 . 14438) (#("2" 0 1 (face font-lock-builtin-face fontified t)) . 14437)) nil (26717 12001 789661 599000) 0 nil])
+([nil nil ((#("1" 0 1 (face font-lock-builtin-face fontified t)) . 14444)) nil (26717 12001 789661 158000) 0 nil])
+([nil nil ((#("4" 0 1 (face font-lock-builtin-face fontified t)) . 14444)) nil (26717 12001 789660 658000) 0 nil])
+([nil nil ((14444 . 14445) (#("9" 0 1 (face font-lock-builtin-face fontified t)) . 14444)) nil (26717 12001 789660 6000) 0 nil])
+([nil nil ((14415 . 14416) (#("4" 0 1 (fontified t)) . 14415) (undo-tree-id51 . -1)) nil (26717 12001 789656 59000) 0 nil])
+([nil nil ((nil fontified t 14415 . 14416) (t 26717 12001 791925 766000) (#("6" 0 1 (fontified t)) . 14415) (t 26717 12001 791925 766000) (14416 . 14417) 14415 (t 26717 12001 791925 766000)) nil (26717 12030 171477 310000) 0 nil])
+([nil nil ((nil fontified t 14415 . 14416) (#("7" 0 1 (fontified t)) . 14415) (14416 . 14417) 14415) nil (26717 12030 171472 280000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 14498) (t 26717 12030 175774 294000)) nil (26717 12065 725247 321000) 0 nil])
+([nil nil ((#("s" 0 1 (fontified t)) . -14993) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (undo-tree-id65 . -1) (undo-tree-id66 . -1) (undo-tree-id67 . -1) (undo-tree-id68 . -1) (undo-tree-id69 . -1) (undo-tree-id70 . -1) (undo-tree-id71 . -1) (undo-tree-id72 . -1) (undo-tree-id73 . -1) (undo-tree-id74 . -1) (undo-tree-id75 . -1) (undo-tree-id76 . -1) (undo-tree-id77 . -1) (undo-tree-id78 . -1) (undo-tree-id79 . -1) (undo-tree-id80 . -1) (undo-tree-id81 . -1) (undo-tree-id82 . -1) (undo-tree-id83 . -1) (undo-tree-id84 . -1) (undo-tree-id85 . -1) (undo-tree-id86 . -1) (undo-tree-id87 . -1) (undo-tree-id88 . -1) (undo-tree-id89 . -1) (undo-tree-id90 . -1) (undo-tree-id91 . -1) (undo-tree-id92 . -1) (undo-tree-id93 . -1) (undo-tree-id94 . -1) (undo-tree-id95 . -1) (undo-tree-id96 . -1) (undo-tree-id97 . -1) 14994 (14992 . 14994)) nil (26717 12065 725246 359000) 0 nil])
+([nil nil ((#("s" 0 1 (fontified nil)) . -15000) 15001 (14999 . 15001)) nil (26717 12065 725233 355000) 0 nil])
+([nil nil ((#("s" 0 1 (fontified nil)) . -15061) (undo-tree-id61 . -1) 15062 (15060 . 15062)) nil (26717 12065 725232 443000) 0 nil])
+([nil nil ((#("s" 0 1 (fontified nil)) . -15055) 15056 (15054 . 15056)) nil (26717 12065 725356 124000) 0 nil])
+([nil nil ((14995 . 14996) (#("a" 0 1 (face tex-math fontified t)) . 14995)) nil (26717 12086 311574 36000) 0 nil] [nil nil ((15057 . 15058) (#("a" 0 1 (face tex-math fontified t)) . 15057) (undo-tree-id60 . -1)) ((15057 . 15058) (#("a" 0 1 (face tex-math fontified t)) . 15057)) (26717 12065 725227 564000) 0 nil])
+([nil nil ((15126 . 15127) (#(" " 0 1 (fontified t)) . -15126) (undo-tree-id101 . -1) (#(" " 0 1 (fontified t)) . -15127) (undo-tree-id102 . -1) 15128 (15126 . 15128) (#(" " 0 1 (fontified t)) . -15126) (undo-tree-id103 . -1) (#(" " 0 1 (fontified t)) . -15127) (undo-tree-id104 . -1) 15128 (15126 . 15128) (15122 . 15126) (#("s" 0 1 (face font-lock-keyword-face fontified t)) . -15122) (undo-tree-id105 . -1) (undo-tree-id106 . -1) (undo-tree-id107 . -1) 15123 (15119 . 15123) (#("α" 0 1 (fontified t)) . -15119) (undo-tree-id108 . -1) 15120) nil (26717 12086 311572 773000) 0 nil])
+nil
+([nil nil ((19485 . 19486)) nil (26717 12086 311566 882000) 0 nil])
+([nil nil ((19487 . 19488)) nil (26717 12086 311566 391000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 19428)) nil (26717 12086 311565 961000) 0 nil])
+([nil nil ((19428 . 19429) (#("(" 0 1 (fontified t)) . 19428)) nil (26717 12086 311565 470000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 19434) (undo-tree-id99 . -1) (undo-tree-id100 . -1)) nil (26717 12086 311564 398000) 0 nil])
+([nil nil ((nil face (subscript) 19434 . 19435) (nil fontified nil 19434 . 19435) (19434 . 19435) (#(")" 0 1 (fontified t)) . 19434) (undo-tree-id98 . -1)) nil (26717 12191 277463 438000) 0 nil])
+([nil nil ((#("DeepFace беттерді анықтаудың бірнеше әдістерін қамтиды:
+
+- OpenCV (opencv) - Хаар каскадтары;
+
+- SSD (ssd) - нейрожелілер негізіндегі детектор;
+
+- MTCNN (mtcnn) - каскадты нейрондық желі;
+
+- Dlib (dlib) - градиенттер гистограммалары (HOG);
+
+- RetinaFace (retinaface) -ResNet негізіндегі детектор.
+
+- MediaPipe (mediapipe) - бет әлпетіндегі негізгі нүктелерді қолданатын
+жетілдірілген әдіс.
+
+" 0 21 (fontified t) 21 56 (fontified t) 56 390 (fontified t) 390 391 (fontified t)) . 22464) (undo-tree-id130 . -390) (undo-tree-id131 . -390) (undo-tree-id132 . -390) (undo-tree-id133 . -56) (undo-tree-id134 . -56) (undo-tree-id135 . -94) (undo-tree-id136 . -94) (undo-tree-id137 . -144) (undo-tree-id138 . -144) (t 26717 12086 313474 712000)) nil (26717 12196 272603 48000) 0 nil] [nil nil ((#("DeepFace беттерді анықтаудың бірнеше әдістерін қамтиды:
+
+- OpenCV (opencv) - Хаар каскадтары;
+
+- SSD (ssd) - нейрожелілер негізіндегі детектор;
+
+- MTCNN (mtcnn) - каскадты нейрондық желі;
+
+- Dlib (dlib) - градиенттер гистограммалары (HOG);
+
+- RetinaFace (retinaface) -ResNet негізіндегі детектор.
+
+- MediaPipe (mediapipe) - бет әлпетіндегі негізгі нүктелерді қолданатын
+жетілдірілген әдіс.
+" 0 21 (fontified t) 21 56 (fontified t) 56 390 (fontified t)) . 22464) (undo-tree-id109 . -370) (undo-tree-id110 . -389) (undo-tree-id111 . -370) (undo-tree-id112 . -56) (undo-tree-id113 . -56) (undo-tree-id114 . -94) (undo-tree-id115 . -94) (undo-tree-id116 . -144) (undo-tree-id117 . -370) (undo-tree-id118 . -370) (undo-tree-id119 . -370) (undo-tree-id120 . -370) (undo-tree-id121 . -370) (undo-tree-id122 . -370) (undo-tree-id123 . -370) (undo-tree-id124 . -144) (undo-tree-id125 . -370) (undo-tree-id126 . -370) (undo-tree-id127 . -370) (undo-tree-id128 . -370) (undo-tree-id129 . -390) 22834 (t 26717 12086 313474 712000)) ((22464 . 22854)) (26717 12191 277233 638000) 0 nil])
+([nil nil ((21475 . 21476) 21436) nil (26717 12196 272591 506000) 0 nil])
+nil
+([nil nil ((nil rear-nonsticky nil 21476 . 21477) (#("
+" 0 1 (fontified nil)) . -21867) (21476 . 21868)) nil (26717 12196 272586 987000) 0 nil])
+([nil nil ((#("Бет анықталғаннан кейін, DeepFace эмоцияларды жіктеу үшін терең
+нейрондық желі үлгісін пайдаланады. Кітапхана FaceNet негізіндегі
+модельді жүзеге асырады және 7 негізгі эмоцияны: ашулану, жиіркену,
+қорқыныш, бақыт, бейтарап, қайғы, таңданыс жіктеу үшін оңтайландырылған.
+
+" 0 63 (fontified t) 63 64 (fontified t) 64 272 (fontified t)) . 22856) (undo-tree-id156 . -271) (undo-tree-id157 . -271) (undo-tree-id158 . -271) (undo-tree-id159 . -271) 23127 (t 26717 12196 274887 894000)) nil (26717 12224 559592 373000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 21867 . 21868) (#("
+" 0 1 (fontified nil)) . -22139) (21867 . 22140)) nil (26717 12224 559589 748000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 22139) (undo-tree-id139 . 1) (undo-tree-id140 . -1) (undo-tree-id141 . -1) (undo-tree-id142 . -1) (undo-tree-id143 . -1) (undo-tree-id144 . -1) (undo-tree-id145 . -1) (undo-tree-id146 . -1) (undo-tree-id147 . -1) (undo-tree-id148 . -1) (undo-tree-id149 . -1) (undo-tree-id150 . -1) (undo-tree-id151 . -1) (undo-tree-id152 . -1) (undo-tree-id153 . -1) (undo-tree-id154 . -1) (undo-tree-id155 . -1)) nil (26717 12224 559586 312000) 0 nil])
+([nil nil ((#("Мониторинг нәтижелері бойынша қызметкердің жұмыс күні ішінде болуы және
+оның эмоционалдық жағдайы туралы статистикалық мәліметтер жинақталды
+(сурет 2а). Түскі үзіліс пен қысқа үзіліс кезінде мезгіл-мезгіл жұмыстан
+шыққаны саналып, қызметкердің 85,2\\% жұмыста болғаны анықталды.
+Эмоциялық жағдайды талдау келесі нәтижелерді көрсетті: қуаныш - 14,8\\%
+уақыт, бейтарап күй - 53,7\\%, қайғы - 9,3\\%, таңдану - 3,7\\%, ашу -
+3,7\\% уақыт (сурет 2ә).
+
+" 0 38 (fontified t) 38 72 (fontified t) 72 248 (fontified t) 248 250 (face font-lock-keyword-face fontified t) 250 346 (fontified t) 346 348 (face font-lock-keyword-face fontified t) 348 375 (fontified t) 375 377 (face font-lock-keyword-face fontified t) 377 390 (fontified t) 390 392 (face font-lock-keyword-face fontified t) 392 407 (fontified t) 407 409 (face font-lock-keyword-face fontified t) 409 420 (fontified t) 420 422 (face font-lock-keyword-face fontified t) 422 442 (fontified t)) . 25150) (undo-tree-id160 . -441) (undo-tree-id161 . -441) (undo-tree-id162 . -441) (undo-tree-id163 . -441) (undo-tree-id164 . -441) (undo-tree-id165 . -441) (undo-tree-id166 . -441) 25591 (t 26717 12224 561736 940000)) nil (26717 12279 721536 976000) 0 nil])
+([nil nil ((24623 . 24624) 24564) nil (26717 12285 380000 330000) 0 nil] [nil nil ((nil rear-nonsticky nil 24623 . 24624) (#("
+" 0 1 (fontified nil)) . -25065) (24623 . 25066) 24564) ((#("
+Мониторинг нәтижелері бойынша қызметкердің жұмыс күні ішінде болуы және
+оның эмоционалдық жағдайы туралы статистикалық мәліметтер жинақталды
+(сурет 2а). Түскі үзіліс пен қысқа үзіліс кезінде мезгіл-мезгіл жұмыстан
+шыққаны саналып, қызметкердің 85,2\\% жұмыста болғаны анықталды.
+Эмоциялық жағдайды талдау келесі нәтижелерді көрсетті: қуаныш - 14,8\\%
+уақыт, бейтарап күй - 53,7\\%, қайғы - 9,3\\%, таңдану - 3,7\\%, ашу -
+3,7\\% уақыт (сурет 2ә).
+
+" 0 1 (rear-nonsticky nil fontified nil) 1 39 (fontified nil) 39 73 (fontified nil) 73 249 (fontified t) 249 251 (face font-lock-keyword-face fontified t) 251 347 (fontified t) 347 349 (face font-lock-keyword-face fontified t) 349 376 (fontified t) 376 378 (face font-lock-keyword-face fontified t) 378 391 (fontified t) 391 393 (face font-lock-keyword-face fontified t) 393 408 (fontified t) 408 410 (face font-lock-keyword-face fontified t) 410 421 (fontified t) 421 423 (face font-lock-keyword-face fontified t) 423 442 (fontified t) 442 443 (fontified nil)) . 24623) (undo-tree-id167 . -1) (undo-tree-id168 . -1) (undo-tree-id169 . -442) (undo-tree-id170 . -1) (undo-tree-id171 . -1) (undo-tree-id172 . -1) (25065 . 25066) (nil rear-nonsticky t 24623 . 24624)) (26717 12279 721352 371000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 24624 . 24625) (#("
+" 0 1 (fontified nil)) . -25066) (24624 . 25067)) nil (26717 12285 379999 459000) 0 nil])
+nil
+([nil nil ((24541 . 24542) (#("
+" 0 1 (fontified t)) . -24541) (#("
+" 0 1 (fontified t)) . -24541) (undo-tree-id173 . -1) (undo-tree-id174 . -1) 24536) nil (26717 12285 379995 642000) 0 nil])
+([nil nil ((25991 . 25992) (t 26717 12285 382412 364000) 25924) nil (26717 12325 654974 432000) 0 nil])
+([nil nil ((#("Бұл эксперимент қызметкерлердің эмоционалдық жағдайын автоматтандырылған
+бақылау мүмкіндігін растады. Алынған мәліметтерді жұмысшылардың
+эмоционалдық фонына әсер ететін факторларды әрі қарай талдау және еңбек
+жағдайын жақсарту бойынша ұсыныстар әзірлеу үшін пайдалануға болады.
+
+Raspberry Pi платформасында қашықтағы жұмыс үстеліне қосылу әдісін
+пайдаландық. Қашықтағы жұмыс үстеліне қосылу үшін Real VNC Viewer
+бағдарламасын қолданамыз (Сурет 4). Адрестік жолға алған VNC сервердің
+адресін енгіземіз, жұмыс үстеліне қосыламыз.
+
+" 0 54 (fontified t) 54 73 (fontified t) 73 210 (fontified t) 210 278 (fontified t) 278 529 (fontified t)) . 26513) (undo-tree-id175 . -528) (undo-tree-id176 . -528) (undo-tree-id177 . -528) (undo-tree-id178 . -412) (undo-tree-id179 . -412) (undo-tree-id180 . -528) (undo-tree-id181 . -528) (undo-tree-id182 . -278) (undo-tree-id183 . -278) (undo-tree-id184 . -528) 27041) nil (26717 12325 654973 711000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 25992 . 25993) (#("
+" 0 1 (fontified nil)) . -26521) (25992 . 26522)) nil (26717 12325 654957 621000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 21 (fontified t)) . 28361) (undo-tree-id192 . -20) (t 26717 12325 658197 435000)) nil (26717 12357 137516 920000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 28195) (undo-tree-id191 . -15)) nil (26717 12357 137516 168000) 0 nil])
+([nil nil ((#("
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.8\\textwidth]{media/ict2/image164}
+	\\caption*{5 - сурет. Жүктеу файлын өзгерту}
+\\end{figure}
+" 0 1 (fontified t) 1 7 (face font-lock-keyword-face fontified t) 7 8 (fontified t latex-env-pair t) 8 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 20 (fontified t) 20 30 (face font-lock-keyword-face fontified t) 30 32 (fontified t) 32 48 (face font-lock-keyword-face fontified t) 48 58 (fontified t) 58 68 (face font-lock-keyword-face fontified t) 68 70 (fontified t) 70 80 (face font-lock-builtin-face fontified t) 80 89 (face font-lock-builtin-face fontified t) 89 91 (fontified t) 91 92 (fontified t) 92 101 (face font-lock-keyword-face fontified t) 101 136 (fontified t) 136 140 (face font-lock-keyword-face fontified t) 140 141 (fontified t latex-env-pair t) 141 147 (face font-lock-function-name-face fontified t latex-env-pair t) 147 148 (fontified t latex-env-pair t) 148 149 (fontified t)) . 28195) (undo-tree-id185 . -136) (undo-tree-id186 . -148) (undo-tree-id187 . -136) (undo-tree-id188 . -136) (undo-tree-id189 . -136) (undo-tree-id190 . -136) 28331) nil (26717 12357 137515 357000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 27019 . 27020) (#("
+" 0 1 (fontified nil)) . -27168) (27019 . 27169) 27007) nil (26717 12357 137502 262000) 0 nil])
+([nil current ((#("8" 0 1 (fontified t)) . 27077) (t 26717 12357 140029 422000) (27078 . 27079) 27077 (t 26717 12357 140029 422000)) nil (26717 12371 127490 25000) 0 nil])
 nil
