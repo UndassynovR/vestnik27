@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"06ae0232dbcea4f134875d3490e44bf05da8b1d6"
+"2c2730d87dec4198d81b106cbf09bed22c53f9a9"
 [nil nil nil nil (26716 3875 860043 456000) 0 nil]
 ([nil nil ((91 . 92) (#("
 " 0 1 (face (bold) fontified t)) . -91) 25 (t 26714 40259 753831 178000)) nil (26716 3875 860042 775000) 0 nil])
@@ -422,5 +422,61 @@ nil
 ([nil nil ((40861 . 40863) (t 26716 8574 844679 2000)) nil (26716 8627 439984 932000) 0 nil])
 ([nil nil ((41136 . 41138) (t 26716 8627 443348 233000)) nil (26716 8630 587711 741000) 0 nil])
 ([nil nil ((43311 . 43313) (t 26716 8630 590328 394000)) nil (26716 8640 506358 45000) 0 nil])
-([nil current ((43582 . 43584)) nil (26716 8640 506354 548000) 0 nil])
+([nil nil ((43582 . 43584)) nil (26716 8640 506354 548000) 0 nil])
+([nil nil ((201 . 202) (t 26716 51261 432280 712000)) nil (26718 11221 681821 756000) 0 nil])
+([nil nil ((189 . 190) (#(" " 0 1 (face (bold) fontified t)) . 189) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1)) nil (26718 11221 681818 99000) 0 nil])
+([nil nil ((201 . 246) 200 (t 26718 11221 685224 642000)) nil (26718 11241 984179 596000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 35259 . 35260) (#("
+" 0 1 (fontified nil)) . -35555) (35259 . 35556) (t 26718 11241 987097 732000)) nil (26718 11317 651188 160000) 0 nil])
+([nil nil ((#("{\\bfseries Рис.1 - Динамика агрегированных индексов интереса к направлению «Казахстан» (2016--2025)}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 75 (face (bold) fontified t) 75 76 (face (font-lock-keyword-face bold) fontified t) 76 85 (face (font-lock-string-face bold) fontified t) 85 86 (face (font-lock-keyword-face bold) fontified t) 86 99 (face (bold) fontified t) 99 100 (fontified t)) . -35556) 35657) nil (26718 11317 651187 409000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 35447 . 35448) (nil fontified nil 35360 . 35448) (35360 . 35448) (#("Рис.4 - Структура внутренних затрат на НИОКР по сельскохозяйственным наукам в 2023 году, тыс. тг" 0 95 (fontified t) 95 96 (fontified t rear-nonsticky t)) . 35360) (undo-tree-id18 . -95) (undo-tree-id19 . -96) (undo-tree-id20 . -95) (undo-tree-id21 . -95) (undo-tree-id22 . -95) 35456) nil (26718 11317 651186 297000) 0 nil])
+([nil nil ((#("	\\caption*{\\normalfont\\emph{Примечание -- составлено авторами на основании {[}8{]}}}
+" 0 1 (fontified t rear-nonsticky t) 1 10 (face font-lock-keyword-face fontified t) 10 11 (fontified t) 11 22 (face font-lock-keyword-face fontified t) 22 27 (face font-lock-keyword-face fontified t) 27 28 (fontified t) 28 78 (face (italic) fontified t) 78 79 (face (italic) fontified t) 79 82 (face (italic) fontified t) 82 83 (fontified t rear-nonsticky t) 83 84 (fontified t) 84 85 (fontified t)) . 35450) (undo-tree-id16 . -84) (undo-tree-id17 . -85)) nil (26718 11317 651179 714000) 0 nil])
+([nil nil ((nil fontified t 35346 . 35347) (t 26718 11317 656107 344000) (nil face font-lock-builtin-face 35346 . 35347) (t 26718 11317 656107 344000) (#("6" 0 1 (face font-lock-builtin-face fontified t)) . 35346) (t 26718 11317 656107 344000) (35347 . 35348) 35346 (t 26718 11317 656107 344000)) nil (26718 11321 185278 391000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 35463) (t 26718 11321 189239 42000)) nil (26718 11374 566933 43000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 37301 . 37302) (#("
+" 0 1 (fontified nil)) . -37504) (37301 . 37505)) nil (26718 11374 566932 432000) 0 nil])
+([nil nil ((nil fontified t 37388 . 37389) (nil face font-lock-builtin-face 37388 . 37389) (#("7" 0 1 (face font-lock-builtin-face fontified t)) . 37388) (37389 . 37390) 37388) nil (26718 11374 566931 971000) 0 nil])
+([nil nil ((#("Рис.1 - Динамика агрегированных индексов интереса к направлению «Казахстан» (2016--2025)" 0 64 (fontified t) 64 65 (face font-lock-keyword-face fontified t) 65 74 (face font-lock-string-face fontified t) 74 75 (face font-lock-keyword-face fontified t) 75 87 (fontified t) 87 88 (fontified t rear-nonsticky t)) . 37402) (undo-tree-id30 . -87) (undo-tree-id31 . -45) 37447) nil (26718 11374 566931 500000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 37515 . 37516) (#("
+" 0 1 (fontified nil)) . -37630) (37515 . 37631)) nil (26718 11374 566930 668000) 0 nil])
+([nil nil ((#("{\\bfseries Рис.2 - Динамика агрегированных индексов интереса к направлению «Алматы» (2016--2025)}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 75 (face (bold) fontified t) 75 76 (face (font-lock-keyword-face bold) fontified t) 76 82 (face (font-lock-string-face bold) fontified t) 82 83 (face (font-lock-keyword-face bold) fontified t) 83 96 (face (bold) fontified t) 96 97 (fontified t)) . -37417) (undo-tree-id26 . -6) (undo-tree-id27 . -6) (undo-tree-id28 . -6) (undo-tree-id29 . -6) 37515) nil (26718 11374 566930 227000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 37486 . 37487) (nil fontified nil 37402 . 37487) (37402 . 37487)) nil (26718 11374 566928 584000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 37502) (undo-tree-id25 . -1)) nil (26718 11374 566928 234000) 0 nil])
+([nil nil ((#("
+" 0 1 (rear-nonsticky t fontified t)) . 37502) (undo-tree-id24 . 1)) nil (26718 11374 566927 222000) 0 nil])
+([nil nil ((#("{\\bfseries Рис.3 - Динамика агрегированных индексов интереса к направлению «Астана» (2016--2025)}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 75 (face (bold) fontified t) 75 76 (face (font-lock-keyword-face bold) fontified t) 76 82 (face (font-lock-string-face bold) fontified t) 82 83 (face (font-lock-keyword-face bold) fontified t) 83 96 (face (bold) fontified t) 96 97 (fontified t)) . -37617) 37715) nil (26718 11374 566926 310000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 37686 . 37687) (nil fontified nil 37602 . 37687) (37602 . 37687)) nil (26718 11374 566925 869000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 37702) (undo-tree-id23 . -1)) nil (26718 11416 845957 182000) 0 nil])
+([nil nil ((#("
+Период 2020--2021 годов сопровождается резким снижением интереса к обоим
+направлениям на фоне пандемии COVID-19. Однако восстановление происходит
+с разной динамикой: для Алматы характерны выраженные сезонные всплески в
+2022--2023 годах (особенно в русскоязычном сегменте), в то время как
+англоязычный интерес к Астане восстанавливается более медленно, но
+стабильно. Возможно, часть всплесков интереса к столице в 2022 году в
+русскоязычном сегменте связана с внешнеполитическими событиями и
+миграцией, а не напрямую с туризмом.
+
+Таким образом, внутренний интерес к Алматы носит преимущественно
+рекреационный характер с ярко выраженной сезонностью, тогда как интерес
+к Астане более деловой и менее подвержен сезонным колебаниям. Это
+подчёркивает различия в позиционировании и восприятии городов внутри и
+за пределами страны.
+" 0 387 (fontified t) 387 401 (fontified t) 401 403 (fontified t) 403 426 (fontified t) 426 500 (fontified t) 500 501 (fontified t) 501 502 (fontified t) 502 503 (fontified t) 503 528 (fontified t) 528 658 (fontified t) 658 666 (fontified t) 666 824 (fontified t)) . 36461) (undo-tree-id79 . -823) (undo-tree-id80 . -803) (undo-tree-id81 . -803) (undo-tree-id82 . -528) (undo-tree-id83 . -528) (undo-tree-id84 . -528) (undo-tree-id85 . -824)) nil (26718 11419 493267 528000) 0 nil] [nil nil ((#("
+Таким образом, внутренний интерес к Алматы носит преимущественно
+рекреационный характер с ярко выраженной сезонностью, тогда как интерес
+к Астане более деловой и менее подвержен сезонным колебаниям. Это
+подчёркивает различия в позиционировании и восприятии городов внутри и
+за пределами страны.
+" 0 130 (fontified t) 130 138 (fontified t) 138 296 (fontified t)) . 36989) (undo-tree-id32 . -295) (undo-tree-id33 . -275) (undo-tree-id34 . -275) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) (undo-tree-id38 . -1) (undo-tree-id39 . -1) (undo-tree-id40 . -66) (undo-tree-id41 . -66) (undo-tree-id42 . -66) (undo-tree-id43 . -66) (undo-tree-id44 . -66) (undo-tree-id45 . -138) (undo-tree-id46 . -138) (undo-tree-id47 . -138) (undo-tree-id48 . -138) (undo-tree-id49 . -138) (undo-tree-id50 . -204) (undo-tree-id51 . -204) (undo-tree-id52 . -204) (undo-tree-id53 . -204) (undo-tree-id54 . -204) (undo-tree-id55 . -275) (undo-tree-id56 . -275) (undo-tree-id57 . -275) (undo-tree-id58 . -275) (undo-tree-id59 . -275) (undo-tree-id60 . -275) (undo-tree-id61 . -275) (undo-tree-id62 . -275) (undo-tree-id63 . -275) (undo-tree-id64 . -275) (undo-tree-id65 . -275) (undo-tree-id66 . -275) (undo-tree-id67 . -275) (undo-tree-id68 . -275) (undo-tree-id69 . -275) (undo-tree-id70 . -275) (undo-tree-id71 . -275) (undo-tree-id72 . -275) (undo-tree-id73 . -275) (undo-tree-id74 . -275) (undo-tree-id75 . -275) (undo-tree-id76 . -275) (undo-tree-id77 . -275) (undo-tree-id78 . -296) 37264 (t 26718 11374 570140 890000)) ((36989 . 37285) (t 26718 11395 937858 267000)) (26718 11395 934703 607000) 0 nil])
+([nil nil ((36899 . 36900) (t 26718 11419 496621 897000) 36879) nil (26718 11435 491542 150000) 0 nil])
+nil
+([nil nil ((nil rear-nonsticky nil 36899 . 36900) (#("
+" 0 1 (fontified nil)) . -37723) (36899 . 37724) 36879) nil (26718 11435 491541 328000) 0 nil])
+([nil current ((#("
+" 0 1 (fontified t)) . 36900) (undo-tree-id86 . -1)) nil (26718 11435 491538 593000) 0 nil])
 nil

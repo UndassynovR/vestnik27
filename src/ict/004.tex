@@ -1,5 +1,5 @@
 \id{ГРНТИ 28.23.15}{}
-
+\vspace{0.5em}
 \begin{articleheader}
 \sectionwithauthors{М.Қ. Болсынбек, Г.Б. Абдикеримова, Ж.К. Тасжурекова, А.А.Адамов, С.К. Серикбаева, А.М. Ануарбеков}{ПРОГНОЗИРОВАНИЕ СОСТОЯНИЯ ПОЧВЫ В РАЗЛИЧНЫХ КЛИМАТИЧЕСКИХ ЗОНАХ
 С ИСПОЛЬЗОВАНИЕМ МЕТОДОВ МАШИННОГО ОБУЧЕНИЯ}
@@ -454,12 +454,13 @@ Vegetation Index) и SAVI (Soil Adjusted Vegetation Index), позволяют
 {\bfseries MSI (Moisture Stress Index)}: Этот индекс измеряет степень
 влажности почвы. Низкие значения MSI указывают на влажную почву, а
 высокие значения --- на сухую, что может указывать на эрозию.
+\end{multicols}
 
 \begin{equation}
 MSI = \frac{SWIR}{NIR}
 \end{equation}
 
-Где:
+где:
 
 SWIR (B11 в Sentinel-2) --- коротковолновой инфракрасный диапазон;
 
@@ -472,8 +473,9 @@ NIR (B8 в Sentinel-2) --- ближний инфракрасный диапаз�
 \begin{equation}
 NDMI = \frac{NIR - SWIR}{NIR + SWIR}
 \end{equation}
-
-Где:
+\vspace{0.3em}
+\begin{multicols}{2}
+где:
 
 SWIR --- коротковолновой инфракрасный диапазон (B11);
 
@@ -502,13 +504,14 @@ Index);
 \emph{NDMI\textsubscript{min }}и \emph{NDMI\textsubscript{max}} ---
 диапазон значений NDMI (чем меньше NDMINDMINDMI, тем суше почва).
 \end{multicols}
-\vspace{-1em}
+\vspace{-2.5em}
 \begin{equation}
 \text{{\em Результат}}=\left(\frac{A-A_{min}}{A_{max}-A_{min}}\right)\times\left(\frac{MSI-MSI_{min}}{MSI_{max}-MSI_{min}}\right)\times\left(\frac{NDMI-NDMI_{min}}{NDMI_{max}-NDMI_{min}}\right)
 \end{equation}
-\vspace{0.25em}
+
 \begin{multicols}{2}
 где:
+
 \(\left(\frac{A-A_{min}}{A_{max}-A_{min}}\right)\) --- нормализованное значение альбедо, которое указывает на степень
 оголённости поверхности (чем ближе значение к A\textsubscript{max}, тем
 выше вероятность эрозии);
@@ -673,11 +676,11 @@ ErosionClass (0 - норма, 1 - начальная стадия эрозии, 
    \centering
    \begin{subfigure}{0.45\textwidth}
    	\centering
-   	\includegraphics[width=\textwidth,height=0.8\textwidth]{media/ict/image31}
+   	\includegraphics[width=\textwidth,height=0.75\textwidth]{media/ict/image31}
    \end{subfigure}
    \begin{subfigure}{0.45\textwidth}
    	\centering
-   	\includegraphics[width=\textwidth,height=0.8\textwidth]{media/ict/image32}
+   	\includegraphics[width=\textwidth,height=0.75\textwidth]{media/ict/image32}
    \end{subfigure}
    \caption*{Рис.1 - Оригинальное изображение}
 \end{figure}
@@ -686,11 +689,11 @@ ErosionClass (0 - норма, 1 - начальная стадия эрозии, 
    \centering
    \begin{subfigure}{0.45\textwidth}
    	\centering
-   	\includegraphics[width=\textwidth,height=0.8\textwidth]{media/ict/image33}
+   	\includegraphics[width=\textwidth,height=0.75\textwidth]{media/ict/image33}
    \end{subfigure}
    \begin{subfigure}{0.45\textwidth}
    	\centering
-   	\includegraphics[width=\textwidth,height=0.8\textwidth]{media/ict/image34}
+   	\includegraphics[width=\textwidth,height=0.75\textwidth]{media/ict/image34}
    \end{subfigure}
    \caption*{Рис.2. - Использование метода альбедо}
 \end{figure}
@@ -733,11 +736,11 @@ ErosionClass (0 - норма, 1 - начальная стадия эрозии, 
    \centering
    \begin{subfigure}{0.45\textwidth}
    	\centering
-   	\includegraphics[width=\textwidth,height=0.8\textwidth]{media/ict/image35}
+   	\includegraphics[width=\textwidth,height=0.75\textwidth]{media/ict/image35}
    \end{subfigure}
    \begin{subfigure}{0.45\textwidth}
    	\centering
-   	\includegraphics[width=\textwidth,height=0.8\textwidth]{media/ict/image36}
+   	\includegraphics[width=\textwidth,height=0.75\textwidth]{media/ict/image36}
    \end{subfigure}
    \caption*{Рис.3 - Использование комбинированного метода (альбедо + оценка влажности)}
 \end{figure}
@@ -800,11 +803,11 @@ MSI выше 1.5, свидетельствующий о крайне высок�
    \centering
    \begin{subfigure}{0.45\textwidth}
    	\centering
-   	\includegraphics[width=\textwidth, height=0.8\textwidth]{media/ict/image37}
+   	\includegraphics[width=\textwidth, height=0.75\textwidth]{media/ict/image37}
    \end{subfigure}
    \begin{subfigure}{0.45\textwidth}
    	\centering
-   	\includegraphics[width=\textwidth, height=0.8\textwidth]{media/ict/image38}
+   	\includegraphics[width=\textwidth, height=0.75\textwidth]{media/ict/image38}
    \end{subfigure}
    \caption*{Рис.4 - Полная сегментация, зелёные участки это норма, жёлтые это начальная стадия, оранжевая это прогресс эрозии, красная это уже деградированные земля то есть непригодная земля}
 \end{figure}

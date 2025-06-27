@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"bc00ff8e4f846136a45669a60d19f902b361e4d6"
+"c941fdbb0e4124a846255a21fd72e6d593b7933e"
 [nil nil nil nil (26716 3593 848034 382000) 0 nil]
 ([nil nil ((92 . 93) (#("
 " 0 1 (face (bold) fontified t)) . -92) 24 (t 26714 40259 753831 178000)) nil (26716 3593 848033 660000) 0 nil])
@@ -450,5 +450,125 @@ nil
 ([nil nil ((#("
 " 0 1 (fontified t)) . 42527) (undo-tree-id515 . -1) (t 26716 7924 276680 64000)) nil (26716 7931 158815 742000) 0 nil])
 nil
-([nil current ((42631 . 42633) (t 26716 7931 161632 887000)) nil (26716 7941 787379 961000) 0 nil])
+([nil nil ((42631 . 42633) (t 26716 7931 161632 887000)) nil (26718 10433 54800 652000) 0 nil])
+([nil nil ((280 . 325) (t 26716 51261 432280 712000)) nil (26718 10467 465581 376000) 0 nil] [nil nil ((280 . 325) (t 26716 51261 432280 712000)) ((#("\\alink{https://orcid.org/0009-0001-4434-1435}" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 44 (fontified t foreign-selection nil) 44 45 (fontified t)) . 280)) (26718 10432 946195 68000) 0 nil])
+([nil nil ((342 . 387)) nil (26718 10467 465581 75000) 0 nil])
+([nil nil ((342 . 387)) ((#("\\alink{https://orcid.org0000-0002-6772-6338/}" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 44 (fontified t foreign-selection nil) 44 45 (fontified t)) . 342)) (26718 10432 946110 920000) 0 nil])
+([nil nil ((402 . 447)) nil (26718 10467 465580 735000) 0 nil])
+nil
+([nil nil ((462 . 507) 461) nil (26718 10467 465577 198000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 17213 . 17214) (#("
+" 0 1 (fontified nil)) . -17459) (17213 . 17460) (t 26718 10467 468869 735000)) nil (26718 10755 770806 404000) 0 nil])
+([nil nil ((#("	\\caption*{\\normalfont\\emph{Примечание - Составлено авторами с помощью программы Power BI}}
+" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 11 (fontified t) 11 22 (face font-lock-keyword-face fontified t) 22 27 (face font-lock-keyword-face fontified t) 27 28 (fontified t) 28 89 (face (italic) fontified t) 89 92 (fontified t)) . 17355) (undo-tree-id13 . -91) (undo-tree-id14 . -8) 17363) nil (26718 10755 770806 63000) 0 nil])
+([nil nil ((#("Рис.1 - Гостиницы без категорий, единицы" 0 40 (fontified t)) . 17313) (undo-tree-id11 . -39) (undo-tree-id12 . -2) 17315) nil (26718 10755 770805 151000) 0 nil])
+([nil nil ((#("{\\bfseries Рис.1 - Доля ВВП сельскохозяйственной отрасли}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 56 (face (bold) fontified t) 56 57 (fontified t)) . -17328) (undo-tree-id7 . -14) (undo-tree-id8 . -14) (undo-tree-id9 . -14) (undo-tree-id10 . -14) 17386) nil (26718 10755 770804 249000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 17357 . 17358) (nil fontified nil 17313 . 17358) (17313 . 17358)) nil (26718 10755 770802 556000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 17373)) nil (26718 10755 770802 216000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 17360 . 17361) (#("
+" 0 1 (fontified nil)) . -17417) (17359 . 17418) 17302) nil (26718 10755 770801 765000) 0 nil])
+([nil nil ((#("Рис.1 - Доля ВВП сельскохозяйственной отрасли" 0 44 (fontified t) 44 45 (fontified t rear-nonsticky t)) . 17371) (undo-tree-id5 . -44) (undo-tree-id6 . -3) 17374) nil (26718 10755 770801 314000) 0 nil])
+([nil nil ((17371 . 17382)) nil (26718 10755 770799 981000) 0 nil])
+([nil nil ((#("\\emph{Примечание -- составлено авторами на основании {[}5{]}}" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 60 (face (italic) fontified t) 60 61 (fontified t)) . 17398) (undo-tree-id4 . -60)) nil (26718 10755 770799 651000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 17442 . 17443) (nil fontified nil 17382 . 17443) (17382 . 17443)) nil (26718 10755 770799 0) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 17458) (undo-tree-id2 . 1) (undo-tree-id3 . -1)) nil (26718 10755 770798 469000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 17458) (undo-tree-id0 . 1) (undo-tree-id1 . -1)) nil (26718 10755 770794 812000) 0 nil])
+([nil nil ((#("Анализ динамики валового выпуска сельскохозяйственной продукции за
+2018--2023 годы показывает, что с 2018 по 2022 год объемы выросли на 87
+\\% - с 4,47 трлн. до 8,37 трлн. тенге. Главным источником этого роста
+стало растениеводство, где объёмы производства за указанный период более
+чем удвоились. Однако в 2023 году общий выпуск сократился на 9,5 \\%, из
+них по растениеводству - на 1,26 трлн. тенге. На этом фоне наблюдается
+частичное восстановление животноводства, что указывает на смещение
+акцентов и внутренние дисбалансы в отраслевой структуре.
+
+" 0 139 (fontified t) 139 141 (face font-lock-keyword-face fontified t) 141 261 (fontified t) 261 282 (fontified t) 282 305 (fontified t) 305 318 (fontified t) 318 320 (fontified t) 320 347 (fontified t) 347 349 (face font-lock-keyword-face fontified t) 349 354 (fontified t) 354 369 (fontified t) 369 381 (fontified t) 381 425 (fontified t) 425 550 (fontified t)) . 18576) (undo-tree-id17 . -549) (undo-tree-id18 . -549) (undo-tree-id19 . -549) (undo-tree-id20 . -549) 19125 (t 26718 10755 773686 617000)) nil (26718 10785 215841 499000) 0 nil])
+([nil nil ((17655 . 17656) 17624) nil (26718 10785 215839 595000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 17656 . 17657) (#("
+" 0 1 (fontified nil)) . -18206) (17656 . 18207)) nil (26718 10785 215838 844000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 18206) (undo-tree-id15 . 1) (undo-tree-id16 . -1)) nil (26718 10785 215835 337000) 0 nil])
+([nil nil ((17293 . 17294) (t 26718 10785 218667 911000)) nil (26718 10925 498217 605000) 0 nil])
+([nil nil ((#("Проведенный анализ показывает, что распределение сельхозформирований по
+регионам страны довольно неравномерный - как по количеству, так и по
+специализации. Больше всего хозяйств сосредоточено в Туркестанской -
+32~910 единиц, Костанайской и Акмолинской 25~752 единиц и 23~932 единиц
+соответственно. Это во многом объясняется развитой системой
+землепользования и исторически сложившейся аграрной направленностью этих
+территорий.
+
+Костанайская, Туркестанская, Северо-Казахстанская и Акмолинская области
+лидируют по специализации растениеводство и формируют основу зернового
+пояса Казахстана. В то же время животноводческие хозяйства занимают
+доминирующее положение в Жамбылской, Абайской и Алматинской областях -
+здесь на выбор специализации повлияли природные условия и наличие
+пастбищ.
+
+" 0 192 (fontified t) 192 210 (fontified t) 210 786 (fontified t)) . 23174) (undo-tree-id23 . -785) (undo-tree-id24 . -785) (undo-tree-id25 . -785) (t 26718 10925 501578 822000)) nil (26718 10970 680768 148000) 0 nil])
+([nil nil ((20640 . 20641) 20630) nil (26718 10970 680765 473000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 20641 . 20642) (#("
+" 0 1 (fontified nil)) . -21427) (20641 . 21428)) nil (26718 10970 680764 631000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 21427) (undo-tree-id21 . 1) (undo-tree-id22 . -1)) nil (26718 10970 680761 45000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 25162 . 25163) (#("
+" 0 1 (fontified nil)) . -25407) (25162 . 25408) (t 26718 10970 684550 117000)) nil (26718 11012 532632 937000) 0 nil])
+([nil nil ((#("\\emph{Примечание -- составлено авторами на основании {[}8{]}}
+" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 60 (face (italic) fontified t) 60 62 (fontified t)) . 25499) (undo-tree-id32 . -61) (undo-tree-id33 . -62)) nil (26718 11012 532632 336000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 25499)) nil (26718 11012 532630 843000) 0 nil])
+([nil nil ((#("5" 0 1 (face (italic) fontified t)) . 25388) (25389 . 25390) 25388) nil (26718 11012 532630 342000) 0 nil])
+([nil nil ((nil fontified t 25388 . 25389) (nil face (italic) 25388 . 25389) (#("6" 0 1 (face (italic) fontified t)) . 25388) (25389 . 25390) 25388) nil (26718 11012 532629 591000) 0 nil])
+([nil nil ((nil fontified t 25388 . 25389) (nil face (italic) 25388 . 25389) (#("7" 0 1 (face (italic) fontified t)) . 25388) (25389 . 25390) 25388) nil (26718 11012 532628 649000) 0 nil])
+([nil nil ((25476 . 25477) (#("
+" 0 1 (face (bold) fontified t)) . -25476) 25475) nil (26718 11012 532627 637000) 0 nil])
+([nil nil ((#("Рис.1 - Доля ВВП сельскохозяйственной отрасли" 0 44 (fontified t) 44 45 (fontified t rear-nonsticky t)) . 25263) (undo-tree-id30 . -44) (undo-tree-id31 . -44) 25307) nil (26718 11012 532626 615000) 0 nil])
+([nil nil ((#("{\\bfseries Рис.2 - Динамика и прирост количества предприятий пищевой промышленности в РК}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 68 (face (bold) fontified t) 68 69 (face (bold) fontified t) 69 88 (face (bold) fontified t) 88 89 (fontified t)) . -25363) (undo-tree-id26 . -14) (undo-tree-id27 . -14) (undo-tree-id28 . -14) (undo-tree-id29 . -14) 25453) nil (26718 11012 532623 890000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 25339 . 25340) (nil fontified nil 25263 . 25340) (25263 . 25340)) nil (26718 11012 532514 375000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 25440) (undo-tree-id34 . -1) (t 26718 11012 536523 527000)) nil (26718 11013 926962 515000) 0 nil])
+([nil nil ((#("3" 0 1 (face font-lock-builtin-face fontified t)) . 25249) (t 26718 11013 929522 642000) (25250 . 25251) 25249 (t 26718 11013 929522 642000)) nil (26718 11020 655102 210000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 27561 . 27562) (#("
+" 0 1 (fontified nil)) . -27839) (27561 . 27840) (t 26718 11020 658518 368000)) nil (26718 11092 21101 40000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t rear-nonsticky t)) . 27562)) nil (26718 11092 21100 288000) 0 nil])
+([nil nil ((#("Рис.2 - Динамика и прирост количества предприятий пищевой промышленности в РК" 0 76 (fontified t) 76 77 (fontified t rear-nonsticky t)) . 27662) (undo-tree-id62 . -76)) nil (26718 11092 21099 727000) 0 nil])
+([nil nil ((#("{\\bfseries Рис.3 - Инвестиции в основной капитал агросектора в общем объёме инвестиций (2019--2023 гг.)}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 103 (face (bold) fontified t) 103 104 (fontified t)) . -27762) (undo-tree-id40 . -14) (undo-tree-id41 . -14) (undo-tree-id42 . -14) (undo-tree-id43 . -14) (undo-tree-id44 . -14) (undo-tree-id45 . -14) (undo-tree-id46 . -14) (undo-tree-id47 . -14) (undo-tree-id48 . -14) (undo-tree-id49 . -14) (undo-tree-id50 . -14) (undo-tree-id51 . -14) (undo-tree-id52 . -14) (undo-tree-id53 . -14) (undo-tree-id54 . -14) (undo-tree-id55 . -14) (undo-tree-id56 . -14) (undo-tree-id57 . -14) (undo-tree-id58 . -14) (undo-tree-id59 . -14) (undo-tree-id60 . -14) (undo-tree-id61 . -14) 27867) nil (26718 11092 21098 695000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 27753 . 27754) (nil fontified nil 27662 . 27754) (27662 . 27754)) nil (26718 11092 21086 82000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 27854) (undo-tree-id39 . -1)) nil (26718 11092 21085 511000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 27854) (undo-tree-id37 . 1) (undo-tree-id38 . -1)) nil (26718 11092 21084 268000) 0 nil])
+([nil nil ((#("\\emph{Примечание -- составлено авторами на основании {[}7{]}}
+" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 60 (face (italic) fontified t) 60 61 (fontified t) 61 62 (fontified t)) . 27854) (undo-tree-id35 . -61) (undo-tree-id36 . 62)) nil (26718 11092 21082 445000) 0 nil])
+([nil nil ((nil fontified t 27834 . 27835) (nil face (italic) 27834 . 27835) (#("8" 0 1 (face (italic) fontified t)) . 27834) (27835 . 27836) 27834) nil (26718 11092 21067 517000) 0 nil])
+([nil nil ((nil fontified t 27648 . 27649) (t 26718 11092 25473 29000) (nil face font-lock-builtin-face 27648 . 27649) (t 26718 11092 25473 29000) (#("4" 0 1 (face font-lock-builtin-face fontified t)) . 27648) (t 26718 11092 25473 29000) (27649 . 27650) 27648 (t 26718 11092 25473 29000)) nil (26718 11141 187754 457000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 32469 . 32470) (#("
+" 0 1 (fontified nil)) . -32762) (32469 . 32763) 32454 (t 26718 11106 706463 700000)) nil (26718 11154 792259 953000) 0 nil] [nil nil ((nil rear-nonsticky nil 32470 . 32471) (#("
+" 0 1 (fontified nil)) . -32763) (32470 . 32764) (t 26718 11106 706463 700000)) ((#("
+
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.8\\textwidth]{media/ekon4/image5}
+	\\caption*{Рис.3 - Инвестиции в основной капитал агросектора в общем объёме инвестиций (2019--2023 гг.)}
+	\\caption*{\\normalfont\\emph{Примечание -- составлено авторами на основании {[}7{]}}}
+\\end{figure}
+" 0 1 (rear-nonsticky nil fontified nil) 1 2 (fontified nil rear-nonsticky t) 2 8 (face font-lock-keyword-face fontified t) 8 9 (fontified t latex-env-pair t) 9 12 (face font-lock-function-name-face fontified t latex-env-pair t) 12 15 (face font-lock-function-name-face fontified t latex-env-pair t) 15 16 (fontified t latex-env-pair t) 16 19 (fontified t) 19 20 (fontified t) 20 21 (fontified t) 21 31 (face font-lock-keyword-face fontified t) 31 32 (fontified t) 32 33 (fontified t) 33 49 (face font-lock-keyword-face fontified t) 49 59 (fontified t) 59 69 (face font-lock-keyword-face fontified t) 69 71 (fontified t) 71 88 (face font-lock-builtin-face fontified t) 88 89 (face font-lock-builtin-face fontified t) 89 91 (fontified t) 91 92 (fontified t) 92 101 (face font-lock-keyword-face fontified t) 101 102 (fontified t) 102 193 (fontified t) 193 194 (fontified t rear-nonsticky t) 194 195 (fontified t) 195 196 (fontified t) 196 197 (fontified t rear-nonsticky t) 197 206 (face font-lock-keyword-face fontified t) 206 207 (fontified t) 207 218 (face font-lock-keyword-face fontified t) 218 223 (face font-lock-keyword-face fontified t) 223 224 (fontified t) 224 274 (face (italic) fontified t) 274 275 (face (italic) fontified t) 275 278 (face (italic) fontified t) 278 279 (fontified t rear-nonsticky t) 279 280 (fontified t) 280 281 (fontified t) 281 285 (face font-lock-keyword-face fontified nil) 285 286 (fontified nil latex-env-pair t) 286 292 (face font-lock-function-name-face fontified nil latex-env-pair t) 292 293 (fontified nil latex-env-pair t) 293 294 (fontified nil)) . 32470) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (undo-tree-id65 . -293) (undo-tree-id66 . -1) (undo-tree-id67 . -1) (undo-tree-id68 . -1) (32763 . 32764) (nil rear-nonsticky t 32470 . 32471)) (26718 11141 187422 438000) 0 nil])
+([nil nil ((#("Рис.3 - Инвестиции в основной капитал агросектора в общем объёме инвестиций (2019--2023 гг.)" 0 91 (fontified t) 91 92 (fontified t rear-nonsticky t)) . 32571) (undo-tree-id100 . -91) (undo-tree-id101 . -1) 32572) nil (26718 11154 792259 382000) 0 nil])
+nil
+([nil nil ((nil fontified t 32651 . 32652) (nil face (italic) 32651 . 32652) (#("7" 0 1 (face (italic) fontified t)) . 32651) (32652 . 32653) 32651) nil (26718 11154 792258 260000) 0 nil])
+([nil nil ((#("{\\bfseries Рис.4 - Структура внутренних затрат на НИОКР по сельскохозяйственным наукам в 2023 году, тыс. тг}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 107 (face (bold) fontified t) 107 108 (fontified t)) . -32672) (undo-tree-id96 . -81) (undo-tree-id97 . -81) (undo-tree-id98 . -81) (undo-tree-id99 . -81) 32781) nil (26718 11154 792257 689000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 32666 . 32667) (nil fontified nil 32571 . 32667) (32571 . 32667)) nil (26718 11154 792256 15000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 32767) (undo-tree-id78 . -1) (undo-tree-id79 . -1) (undo-tree-id80 . -1) (undo-tree-id81 . -1) (undo-tree-id82 . -1) (undo-tree-id83 . -1) (undo-tree-id84 . -1) (undo-tree-id85 . -1) (undo-tree-id86 . -1) (undo-tree-id87 . -1) (undo-tree-id88 . -1) (undo-tree-id89 . -1) (undo-tree-id90 . -1) (undo-tree-id91 . -1) (undo-tree-id92 . -1) (undo-tree-id93 . -1) (undo-tree-id94 . -1) (undo-tree-id95 . -1)) nil (26718 11154 792254 843000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 32767) (undo-tree-id75 . -1) (undo-tree-id76 . -1) (undo-tree-id77 . -1)) nil (26718 11154 792243 752000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 32767) (undo-tree-id73 . 1) (undo-tree-id74 . -1)) nil (26718 11154 792241 457000) 0 nil])
+([nil nil ((#("\\emph{Примечание -- составлено авторами на основании {[}8{]}}
+" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 60 (face (italic) fontified t) 60 61 (fontified t) 61 62 (fontified t)) . 32767) (undo-tree-id69 . -61) (undo-tree-id70 . 62) (undo-tree-id71 . -61) (undo-tree-id72 . -62)) nil (26718 11154 792236 448000) 0 nil])
+([nil nil ((nil fontified t 32557 . 32558) (t 26718 11154 797129 791000) (nil face font-lock-builtin-face 32557 . 32558) (t 26718 11154 797129 791000) (#("5" 0 1 (face font-lock-builtin-face fontified t)) . 32557) (t 26718 11154 797129 791000) (32558 . 32559) 32557 (t 26718 11154 797129 791000)) nil (26718 11166 662202 501000) 0 nil])
+([nil current ((#("8" 0 1 (fontified t)) . 32527) (t 26718 11166 665704 604000) (32528 . 32529) 32527 (t 26718 11166 665704 604000)) nil (26718 11186 407310 543000) 0 nil])
 nil

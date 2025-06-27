@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"ee53574e50690c45a9a9aa1645ea3d74f2a3ac90"
+"e5726b2d1786c70923fca8ae2dfc1f0c3d8f89b1"
 [nil nil nil nil (26716 4455 872153 654000) 0 nil]
 ([nil nil ((2726 . 3246) (#("{\\bfseries ҚАЗАҚСТАНДАҒЫ IT-ЖОБАЛАРДЫ БАСҚАРУДЫҢ ТАБЫСТЫ ФАКТОРЫ РЕТІНДЕ
 ЦИФРЛАНДЫРУ}
@@ -368,5 +368,9 @@ H1: Высокая вовлеченность руководства полож�
 ([nil nil ((29124 . 29126)) nil (26716 9709 749734 19000) 0 nil] [nil nil ((29123 . 29125) (t 26716 9695 568367 997000)) ((#("\\-" 0 2 (face font-lock-keyword-face fontified t)) . 29123) (undo-tree-id323 . -1) (undo-tree-id324 . -1) (undo-tree-id325 . -1) (undo-tree-id326 . -1) (undo-tree-id327 . -1) (undo-tree-id328 . -1) (undo-tree-id329 . -1) (undo-tree-id330 . -1) (undo-tree-id331 . -1) (undo-tree-id332 . -1) (undo-tree-id333 . -1) (undo-tree-id334 . -1) (undo-tree-id335 . -1) (undo-tree-id336 . -1) (undo-tree-id337 . -1) (undo-tree-id338 . -1) (undo-tree-id339 . -1) (undo-tree-id340 . -1) (undo-tree-id341 . -1) (undo-tree-id342 . -1) (undo-tree-id343 . -1) (undo-tree-id344 . -1) (undo-tree-id345 . -1) (undo-tree-id346 . -1) (undo-tree-id347 . -1) (undo-tree-id348 . -1) (undo-tree-id349 . -1) (undo-tree-id350 . -1) (undo-tree-id351 . -1) (undo-tree-id352 . -1) (undo-tree-id353 . -1) (undo-tree-id354 . -1) (undo-tree-id355 . -1) (undo-tree-id356 . -1) (undo-tree-id357 . -1) (undo-tree-id358 . -1) (undo-tree-id359 . -1) (undo-tree-id360 . -1) (undo-tree-id361 . -1) (undo-tree-id362 . -1) (undo-tree-id363 . -1) (undo-tree-id364 . -1) (undo-tree-id365 . -1) (undo-tree-id366 . -1) (undo-tree-id367 . -1) (undo-tree-id368 . -1) (undo-tree-id369 . -1) (undo-tree-id370 . -1) (undo-tree-id371 . -1) (undo-tree-id372 . -1) (undo-tree-id373 . -1) (undo-tree-id374 . -1) (undo-tree-id375 . -1) (undo-tree-id376 . -1) (undo-tree-id377 . -1) (undo-tree-id378 . -1) (undo-tree-id379 . -1) (undo-tree-id380 . -1) (undo-tree-id381 . -1) (undo-tree-id382 . -1) (undo-tree-id383 . -1) (undo-tree-id384 . -1) (undo-tree-id385 . -1) (undo-tree-id386 . -1) (undo-tree-id387 . -1) (undo-tree-id388 . -1) (undo-tree-id389 . -1) (undo-tree-id390 . -1) (undo-tree-id391 . -1) (t 26716 9706 565295 627000)) (26716 9706 562806 45000) 0 nil])
 ([nil nil ((29764 . 29766) (t 26716 9709 752274 649000)) nil (26716 9717 287730 286000) 0 nil])
 nil
-([nil current ((30958 . 30960) (t 26716 9717 290225 18000)) nil (26716 9728 549735 770000) 0 nil])
+([nil nil ((30958 . 30960) (t 26716 9717 290225 18000)) nil (26716 9728 549735 770000) 0 nil])
+([nil nil ((248 . 293) 247 (t 26716 51261 432280 712000)) nil (26718 11658 364898 445000) 0 nil])
+([nil nil ((355 . 400)) nil (26718 11658 364898 115000) 0 nil])
+([nil nil ((440 . 485)) nil (26718 11658 364897 754000) 0 nil])
+([nil current ((520 . 565) 519) nil (26718 11658 364893 606000) 0 nil])
 nil
