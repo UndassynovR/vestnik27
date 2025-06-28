@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"f2be3c117230835eb1c89ddeaf210323717f6ab4"
+"88c52ddb676696e00a30956b8542a320ed903da2"
 [nil nil nil nil (26716 5076 53319 850000) 0 nil]
 ([nil nil ((#("\\begin{figure}[H]
 	\\centering
@@ -1357,6 +1357,7 @@ nil
 ([nil nil ((#("0" 0 1 (fontified t foreign-selection nil)) . 256) (undo-tree-id4 . -1)) nil (26718 11977 879966 723000) 0 nil])
 ([nil nil ((#("%" 0 1 (face font-lock-comment-face fontified t foreign-selection nil)) . 256) (undo-tree-id2 . -1) (undo-tree-id3 . -1)) nil (26718 11977 879965 821000) 0 nil])
 ([nil nil ((#("A" 0 1 (fontified t foreign-selection nil)) . 256) (undo-tree-id0 . -1) (undo-tree-id1 . -1)) nil (26718 11977 879962 475000) 0 nil])
-([nil nil ((11577 . 11579) (t 26718 11977 884879 517000)) nil (26718 12039 710570 691000) 0 nil])
-([nil current ((14693 . 14695) (t 26718 12039 715780 842000)) nil (26718 12061 708087 264000) 0 nil])
+([nil nil ((11577 . 11579) (t 26718 11977 884879 517000)) nil (26718 27913 312111 821000) 0 nil])
+([nil nil ((14693 . 14695)) ((#("\\-" 0 2 (fontified nil)) . 14693) (t 26718 25299 795662 87000)) (26718 27914 185872 421000) 0 nil])
+([nil current ((#("{}" 0 2 (fontified t)) . -20) (t 26718 25299 795662 87000) (22 . 66) 18 (t 26718 25299 795662 87000)) nil (26718 31159 168829 668000) 0 nil])
 nil

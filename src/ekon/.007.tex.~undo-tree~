@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"ddd092340a9a36f7cbf89764b5b36aa4bd0ec47c"
+"75c4f6a55c6399bb83f79083347ecd48e57c085f"
 [nil nil nil nil (26716 4062 221115 580000) 0 nil]
 ([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 25) (undo-tree-id184 . -9) (t 26714 40259 753831 178000)) nil (26716 4062 221114 898000) 0 nil])
 ([nil nil (25) nil (26716 4062 221114 337000) 0 nil])
@@ -333,5 +333,43 @@ nil
 ([nil nil ((324 . 369) 323) nil (26718 11544 758157 206000) 0 nil])
 ([nil nil ((#("%" 0 1 (face font-lock-comment-face fontified t foreign-selection nil)) . 287) (undo-tree-id4 . -1) (undo-tree-id5 . -1)) nil (26718 11544 758156 805000) 0 nil])
 ([nil nil ((#("2" 0 1 (fontified t foreign-selection nil)) . 287) (undo-tree-id2 . -1) (undo-tree-id3 . -1)) nil (26718 11544 758155 683000) 0 nil])
-([nil current ((#("0" 0 1 (fontified t foreign-selection nil)) . 287) (undo-tree-id0 . -1) (undo-tree-id1 . -1)) nil (26718 11544 758151 405000) 0 nil])
+([nil nil ((#("0" 0 1 (fontified t foreign-selection nil)) . 287) (undo-tree-id0 . -1) (undo-tree-id1 . -1)) nil (26718 11544 758151 405000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 11186 . 11187) (#("
+" 0 1 (fontified nil)) . -11389) (11186 . 11390) (t 26718 25299 795662 87000)) nil (26718 27651 360014 375000) 0 nil])
+([nil nil ((#("Рис.1 - Динамика агрегированных индексов интереса к направлению «Казахстан» (2016--2025)" 0 64 (fontified t) 64 65 (face font-lock-keyword-face fontified t) 65 74 (face font-lock-string-face fontified t) 74 75 (face font-lock-keyword-face fontified t) 75 88 (fontified t)) . 11287) (undo-tree-id7 . -87) (undo-tree-id8 . -3) 11290) nil (26718 27651 360013 323000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 11289 . 11290) (#("
+" 0 1 (fontified nil)) . -11301) (11288 . 11302) 11287) nil (26718 27651 360012 201000) 0 nil])
+([nil nil ((#("7" 0 1 (fontified t)) . 11243) (11244 . 11245) 11243) nil (26718 27651 360011 189000) 0 nil])
+([nil nil ((11273 . 11275) (#("7" 0 1 (face font-lock-builtin-face fontified t)) . 11273)) nil (26718 27651 360010 598000) 0 nil])
+([nil nil ((#("{\\bfseries 1 - сурет. Ұйымдағы бухгалтерлік есептің құрамдастары}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 64 (face (bold) fontified t) 64 65 (fontified t)) . -11316) 11382) nil (26718 27651 360009 456000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 11340 . 11341) (nil fontified nil 11288 . 11341) (11288 . 11341)) nil (26718 27651 360008 735000) 0 nil])
+([nil nil ((#("\\emph{Ескерту -- {[}3{]} әдебиет негізінде құрастырылған}" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 56 (face (italic) fontified t) 56 57 (fontified t)) . 11371) (undo-tree-id6 . -56)) nil (26718 27651 360007 893000) 0 nil])
+([nil nil (11354) nil (26718 27651 360006 400000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 11410 . 11411) (nil fontified nil 11354 . 11411) (11354 . 11411)) nil (26718 27651 360005 889000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 11426) (undo-tree-id4 . -1) (undo-tree-id5 . -1)) nil (26718 27651 360005 158000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 11426) (undo-tree-id2 . 1) (undo-tree-id3 . -1)) nil (26718 27651 360003 495000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 11426) (undo-tree-id0 . 1) (undo-tree-id1 . -1)) nil (26718 27651 360000 990000) 0 nil])
+([nil nil ((11354 . 11365)) nil (26718 27651 359977 96000) 0 nil])
+([nil nil ((#("21" 0 2 (face font-lock-builtin-face fontified t)) . 11273) (t 26718 27651 362630 950000) (11275 . 11277) 11274 (t 26718 27651 362630 950000)) nil (26718 27693 128964 512000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 15195 . 15196) (#("
+" 0 1 (fontified nil)) . -15445) (15195 . 15446)) nil (26718 27693 128963 290000) 0 nil])
+([nil nil ((#("1 - сурет. Ұйымдағы бухгалтерлік есептің құрамдастары" 0 52 (fontified t) 52 53 (fontified t rear-nonsticky t)) . 15297) (undo-tree-id27 . -52) (undo-tree-id28 . -9) 15306) nil (26718 27693 128961 957000) 0 nil])
+([nil nil ((#("Ескерту -- {[}3{]} әдебиет негізінде құрастырылған" 0 50 (face (italic) fontified t)) . 15327) (undo-tree-id25 . -49) (undo-tree-id26 . -2) 15329) nil (26718 27693 128955 174000) 0 nil])
+([nil nil ((#("Ескерту -- {[}7{]} әдебиет негізінде құрастырылған" 0 50 (face (italic) fontified t)) . 15415) (undo-tree-id23 . -49) (undo-tree-id24 . -25) 15440) nil (26718 27693 128951 848000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 15376 . 15377) (nil fontified nil 15327 . 15377) (15327 . 15377)) nil (26718 27693 128950 526000) 0 nil])
+([nil nil ((#("{\\bfseries 2 - сурет. Стратегиялық басқару үшін ақпарат көздері}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 63 (face (bold) fontified t) 63 64 (fontified t)) . -15393) (undo-tree-id17 . -54) (undo-tree-id18 . -54) (undo-tree-id19 . -54) (undo-tree-id20 . -54) (undo-tree-id21 . -54) (undo-tree-id22 . -54) 15458) nil (26718 27693 128949 865000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 15348 . 15349) (nil fontified nil 15297 . 15349) (15297 . 15349)) nil (26718 27693 128947 290000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 15445) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1)) nil (26718 27693 128945 837000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 15445) (undo-tree-id11 . 1) (undo-tree-id12 . -1)) nil (26718 27693 128943 673000) 0 nil])
+([nil nil ((#("\\emph{}
+" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 7 (fontified t) 7 8 (fontified t)) . 15445) (undo-tree-id9 . 8) (undo-tree-id10 . -7)) nil (26718 27693 128940 257000) 0 nil])
+([nil nil ((nil fontified t 15252 . 15253) (t 26718 27693 131363 992000) (#("6" 0 1 (fontified t)) . 15252) (t 26718 27693 131363 992000) (15253 . 15254) 15252 (t 26718 27693 131363 992000)) nil (26718 27707 679204 833000) 0 nil])
+([nil nil ((nil fontified t 15252 . 15253) (#("7" 0 1 (fontified t)) . 15252) (15253 . 15254) 15252) nil (26718 27707 679200 545000) 0 nil])
+([nil nil ((nil fontified t 11243 . 11244) (t 26718 27707 681271 6000) (#("6" 0 1 (fontified t)) . 11243) (t 26718 27707 681271 6000) (11244 . 11245) 11243 (t 26718 27707 681271 6000)) nil (26718 27714 850898 818000) 0 nil])
+([nil current ((#("{}" 0 2 (fontified t)) . -20) (t 26718 27714 853225 165000) (22 . 66) 8 (t 26718 27714 853225 165000)) nil (26718 31053 414629 342000) 0 nil])
 nil

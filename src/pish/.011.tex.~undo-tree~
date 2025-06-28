@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"943ac8e3394098bf00406015b8d0abe0d99fb390"
+"4da5040a30158f088651f27c94d3f485af06786e"
 [nil nil nil nil (26716 62793 387078 711000) 0 nil]
 ([nil nil ((222 . 267) (t 26715 40779 142977 323000)) nil (26716 62793 387078 60000) 0 nil])
 ([nil nil ((284 . 329)) nil (26716 62793 387077 439000) 0 nil])
@@ -20,6 +20,9 @@ nil
 ([nil nil ((#("\\" 0 1 (fontified t)) . 27937) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1) (undo-tree-id25 . -1) (undo-tree-id26 . -1) (undo-tree-id27 . -1) (undo-tree-id28 . -1) (undo-tree-id29 . -1) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (undo-tree-id32 . -1) (undo-tree-id33 . -1)) nil (26716 62898 548684 359000) 0 nil])
 ([nil nil ((27564 . 27566) (t 26716 62898 550695 840000)) nil (26716 62910 63715 715000) 0 nil])
 ([nil nil ((28073 . 28075) (t 26716 62910 71757 535000)) nil (26716 62918 182308 279000) 0 nil])
-([nil current ((28222 . 28224) (t 26716 62914 614781 881000)) nil (26716 62922 51912 47000) 0 nil] [nil nil ((28241 . 28243) (t 26716 62914 614781 881000)) ((#("\\\\" 0 2 (face font-lock-warning-face fontified t)) . 28241) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1)) (26716 62918 182077 154000) 0 nil])
+([nil nil ((28222 . 28224) (t 26716 62914 614781 881000)) nil (26716 62922 51912 47000) 0 nil] [nil nil ((28241 . 28243) (t 26716 62914 614781 881000)) ((#("\\\\" 0 2 (face font-lock-warning-face fontified t)) . 28241) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1)) (26716 62918 182077 154000) 0 nil])
+([nil nil ((#("{}" 0 2 (fontified t)) . -20) (t 26717 10309 662956 82000) (22 . 67) 2138 (t 26717 10309 662956 82000)) nil (26718 30748 285068 579000) 0 nil])
 nil
+([nil nil ((#("," 0 1 (face (italic) fontified t)) . 3741) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (t 26718 30748 289837 103000)) nil (26719 42301 33442 74000) 0 nil])
+([nil current ((27805 . 27806) (#(";" 0 1 (fontified t)) . 27805) (undo-tree-id2 . -1) (t 26719 42301 34268 398000)) nil (26719 42356 906887 241000) 0 nil])
 nil

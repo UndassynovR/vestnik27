@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"82c14cc09cd892b68eefd068f558768b307ceffc"
+"4038753f65483f92b29fa139ffc9bba744c29788"
 [nil nil nil nil (26716 55055 262591 173000) 0 nil]
 ([nil nil ((245 . 290) 244 (t 26715 40779 272977 688000)) nil (26716 55055 262590 271000) 0 nil])
 ([nil nil ((332 . 377)) nil (26716 55055 262589 299000) 0 nil])
@@ -284,5 +284,111 @@ Raspberry Pi платформасында қашықтағы жұмыс үсте
 " 0 1 (fontified t) 1 7 (face font-lock-keyword-face fontified t) 7 8 (fontified t latex-env-pair t) 8 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 20 (fontified t) 20 30 (face font-lock-keyword-face fontified t) 30 32 (fontified t) 32 48 (face font-lock-keyword-face fontified t) 48 58 (fontified t) 58 68 (face font-lock-keyword-face fontified t) 68 70 (fontified t) 70 80 (face font-lock-builtin-face fontified t) 80 89 (face font-lock-builtin-face fontified t) 89 91 (fontified t) 91 92 (fontified t) 92 101 (face font-lock-keyword-face fontified t) 101 136 (fontified t) 136 140 (face font-lock-keyword-face fontified t) 140 141 (fontified t latex-env-pair t) 141 147 (face font-lock-function-name-face fontified t latex-env-pair t) 147 148 (fontified t latex-env-pair t) 148 149 (fontified t)) . 28195) (undo-tree-id185 . -136) (undo-tree-id186 . -148) (undo-tree-id187 . -136) (undo-tree-id188 . -136) (undo-tree-id189 . -136) (undo-tree-id190 . -136) 28331) nil (26717 12357 137515 357000) 0 nil])
 ([nil nil ((nil rear-nonsticky nil 27019 . 27020) (#("
 " 0 1 (fontified nil)) . -27168) (27019 . 27169) 27007) nil (26717 12357 137502 262000) 0 nil])
-([nil current ((#("8" 0 1 (fontified t)) . 27077) (t 26717 12357 140029 422000) (27078 . 27079) 27077 (t 26717 12357 140029 422000)) nil (26717 12371 127490 25000) 0 nil])
+([nil nil ((#("8" 0 1 (fontified t)) . 27077) (t 26717 12357 140029 422000) (27078 . 27079) 27077 (t 26717 12357 140029 422000)) nil (26717 12371 127490 25000) 0 nil])
+([nil nil ((#("{}" 0 2 (fontified t)) . -20) (t 26717 12371 129954 760000) (22 . 66) 1 (t 26717 12371 129954 760000)) nil (26718 30106 502465 663000) 0 nil])
+([nil nil ((12988 . 13024) (#("Материалдар мен әдістер." 0 24 (fontified t)) . -12988) (undo-tree-id0 . -23) (undo-tree-id1 . -23) (undo-tree-id2 . -23) (undo-tree-id3 . -23) (undo-tree-id4 . -23) (undo-tree-id5 . -23) (undo-tree-id6 . -23) (undo-tree-id7 . -23) (undo-tree-id8 . -23) (undo-tree-id9 . -23) (undo-tree-id10 . -23) (undo-tree-id11 . -24) 13012 (t 26718 30106 504939 303000)) nil (26718 35621 891616 853000) 0 nil])
+([nil nil ((#("." 0 1 (fontified t)) . 17337) (undo-tree-id12 . -1) (t 26718 35621 894688 804000)) nil (26718 35666 241967 461000) 0 nil])
+([nil nil ((#("
+Зерттеу субъектісі ретінде бір қызметкер таңдалды және 10 минуттық
+белгіленген аралықта бақыланды. Уақыттың әр сәтінде жүйе келесі
+тапсырмаларды орындады:
+
+- қызметкердің жұмыс орныңда бар болуын анықтау;
+
+- оның эмоционалдық жағдайын анықтау (бақыт, қайғы, бейтарап жағдай, таң
+қалу, ашулану және т.б.);
+
+- нәтижелерді деректер қорына әрі қарай талдау үшін жіберу.
+
+Мониторинг нәтижелері бойынша қызметкердің жұмыс күні ішінде болуы және
+оның эмоционалдық жағдайы туралы статистикалық мәліметтер жинақталды
+(сурет 2а). Түскі үзіліс пен қысқа үзіліс кезінде мезгіл-мезгіл жұмыстан
+шыққаны саналып, қызметкердің 85,2\\% жұмыста болғаны анықталды.
+Эмоциялық жағдайды талдау келесі нәтижелерді көрсетті: қуаныш - 14,8\\%
+уақыт, бейтарап күй - 53,7\\%, қайғы - 9,3\\%, таңдану - 3,7\\%, ашу -
+3,7\\% уақыт (сурет 2ә).
+
+" 0 616 (fontified t) 616 618 (face font-lock-keyword-face fontified t) 618 653 (fontified t) 653 714 (fontified t) 714 716 (fontified t face font-lock-keyword-face) 716 717 (fontified t) 717 743 (fontified t) 743 745 (face font-lock-keyword-face fontified t) 745 758 (fontified t) 758 760 (face font-lock-keyword-face fontified t) 760 775 (fontified t) 775 777 (face font-lock-keyword-face fontified t) 777 788 (fontified t) 788 790 (face font-lock-keyword-face fontified t) 790 810 (fontified t)) . 24309) (undo-tree-id13 . -809) (undo-tree-id14 . -809) (undo-tree-id15 . -809) (undo-tree-id16 . -156) (undo-tree-id17 . -156) (undo-tree-id18 . -206) (undo-tree-id19 . -206) (undo-tree-id20 . -306) (undo-tree-id21 . -306) (undo-tree-id22 . -367) (undo-tree-id23 . -157) (undo-tree-id24 . -157) (undo-tree-id25 . -157) (undo-tree-id26 . -157) (undo-tree-id27 . -157) (undo-tree-id28 . -206) (undo-tree-id29 . -206) (undo-tree-id30 . -206) (undo-tree-id31 . -206) (undo-tree-id32 . -206) (undo-tree-id33 . -207) (undo-tree-id34 . -207) (undo-tree-id35 . -207) (undo-tree-id36 . -207) (undo-tree-id37 . -207) (undo-tree-id38 . -280) (undo-tree-id39 . -280) (undo-tree-id40 . -280) (undo-tree-id41 . -280) (undo-tree-id42 . -280) (undo-tree-id43 . -306) (undo-tree-id44 . -306) (undo-tree-id45 . -306) (undo-tree-id46 . -306) (undo-tree-id47 . -306) (undo-tree-id48 . -307) (undo-tree-id49 . -307) (undo-tree-id50 . -307) (undo-tree-id51 . -307) (undo-tree-id52 . -307) (undo-tree-id53 . -367) (undo-tree-id54 . -367) (undo-tree-id55 . -367) (undo-tree-id56 . -367) (undo-tree-id57 . -367) (undo-tree-id58 . -368) (undo-tree-id59 . -368) (undo-tree-id60 . -368) (undo-tree-id61 . -368) (undo-tree-id62 . -368) (undo-tree-id63 . -440) (undo-tree-id64 . -440) (undo-tree-id65 . -440) (undo-tree-id66 . -440) (undo-tree-id67 . -440) (undo-tree-id68 . -509) (undo-tree-id69 . -509) (undo-tree-id70 . -509) (undo-tree-id71 . -509) (undo-tree-id72 . -509) (undo-tree-id73 . -582) (undo-tree-id74 . -582) (undo-tree-id75 . -582) (undo-tree-id76 . -582) (undo-tree-id77 . -582) (undo-tree-id78 . -646) (undo-tree-id79 . -646) (undo-tree-id80 . -646) (undo-tree-id81 . -646) (undo-tree-id82 . -646) (undo-tree-id83 . -717) (undo-tree-id84 . -717) (undo-tree-id85 . -717) (undo-tree-id86 . -717) (undo-tree-id87 . -717) (undo-tree-id88 . -717) (undo-tree-id89 . -717) (undo-tree-id90 . -717) (undo-tree-id91 . -717) (undo-tree-id92 . -717) (undo-tree-id93 . -717) (undo-tree-id94 . -717) (undo-tree-id95 . -717) (undo-tree-id96 . -717) (undo-tree-id97 . -717) (undo-tree-id98 . -717) (undo-tree-id99 . -717) (undo-tree-id100 . -717) (undo-tree-id101 . -717) (undo-tree-id102 . -717) (undo-tree-id103 . -785) (undo-tree-id104 . -785) (undo-tree-id105 . -785) (undo-tree-id106 . -785) (undo-tree-id107 . -785) (undo-tree-id108 . -785) (undo-tree-id109 . -785) (undo-tree-id110 . -785) (undo-tree-id111 . -785) (undo-tree-id112 . -785) (undo-tree-id113 . -785) (undo-tree-id114 . -785) (undo-tree-id115 . -785) (undo-tree-id116 . -785) (undo-tree-id117 . -785) (undo-tree-id118 . -785) (undo-tree-id119 . -785) (undo-tree-id120 . -785) (undo-tree-id121 . -785) (undo-tree-id122 . -785) (undo-tree-id123 . -809) (undo-tree-id124 . -809) (undo-tree-id125 . -809) (undo-tree-id126 . -809) (undo-tree-id127 . -809) (undo-tree-id128 . -809) (undo-tree-id129 . -809) (undo-tree-id130 . -809) (undo-tree-id131 . -809) (undo-tree-id132 . -809) (undo-tree-id133 . -809) (undo-tree-id134 . -809) (undo-tree-id135 . -809) (undo-tree-id136 . -809) (undo-tree-id137 . -809) (undo-tree-id138 . -809) (undo-tree-id139 . -809) (undo-tree-id140 . -809) (undo-tree-id141 . -809) (undo-tree-id142 . -809) (undo-tree-id143 . -809) (undo-tree-id144 . -809) (undo-tree-id145 . -809) (undo-tree-id146 . -810) 25118 (t 26718 35666 244405 364000)) nil (26718 35741 507657 72000) 0 nil])
+([nil nil ((24834 . 24835) 24814) nil (26718 35741 507544 382000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 24834 . 24835) (#("
+" 0 1 (fontified nil)) . -25644) (24834 . 25645) 24814) nil (26718 35741 507540 144000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 25644) (undo-tree-id147 . -1) (t 26718 35741 510924 319000)) nil (26718 35743 714639 725000) 0 nil])
+([nil nil ((#("
+Эксперимент барысында қызметкердің жұмыс орнында болуы бағаланып, бір
+жұмыс күні ішінде оның эмоционалдық жағдайы бақыланды. Зерттеу
+қызметкердің бір күн ішінде эмоцияларының өзгеруін талдау және оның
+эмоционалдық фонына әсер ететін ықтимал факторларды анықтау үшін
+жүргізілді.
+" 0 279 (fontified t)) . 24030) (undo-tree-id148 . -267) (undo-tree-id149 . -267) (undo-tree-id150 . -278) (undo-tree-id151 . -279) (undo-tree-id152 . -279) (undo-tree-id153 . -279) (undo-tree-id154 . -279) (undo-tree-id155 . -279) (undo-tree-id156 . -279) (undo-tree-id157 . -279) (undo-tree-id158 . -279) (undo-tree-id159 . -279) (undo-tree-id160 . -279) (undo-tree-id161 . -279) (undo-tree-id162 . -267) 24297 (t 26718 35743 717910 212000)) nil (26718 35769 361847 996000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 24555 . 24556) (#("
+" 0 1 (fontified nil)) . -24834) (24555 . 24835) 24535) nil (26718 35769 361831 115000) 0 nil])
+([nil nil ((#("
+Бұл эксперимент қызметкерлердің эмоционалдық жағдайын автоматтандырылған
+бақылау мүмкіндігін растады. Алынған мәліметтерді жұмысшылардың
+эмоционалдық фонына әсер ететін факторларды әрі қарай талдау және еңбек
+жағдайын жақсарту бойынша ұсыныстар әзірлеу үшін пайдалануға болады.
+
+Raspberry Pi платформасында қашықтағы жұмыс үстеліне қосылу әдісін
+пайдаландық. Қашықтағы жұмыс үстеліне қосылу үшін Real VNC Viewer
+бағдарламасын қолданамыз (Сурет 4). Адрестік жолға алған VNC сервердің
+адресін енгіземіз, жұмыс үстеліне қосыламыз.
+
+" 0 481 (fontified t) 481 484 (fontified t) 484 530 (fontified t)) . 26045) (undo-tree-id163 . -529) (undo-tree-id164 . -529) (undo-tree-id165 . -529) (undo-tree-id166 . -529) 26574 (t 26718 35769 364746 296000)) nil (26718 35843 154762 116000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 26383 . 26384) (#("
+" 0 1 (fontified nil)) . -26913) (26383 . 26914) 26371) nil (26718 35843 154748 661000) 0 nil])
+([nil nil ((#("Face-recognition кітапханасы жұмыс істеу үшін dlib кітапханасын талап
+етеді. Бірақ та dlib кітапханасының компиляциясы жедел жадының үлкен
+көлемін алады, сондықтан оны орнатқан кезде жедел жадысына байланысты
+қате шығады да, операциялық жүйе процесті бітіреді. Dlib кітапханасын
+орнату алдында мүмкіндігінше жедел жадыны босатып алу керек. Ол үшін
+жүктеу файлын үлкейтуге болады. Жүктеу файлы -- жүйенің жадысында
+қосалқы виртуалды жад ретінде қолданылатын жады картасындағы бос орын.
+Жүктеу файлы операциялық жүйеге нақты жадыдан көбірек жады бар екендей
+көрсетуге мүмкіндік береді. Raspberry Pi операциялық жүйесінде жүктеу
+файлы dphys-swapfile файлында әдепкі бойынша 100 МБ жадысымен беріледі.
+Оны өзгерту үшін \\$ sudo nano /etc/dphys-swapfile командасы арқылы осы
+файлдың ішін ашамыз. CONF-SWAPSIZE=100 жолды 1024 мәнге өзгертеміз.
+Жүктеу файлын өзгерткеннен кейін жүктеу сервисін \\$sudo
+/etc/init.d/dphys-swapfile stop \\$sudo /etc/init.d/dphys-swapfile start
+командалары арқылы қайтадан қосамыз. Содан кейін dlib орнату үшін cmake
+программасы жазылады (\\$ sudo apt-get install build-essential cmake).
+Жүктеу файлы төмендегі 5 суретте көрсетілген.
+
+" 0 317 (fontified t) 317 348 (fontified t) 348 715 (fontified t) 715 717 (face font-lock-keyword-face fontified t) 717 846 (fontified t) 846 886 (fontified t) 886 888 (face font-lock-keyword-face fontified t) 888 893 (fontified t) 893 925 (fontified t) 925 927 (face font-lock-keyword-face fontified t) 927 1059 (fontified t) 1059 1061 (face font-lock-keyword-face fontified t) 1061 1154 (fontified t)) . 27244) (undo-tree-id167 . -1153) (undo-tree-id168 . -1153) (undo-tree-id169 . -1153) (undo-tree-id170 . -1153) 28397 (t 26718 35843 157274 682000)) nil (26718 35870 514445 225000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 26913 . 26914) (#("
+" 0 1 (fontified nil)) . -28067) (26913 . 28068)) nil (26718 35871 197860 456000) 0 nil] [nil nil ((nil rear-nonsticky nil 26914 . 26915) (#("
+" 0 1 (fontified nil)) . -28068) (26914 . 28069)) ((#("
+Face-recognition кітапханасы жұмыс істеу үшін dlib кітапханасын талап
+етеді. Бірақ та dlib кітапханасының компиляциясы жедел жадының үлкен
+көлемін алады, сондықтан оны орнатқан кезде жедел жадысына байланысты
+қате шығады да, операциялық жүйе процесті бітіреді. Dlib кітапханасын
+орнату алдында мүмкіндігінше жедел жадыны босатып алу керек. Ол үшін
+жүктеу файлын үлкейтуге болады. Жүктеу файлы -- жүйенің жадысында
+қосалқы виртуалды жад ретінде қолданылатын жады картасындағы бос орын.
+Жүктеу файлы операциялық жүйеге нақты жадыдан көбірек жады бар екендей
+көрсетуге мүмкіндік береді. Raspberry Pi операциялық жүйесінде жүктеу
+файлы dphys-swapfile файлында әдепкі бойынша 100 МБ жадысымен беріледі.
+Оны өзгерту үшін \\$ sudo nano /etc/dphys-swapfile командасы арқылы осы
+файлдың ішін ашамыз. CONF-SWAPSIZE=100 жолды 1024 мәнге өзгертеміз.
+Жүктеу файлын өзгерткеннен кейін жүктеу сервисін \\$sudo
+/etc/init.d/dphys-swapfile stop \\$sudo /etc/init.d/dphys-swapfile start
+командалары арқылы қайтадан қосамыз. Содан кейін dlib орнату үшін cmake
+программасы жазылады (\\$ sudo apt-get install build-essential cmake).
+Жүктеу файлы төмендегі 5 суретте көрсетілген.
+
+" 0 1 (rear-nonsticky nil fontified nil) 1 71 (fontified nil) 71 318 (fontified t) 318 349 (fontified t) 349 716 (fontified t) 716 718 (face font-lock-keyword-face fontified t) 718 847 (fontified t) 847 887 (fontified t) 887 889 (face font-lock-keyword-face fontified t) 889 894 (fontified t) 894 926 (fontified t) 926 928 (face font-lock-keyword-face fontified t) 928 1060 (fontified t) 1060 1062 (face font-lock-keyword-face fontified t) 1062 1154 (fontified t) 1154 1155 (fontified nil)) . 26914) (undo-tree-id171 . -1) (undo-tree-id172 . -1) (undo-tree-id173 . -1154) (undo-tree-id174 . -1) (undo-tree-id175 . -1) (undo-tree-id176 . -1) (28068 . 28069) (nil rear-nonsticky t 26914 . 26915)) (26718 35870 514238 780000) 0 nil])
+([nil nil ((26385 . 26406) (28067 . 28083) (t 26718 35871 201095 448000)) nil (26718 35888 419649 150000) 0 nil])
+nil
+([nil nil ((#("
+" 0 1 (fontified t)) . 28104) (undo-tree-id177 . -1) (undo-tree-id178 . -1)) nil (26718 35913 845664 733000) 0 nil])
+([nil nil ((28321 . 28322)) nil (26718 35916 931851 969000) 0 nil] [nil nil ((#("7" 0 1 (fontified t)) . 28320) (t 26718 35888 422985 375000) (28321 . 28322) 28320 (t 26718 35888 422985 375000)) ((#("8" 0 1 (fontified nil)) . 28321) (28320 . 28321)) (26718 35913 652998 538000) 0 nil])
+([nil nil ((28162 . 28163)) nil (26718 35916 931848 402000) 0 nil])
+([nil nil ((#("7" 0 1 (fontified t)) . 28161) (28162 . 28163) 28161) ((#("8" 0 1 (fontified nil)) . 28162) (28161 . 28162) (t 26718 35900 315909 360000)) (26718 35900 312522 961000) 0 nil])
+([nil nil ((nil fontified t 28161 . 28163) (t 26718 35916 934803 141000) (#("75" 0 2 (fontified t)) . 28161) (t 26718 35916 934803 141000) (28163 . 28165) 28162 (t 26718 35916 934803 141000)) nil (26718 35927 316254 89000) 0 nil])
+nil
+([nil nil ((nil fontified t 28161 . 28163) (#("74" 0 2 (fontified t)) . 28161) (28163 . 28165) 28162) nil (26718 35927 316253 257000) 0 nil])
+([nil nil ((nil fontified t 28321 . 28323) (#("75" 0 2 (fontified t)) . 28321) (28323 . 28325) 28322) nil (26718 35927 316252 696000) 0 nil])
+([nil nil ((nil fontified t 28321 . 28323) (#("74" 0 2 (fontified t)) . 28321) (28323 . 28325) 28322) nil (26718 35927 316248 618000) 0 nil])
+([nil current ((33653 . 33665) (33195 . 33207) 33690 (t 26718 35927 318736 769000)) nil (26718 37228 292889 837000) 0 nil])
 nil

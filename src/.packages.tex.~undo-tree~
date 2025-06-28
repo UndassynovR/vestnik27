@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"1da120fe555b2fd2237ff06608ddd43ee7b0c080"
+"28eba4fb0b5ce511ca438873c0e2590661cde178"
 [nil nil nil nil (26686 42381 764224 3000) 0 nil]
 ([nil nil ((nil rear-nonsticky nil 677 . 678) (nil fontified nil 656 . 678) (656 . 678) (655 . 656) (t 26676 20011 168533 926000) 634) nil (26686 42381 764218 540000) 0 nil])
 ([nil nil ((apply -3 7334 7357 undo--wrap-and-run-primitive-undo 7334 7357 ((7334 . 7337) 7349 (t 26686 42381 772866 560000)))) nil (26686 42415 31282 976000) 0 nil])
@@ -468,5 +468,11 @@ nil
 ([nil nil ((nil rear-nonsticky nil 9133 . 9134) (#("
 " 0 1 (fontified nil face font-lock-comment-face)) . -9157) (9133 . 9158) (t 26715 48619 483412 405000)) nil (26715 57101 279280 834000) 0 nil])
 ([nil nil ((apply 2 9134 9155 undo--wrap-and-run-primitive-undo 9134 9155 ((#("% " 0 2 (face font-lock-comment-delimiter-face fontified t)) . -9134)))) nil (26715 57101 279280 353000) 0 nil])
-([nil current ((9155 . 9156) 9134) nil (26715 57101 279276 486000) 0 nil])
+([nil nil ((9155 . 9156) 9134) nil (26715 57101 279276 486000) 0 nil])
+([nil current ((nil rear-nonsticky nil 8844 . 8845) (nil fontified nil 8713 . 8845) (8713 . 8845) (#("\\newenvironment{authorinfo}{%
+  \\fontsize{10}{12}\\selectfont%
+  \\setlength{\\parindent}{0pt}%
+}{%
+  \\par%
+}" 0 15 (face font-lock-keyword-face fontified t) 15 16 (fontified t) 16 26 (face font-lock-function-name-face fontified t) 26 28 (fontified t) 28 30 (face font-lock-comment-face fontified t) 30 32 (fontified t) 32 41 (face font-lock-keyword-face fontified t) 41 49 (fontified t) 49 60 (face font-lock-keyword-face fontified t) 60 62 (face font-lock-comment-face fontified t) 62 64 (fontified t) 64 74 (face font-lock-keyword-face fontified t) 74 75 (fontified t) 75 85 (face font-lock-variable-name-face fontified t) 85 91 (fontified t) 91 93 (face font-lock-comment-face fontified t) 93 95 (fontified t) 95 97 (face font-lock-comment-face fontified t) 97 99 (fontified t) 99 103 (face font-lock-keyword-face fontified t) 103 105 (face font-lock-comment-face fontified t) 105 106 (fontified t)) . 8713) (undo-tree-id0 . -105) (undo-tree-id1 . -105) (undo-tree-id2 . -105) (undo-tree-id3 . -30) (undo-tree-id4 . -30) (undo-tree-id5 . -30) (undo-tree-id6 . -30) (undo-tree-id7 . -30) (undo-tree-id8 . -30) (undo-tree-id9 . -30) (undo-tree-id10 . -30) (undo-tree-id11 . -30) (undo-tree-id12 . -30) (undo-tree-id13 . -30) (undo-tree-id14 . -30) (undo-tree-id15 . -30) (undo-tree-id16 . -30) (undo-tree-id17 . -30) (undo-tree-id18 . -30) (undo-tree-id19 . -30) (undo-tree-id20 . -62) (undo-tree-id21 . -62) (undo-tree-id22 . -62) (undo-tree-id23 . -62) (undo-tree-id24 . -62) (undo-tree-id25 . -93) (undo-tree-id26 . -93) (undo-tree-id27 . -93) (undo-tree-id28 . -93) (undo-tree-id29 . -93) (undo-tree-id30 . -97) (undo-tree-id31 . -97) (undo-tree-id32 . -97) (undo-tree-id33 . -97) (undo-tree-id34 . -97) (undo-tree-id35 . -97) (undo-tree-id36 . -97) (undo-tree-id37 . -97) (undo-tree-id38 . -97) (undo-tree-id39 . -97) (undo-tree-id40 . -97) (undo-tree-id41 . -97) (undo-tree-id42 . -97) (undo-tree-id43 . -97) (undo-tree-id44 . -97) (undo-tree-id45 . -97) (undo-tree-id46 . -97) (undo-tree-id47 . -97) (undo-tree-id48 . -97) (undo-tree-id49 . -97) (undo-tree-id50 . -105) (undo-tree-id51 . -105) (undo-tree-id52 . -105) (undo-tree-id53 . -105) (undo-tree-id54 . -105) (undo-tree-id55 . -105) (undo-tree-id56 . -105) (undo-tree-id57 . -105) (undo-tree-id58 . -105) (undo-tree-id59 . -105) (undo-tree-id60 . -105) (undo-tree-id61 . -105) (undo-tree-id62 . -105) (undo-tree-id63 . -105) (undo-tree-id64 . -105) (undo-tree-id65 . -105) (undo-tree-id66 . -105) (undo-tree-id67 . -105) (undo-tree-id68 . -105) (undo-tree-id69 . -105) (undo-tree-id70 . -105) (undo-tree-id71 . -105) (undo-tree-id72 . -106) 8820 (t 26715 57101 283443 998000)) nil (26718 37750 67136 132000) 0 nil])
 nil

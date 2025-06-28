@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"b84b271e10fb21f69201acf4c13dc6598e6bb9ca"
+"c840f02ea01197a0e537eb26e07bfb0dd2a15ff7"
 [nil nil nil nil (26716 22059 311036 151000) 0 nil]
 ([nil nil ((374 . 419)) ((#("\\alink{https://orcid.org/0000-0002-5723-6642}" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 44 (fontified t foreign-selection nil) 44 45 (fontified t)) . 374) (undo-tree-id4 . -44) (undo-tree-id5 . -44) (undo-tree-id6 . -44) (undo-tree-id7 . -44) (undo-tree-id8 . -44) (undo-tree-id9 . -44) (undo-tree-id10 . -44) (undo-tree-id11 . -44) (undo-tree-id12 . -44) (undo-tree-id13 . -44) (undo-tree-id14 . -44) (undo-tree-id15 . -44) (undo-tree-id16 . -44) (undo-tree-id17 . -44) (undo-tree-id18 . -44) (undo-tree-id19 . -44) (undo-tree-id20 . -44) (undo-tree-id21 . -44) (undo-tree-id22 . -44)) (26716 22061 579950 505000) 0 nil] [nil nil ((374 . 1845) 344 (t 26715 48619 482412 411000)) ((#("\\alink{(defun latex-insert-alink-from-clipboard ()
   \"Inserts a LaTeX \\\\alink{} link with the clipboard text at the appropriate position on the current line.\"
@@ -314,5 +314,7 @@ e-mail:baibolov_olzhas2@kaznu.kz.
 ([nil nil ((32831 . 32832)) nil (26718 17908 925960 324000) 0 nil])
 ([nil nil ((32493 . 32494)) nil (26718 17908 925955 555000) 0 nil])
 ([nil nil ((32311 . 32314) (t 26718 17908 928352 165000)) nil (26718 17933 669048 606000) 0 nil])
-([nil current ((32827 . 32830)) nil (26718 17933 669045 49000) 0 nil])
+([nil nil ((32827 . 32830)) nil (26718 17933 669045 49000) 0 nil])
+([nil nil ((#("{}" 0 2 (fontified t)) . -174) (t 26718 25299 797662 74000) (176 . 220) 1 (t 26718 25299 797662 74000)) nil (26718 29905 432461 493000) 0 nil])
+([nil current ((32572 . 32584) (32203 . 32215) 32184 (t 26718 29905 434224 539000)) nil (26718 37125 311708 175000) 0 nil])
 nil

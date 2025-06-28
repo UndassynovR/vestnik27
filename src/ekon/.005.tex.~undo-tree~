@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"c941fdbb0e4124a846255a21fd72e6d593b7933e"
+"b29d59fe98054b645aef09ced3936ffacff42981"
 [nil nil nil nil (26716 3593 848034 382000) 0 nil]
 ([nil nil ((92 . 93) (#("
 " 0 1 (face (bold) fontified t)) . -92) 24 (t 26714 40259 753831 178000)) nil (26716 3593 848033 660000) 0 nil])
@@ -570,5 +570,8 @@ nil
 ([nil nil ((#("\\emph{Примечание -- составлено авторами на основании {[}8{]}}
 " 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 60 (face (italic) fontified t) 60 61 (fontified t) 61 62 (fontified t)) . 32767) (undo-tree-id69 . -61) (undo-tree-id70 . 62) (undo-tree-id71 . -61) (undo-tree-id72 . -62)) nil (26718 11154 792236 448000) 0 nil])
 ([nil nil ((nil fontified t 32557 . 32558) (t 26718 11154 797129 791000) (nil face font-lock-builtin-face 32557 . 32558) (t 26718 11154 797129 791000) (#("5" 0 1 (face font-lock-builtin-face fontified t)) . 32557) (t 26718 11154 797129 791000) (32558 . 32559) 32557 (t 26718 11154 797129 791000)) nil (26718 11166 662202 501000) 0 nil])
-([nil current ((#("8" 0 1 (fontified t)) . 32527) (t 26718 11166 665704 604000) (32528 . 32529) 32527 (t 26718 11166 665704 604000)) nil (26718 11186 407310 543000) 0 nil])
+([nil nil ((#("8" 0 1 (fontified t)) . 32527) (t 26718 11166 665704 604000) (32528 . 32529) 32527 (t 26718 11166 665704 604000)) nil (26718 11186 407310 543000) 0 nil])
+([nil nil ((#("{}" 0 2 (fontified t)) . -20) (t 26718 25299 794662 93000) (22 . 67) 1 (t 26718 25299 794662 93000)) nil (26718 31013 131334 801000) 0 nil])
+([nil nil ((46238 . 46239) (t 26718 31013 134144 219000)) nil (26719 47515 763894 826000) 0 nil])
+([nil current ((45424 . 45425)) nil (26719 47515 763891 19000) 0 nil])
 nil

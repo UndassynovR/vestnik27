@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"953cd3b2deb7dc93a6aebbdd8a9b4ad7930a9e4f"
+"81f66a4003505abc3dc5f8e047daf293eb7437d7"
 [nil nil nil nil (26716 5422 378586 742000) 0 nil]
 ([nil nil ((165 . 166) (#("
 " 0 1 (face (bold) fontified t)) . -165) (98 . 99) (#("
@@ -563,5 +563,107 @@ nil
 ([nil nil ((nil fontified t 19871 . 19873) (t 26718 12444 789554 668000) (nil face font-lock-builtin-face 19871 . 19873) (t 26718 12444 789554 668000) (#("10" 0 2 (face font-lock-builtin-face fontified t)) . 19871) (t 26718 12444 789554 668000) (19873 . 19875) 19872 (t 26718 12444 789554 668000)) nil (26718 12458 772981 704000) 0 nil])
 ([nil nil ((#("8" 0 1 (fontified t)) . 19841) (t 26718 12458 776693 913000)) nil (26718 12475 818220 747000) 0 nil])
 ([nil nil ((nil fontified t 19840 . 19841) (#("7" 0 1 (fontified t)) . 19840) (19841 . 19842) 19840) nil (26718 12475 818220 226000) 0 nil])
-([nil current ((nil fontified t 19840 . 19841) (#("6" 0 1 (fontified t)) . 19840) (19841 . 19842) 19840) nil (26718 12475 818215 698000) 0 nil])
+([nil nil ((nil fontified t 19840 . 19841) (#("6" 0 1 (fontified t)) . 19840) (19841 . 19842) 19840) nil (26718 27908 561966 171000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 20647 . 20648) (#("
+" 0 1 (fontified nil)) . -20897) (20647 . 20898) (t 26718 25299 795662 87000)) nil (26718 27947 629848 930000) 0 nil] [nil nil ((nil rear-nonsticky nil 8 . 9) (nil fontified nil 2 . 9) (2 . 9) 1 (t 26718 25299 795662 87000)) ((#("wordart" 0 6 (face font-lock-keyword-face fontified nil) 6 7 (face font-lock-keyword-face rear-nonsticky nil fontified nil)) . 2) (undo-tree-id0 . -6) (undo-tree-id1 . -6) (undo-tree-id2 . -6) (undo-tree-id3 . -6) (nil rear-nonsticky t 8 . 9)) (26718 27908 561707 818000) 0 nil])
+([nil nil ((#("1 - сурет. Ұйымдағы бухгалтерлік есептің құрамдастары" 0 52 (fontified t) 52 53 (fontified t rear-nonsticky t)) . 20749) (undo-tree-id47 . -52) (undo-tree-id48 . -5) 20754) nil (26718 27947 629848 319000) 0 nil])
+nil
+([nil nil ((#("Ескерту -- {[}3{]} әдебиет негізінде құрастырылған" 0 50 (face (italic) fontified t)) . 20779) (undo-tree-id45 . -49) (undo-tree-id46 . -6) 20785) nil (26718 27947 629847 538000) 0 nil])
+([nil nil ((#("Примечание - составлено авторами" 0 32 (face (italic) fontified t)) . 20951) (undo-tree-id43 . -31) (undo-tree-id44 . -25) 20976) nil (26718 27947 629846 345000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 20810 . 20811) (nil fontified nil 20779 . 20811) (20779 . 20811)) nil (26718 27947 629845 584000) 0 nil])
+([nil nil ((#("\\emph{}
+" 0 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t) 6 8 (fontified t)) . 20977) (undo-tree-id8 . -7) (undo-tree-id9 . -6) (undo-tree-id10 . -6) (undo-tree-id11 . -6) (undo-tree-id12 . -6) (undo-tree-id13 . -6) (undo-tree-id14 . -6) (undo-tree-id15 . -6) (undo-tree-id16 . -6) (undo-tree-id17 . -6) (undo-tree-id18 . -6) (undo-tree-id19 . -6) (undo-tree-id20 . -6) (undo-tree-id21 . -6) (undo-tree-id22 . -6) (undo-tree-id23 . -6) (undo-tree-id24 . -6) (undo-tree-id25 . -6) (undo-tree-id26 . -6) (undo-tree-id27 . -6) (undo-tree-id28 . -6) (undo-tree-id29 . -6) (undo-tree-id30 . -6) (undo-tree-id31 . -6) (undo-tree-id32 . -6) (undo-tree-id33 . -6) (undo-tree-id34 . -6) (undo-tree-id35 . -6) (undo-tree-id36 . -6) (undo-tree-id37 . -6) (undo-tree-id38 . -6) (undo-tree-id39 . -6) (undo-tree-id40 . -6) (undo-tree-id41 . -6) (undo-tree-id42 . -8) 20983) nil (26718 27947 629844 612000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 20977)) nil (26718 27947 629772 557000) 0 nil])
+([nil nil ((#("{\\bfseries Рис.3 - Примеры интегрированных систем вертикальных ферм в области выращивания сельскохозяйственной среды в городской среде в Казахстане}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 147 (face (bold) fontified t) 147 148 (fontified t)) . -20827) (undo-tree-id4 . -6) (undo-tree-id5 . -6) (undo-tree-id6 . -6) (undo-tree-id7 . -6) 20976) nil (26718 27947 629772 47000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 20884 . 20885) (nil fontified nil 20749 . 20885) (20749 . 20885)) nil (26718 27947 629763 751000) 0 nil])
+([nil nil ((20735 . 20736) (#("0" 0 1 (face font-lock-builtin-face fontified t)) . 20735)) nil (26718 27947 629763 360000) 0 nil])
+([nil nil ((nil fontified t 20704 . 20705) (#("5" 0 1 (fontified t)) . 20704) (20705 . 20706) 20704) nil (26718 27947 629762 779000) 0 nil])
+([nil nil ((nil fontified t 20704 . 20705) (#("6" 0 1 (fontified t)) . 20704) (20705 . 20706) 20704) nil (26718 27947 629759 122000) 0 nil])
+([nil nil ((#("
+\\begin{multicols}{2}
+Таким образом, согласно данным рисунка 2 можно наблюдать рост рынка
+вертикального фермерства во всем мире, поскольку на данном этапе
+развития, в условиях ограниченных ресурсов, данные интегрированные
+системы приобретают все большую значимость и ценность. Следует отметить,
+что рынок вертикального фермерства в Казахстане начал развиваться совсем
+недавно и только начинает приобретать популярность. На рисунке 3 можно
+увидеть пример интегрированных систем вертикальных ферм в области
+выращивания сельскохозяйственной среды в городской среде в Казахстане.
+\\end{multicols}
+" 0 1 (fontified t) 1 7 (face font-lock-keyword-face fontified t) 7 8 (fontified t latex-env-pair t) 8 17 (face font-lock-function-name-face fontified t latex-env-pair t) 17 18 (fontified t latex-env-pair t) 18 245 (fontified t) 245 295 (fontified t) 295 576 (fontified t) 576 580 (face font-lock-keyword-face fontified t) 580 581 (fontified t latex-env-pair t) 581 590 (face font-lock-function-name-face fontified t latex-env-pair t) 590 591 (fontified t latex-env-pair t) 591 592 (fontified t)) . 20055) (undo-tree-id49 . -576) (undo-tree-id50 . -591) (undo-tree-id51 . -576) (undo-tree-id52 . -1) (undo-tree-id53 . -1) (undo-tree-id54 . -1) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1) (undo-tree-id58 . -1) (undo-tree-id59 . -1) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (undo-tree-id65 . -1) (undo-tree-id66 . -1) (undo-tree-id67 . -1) (undo-tree-id68 . -1) (undo-tree-id69 . -22) (undo-tree-id70 . -22) (undo-tree-id71 . -22) (undo-tree-id72 . -22) (undo-tree-id73 . -22) (undo-tree-id74 . -90) (undo-tree-id75 . -90) (undo-tree-id76 . -90) (undo-tree-id77 . -90) (undo-tree-id78 . -90) (undo-tree-id79 . -155) (undo-tree-id80 . -155) (undo-tree-id81 . -155) (undo-tree-id82 . -155) (undo-tree-id83 . -155) (undo-tree-id84 . -222) (undo-tree-id85 . -222) (undo-tree-id86 . -222) (undo-tree-id87 . -222) (undo-tree-id88 . -222) (undo-tree-id89 . -295) (undo-tree-id90 . -295) (undo-tree-id91 . -295) (undo-tree-id92 . -295) (undo-tree-id93 . -295) (undo-tree-id94 . -368) (undo-tree-id95 . -368) (undo-tree-id96 . -368) (undo-tree-id97 . -368) (undo-tree-id98 . -368) (undo-tree-id99 . -439) (undo-tree-id100 . -439) (undo-tree-id101 . -439) (undo-tree-id102 . -439) (undo-tree-id103 . -439) (undo-tree-id104 . -505) (undo-tree-id105 . -505) (undo-tree-id106 . -505) (undo-tree-id107 . -505) (undo-tree-id108 . -505) (undo-tree-id109 . -576) (undo-tree-id110 . -576) (undo-tree-id111 . -576) (undo-tree-id112 . -576) (undo-tree-id113 . -576) (undo-tree-id114 . -576) (undo-tree-id115 . -576) (undo-tree-id116 . -576) (undo-tree-id117 . -576) (undo-tree-id118 . -576) (undo-tree-id119 . -576) (undo-tree-id120 . -576) (undo-tree-id121 . -576) (undo-tree-id122 . -576) (undo-tree-id123 . -576) (undo-tree-id124 . -576) (undo-tree-id125 . -576) (undo-tree-id126 . -576) (undo-tree-id127 . -576) (undo-tree-id128 . -576) (undo-tree-id129 . -576) (undo-tree-id130 . -576) (undo-tree-id131 . -576) (undo-tree-id132 . -592) 20631 (t 26718 27947 634737 291000)) nil (26718 27962 73602 72000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 20370 . 20371) (#("
+" 0 1 (fontified nil)) . -20962) (20370 . 20963) 20358) nil (26718 27964 886802 124000) 0 nil] [nil nil ((nil rear-nonsticky nil 20370 . 20371) (#("
+" 0 1 (fontified nil)) . -20962) (20370 . 20963) 20358) ((#("
+
+\\begin{multicols}{2}
+Таким образом, согласно данным рисунка 2 можно наблюдать рост рынка
+вертикального фермерства во всем мире, поскольку на данном этапе
+развития, в условиях ограниченных ресурсов, данные интегрированные
+системы приобретают все большую значимость и ценность. Следует отметить,
+что рынок вертикального фермерства в Казахстане начал развиваться совсем
+недавно и только начинает приобретать популярность. На рисунке 3 можно
+увидеть пример интегрированных систем вертикальных ферм в области
+выращивания сельскохозяйственной среды в городской среде в Казахстане.
+\\end{multicols}
+" 0 1 (rear-nonsticky nil fontified nil) 1 2 (fontified nil) 2 8 (face font-lock-keyword-face fontified t) 8 9 (fontified t latex-env-pair t) 9 18 (face font-lock-function-name-face fontified t latex-env-pair t) 18 19 (fontified t latex-env-pair t) 19 246 (fontified t) 246 296 (fontified t) 296 577 (fontified t) 577 581 (face font-lock-keyword-face fontified nil) 581 582 (fontified nil latex-env-pair t) 582 591 (face font-lock-function-name-face fontified nil latex-env-pair t) 591 592 (fontified nil latex-env-pair t) 592 593 (fontified nil)) . 20370) (undo-tree-id133 . -1) (undo-tree-id134 . -1) (undo-tree-id135 . -592) (undo-tree-id136 . -1) (undo-tree-id137 . -1) (undo-tree-id138 . -1) (20962 . 20963) (nil rear-nonsticky t 20370 . 20371)) (26718 27962 73354 289000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 20947) (undo-tree-id142 . -15) (undo-tree-id143 . -16) (undo-tree-id144 . -16)) nil (26718 27964 886801 453000) 0 nil])
+nil
+([nil nil ((#("
+" 0 1 (fontified t)) . 20947) (undo-tree-id141 . -1)) nil (26718 27964 886798 978000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 20 (fontified t) 20 21 (fontified t)) . 20948) (undo-tree-id139 . -20) (undo-tree-id140 . -21)) nil (26718 27964 886794 810000) 0 nil])
+([nil nil ((nil fontified t 20112 . 20113) (t 26718 27964 891626 989000) (#("7" 0 1 (fontified t)) . 20112) (t 26718 27964 891626 989000) (20113 . 20114) 20112 (t 26718 27964 891626 989000)) nil (26718 27994 573826 332000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+Все вышеперечисленные преимущества являются одними из ключевых факторов,
+стимулирующих развитие рынка интегрированных систем вертикального
+фермерства по производству сельскохозяйственной продукции в городе.
+Однако следует также отметить, что на устойчивое развитие вертикального
+фермерства влияет рост городского населения в мире и возможность
+применения технологии вертикального земледелия в городах.
+
+В рамках проводимых исследований по проекту авторами были рассчитана
+прибыльность выращивания микрозелени круглогодично в гидропонной
+установке по сравнению с традиционным сельским хозяйством. Стоит
+отметить, что именно микрозелень является сейчас популярной в крупных
+городах и является высокоценный продукт, который можно выгодно
+выращивать в городских условиях -- таблица 2. Также следует учитывать,
+что расчеты ориентируется на круглогодичное производство микрозелени.
+\\end{multicols}
+
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 897 (fontified t) 897 901 (face font-lock-keyword-face fontified t) 901 902 (fontified t latex-env-pair t) 902 911 (face font-lock-function-name-face fontified t latex-env-pair t) 911 912 (fontified t latex-env-pair t) 912 914 (fontified t)) . 24744) (undo-tree-id145 . -913) (undo-tree-id146 . -913) (undo-tree-id147 . -913) (undo-tree-id148 . -423) (undo-tree-id149 . -423) (undo-tree-id150 . -897) (undo-tree-id151 . -897) (undo-tree-id152 . -423) (undo-tree-id153 . -913) 25657 (t 26718 27994 578437 240000)) nil (26718 28027 471701 376000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 27120 . 27121) (#("
+" 0 1 (fontified nil)) . -28034) (27120 . 28035) 27106 (t 26718 28027 475227 4000)) nil (26718 28045 135456 273000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 20 (fontified t)) . 27121) (undo-tree-id175 . -19)) nil (26718 28045 135453 929000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 27998) (undo-tree-id157 . -15) (undo-tree-id158 . -16) (undo-tree-id159 . -16) (undo-tree-id160 . -16) (undo-tree-id161 . -16) (undo-tree-id162 . -16) (undo-tree-id163 . -16) (undo-tree-id164 . -16) (undo-tree-id165 . -16) (undo-tree-id166 . -16) (undo-tree-id167 . -16) (undo-tree-id168 . -16) (undo-tree-id169 . -16) (undo-tree-id170 . -16) (undo-tree-id171 . -16) (undo-tree-id172 . -16) (undo-tree-id173 . -16) (undo-tree-id174 . -16)) nil (26718 28045 135452 326000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 27998) (undo-tree-id156 . -1)) nil (26718 28045 135437 568000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 21 (fontified t)) . 27999) (undo-tree-id154 . -20) (undo-tree-id155 . -21)) nil (26718 28045 135434 72000) 0 nil])
+([nil nil ((27122 . 27143) (27195 . 27211) (t 26718 28045 140114 96000)) nil (26718 28072 345907 894000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (latex-env-pair t fontified t) 5 14 (face font-lock-function-name-face latex-env-pair t fontified t) 14 15 (latex-env-pair t fontified t) 15 16 (fontified t)) . 27216) (undo-tree-id176 . -15) (undo-tree-id177 . -16)) nil (26718 28072 345904 197000) 0 nil])
+([nil nil ((#("Следует отметить, что впервые в рамках данного проекта были разработаны
+и использованы в качестве эксперимента управляемые светодиодные
+прожекторы ABC1 и ABC2 отечественного производства для выращивания
+томатов и салата.
+
+" 0 125 (fontified t) 125 136 (fontified t) 136 222 (fontified t)) . 30074) (undo-tree-id178 . -221) (undo-tree-id179 . -221) (undo-tree-id180 . -221) (undo-tree-id181 . -221) 30295 (t 26718 28072 350940 187000)) nil (26718 28088 687657 197000) 0 nil])
+([nil nil ((29505 . 29506) 29468) nil (26718 28090 476012 107000) 0 nil] [nil nil ((29467 . 29468) 29397) ((#("
+" 0 1 (fontified t)) . 29467)) (26718 28088 687558 833000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 29506 . 29507) (#("
+" 0 1 (fontified nil)) . -29728) (29506 . 29729)) nil (26718 28090 476008 190000) 0 nil])
+nil
+([nil nil ((#("Стоит отметить, что эффективность внедрения предлагаемых в исследование
+технологий интегрированных систем вертикального фермерства раскрывается
+посредством следующих аспектов:
+
+" 0 40 (fontified t) 40 71 (fontified t) 71 72 (fontified t) 72 145 (fontified t) 145 176 (fontified t) 176 177 (fontified t)) . 30297) (undo-tree-id182 . -176) (undo-tree-id183 . -176) (undo-tree-id184 . -176) (undo-tree-id185 . -176) 30473 (t 26718 28090 480824 302000)) nil (26718 28113 703203 67000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 29728 . 29729) (#("
+" 0 1 (fontified nil)) . -29905) (29728 . 29906)) nil (26718 28113 703173 381000) 0 nil])
+([nil nil ((39468 . 39472) (t 26718 28113 707675 846000)) nil (26718 28162 325683 544000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 39496 . 39497) (nil fontified nil 39472 . 39497) (39472 . 39497) 39471) nil (26718 28162 325679 266000) 0 nil])
+([nil current ((#("{}" 0 2 (fontified t)) . -20) (t 26718 28162 330365 49000) (22 . 66) 21 (t 26718 28162 330365 49000)) nil (26718 31174 724795 724000) 0 nil])
 nil

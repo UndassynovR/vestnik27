@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"36368b13fe6981049791370dec8b5997a36d65d2"
+"e341e34fd57cac9464d9a6d1cf2d097ed3bd6e51"
 [nil nil nil nil (26716 6334 577687 330000) 0 nil]
 ([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 25) (undo-tree-id53 . -9) (t 26714 40259 754831 174000)) nil (26716 6334 577686 769000) 0 nil])
 ([nil nil (25) nil (26716 6334 577686 288000) 0 nil])
@@ -284,6 +284,77 @@ nil
 ([nil nil ((45920 . 45921)) nil (26718 14342 668245 374000) 0 nil])
 ([nil nil ((#("i" 0 1 (face font-lock-warning-face fontified nil)) . -46492) (undo-tree-id186 . -1) (undo-tree-id187 . -1) (undo-tree-id188 . -1) (undo-tree-id189 . -1) (undo-tree-id190 . -1) (undo-tree-id191 . -1) (46490 . 46493) (t 26718 14342 670782 138000)) nil (26718 14359 869420 300000) 0 nil])
 ([nil nil ((46680 . 46682) (t 26718 14359 871897 125000)) nil (26718 14373 85657 641000) 0 nil])
-([nil current ((46842 . 46844)) nil (26718 14373 748576 197000) 0 nil] [nil nil ((46841 . 46843)) ((#("\\\\" 0 2 (face font-lock-warning-face fontified t)) . 46841) (undo-tree-id192 . -1) (undo-tree-id193 . -1) (undo-tree-id194 . -1)) (26718 14373 85552 113000) 0 nil])
+([nil nil ((46842 . 46844)) nil (26718 28643 90047 956000) 0 nil] [nil nil ((46841 . 46843)) ((#("\\\\" 0 2 (face font-lock-warning-face fontified t)) . 46841) (undo-tree-id192 . -1) (undo-tree-id193 . -1) (undo-tree-id194 . -1)) (26718 14373 85552 113000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 34053 . 34054) (#("
+" 0 1 (fontified nil)) . -34237) (34053 . 34238) (t 26718 25299 796662 81000)) nil (26718 28664 831061 894000) 0 nil] [nil nil ((nil rear-nonsticky nil 34059 . 34060) (nil fontified nil 34053 . 34060) (34053 . 34060) (t 26718 25299 796662 81000)) ((#("wordart" 0 6 (fontified nil) 6 7 (rear-nonsticky nil fontified nil)) . 34053) (undo-tree-id0 . -6) (undo-tree-id1 . -6) (undo-tree-id2 . -6) (undo-tree-id3 . -6) (nil rear-nonsticky t 34059 . 34060)) (26718 28643 89816 594000) 0 nil])
 nil
+([nil nil ((#("3 - сурет. Латын Америкасындағы негізгі өнеркәсіптер, 2023ж. {[}8{]}" 0 68 (fontified t)) . 34155) (undo-tree-id72 . -67) (undo-tree-id73 . -6) 34161) nil (26718 28664 831061 373000) 0 nil])
+nil
+([nil nil ((#("{\\bfseries 4 - сурет. Латын Америкасындағы өнеркәсіптік саясаттың негізгі мәселелері}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 84 (face (bold) fontified t) 84 85 (fontified t)) . -34170) (undo-tree-id55 . -14) (undo-tree-id56 . -14) (undo-tree-id57 . -14) (undo-tree-id58 . -14) (undo-tree-id59 . -14) (undo-tree-id60 . -14) (undo-tree-id61 . -14) (undo-tree-id62 . -14) (undo-tree-id63 . -14) (undo-tree-id64 . -14) (undo-tree-id65 . -14) (undo-tree-id66 . -14) (undo-tree-id67 . -14) (undo-tree-id68 . -14) (undo-tree-id69 . -14) (undo-tree-id70 . -14) (undo-tree-id71 . -14) 34256) nil (26718 28664 831060 141000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 34227 . 34228) (nil fontified nil 34155 . 34228) (34155 . 34228)) nil (26718 28664 831055 61000) 0 nil])
+([nil nil ((34140 . 34142) (#("53" 0 2 (face font-lock-builtin-face fontified t)) . 34140) (undo-tree-id10 . -1) (undo-tree-id11 . -2) (undo-tree-id12 . -2) (undo-tree-id13 . -2) (undo-tree-id14 . -2) (undo-tree-id15 . -2) (undo-tree-id16 . -2) (undo-tree-id17 . -2) (undo-tree-id18 . -2) (undo-tree-id19 . -2) (undo-tree-id20 . -2) (undo-tree-id21 . -2) (undo-tree-id22 . -2) (undo-tree-id23 . -2) (undo-tree-id24 . -2) (undo-tree-id25 . -2) (undo-tree-id26 . -2) (undo-tree-id27 . -2) (undo-tree-id28 . -2) (undo-tree-id29 . -2) (undo-tree-id30 . -2) (undo-tree-id31 . -2) (undo-tree-id32 . -2) (undo-tree-id33 . -2) (undo-tree-id34 . -2) (undo-tree-id35 . -2) (undo-tree-id36 . -2) (undo-tree-id37 . -2) (undo-tree-id38 . -1) (undo-tree-id39 . -1) (undo-tree-id40 . -1) (undo-tree-id41 . -1) (undo-tree-id42 . -1) (undo-tree-id43 . -1) (undo-tree-id44 . -1) (undo-tree-id45 . -1) (undo-tree-id46 . -1) (undo-tree-id47 . -1) (undo-tree-id48 . -1) (undo-tree-id49 . -1) (undo-tree-id50 . -1) (undo-tree-id51 . -1) (undo-tree-id52 . -1) (undo-tree-id53 . -2) (undo-tree-id54 . -2)) nil (26718 28664 831053 959000) 0 nil])
+([nil nil ((34133 . 34134) (#("2" 0 1 (face font-lock-builtin-face fontified t)) . 34133) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1)) nil (26718 28664 830947 380000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 34243) (undo-tree-id74 . -1) (t 26718 28664 833153 382000)) nil (26718 28758 630874 80000) 0 nil])
+([nil nil ((#("8" 0 1 (fontified t)) . 34110) (t 26718 28758 633553 930000) (34111 . 34112) 34110 (t 26718 28758 633553 930000)) nil (26718 28839 572288 903000) 0 nil])
+([nil nil ((#("\\end{multicols}
+
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.7\\textwidth]{media/ekon4/image23}
+	\\caption*{4 - сурет. Латын Америкасындағы өнеркәсіптік саясаттың негізгі мәселелері}
+\\end{figure}
+
+\\begin{multicols}{2}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (latex-env-pair t fontified t) 5 14 (face font-lock-function-name-face latex-env-pair t fontified t) 14 15 (latex-env-pair t fontified t) 15 16 (fontified t) 16 17 (fontified t rear-nonsticky t) 17 23 (face font-lock-keyword-face fontified t) 23 24 (fontified t latex-env-pair t) 24 30 (face font-lock-function-name-face fontified t latex-env-pair t) 30 31 (fontified t latex-env-pair t) 31 36 (fontified t) 36 46 (face font-lock-keyword-face fontified t) 46 47 (fontified t) 47 48 (fontified t) 48 64 (face font-lock-keyword-face fontified t) 64 73 (fontified t) 73 74 (fontified t) 74 84 (face font-lock-keyword-face fontified t) 84 86 (fontified t) 86 96 (face font-lock-builtin-face fontified t) 96 97 (face font-lock-builtin-face fontified t) 97 105 (face font-lock-builtin-face fontified t) 105 107 (fontified t) 107 108 (fontified t) 108 117 (face font-lock-keyword-face fontified t) 117 118 (fontified t) 118 190 (fontified t) 190 191 (fontified t rear-nonsticky t) 191 193 (fontified t) 193 197 (face font-lock-keyword-face fontified t) 197 198 (fontified t latex-env-pair t) 198 204 (face font-lock-function-name-face fontified t latex-env-pair t) 204 205 (fontified t latex-env-pair t) 205 206 (fontified t) 206 207 (fontified t) 207 213 (face font-lock-keyword-face fontified t) 213 214 (fontified t latex-env-pair t) 214 223 (face font-lock-function-name-face fontified t latex-env-pair t) 223 224 (fontified t latex-env-pair t) 224 227 (fontified t) 227 228 (fontified t)) . 34037) (undo-tree-id285 . -207) (undo-tree-id286 . -227) (undo-tree-id287 . -207) (undo-tree-id288 . -206) (undo-tree-id289 . -104) (undo-tree-id290 . 1) (undo-tree-id291 . -227) (undo-tree-id292 . -227) (undo-tree-id293 . -227) (undo-tree-id294 . -207) (undo-tree-id295 . -207) (undo-tree-id296 . -207) (undo-tree-id297 . -227) (undo-tree-id298 . -227) (undo-tree-id299 . -207) (undo-tree-id300 . -207) (undo-tree-id301 . -227) (undo-tree-id302 . -207) 34244) nil (26718 28850 259204 257000) 0 nil] [nil nil ((#("
+Өнеркәсіптік саясатты жүзеге асырудағы проблемалар мен міндеттер.
+Табысты мысалдар мен елеулі әлеуеттің болуына қарамастан, Латын
+Америкасы елдері өнеркәсіптік саясатты тиімді жүзеге асыруға кедергі
+келтіретін бірқатар проблемалар мен қиындықтарға тап болуды жалғастыруда
+(сурет 4).
+" 0 131 (fontified t) 131 284 (fontified t)) . 33753) (undo-tree-id75 . -273) (undo-tree-id76 . -283) (undo-tree-id77 . -273) (undo-tree-id78 . -284) (undo-tree-id79 . -273) 34026 (t 26718 28763 573522 355000)) ((33753 . 34037)) (26718 28838 617254 213000) 0 nil])
+([nil nil ((34036 . 34037) 34026) nil (26718 28850 259196 503000) 0 nil])
+([nil nil ((33980 . 33981) 33960) ((#("
+" 0 1 (fontified t)) . 33980) (undo-tree-id283 . 1)) (26718 28838 77131 546000) 0 nil] [nil nil ((34048 . 34049) 33981) ((#("
+" 0 1 (fontified t)) . 34048) (undo-tree-id80 . -1) (undo-tree-id81 . -1) (undo-tree-id82 . -1) (undo-tree-id83 . -1)) (26718 28805 537239 9000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 35431 . 35432) (#("
+" 0 1 (fontified nil)) . -35659) (35431 . 35660) 35407) nil (26718 28850 259195 882000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 33980 . 33981) (#("
+" 0 1 (fontified nil)) . -34264) (33980 . 34265) 33960) ((#("
+
+Өнеркәсіптік саясатты жүзеге асырудағы проблемалар мен міндеттер.
+Табысты мысалдар мен елеулі әлеуеттің болуына қарамастан, Латын
+Америкасы елдері өнеркәсіптік саясатты тиімді жүзеге асыруға кедергі
+келтіретін бірқатар проблемалар мен қиындықтарға тап болуды жалғастыруда
+(сурет 4).
+" 0 1 (fontified nil rear-nonsticky nil) 1 2 (fontified nil) 2 67 (fontified t) 67 68 (fontified t) 68 132 (fontified t) 132 274 (fontified t) 274 284 (fontified nil) 284 285 (fontified nil)) . 33980) (undo-tree-id239 . -1) (undo-tree-id240 . 285) (undo-tree-id241 . -1) (undo-tree-id242 . -1) (undo-tree-id243 . -1) (undo-tree-id244 . -1) (undo-tree-id245 . -1) (undo-tree-id246 . -1) (undo-tree-id247 . -1) (undo-tree-id248 . -1) (undo-tree-id249 . -1) (undo-tree-id250 . -1) (undo-tree-id251 . -1) (undo-tree-id252 . -1) (undo-tree-id253 . -1) (undo-tree-id254 . -1) (undo-tree-id255 . -1) (undo-tree-id256 . -1) (undo-tree-id257 . -1) (undo-tree-id258 . -1) (undo-tree-id259 . -1) (undo-tree-id260 . -1) (undo-tree-id261 . -1) (undo-tree-id262 . -1) (undo-tree-id263 . -1) (undo-tree-id264 . -1) (undo-tree-id265 . -1) (undo-tree-id266 . -1) (undo-tree-id267 . -1) (undo-tree-id268 . -1) (undo-tree-id269 . -1) (undo-tree-id270 . -1) (undo-tree-id271 . -1) (undo-tree-id272 . -1) (undo-tree-id273 . -1) (undo-tree-id274 . -1) (undo-tree-id275 . -1) (undo-tree-id276 . -1) (undo-tree-id277 . -1) (undo-tree-id278 . -1) (undo-tree-id279 . -1) (undo-tree-id280 . -1) (undo-tree-id281 . -1) (undo-tree-id282 . -1) (34264 . 34265) (nil rear-nonsticky t 33980 . 33981)) (26718 28836 383014 725000) 0 nil])
+nil
+([nil nil ((#("
+" 0 1 (fontified t)) . 35660) (undo-tree-id284 . -1)) nil (26718 28850 259192 606000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 33981)) ((33981 . 33982)) (26718 28836 144044 993000) 0 nil])
+([nil current ((#("{}" 0 2 (fontified t)) . -20) (t 26718 28850 262968 275000) (22 . 66) 1 (t 26718 28850 262968 275000)) nil (26718 31215 409784 272000) 0 nil])
+([nil nil ((#("
+Латын Америкасы өзінің проблемаларына қарамастан, экономикалық өсу мен
+даму үшін айтарлықтай әлеуетке ие. Өңірдегі өнеркәсіптік саясаттың сәтті
+мысалдары мақсатты күш-жігердің елеулі өзгерістерге әкелетінін
+көрсетеді. Табысты тәжірибелерден сабақ ала отырып, Латын Америкасы
+елдері жаһандық экономикада күшті орын алуға көмектесетін тиімдірек
+стратегиялар жасай алады.
+" 0 1 (fontified t) 1 208 (fontified t) 208 370 (fontified t)) . 33383) (undo-tree-id86 . -344) (undo-tree-id87 . -369) (undo-tree-id88 . -344) (undo-tree-id89 . -370) (undo-tree-id90 . -370) (undo-tree-id91 . -370) (undo-tree-id92 . -370) (undo-tree-id93 . -344) 33727 (t 26718 28807 584241 58000)) ((33383 . 33753)) (26718 28835 859116 199000) 0 nil])
+nil
+([nil nil ((33610 . 33611) 33590) ((#("
+" 0 1 (fontified t)) . 33610)) (26718 28835 643118 815000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 33610 . 33611) (#("
+" 0 1 (fontified nil)) . -33980) (33610 . 33981) 33590) ((#("
+
+Латын Америкасы өзінің проблемаларына қарамастан, экономикалық өсу мен
+даму үшін айтарлықтай әлеуетке ие. Өңірдегі өнеркәсіптік саясаттың сәтті
+мысалдары мақсатты күш-жігердің елеулі өзгерістерге әкелетінін
+көрсетеді. Табысты тәжірибелерден сабақ ала отырып, Латын Америкасы
+елдері жаһандық экономикада күшті орын алуға көмектесетін тиімдірек
+стратегиялар жасай алады.
+" 0 1 (fontified nil rear-nonsticky nil) 1 2 (fontified nil) 2 72 (fontified t) 72 73 (fontified t) 73 209 (fontified t) 209 345 (fontified t) 345 370 (fontified nil) 370 371 (fontified nil)) . 33610) (undo-tree-id94 . -1) (undo-tree-id95 . -1) (undo-tree-id96 . -1) (undo-tree-id97 . -1) (undo-tree-id98 . -72) (undo-tree-id99 . -1) (undo-tree-id100 . -1) (undo-tree-id101 . -1) (undo-tree-id102 . -1) (undo-tree-id103 . -1) (undo-tree-id104 . -1) (undo-tree-id105 . -1) (undo-tree-id106 . -1) (undo-tree-id107 . -1) (undo-tree-id108 . -1) (undo-tree-id109 . -1) (undo-tree-id110 . -1) (undo-tree-id111 . -1) (undo-tree-id112 . -1) (undo-tree-id113 . -1) (undo-tree-id114 . -1) (undo-tree-id115 . -1) (undo-tree-id116 . -1) (undo-tree-id117 . -1) (undo-tree-id118 . -1) (undo-tree-id119 . -1) (undo-tree-id120 . -1) (undo-tree-id121 . -1) (undo-tree-id122 . -1) (undo-tree-id123 . -1) (undo-tree-id124 . -1) (undo-tree-id125 . -1) (undo-tree-id126 . -1) (undo-tree-id127 . -1) (undo-tree-id128 . -1) (undo-tree-id129 . -1) (undo-tree-id130 . -1) (undo-tree-id131 . -1) (undo-tree-id132 . -1) (undo-tree-id133 . -1) (undo-tree-id134 . -1) (undo-tree-id135 . -1) (undo-tree-id136 . -1) (undo-tree-id137 . -1) (undo-tree-id138 . -1) (undo-tree-id139 . -1) (undo-tree-id140 . -1) (undo-tree-id141 . -1) (undo-tree-id142 . -1) (undo-tree-id143 . -1) (undo-tree-id144 . -1) (undo-tree-id145 . -1) (undo-tree-id146 . -1) (undo-tree-id147 . -1) (undo-tree-id148 . -1) (undo-tree-id149 . -1) (undo-tree-id150 . -1) (undo-tree-id151 . -1) (undo-tree-id152 . -1) (undo-tree-id153 . -1) (undo-tree-id154 . -1) (undo-tree-id155 . -1) (undo-tree-id156 . -1) (undo-tree-id157 . -1) (undo-tree-id158 . -1) (undo-tree-id159 . -1) (undo-tree-id160 . -1) (undo-tree-id161 . -1) (undo-tree-id162 . -1) (undo-tree-id163 . -1) (undo-tree-id164 . -1) (undo-tree-id165 . -1) (undo-tree-id166 . -1) (undo-tree-id167 . -1) (undo-tree-id168 . -1) (undo-tree-id169 . -1) (undo-tree-id170 . -1) (undo-tree-id171 . -1) (undo-tree-id172 . -1) (undo-tree-id173 . -1) (undo-tree-id174 . -1) (undo-tree-id175 . -1) (undo-tree-id176 . -1) (undo-tree-id177 . -1) (undo-tree-id178 . -1) (undo-tree-id179 . -1) (undo-tree-id180 . -1) (undo-tree-id181 . -1) (undo-tree-id182 . -1) (undo-tree-id183 . -1) (undo-tree-id184 . -1) (undo-tree-id185 . -1) (undo-tree-id186 . -1) (undo-tree-id187 . -1) (undo-tree-id188 . -1) (undo-tree-id189 . -1) (undo-tree-id190 . -1) (undo-tree-id191 . -1) (undo-tree-id192 . -1) (undo-tree-id193 . -1) (undo-tree-id194 . -1) (undo-tree-id195 . -1) (undo-tree-id196 . -1) (undo-tree-id197 . -1) (undo-tree-id198 . -1) (undo-tree-id199 . -1) (undo-tree-id200 . -1) (undo-tree-id201 . -1) (undo-tree-id202 . -1) (undo-tree-id203 . -1) (undo-tree-id204 . -1) (undo-tree-id205 . -1) (undo-tree-id206 . -1) (undo-tree-id207 . -1) (undo-tree-id208 . -1) (undo-tree-id209 . -1) (undo-tree-id210 . -1) (undo-tree-id211 . -1) (undo-tree-id212 . -1) (undo-tree-id213 . -1) (undo-tree-id214 . -1) (undo-tree-id215 . -1) (undo-tree-id216 . -1) (undo-tree-id217 . -1) (undo-tree-id218 . -1) (undo-tree-id219 . -1) (undo-tree-id220 . -1) (undo-tree-id221 . -1) (undo-tree-id222 . -1) (undo-tree-id223 . -1) (undo-tree-id224 . -1) (undo-tree-id225 . -1) (undo-tree-id226 . -1) (undo-tree-id227 . -1) (undo-tree-id228 . -1) (undo-tree-id229 . -1) (undo-tree-id230 . -1) (undo-tree-id231 . -1) (undo-tree-id232 . -1) (undo-tree-id233 . -1) (undo-tree-id234 . -1) (undo-tree-id235 . -1) (undo-tree-id236 . -1) (undo-tree-id237 . -1) (undo-tree-id238 . -1) (33980 . 33981) (nil rear-nonsticky t 33610 . 33611)) (26718 28835 450502 222000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 33611) (undo-tree-id85 . -1)) ((33611 . 33612) (t 26718 28822 818143 690000)) (26718 28822 815535 31000) 0 nil])
 nil

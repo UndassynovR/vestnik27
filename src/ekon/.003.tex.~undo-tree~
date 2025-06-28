@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"59514e2b0ca295fa8d585bd909aa65ed8e169c49"
+"a5b5efcf7b04034c705b77ad96887946796de63d"
 [nil nil nil nil (26699 55038 434905 832000) 0 nil]
 ([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 25) (undo-tree-id79 . -9) (t 26689 8827 851864 879000)) nil (26699 55038 434904 653000) 0 nil])
 ([nil nil ((64 . 65) (#("
@@ -328,5 +328,8 @@ nil
 ([nil nil ((30478 . 30480) (#("@" 0 1 (fontified t)) . -30478) (undo-tree-id401 . -1) (undo-tree-id402 . -1) (undo-tree-id403 . -1) (undo-tree-id404 . -1) (undo-tree-id405 . -1) (undo-tree-id406 . -1) (undo-tree-id407 . -1) (undo-tree-id408 . -1) (undo-tree-id409 . -1) (undo-tree-id410 . -1) (undo-tree-id411 . -1) (undo-tree-id412 . -1) (undo-tree-id413 . -1) (undo-tree-id414 . -1) (undo-tree-id415 . -1) (undo-tree-id416 . -1) (undo-tree-id417 . -1) (undo-tree-id418 . -1) (undo-tree-id419 . -1) (undo-tree-id420 . -1) (undo-tree-id421 . -1) (undo-tree-id422 . -1) (undo-tree-id423 . -1) (undo-tree-id424 . -1) (undo-tree-id425 . -1) (undo-tree-id426 . -1) (undo-tree-id427 . -1) (undo-tree-id428 . -1) (undo-tree-id429 . -1) (undo-tree-id430 . -1) (undo-tree-id431 . -1) (undo-tree-id432 . -1) (undo-tree-id433 . -1) (undo-tree-id434 . -1) (undo-tree-id435 . -1) (undo-tree-id436 . -1) (undo-tree-id437 . -1) (undo-tree-id438 . -1) (undo-tree-id439 . -1) (undo-tree-id440 . -1) 30479 (30478 . 30479) (t 26718 9742 305328 753000)) nil (26718 9762 911765 412000) 0 nil])
 ([nil nil ((30969 . 30971) (t 26718 9762 914315 796000)) nil (26718 9781 930080 881000) 0 nil])
 ([nil nil ((31889 . 31891) (t 26718 9781 932303 824000)) nil (26718 9789 115961 147000) 0 nil])
-([nil current ((31709 . 31711)) nil (26718 9789 115957 199000) 0 nil])
+([nil nil ((31709 . 31711)) nil (26718 9789 115957 199000) 0 nil])
+([nil nil ((#("{}" 0 2 (fontified t)) . -20) (t 26718 25299 794662 93000) (22 . 66) 2235 (t 26718 25299 794662 93000)) nil (26718 30984 656228 482000) 0 nil])
+([nil nil ((32006 . 32007) (t 26718 30984 658326 237000)) nil (26719 47489 514377 295000) 0 nil])
+([nil current ((31416 . 31417)) nil (26719 47489 514373 248000) 0 nil])
 nil

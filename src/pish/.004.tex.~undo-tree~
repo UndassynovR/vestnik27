@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"f95594ae33c1b8a45736521812fe9bcab115f87c"
+"99f6f3c2f41e45d4d474e247ebe7b75e2e8283f0"
 [nil nil nil nil (26716 59273 260593 750000) 0 nil]
 ([nil nil ((3726 . 3734) (t 26715 40779 163977 382000)) nil (26716 59299 169119 120000) 0 nil])
 ([nil nil ((188 . 233) 186 (t 26716 59273 261449 593000)) nil (26716 59308 267635 985000) 0 nil] [nil nil ((188 . 233) 186 (t 26716 59273 261449 593000)) ((#("\\alink{https://orcid.org/0000-0001-7811-0697}" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 44 (fontified t foreign-selection nil) 44 45 (fontified t)) . 188)) (26716 59299 168892 463000) 0 nil] [nil nil ((188 . 233) 186 (t 26716 59273 261449 593000)) ((#("\\alink{https://orcid.org/0000-0001-7811-0697}" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 44 (fontified t foreign-selection nil) 44 45 (fontified t)) . 188)) (26716 59297 120382 846000) 0 nil] [nil nil ((3734 . 3735) (t 26716 59273 261449 593000) 3733) ((#("
@@ -39,5 +39,11 @@ spectra of the analyzed samples.
 ([nil nil ((#("8" 0 1 (fontified t)) . 15032) (15033 . 15034) 15032) nil (26716 59441 276479 71000) 0 nil])
 ([nil nil ((nil fontified t 15032 . 15033) (t 26716 59441 277464 956000) (#("7" 0 1 (fontified t)) . 15032) (t 26716 59441 277464 956000) (15033 . 15034) 15032 (t 26716 59441 277464 956000)) nil (26716 59448 186905 81000) 0 nil])
 ([nil nil ((15134 . 15155) (15919 . 15935) (t 26716 59448 188492 151000)) nil (26716 59461 810227 884000) 0 nil])
-([nil current ((24198 . 24200) (t 26716 59461 811546 381000)) nil (26716 59475 977089 627000) 0 nil])
+([nil nil ((24198 . 24200) (t 26716 59461 811546 381000)) nil (26716 59475 977089 627000) 0 nil])
+([nil nil ((#("{}" 0 2 (fontified t)) . -20) (t 26717 10309 661956 88000) (22 . 66) 1947 (t 26717 10309 661956 88000)) nil (26718 30568 744836 513000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . -13148) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) 13149 (13146 . 13149) (t 26718 30568 745984 733000)) nil (26718 51113 946123 900000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 21700) (undo-tree-id11 . -1) (t 26718 51113 947676 389000)) nil (26718 51150 786305 467000) 0 nil])
+([nil nil ((#(":" 0 1 (fontified t)) . 21961) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (t 26718 51150 787484 186000)) nil (26718 51168 59275 842000) 0 nil])
+([nil current ((23948 . 23949) (#(";" 0 1 (fontified t)) . 23948) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1) (undo-tree-id25 . -1) (undo-tree-id26 . -1) (undo-tree-id27 . -1) (undo-tree-id28 . -1) (undo-tree-id29 . -1) (t 26718 51168 60394 187000)) nil (26718 51238 304763 896000) 0 nil])
 nil
