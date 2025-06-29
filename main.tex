@@ -6,19 +6,19 @@
 \begin{document}
 
 % Include cover page (PDF)
-%% \includepdf[pages=-,fitpaper=true]{media/vestnik-front.pdf}
+\includepdf[pages=-,noautoscale,width=\paperwidth,height=\paperheight]{media/vestnik-front.png}
 
 % Disable page numbering for the front matter
 \pagenumbering{gobble}
 
 % First pages (title, abstract, etc.)
-%% \input{src/first_pages.tex}
+\input{src/first_pages.tex}
 
 % Table of contents title
-%% \cleardoublepage{}
-%% \begin{center}{\large МАЗМҰНЫ – СОДЕРЖАНИЕ – CONTENTS}\end{center}
-%% \tableofcontents
-%% \clearpage
+\cleardoublepage{}
+\begin{center}{\large МАЗМҰНЫ – СОДЕРЖАНИЕ – CONTENTS}\end{center}
+\tableofcontents
+\clearpage
 
 % Enable page numbering and fancy headers/footers
 \pagenumbering{arabic}
@@ -49,22 +49,22 @@
 %% \input{src/chem/006.tex} %% DONE
 %% \input{src/chem/007.tex} %% DONE
 
-%% \input{src/pish/001.tex} %% DONE
-%% \input{src/pish/002.tex} %% DONE
-%% \input{src/pish/003.tex} %% DONE
-%% \input{src/pish/004.tex} %% DONE
-%% \input{src/pish/005.tex} %% DONE
-%% \input{src/pish/006.tex} %% DONE
-%% \input{src/pish/007.tex} %% DONE
-%% \input{src/pish/008.tex} %% DONE
-%% \input{src/pish/009.tex} %% DONE
-%% \input{src/pish/010.tex} %% DONE
-%% \input{src/pish/011.tex} %% DONE
-%% \input{src/pish/012.tex} %% DONE
-%% \input{src/pish/013.tex} %% DONE
-%% \input{src/pish/014.tex} %% DONE
-%% \input{src/pish/015.tex} %% DONE
-%% \input{src/pish/016.tex} %% DONE
+\input{src/pish/001.tex} %% DONE
+\input{src/pish/002.tex} %% DONE
+\input{src/pish/003.tex} %% DONE
+\input{src/pish/004.tex} %% DONE
+\input{src/pish/005.tex} %% DONE
+\input{src/pish/006.tex} %% DONE
+\input{src/pish/007.tex} %% DONE
+\input{src/pish/008.tex} %% DONE
+\input{src/pish/009.tex} %% DONE
+\input{src/pish/010.tex} %% DONE
+\input{src/pish/011.tex} %% DONE
+\input{src/pish/012.tex} %% DONE
+\input{src/pish/013.tex} %% DONE
+\input{src/pish/014.tex} %% DONE
+\input{src/pish/015.tex} %% DONE
+\input{src/pish/016.tex} %% DONE
 
 %% \input{src/gorn/001.tex} %% DONE
 %% \input{src/gorn/002.tex} %% DONE
@@ -73,7 +73,7 @@
 %% \input{src/gorn/005.tex} %% DONE
 
 %% \input{src/ekon/001.tex} %% DONE
-\input{src/ekon/002.tex} %% DONE <here
+%% \input{src/ekon/002.tex} %% DONE
 %% \input{src/ekon/003.tex} %% DONE
 %% \input{src/ekon/004.tex} %% DONE
 %% \input{src/ekon/005.tex} %% DONE
@@ -88,6 +88,6 @@
 %% \input{src/ekon/014.tex} %% DONE
 
 % Last page (appendix, references, etc.)
-%% \input{src/last_page.tex}
+\input{src/last_page.tex}
 
 \end{document}

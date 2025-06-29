@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"98308a974d272a9a3499cd7cd06a541b7f1d0b18"
+"5324fd9464cac9fc649abbad581c0b3f37e89af8"
 [nil nil nil nil (26709 10788 183518 34000) 0 nil]
 ([nil nil ((21974 . 21978) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -21974) (undo-tree-id14 . -1) (21973 . 21975) (#("b" 0 1 (face font-lock-keyword-face fontified t)) . -21973) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) 21974 (21959 . 21974) (#("e" 0 1 (face font-lock-keyword-face fontified t)) . -21959) (undo-tree-id18 . -1) (#("t" 0 1 (face font-lock-keyword-face fontified t)) . -21960) (undo-tree-id19 . -1) (#(" " 0 1 (fontified t)) . -21961) (undo-tree-id20 . -1) 21962 (21953 . 21962) (#("7" 0 1 (fontified t)) . -21953) (undo-tree-id21 . -1) 21954 (21952 . 21954) (#("5" 0 1 (fontified t)) . -21952) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1) 21953 (21947 . 21953) (#(" " 0 1 (fontified t)) . -21947) (undo-tree-id25 . -1) (#("=" 0 1 (fontified t)) . -21948) (undo-tree-id26 . -1) 21949 (21947 . 21949) (#(" " 0 1 (fontified t)) . -21947) (undo-tree-id27 . -1) 21948 (21947 . 21948) (#("#" 0 1 (fontified t)) . -21947) (undo-tree-id28 . -1) 21948 (21947 . 21948) (#(" " 0 1 (fontified t)) . -21947) (undo-tree-id29 . -1) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (#("!" 0 1 (fontified t)) . -21948) (undo-tree-id32 . -1) 21949 (21948 . 21949) (#("#" 0 1 (fontified t)) . -21948) (undo-tree-id33 . -1) 21949 (21948 . 21949) (#("/" 0 1 (fontified t)) . -21948) (undo-tree-id34 . -1) (undo-tree-id35 . -1) (undo-tree-id36 . -1) 21949 (21940 . 21949) (21939 . 21940) (t 26707 60558 684110 592000) 21939) nil (26709 10788 183871 626000) 0 nil])
 ([nil nil ((21956 . 21960) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -21956) (undo-tree-id188 . -1) (21955 . 21957) (#("bullet" 0 6 (face font-lock-keyword-face fontified t)) . 21955) (undo-tree-id189 . -5)) nil (26709 10847 92734 301000) 0 nil] [nil nil ((22012 . 22017) (#("b" 0 1 (fontified nil)) . -22012) (undo-tree-id0 . -1) 22013 (21998 . 22013) (#("e" 0 1 (fontified nil)) . -21998) (undo-tree-id1 . -1) (#("t" 0 1 (fontified nil)) . -21999) (undo-tree-id2 . -1) (#(" " 0 1 (fontified nil)) . -22000) (undo-tree-id3 . -1) 22001 (21992 . 22001) (#("7" 0 1 (fontified nil)) . -21992) (undo-tree-id4 . -1) 21993 (21991 . 21993) (#("5" 0 1 (fontified nil)) . -21991) (undo-tree-id5 . -1) 21992 (21986 . 21992) (#(" " 0 1 (fontified nil)) . -21986) (undo-tree-id6 . -1) (#("=" 0 1 (fontified nil)) . -21987) (undo-tree-id7 . -1) 21988 (21986 . 21988) (#(" " 0 1 (fontified nil)) . -21986) (undo-tree-id8 . -1) 21987 (21986 . 21987) (#("#" 0 1 (fontified nil)) . -21986) (undo-tree-id9 . -1) 21987 (21986 . 21987) (#(" " 0 1 (fontified nil)) . -21986) (undo-tree-id10 . -1) (#("!" 0 1 (fontified nil)) . -21987) (undo-tree-id11 . -1) 21988 (21987 . 21988) (#("#" 0 1 (fontified nil)) . -21987) (undo-tree-id12 . -1) 21988 (21987 . 21988) (#("/" 0 1 (fontified nil)) . -21987) (undo-tree-id13 . -1) 21988 (21979 . 21988) (21978 . 21979) 21955) ((#("
@@ -453,5 +453,40 @@ nil
 ([nil nil ((38378 . 38380) (#("5" 0 1 (fontified nil)) . -38378) (undo-tree-id641 . -1) 38379 (38378 . 38379) (#("8" 0 1 (fontified t)) . 38378) (undo-tree-id642 . -1) (undo-tree-id643 . -1) (undo-tree-id644 . -1) (undo-tree-id645 . -1) (undo-tree-id646 . -1) (undo-tree-id647 . -1) (undo-tree-id648 . -1) (undo-tree-id649 . -1) (undo-tree-id650 . -1) (undo-tree-id651 . -1) (undo-tree-id652 . -1) (undo-tree-id653 . -1) (undo-tree-id654 . -1) (undo-tree-id655 . -1) (undo-tree-id656 . -1) (undo-tree-id657 . -1) (undo-tree-id658 . -1) (undo-tree-id659 . -1) (undo-tree-id660 . -1) (undo-tree-id661 . -1) (undo-tree-id662 . -1) (undo-tree-id663 . -1) (undo-tree-id664 . -1) (undo-tree-id665 . -1) (undo-tree-id666 . -1) (undo-tree-id667 . -1) (undo-tree-id668 . -1) (undo-tree-id669 . -1) (undo-tree-id670 . -1)) nil (26718 19315 889875 793000) 0 nil])
 nil
 ([nil nil ((#("{}" 0 2 (fontified t)) . -20) (t 26718 25299 798662 67000) (22 . 66) 1 (t 26718 25299 798662 67000)) nil (26718 29977 95372 272000) 0 nil])
-([nil current ((55710 . 55722) (54564 . 54576) 54544 (t 26718 29977 99766 459000)) nil (26718 37182 312299 944000) 0 nil])
+([nil nil ((55710 . 55722) (54564 . 54576) 54544 (t 26718 29977 99766 459000)) nil (26719 49439 998446 929000) 0 nil])
+([nil nil ((51836 . 51837) (t 26718 37182 316715 821000)) nil (26719 49450 456207 921000) 0 nil] [nil nil ((nil rear-nonsticky nil 51863 . 51864) (nil fontified nil 51836 . 51864) (51836 . 51864) 51835 (t 26718 37182 316715 821000)) ((#("10.1007/978-3-030-19807-7_15" 0 26 (fontified nil) 26 27 (face (subscript) display (raise -0.2) fontified nil) 27 28 (rear-nonsticky nil fontified nil)) . 51836) (undo-tree-id0 . -27) (undo-tree-id1 . -27) (undo-tree-id2 . -27) (undo-tree-id3 . -27) (undo-tree-id4 . -27) (nil rear-nonsticky t 51863 . 51864)) (26719 49439 998196 430000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 51864 . 51865) (nil fontified nil 51837 . 51865) (51837 . 51865) 51836) nil (26719 49450 456206 829000) 0 nil])
+nil
+([nil nil ((51862 . 51863)) nil (26719 49450 456206 18000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 54585 . 54586) (nil fontified nil 54556 . 54586) (54556 . 54586) 54555) nil (26719 49450 456202 381000) 0 nil])
+([nil nil ((#("На рисунке 5 первый график изображает динамику изменения потерь (Log
+Loss) на протяжении 100 итераций обучения модели. Синяя линия
+представляет собой потери на обучающей выборке, а оранжевая -- на
+валидационной. Можно заметить, что по мере увеличения количества
+итераций потери на обеих выборках значительно уменьшаются и выходят на
+плато, приближаясь к нулю. Это говорит о том, что модель успешно
+обучается, минимизируя ошибки в прогнозировании как на тренировочных,
+так и на валидационных данных, что указывает на хорошую способность
+модели к обобщению. Стабилизация на низком уровне потерь свидетельствует
+о высокой точности модели. Второй график на рисунке 5 демонстрирует
+точность (Accuracy) для обучающей и валидационной выборок. Синяя линия
+показывает, как растет точность модели на тренировочной выборке с
+увеличением числа итераций, достигая практически 100\\%. Однако для
+валидационной выборки (оранжевая линия) наблюдается небольшое снижение
+точности после 50 итераций, что может указывать на незначительное
+переобучение модели. Тем не менее, обе линии остаются достаточно
+высокими, что подтверждает эффективность модели. Процесс обучения модели
+XGBoost проходит с хорошей конвергенцией: потери минимизируются, а
+точность модели на тестовых данных остается на высоком уровне. Этот
+результат указывает на то, что модель справляется с задачей
+классификации эрозионных степеней, не только на тренировочных данных, но
+и на новых данных, что делает её применимой для анализа и прогноза
+деградации земельных участков в реальных условиях.
+
+" 0 128 (fontified t) 128 131 (fontified t) 131 866 (fontified t) 866 868 (face font-lock-keyword-face fontified t) 868 1543 (fontified t)) . 45979) (undo-tree-id19 . -1542) (undo-tree-id20 . -1542) (undo-tree-id21 . -1542) (undo-tree-id22 . -1542) (undo-tree-id23 . -1542) (undo-tree-id24 . -1542) (undo-tree-id25 . -1542) (undo-tree-id26 . -1542) 47521 (t 26719 49450 460904 592000)) nil (26720 11943 232085 459000) 0 nil])
+([nil nil ((45485 . 45486) 45438) nil (26720 11943 232006 531000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 45486 . 45487) (#("
+" 0 1 (fontified nil)) . -47029) (45486 . 47030)) nil (26720 11943 232005 640000) 0 nil])
+([nil current ((#("
+" 0 1 (fontified t)) . 47029) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . 1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1)) nil (26720 11943 232001 592000) 0 nil])
 nil

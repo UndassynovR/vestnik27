@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"233438493a9cbb6d08afb726b4cdc25dfeea28d1"
+"d36854db27a7ed07aac22844df6c6c2c4944290c"
 [nil nil nil nil (26716 60785 117228 916000) 0 nil]
 ([nil nil ((249 . 294) 248 (t 26715 40779 145977 331000)) nil (26716 60785 117228 165000) 0 nil])
 ([nil nil ((336 . 381)) nil (26716 60785 117226 903000) 0 nil])
@@ -89,9 +89,10 @@ nil
 ([nil nil ((#("4-353" 0 4 (fontified t) 4 5 (rear-nonsticky t fontified t)) . 33987) (undo-tree-id38 . -4)) nil (26719 42025 399344 560000) 0 nil] [nil nil ((33991 . 33992)) ((#("u" 0 1 (fontified t)) . 33991)) (26719 42020 618077 636000) 0 nil])
 ([nil nil ((#("DOI 10.58805/kazutb.v.3.2" 0 25 (fontified t)) . 33962) (undo-tree-id33 . -24) (undo-tree-id34 . -2) (undo-tree-id35 . -2) (undo-tree-id36 . -2) (undo-tree-id37 . -2)) nil (26719 42025 399341 364000) 0 nil])
 ([nil nil ((33992 . 33993) (#("3" 0 1 (rear-nonsticky t fontified t)) . 33992)) ((33992 . 33993) (#("3" 0 1 (rear-nonsticky t fontified t)) . 33992)) (26719 42020 62543 310000) 0 nil])
-([nil current ((34715 . 34716) (#(";" 0 1 (fontified t)) . 34715) (undo-tree-id39 . -1) (t 26719 42025 401593 242000)) nil (26719 42078 745425 494000) 0 nil])
+([nil nil ((34715 . 34716) (#(";" 0 1 (fontified t)) . 34715) (undo-tree-id39 . -1) (t 26719 42025 401593 242000)) nil (26719 42078 745425 494000) 0 nil])
 ([nil nil ((33962 . 33963)) ((#("D" 0 1 (fontified t)) . 33962)) (26719 42018 890708 2000) 0 nil])
-nil
+([nil current ((#("," 0 1 (fontified t)) . 719) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (t 26719 42078 747336 847000)) nil (26719 52327 150591 296000) 0 nil])
 ([nil nil ((33962 . 33969)) ((#("DDDDDDD" 0 7 (fontified t)) . 33962)) (26719 42018 693066 157000) 0 nil])
+nil
 ([nil nil ((#("i" 0 1 (fontified nil)) . -33963) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (33962 . 33964)) ((#("Di" 0 1 (fontified nil) 1 2 (fontified nil)) . 33962) (undo-tree-id23 . -1) (undo-tree-id24 . -1) (undo-tree-id25 . -2) (undo-tree-id26 . -2) (undo-tree-id27 . -2) (undo-tree-id28 . -2) (undo-tree-id29 . -2) (undo-tree-id30 . -1) (undo-tree-id31 . -2) (undo-tree-id32 . -1) (33963 . 33964)) (26719 42018 692908 773000) 0 nil])
 nil

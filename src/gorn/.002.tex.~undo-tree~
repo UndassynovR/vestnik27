@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"d9e36d4c1402cb65ac69499903d731fa16a7bd2e"
+"0b289836e3ef41421f5528972f0f1cd32e678c93"
 [nil nil nil nil (26711 47797 202654 654000) 0 nil]
 ([nil nil ((#(" " 0 1 (fontified t)) . 564) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (t 26707 60558 683110 580000)) nil (26711 47797 202653 612000) 0 nil])
 ([nil nil ((577 . 578) (#(" " 0 1 (fontified t)) . 577) (undo-tree-id0 . -1)) nil (26711 47797 202643 954000) 0 nil])
@@ -655,5 +655,37 @@ nil
 ([nil nil ((#("." 0 1 (fontified t)) . 17158)) nil (26719 43024 539568 133000) 0 nil])
 ([nil nil ((#("." 0 1 (fontified t)) . 17700)) nil (26719 43024 539567 742000) 0 nil])
 ([nil nil ((#("." 0 1 (fontified t)) . 17984)) nil (26719 43024 539563 404000) 0 nil])
-([nil current ((25140 . 25141) (#(";" 0 1 (fontified t)) . 25140) (undo-tree-id13 . -1) (t 26719 43024 543790 847000)) nil (26719 43918 220887 467000) 0 nil])
+([nil nil ((25140 . 25141) (#(";" 0 1 (fontified t)) . 25140) (undo-tree-id13 . -1) (t 26719 43024 543790 847000)) nil (26719 43918 220887 467000) 0 nil])
+([nil nil ((10927 . 10928) (#("А" 0 1 (face tex-math fontified t)) . 10927) (t 26719 43918 224495 411000)) nil (26719 53965 345461 197000) 0 nil])
+([nil nil ((10933 . 10934) (#("B" 0 1 (face tex-math fontified t)) . 10933)) nil (26719 53965 345460 475000) 0 nil])
+([nil nil ((11042 . 11043) (#("f" 0 1 (face tex-math fontified t)) . 11042)) nil (26719 53965 345459 724000) 0 nil])
+([nil nil ((11047 . 11048) (#("u" 0 1 (face tex-math fontified t)) . 11047)) nil (26719 53965 345458 892000) 0 nil])
+([nil nil ((10517 . 10518) (#("Р" 0 1 (face tex-math fontified t)) . 10517)) nil (26719 53965 345458 311000) 0 nil])
+([nil nil ((11168 . 11169) (#("Р" 0 1 (face tex-math fontified t)) . 11168)) nil (26719 53965 345457 540000) 0 nil])
+([nil nil ((14087 . 14088) (#("Р" 0 1 (face tex-math fontified t)) . 14087) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1)) nil (26719 53965 345454 13000) 0 nil])
+([nil current ((nil rear-nonsticky nil 26215 . 26216) (nil fontified nil 25193 . 26216) (25193 . 26216) (#("Zaidemova Zh. - Ph. Sci, Professor, Atyrau Uni󠀁versity of Oil and Gas
+nam󠀁ed aft󠀁er S. Ute󠀁baev, Aty󠀁rau, Kaz󠀁akhstan, e-mail:
+b.n.m.99@list.ru;
+
+Bissengaliyev M. -- Ph. sci, associate professor, Atyrau Uni󠀁versity of
+Oil and Gas nam󠀁ed aft󠀁er S. Ute󠀁baev, Aty󠀁rau, Kaz󠀁akhstan, e-mail:
+maks\\_bisengali@mail.ru;
+
+Medetov Sh. - Ph. Sci, Associate Professor, Atyrau Uni󠀁versity of Oil and
+Gas nam󠀁ed aft󠀁er S. Ute󠀁baev, Aty󠀁rau, Kaz󠀁akhstan, e-mail: medetov.76@mail.ru;
+
+Doskazieva G- Ph. Sci, Professor, Atyrau Uni󠀁versity of Oil and Gas nam󠀁ed
+aft󠀁er S. Ute󠀁baev, Aty󠀁rau, Kaz󠀁akhstan, e-mail: aing-zhomart@mail.ru;
+
+Abdehova G - Senior lecturer, Atyrau Uni󠀁versity of Oil and Gas
+nam󠀁ed aft󠀁er S. Ute󠀁baev, Aty󠀁rau, Kaz󠀁akhstan, e-mail:\\\\
+gulya6320@mail.ru;
+
+Suyungariev G. - Ph. Sci, Assistant Professor, Atyrau
+Uni󠀁versity of Oil and Gas nam󠀁ed aft󠀁er S. Ute󠀁baev, Aty󠀁rau, Kaz󠀁akhstan,
+e-mail: s.gabit72@mail.ru;
+
+Mukambetkalieva A. - Doctoral, Atyrau Uni󠀁versity of Oil and Gas nam󠀁ed
+aft󠀁er S. Ute󠀁baev, Aty󠀁rau, Kaz󠀁akhstan, e-mail: \\\\ainash\\_m\\_89@mail.ru.
+" 0 139 (fontified t) 139 145 (fontified t) 145 218 (fontified t) 218 244 (fontified t) 244 291 (fontified t) 291 293 (face font-lock-keyword-face fontified t) 293 737 (fontified t) 737 739 (face font-lock-warning-face fontified t) 739 1040 (fontified t) 1040 1042 (face font-lock-warning-face fontified t) 1042 1048 (fontified t) 1048 1050 (face font-lock-keyword-face fontified t) 1050 1051 (fontified t) 1051 1053 (face font-lock-keyword-face fontified t) 1053 1065 (fontified t)) . 25193) (undo-tree-id16 . -1065) (undo-tree-id17 . -1064) (undo-tree-id18 . -39) (undo-tree-id19 . -1032) (undo-tree-id20 . -39) (undo-tree-id21 . -1032) (undo-tree-id22 . -508) (undo-tree-id23 . -508) (undo-tree-id24 . -508) (undo-tree-id25 . -508) (undo-tree-id26 . -508) (undo-tree-id27 . -586) (undo-tree-id28 . -586) (undo-tree-id29 . -586) (undo-tree-id30 . -586) (undo-tree-id31 . -586) (undo-tree-id32 . -616) (undo-tree-id33 . -616) (undo-tree-id34 . -616) (undo-tree-id35 . -616) (undo-tree-id36 . -616) (undo-tree-id37 . -656) (undo-tree-id38 . -656) (undo-tree-id39 . -656) (undo-tree-id40 . -656) (undo-tree-id41 . -656) (undo-tree-id42 . -724) (undo-tree-id43 . -724) (undo-tree-id44 . -724) (undo-tree-id45 . -724) (undo-tree-id46 . -724) (undo-tree-id47 . -758) (undo-tree-id48 . -758) (undo-tree-id49 . -758) (undo-tree-id50 . -758) (undo-tree-id51 . -758) (undo-tree-id52 . -759) (undo-tree-id53 . -759) (undo-tree-id54 . -759) (undo-tree-id55 . -759) (undo-tree-id56 . -759) (undo-tree-id57 . -799) (undo-tree-id58 . -799) (undo-tree-id59 . -799) (undo-tree-id60 . -799) (undo-tree-id61 . -799) (undo-tree-id62 . -855) (undo-tree-id63 . -855) (undo-tree-id64 . -855) (undo-tree-id65 . -855) (undo-tree-id66 . -855) (undo-tree-id67 . -916) (undo-tree-id68 . -916) (undo-tree-id69 . -916) (undo-tree-id70 . -916) (undo-tree-id71 . -916) (undo-tree-id72 . -917) (undo-tree-id73 . -917) (undo-tree-id74 . -917) (undo-tree-id75 . -917) (undo-tree-id76 . -917) (undo-tree-id77 . -957) (undo-tree-id78 . -957) (undo-tree-id79 . -957) (undo-tree-id80 . -957) (undo-tree-id81 . -957) (undo-tree-id82 . -957) (undo-tree-id83 . -957) (undo-tree-id84 . -957) (undo-tree-id85 . -957) (undo-tree-id86 . -957) (undo-tree-id87 . -957) (undo-tree-id88 . -957) (undo-tree-id89 . -957) (undo-tree-id90 . -957) (undo-tree-id91 . -957) (undo-tree-id92 . -957) (undo-tree-id93 . -957) (undo-tree-id94 . -957) (undo-tree-id95 . -957) (undo-tree-id96 . -957) (undo-tree-id97 . -990) (undo-tree-id98 . -1032) (undo-tree-id99 . -1032) (undo-tree-id100 . -1032) (undo-tree-id101 . -1032) (undo-tree-id102 . -1032) (undo-tree-id103 . -1032) (undo-tree-id104 . -1032) (undo-tree-id105 . -1032) (undo-tree-id106 . -1032) (undo-tree-id107 . -1032) (undo-tree-id108 . -1032) (undo-tree-id109 . -1032) (undo-tree-id110 . -1032) (undo-tree-id111 . -1032) (undo-tree-id112 . -1032) (undo-tree-id113 . -1032) (undo-tree-id114 . -1032) (undo-tree-id115 . -1032) (undo-tree-id116 . -1032) (undo-tree-id117 . -1032) (undo-tree-id118 . -1032) (undo-tree-id119 . -1032) (undo-tree-id120 . -1032) (undo-tree-id121 . -1032) (undo-tree-id122 . -1032) (undo-tree-id123 . -1032) (undo-tree-id124 . -1065) (undo-tree-id125 . -1065) 26258 (t 26719 53965 349203 979000)) nil (26719 54226 478359 960000) 0 nil])
 nil

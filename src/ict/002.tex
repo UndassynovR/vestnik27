@@ -285,6 +285,12 @@ characteristics of high-achieving students by classifying grades A and B
 as good (1) and all other grades as not good (0). Again, we train a
 machine learning model and use SHAP to identify the features that most
 strongly influence high performance.
+
+The function starts by separating features from the target variable. It
+then trains an XGBoost classifier to predict grades. SHAP values are
+computed to measure the impact of each feature on the model's
+predictions. By taking the mean absolute SHAP values, the most important
+features are identified.
 \end{multicols}
 
 \tcap{Table 1 - Feature Extraction Cases}
@@ -315,12 +321,6 @@ Function get_top_features(dataset):
 \end{lstlisting}
 
 \begin{multicols}{2}
-The function starts by separating features from the target variable. It
-then trains an XGBoost classifier to predict grades. SHAP values are
-computed to measure the impact of each feature on the model's
-predictions. By taking the mean absolute SHAP values, the most important
-features are identified.
-
 \emph{{\bfseries Prediction Calculation}}
 
 For the prediction calculation, we used the XGBoost Classifier

@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"cdd82a818f0679e8add4232756dabfefd69e8269"
+"adb0cb8f83da65bd8f6c3a85168d01a6995ae9ea"
 [nil nil nil nil (26716 59512 317196 877000) 0 nil]
 ([nil nil ((apply -3 209 278 undo--wrap-and-run-primitive-undo 209 278 ((209 . 212) 243 (t 26715 40779 138977 312000)))) nil (26716 59540 691524 644000) 0 nil] [nil nil ((apply -3 209 278 undo--wrap-and-run-primitive-undo 209 278 ((209 . 212) 243 (t 26715 40779 138977 312000)))) ((apply 3 209 275 undo--wrap-and-run-primitive-undo 209 275 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . 209) 243))) (26716 59512 316958 518000) 0 nil])
 ([nil nil ((apply 3 209 274 undo--wrap-and-run-primitive-undo 209 274 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -209) 243))) nil (26716 59540 691524 444000) 0 nil])
@@ -225,5 +225,7 @@ nil
 ([nil nil ((nil rear-nonsticky nil 44478 . 44479) (nil fontified nil 44221 . 44479) (44221 . 44479)) nil (26718 51483 8573 486000) 0 nil])
 ([nil nil ((44479 . 44480) 44478) nil (26718 51483 8573 166000) 0 nil])
 ([nil nil ((#(" " 0 1 (fontified nil)) . -44417) (44416 . 44417) (#(" " 0 1 (fontified nil)) . -44352) (44351 . 44352) (#(" " 0 1 (fontified nil)) . -44287) (44286 . 44287) 44391) nil (26718 51483 8572 424000) 0 nil])
-([nil current ((44218 . 44219) (#("." 0 1 (fontified t)) . 44218) (undo-tree-id58 . -1)) nil (26718 51483 8568 768000) 0 nil])
+([nil nil ((44218 . 44219) (#("." 0 1 (fontified t)) . 44218) (undo-tree-id58 . -1)) nil (26718 51483 8568 768000) 0 nil])
+([nil nil ((3251 . 3252) (t 26718 51483 10766 376000)) nil (26719 52094 305822 782000) 0 nil])
+([nil current ((#("\\vspace{1em}" 0 7 (face font-lock-keyword-face fontified t) 7 12 (fontified t)) . 25252) (undo-tree-id0 . -12) (undo-tree-id1 . -12) (undo-tree-id2 . -11) (t 26719 52094 308197 74000)) nil (26719 52138 313255 899000) 0 nil])
 nil

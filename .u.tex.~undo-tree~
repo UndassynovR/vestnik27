@@ -1,0 +1,568 @@
+(undo-tree-save-format-version . 1)
+"9d057da742d83474e1f61d7b40cc76982db8190a"
+[nil nil nil nil (26719 55737 500651 176000) 0 nil]
+([nil nil ((#("% Options for packages loaded elsewhere
+\\PassOptionsToPackage{unicode}{hyperref}
+\\PassOptionsToPackage{hyphens}{url}
+\\documentclass[
+]{article}
+\\usepackage{xcolor}
+\\usepackage{amsmath,amssymb}
+\\setcounter{secnumdepth}{-\\maxdimen} % remove section numbering
+\\usepackage{iftex}
+\\ifPDFTeX
+  \\usepackage[T1]{fontenc}
+  \\usepackage[utf8]{inputenc}
+  \\usepackage{textcomp} % provide euro and other symbols
+\\else % if luatex or xetex
+  \\usepackage{unicode-math} % this also loads fontspec
+  \\defaultfontfeatures{Scale=MatchLowercase}
+  \\defaultfontfeatures[\\rmfamily]{Ligatures=TeX,Scale=1}
+\\fi
+\\usepackage{lmodern}
+\\ifPDFTeX\\else
+  % xetex/luatex font selection
+\\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\\IfFileExists{upquote.sty}{\\usepackage{upquote}}{}
+\\IfFileExists{microtype.sty}{% use microtype if available
+  \\usepackage[]{microtype}
+  \\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\\makeatletter
+\\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \\IfFileExists{parskip.sty}{%
+    \\usepackage{parskip}
+  }{% else
+    \\setlength{\\parindent}{0pt}
+    \\setlength{\\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \\KOMAoptions{parskip=half}}
+\\makeatother
+\\setlength{\\emergencystretch}{3em} % prevent overfull lines
+\\providecommand{\\tightlist}{%
+  \\setlength{\\itemsep}{0pt}\\setlength{\\parskip}{0pt}}
+\\usepackage{bookmark}
+\\IfFileExists{xurl.sty}{\\usepackage{xurl}}{} % add URL line breaks if available
+\\urlstyle{same}
+\\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\\author{}
+\\date{}
+
+\\begin{document}
+
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 40 (face font-lock-comment-face fontified t) 40 61 (face font-lock-keyword-face fontified t) 61 81 (fontified t) 81 102 (face font-lock-keyword-face fontified t) 102 117 (fontified t) 117 131 (face font-lock-keyword-face fontified t) 131 135 (fontified t) 135 142 (face font-lock-builtin-face fontified t) 142 144 (fontified t) 144 155 (face font-lock-keyword-face fontified t) 155 156 (fontified t) 156 162 (face font-lock-builtin-face fontified t) 162 164 (fontified t) 164 175 (face font-lock-keyword-face fontified t) 175 176 (fontified t) 176 191 (face font-lock-builtin-face fontified t) 191 193 (fontified t) 193 204 (face font-lock-keyword-face fontified t) 204 205 (fontified t) 205 216 (face font-lock-variable-name-face fontified t) 216 219 (fontified t) 219 228 (face font-lock-keyword-face fontified t) 228 230 (fontified t) 230 257 (face font-lock-comment-face fontified t) 257 268 (face font-lock-keyword-face fontified t) 268 269 (fontified t) 269 274 (face font-lock-builtin-face fontified t) 274 276 (fontified t) 276 285 (face font-lock-keyword-face fontified t) 285 288 (fontified t) 288 299 (face font-lock-keyword-face fontified t) 299 304 (fontified t) 304 311 (face font-lock-builtin-face fontified t) 311 315 (fontified t) 315 326 (face font-lock-keyword-face fontified t) 326 333 (fontified t) 333 341 (face font-lock-builtin-face fontified t) 341 345 (fontified t) 345 356 (face font-lock-keyword-face fontified t) 356 357 (fontified t) 357 365 (face font-lock-builtin-face fontified t) 365 367 (fontified t) 367 400 (face font-lock-comment-face fontified t) 400 405 (face font-lock-keyword-face fontified t) 405 406 (fontified t) 406 427 (face font-lock-comment-face fontified t) 427 429 (fontified t) 429 440 (face font-lock-keyword-face fontified t) 440 441 (fontified t) 441 453 (face font-lock-builtin-face fontified t) 453 455 (fontified t) 455 482 (face font-lock-comment-face fontified t) 482 484 (fontified t) 484 504 (face font-lock-keyword-face fontified t) 504 529 (fontified t) 529 549 (face font-lock-keyword-face fontified t) 549 550 (fontified t) 550 559 (face font-lock-keyword-face fontified t) 559 584 (fontified t) 584 587 (face font-lock-keyword-face fontified t) 587 588 (fontified t) 588 599 (face font-lock-keyword-face fontified t) 599 600 (fontified t) 600 607 (face font-lock-builtin-face fontified t) 607 609 (fontified t) 609 618 (face font-lock-keyword-face fontified t) 618 623 (face font-lock-keyword-face fontified t) 623 626 (fontified t) 626 656 (face font-lock-comment-face fontified t) 656 659 (face font-lock-keyword-face fontified t) 659 660 (fontified t) 660 662 (face font-lock-comment-delimiter-face fontified t) 662 733 (face font-lock-comment-face fontified t) 733 746 (face font-lock-keyword-face fontified t) 746 760 (fontified t) 760 771 (face font-lock-keyword-face fontified t) 771 772 (fontified t) 772 779 (face font-lock-builtin-face fontified t) 779 784 (fontified t) 784 797 (face font-lock-keyword-face fontified t) 797 813 (fontified t) 813 842 (face font-lock-comment-face fontified t) 842 844 (fontified t) 844 855 (face font-lock-keyword-face fontified t) 855 858 (fontified t) 858 867 (face font-lock-builtin-face fontified t) 867 871 (fontified t) 871 887 (face font-lock-keyword-face fontified t) 887 911 (fontified t) 911 945 (face font-lock-comment-face fontified t) 945 949 (fontified t) 949 962 (face font-lock-keyword-face fontified t) 962 963 (fontified t) 963 976 (face font-lock-keyword-face fontified t) 976 992 (fontified t) 992 1012 (face font-lock-comment-face fontified t) 1012 1014 (fontified t) 1014 1027 (face font-lock-keyword-face fontified t) 1027 1041 (fontified t) 1041 1043 (face font-lock-comment-face fontified t) 1043 1047 (fontified t) 1047 1058 (face font-lock-keyword-face fontified t) 1058 1059 (fontified t) 1059 1066 (face font-lock-builtin-face fontified t) 1066 1072 (fontified t) 1072 1079 (face font-lock-comment-face fontified t) 1079 1083 (fontified t) 1083 1093 (face font-lock-keyword-face fontified t) 1093 1094 (fontified t) 1094 1104 (face font-lock-variable-name-face fontified t) 1104 1115 (fontified t) 1115 1125 (face font-lock-keyword-face fontified t) 1125 1126 (fontified t) 1126 1134 (face font-lock-variable-name-face fontified t) 1134 1163 (fontified t) 1163 1179 (face font-lock-comment-face fontified t) 1179 1181 (fontified t) 1181 1193 (face font-lock-keyword-face fontified t) 1193 1209 (fontified t) 1209 1221 (face font-lock-keyword-face fontified t) 1221 1222 (fontified t) 1222 1232 (face font-lock-keyword-face fontified t) 1232 1233 (fontified t) 1233 1250 (face font-lock-variable-name-face fontified t) 1250 1257 (fontified t) 1257 1282 (face font-lock-comment-face fontified t) 1282 1297 (face font-lock-keyword-face fontified t) 1297 1298 (fontified t) 1298 1308 (face font-lock-function-name-face fontified t) 1308 1310 (fontified t) 1310 1312 (face font-lock-comment-face fontified t) 1312 1314 (fontified t) 1314 1324 (face font-lock-keyword-face fontified t) 1324 1325 (fontified t) 1325 1333 (face font-lock-variable-name-face fontified t) 1333 1339 (fontified t) 1339 1349 (face font-lock-keyword-face fontified t) 1349 1350 (fontified t) 1350 1358 (face font-lock-variable-name-face fontified t) 1358 1366 (fontified t) 1366 1377 (face font-lock-keyword-face fontified t) 1377 1378 (fontified t) 1378 1386 (face font-lock-builtin-face fontified t) 1386 1388 (fontified t) 1388 1401 (face font-lock-keyword-face fontified t) 1401 1412 (fontified t) 1412 1423 (face font-lock-keyword-face fontified t) 1423 1424 (fontified t) 1424 1428 (face font-lock-builtin-face fontified t) 1428 1433 (fontified t) 1433 1468 (face font-lock-comment-face fontified t) 1468 1477 (face font-lock-keyword-face fontified t) 1477 1484 (fontified t) 1484 1495 (face font-lock-keyword-face fontified t) 1495 1500 (fontified t) 1500 1510 (fontified t) 1510 1544 (fontified t) 1544 1551 (face font-lock-keyword-face fontified t) 1551 1554 (fontified t) 1554 1559 (face font-lock-keyword-face fontified t) 1559 1563 (fontified t) 1563 1569 (face font-lock-keyword-face fontified t) 1569 1570 (latex-env-pair t fontified t) 1570 1578 (face font-lock-function-name-face latex-env-pair t fontified t) 1578 1579 (latex-env-pair t fontified t) 1579 1581 (fontified t)) . 1) (undo-tree-id249 . -1580) (undo-tree-id250 . -1580) (undo-tree-id251 . -1580) (undo-tree-id252 . -624) (undo-tree-id253 . -1581) (undo-tree-id254 . -1580) (t 26719 55622 772237 586000)) nil (26719 55737 500650 485000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -24964) (undo-tree-id199 . -1) (undo-tree-id200 . -1) (undo-tree-id201 . -1) (undo-tree-id202 . -1) (undo-tree-id203 . -1) (undo-tree-id204 . -1) (undo-tree-id205 . -1) (undo-tree-id206 . -1) (undo-tree-id207 . -1) (undo-tree-id208 . -1) (undo-tree-id209 . -1) (undo-tree-id210 . -1) (undo-tree-id211 . -1) (undo-tree-id212 . -1) (undo-tree-id213 . -1) (undo-tree-id214 . -1) (undo-tree-id215 . -1) (undo-tree-id216 . -1) (undo-tree-id217 . -1) (undo-tree-id218 . -1) (undo-tree-id219 . -1) (undo-tree-id220 . -1) (undo-tree-id221 . -1) (undo-tree-id222 . -1) (undo-tree-id223 . -1) (undo-tree-id224 . -1) (undo-tree-id225 . -1) (undo-tree-id226 . -1) (undo-tree-id227 . -1) (undo-tree-id228 . -1) (undo-tree-id229 . -1) (undo-tree-id230 . -1) (undo-tree-id231 . -1) (undo-tree-id232 . -1) (undo-tree-id233 . -1) (undo-tree-id234 . -1) (undo-tree-id235 . -1) (undo-tree-id236 . -1) (undo-tree-id237 . -1) (undo-tree-id238 . -1) (undo-tree-id239 . -1) (undo-tree-id240 . -1) (undo-tree-id241 . -1) (undo-tree-id242 . -1) (undo-tree-id243 . -1) (undo-tree-id244 . -1) (undo-tree-id245 . -1) (undo-tree-id246 . -1) (undo-tree-id247 . -1) (undo-tree-id248 . -1) 24965) nil (26719 55737 500647 830000) 0 nil])
+([nil nil ((#("
+\\end{document}" 0 1 (fontified t) 1 5 (face font-lock-keyword-face fontified t) 5 6 (fontified t latex-env-pair t) 6 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t)) . 24949) (undo-tree-id137 . -15) (undo-tree-id138 . -15) (undo-tree-id139 . -15) (undo-tree-id140 . -15) (undo-tree-id141 . -15) (undo-tree-id142 . -15) (undo-tree-id143 . -15) (undo-tree-id144 . -15) (undo-tree-id145 . -15) (undo-tree-id146 . -15) (undo-tree-id147 . -15) (undo-tree-id148 . -1) (undo-tree-id149 . -14) (undo-tree-id150 . -15) (undo-tree-id151 . -15) (undo-tree-id152 . -15) (undo-tree-id153 . -15) (undo-tree-id154 . -15) (undo-tree-id155 . -15) (undo-tree-id156 . -15) (undo-tree-id157 . -15) (undo-tree-id158 . -15) (undo-tree-id159 . -15) (undo-tree-id160 . -15) (undo-tree-id161 . -15) (undo-tree-id162 . -15) (undo-tree-id163 . -15) (undo-tree-id164 . -15) (undo-tree-id165 . -15) (undo-tree-id166 . -15) (undo-tree-id167 . -15) (undo-tree-id168 . -15) (undo-tree-id169 . -15) (undo-tree-id170 . -15) (undo-tree-id171 . -15) (undo-tree-id172 . -15) (undo-tree-id173 . -15) (undo-tree-id174 . -15) (undo-tree-id175 . -15) (undo-tree-id176 . -15) (undo-tree-id177 . -15) (undo-tree-id178 . -15) (undo-tree-id179 . -15) (undo-tree-id180 . -15) (undo-tree-id181 . -15) (undo-tree-id182 . -15) (undo-tree-id183 . -1) (undo-tree-id184 . -1) (undo-tree-id185 . -1) (undo-tree-id186 . -1) (undo-tree-id187 . -1) (undo-tree-id188 . -1) (undo-tree-id189 . -1) (undo-tree-id190 . -1) (undo-tree-id191 . -1) (undo-tree-id192 . -1) (undo-tree-id193 . -1) (undo-tree-id194 . -1) (undo-tree-id195 . -1) (undo-tree-id196 . -1) (undo-tree-id197 . -1) (undo-tree-id198 . -15) 24950) nil (26719 55737 500632 741000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -24948) (undo-tree-id78 . -1) (undo-tree-id79 . -1) (undo-tree-id80 . -1) (undo-tree-id81 . -1) (undo-tree-id82 . -1) (undo-tree-id83 . -1) (undo-tree-id84 . -1) (undo-tree-id85 . -1) (undo-tree-id86 . -1) (undo-tree-id87 . -1) (undo-tree-id88 . -1) (undo-tree-id89 . -1) (undo-tree-id90 . -1) (undo-tree-id91 . -1) (undo-tree-id92 . -1) (undo-tree-id93 . -1) (undo-tree-id94 . -1) (undo-tree-id95 . -1) (undo-tree-id96 . -1) (undo-tree-id97 . -1) (undo-tree-id98 . -1) (undo-tree-id99 . -1) (undo-tree-id100 . -1) (undo-tree-id101 . -1) (undo-tree-id102 . -1) (undo-tree-id103 . -1) (undo-tree-id104 . -1) (undo-tree-id105 . -1) (undo-tree-id106 . -1) (undo-tree-id107 . -1) (undo-tree-id108 . -1) (undo-tree-id109 . -1) (undo-tree-id110 . -1) (undo-tree-id111 . -1) (undo-tree-id112 . -1) (undo-tree-id113 . -1) (undo-tree-id114 . -1) (undo-tree-id115 . -1) (undo-tree-id116 . -1) (undo-tree-id117 . -1) (undo-tree-id118 . -1) (undo-tree-id119 . -1) (undo-tree-id120 . -1) (undo-tree-id121 . -1) (undo-tree-id122 . -1) (undo-tree-id123 . -1) (undo-tree-id124 . -1) (undo-tree-id125 . -1) (undo-tree-id126 . -1) (undo-tree-id127 . -1) (undo-tree-id128 . -1) (undo-tree-id129 . -1) (undo-tree-id130 . -1) (undo-tree-id131 . -1) (undo-tree-id132 . -1) (undo-tree-id133 . -1) (undo-tree-id134 . -1) (undo-tree-id135 . -1) (undo-tree-id136 . -1) 24949) nil (26719 55737 500613 315000) 0 nil])
+([nil current ((nil fontified t 24073 . 24074) (nil face font-lock-keyword-face 24073 . 24074) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -24073) (24089 . 24090) (nil fontified nil 22773 . 22774) (nil face font-lock-keyword-face 22773 . 22774) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified nil)) . -22773) (22789 . 22790) (nil fontified t 22772 . 22773) (nil face font-lock-keyword-face 22772 . 22773) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -22772) (22788 . 22789) (nil fontified t 14441 . 14442) (nil face font-lock-keyword-face 14441 . 14442) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -14441) (14457 . 14458) (nil fontified t 13925 . 13926) (nil face font-lock-keyword-face 13925 . 13926) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -13925) (13941 . 13942) (nil fontified t 13887 . 13888) (nil face font-lock-keyword-face 13887 . 13888) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -13887) (13903 . 13904) (nil fontified t 13760 . 13761) (nil face font-lock-keyword-face 13760 . 13761) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -13760) (13776 . 13777) (nil fontified t 13563 . 13564) (nil face font-lock-keyword-face 13563 . 13564) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -13563) (13579 . 13580) (nil fontified t 13539 . 13540) (nil face font-lock-keyword-face 13539 . 13540) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -13539) (13555 . 13556) (nil fontified t 13179 . 13180) (nil face font-lock-keyword-face 13179 . 13180) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -13179) (13195 . 13196) ("\\textquotesingle" . -5607) (5623 . 5624) ("\\textquotesingle" . -5017) (5033 . 5034) ("\\textquotesingle" . -4617) (4633 . 4634) ("\\textquotesingle" . -3609) (3625 . 3626) ("\\textquotesingle" . -3303) (3319 . 3320) ("\\textquotesingle" . -3182) (3198 . 3199) ("\\textquotesingle" . -3025) (3041 . 3042) (nil fontified t 2519 . 2520) (nil face font-lock-keyword-face 2519 . 2520) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -2519) (2535 . 2536) (nil fontified t 2405 . 2406) (nil face font-lock-keyword-face 2405 . 2406) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -2405) (2421 . 2422) (nil fontified t 2389 . 2390) (nil face font-lock-keyword-face 2389 . 2390) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -2389) (2405 . 2406) (nil fontified t 2319 . 2320) (nil face font-lock-keyword-face 2319 . 2320) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -2319) (2335 . 2336) (nil fontified t 2016 . 2017) (nil face font-lock-keyword-face 2016 . 2017) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -2016) (2032 . 2033) (nil fontified t 165 . 166) (nil face font-lock-keyword-face 165 . 166) (#("\\textquotesingle" 0 16 (face font-lock-keyword-face fontified t)) . -165) (181 . 182)) nil (26719 55737 500834 338000) 0 nil])
+([nil nil ((#("1. Kolosova A.S., Sokolskaya M.K., Vitkalova I.A. Sovremennye polimernye
+kompozicionnye materialy i ih primenenie // Mezhdunarodnyj zhurnal
+prikladnyh i fundamental' nyh issledovanij. - 2018. --
+No. 5. -- S. 245-256. {[}in Russian{]}
+
+2. Lebedeva O.V., SipkinaE.I. Polimernye kompozity i ih svojstva //
+Izvestija vuzov. Prikladnaja himija i biotehnologija. -- 2022. -- Tom
+12. -- No. 2. -- S. 192-207. DOI 10.21285/2227-2925-2022-12-2-192-207.
+{[}in Russian{]}
+
+3. Gurbanov N.A., Sidorov D.B., Ismailova K.H. Composite materials,
+general properties and usage areas // Sciences of Europe. -- 2021. --
+No. 78. -- P. 25-27. DOI 10.24412/3162-2364-2021-78-1-25-27
+
+4. Hull D., Clyne T.W. An Introduction to Composite Materials. --
+Cambridge: Cambridge University Press. 1996. -- 326 p. ISBN
+978-0521388559. DOI 10.1017/CBO9781139170130
+
+5. Schwartz M.M. Composite Materials: Properties, Non-Destructive
+Testing and Repair, Polymer, Ceramic, Metal Matrices. -- USA: Prentice
+Hall Inc., 1997. -- 423 p. ISBN-10 100133000478, ISBN-13 978-0133000474
+
+6. Sumithra G., Reddy R., Kumar G, Ojha S., Jayachandra G., Raghavendra
+G. Review on composite classification, manufacturing, and applications
+// Materials Today: Proceedings. -- 2023. -- P. 45-51. DOI
+10.1016/j.matpr.2023.04.637
+
+7. Ashrith H.S. , Jeevan T.P., Xu Jinyang. A Review on the Fabrication
+and Mechanical Characterization of Fibrous Composites for Engineering
+Applications // J. Compos. Sci. -- 2023. 7, 252. DOI 10.3390/jcs7060252
+
+8. Novye materialy {[}Tekst{]} / V.N. Anciferov {[}i dr.{]}; red. Ju.S.
+Karabasov. - M.: MISIS, 2002. - 736 s. ISBN 5-87623-114-2. {[}in
+Russian{]}
+
+9. Resego~Phiri,~Sanjay~Rangappa,~Suchart~Siengchin. Advances in
+lightweight composite structures and manufacturing technologies: A
+comprehensive review// Heliyon. -- 2024. -- Vol. 10, Issue 21. -- 24 p.
+DOI 10.20998/2074-272X.2017.6.01
+
+10. Wanberg J. Composite Materials: Fabrication Handbook \\#2. -- USA:
+Wolfgang Publications, Inc., 2010. -- 144 p. ISBN 1929133936.
+
+11. Jah' jaeva H.Sh., Zajkov G.E., Deberdeev T.R., Ulitin
+N.V. Strukturnye osnovy mezhfaznoj adgezii v polimernyh kompozitah //
+Vestnik Kazanskogo tehnologicheskogo universiteta. -- 2012. -- T. 15. --
+No. 5. -- S. 68-70. {[}in Russian{]}
+
+12. Smirnova O.E., Pichugin A.P., Hritankov V.F. Adgezionnaja
+prochnost'{} v strukture kompozicionnyh materialov na
+osnove organicheskogo syr' ja //
+Stroitel' nye materialy. -- 2024. -- No. 5. --S. 17-21.
+DOI 10.31659/0585-430X-2024-824-5-17-21. {[}in Russian{]}
+
+13. Mel' nichenko M. A., Ershova O. V., Chuprova L. V.
+Vlijanie sostava napolnitelja na svojstva polimernyh kompozicionnyh
+materialov // Molodoj uchenyj. -- 2015. -- No. 16 (96). -- S. 199-202.
+{[}in Russian{]}
+
+14. Milejko S.T. Novye kompozity s metallicheskoj matricej //
+Mezhotraslevoj seminar pamjati prof. T.D. Karimbaeva \"Primenenie
+kompozicionnyh materialov v dvigatelestroenii\". Moskva, Rossija. --
+2023. -- S. 7-10. {[}in Russian{]}
+
+15. Ivanov V.A. Metody vosstanovlenija tehnologicheskogo i
+vspomogatel' nogo oborudovanija iznosostojkimi
+kompozicionnymi materialami: diss. ... kand. tehn. nauk: 05.02.13 -
+Mashiny, agregaty i processy (ljogkaja promyshlennost').
+-- Moskva. -- 2014. --166 s. {[}in Russian{]}
+
+16. Milejko S.T. Jentoni Kelli i kompozitnye materialy segodnja.
+Chast'{} 2: Kompozity s metallicheskoj matricej //
+Kompozity i nanostruktury. 2021. --T. 13. -- No. 3-4 (51-52). -- S.
+59-107. DOI 10.36236/1999-7590-2021-13-3-4-59-107. {[}in Russian{]}
+
+17. Senjushkin N.S., Jamaliev R.R., Jalchibaeva L.R. Primenenie
+kompozicionnyh materialov v konstrukcii bespilotnyh
+letatel' nyh apparatov // Molodoj uchenyj. 2011. --T. 1.
+-- No. 4 (27). 1. --S. 59-61. {[}in Russian{]}
+
+18. Even C., Arvieu C., Quenisset J.M. Powder route processing of carbon
+fibers reinforced titanium matrix composites // Composites Science and
+Technology. -- 2008. -- Vol. 68(6). -- P. 1273-1281. DOI
+10.1016/j.compscitech.2007.12.014.
+
+19. Saldias C., Bonardd S., Quezada C., Radic D., Leiva A. The role of
+polymers in the synthesis of noble metal nanoparticles: a review //
+Journal of Nanoscience and Nanotechnology. --2017. -- Vol. 17. -- P.
+87-114. DOI 10.1166/jnn.2017.13016
+
+20. Prokopec A.D. Stroenie i mehanicheskie harakteristiki sloistogo
+kompozicionnogo materiala na osnove MAH-fazy Ti₃AlC₂, poluchennogo
+metodom svobodnogo SVS-szhatija / A.D. Prokopec, P.M. Bazhin, A.S.
+Konstantinov, A P. Chizhikov, P.A. Stolin // Neorganicheskie materialy.
+-- 2021. -- T. 57. -- No. 9. -- S. 986--990. DOI
+10.31857/S0002337X2109013X. {[}in Russian{]}
+
+21. Sabadaha E.N., Prokopchuk N.R., Shutova A.L.
+Termostabil' nye kompozicionnye materialy // Trudy BGTU.
+-- 2017. -- Serija 2. -- No. 2. -- S. 108-115. {[}in Russian{]}
+
+22. Grashhenkov D.V. Strategija razvitija nemetallicheskih materialov,
+metallicheskih kompozicionnyh materialov i teplozashhity // Aviacionnye
+materialy i tehnologii. -2017. - No. S. -S. 264-271. DOI
+10.18577/2071-9140 -2017-0-S-264-271. {[}in Russian{]}
+
+23. Akmeev A.R., Guljaev I.N., Il' ichev A.V., Ivanov
+N.V. Issledovanie mehanicheskih svojstv metallokompozita
+(Aljuminij-ugleplastik) s adaptivnoj shemoj armirovanija // Aviacionnye
+materialy i tehnologii. -- 2017. -- No. 3 (48). -- S. 43-49. DOI
+10.18577 /2071 -9140-2017-0-3-43-49. {[}in Russian{]}
+
+24. Jakovlev A.L., Nochovnaja N.A., Putyrskij S.V., Krohin V.A.
+Titanopolimernye sloistye materialy // Aviacionnye materialy i
+tehnologii. -- 2016. -- No. S2 (44). -- S. 56-62. DOI
+10.18577/2071-9140-2016-0-S2-56-62. {[}in Russian{]}
+
+25. Arislanov A.A., Goncharova L.Ju., Nochnaja N.A., Goncharov V.A.
+Perspektivy ispol' zovanija titanovyh splavov v sloistyh
+kompozicionnyh materialah // Trudy VIAM. -- 2015. -- No. 10. -- S.
+20-23. DOI 10.18577/2307-6046-2015-0-10-4-4. {[}in Russian{]}
+
+26. Valueva M.I., Zelenina I.V., Haskov M.A., Guljaev A.I. Podgotovka
+uglerodnogo volokna k naneseniju interfaznogo pokrytija dlja
+kompozicionnyh materialov s keramicheskoj matricej// Trudy VIAM. --
+2017. -- No. 10 (58). -- S. 79-89. DOI 10.18577/2307-6046-2017-0-10-9-9.
+{[}in Russian{]}
+
+27. Bedmar J., Torres В., Rams J. Manufacturing of Aluminum Matrix
+Composites Reinforced with Carbon Fiber Fabrics by High Pressure Die
+Casting // Materials. -- 2022. 15(9). 3400. -- Р. 2-18. DOI
+10.3390/ma15093400
+
+28. Jian-jun~Sha,~Zhao-zhao~Lü,~Ru-yi~Sha., et al. Improved wettability
+and mechanical properties of metal coated carbon fiber-reinforced
+aluminum matrix composites by squeeze melt infiltration technique //
+Transactions of Nonferrous Metals Society of China. -- 2021. -- Vol. 31.
+Issue 2. -- P. 317-330. DOI 10.1016/S1003-6326(21)65498-5
+
+29. Lee Y., Park S., Han J. Carbon Fiber/Aluminum Composite Fabrication
+Using Wettability Control // Composites Research. -- 2015. -- Vol. 28.
+Issue 5. -- P. 254-259. DOI 10.7234/composres.2015.28.5.254
+
+30. Choi Y., Meng Х., Xu Z. Manufacturing process of short carbon fiber
+reinforced Al matrix with preformless and their properties // Scientific
+Reports. -- 2021. -- 11:23385 -- P. 1-8. DOI 10.1038/s41598-021-02915-7
+
+31. Tian Y.S., Chen C.Z., Chen L.B., Liu J.H. Wear properties of alloyed
+layers produced by laser surface alloying of pure titanium with B4C and
+Ti mixed powders // Journal of Materials Science. -- 2005. -- Vol. 40.
+-- P. 4387-4390. DOI 10.1007/s10853-005-0736-2
+
+32. Fouvry S., Paulin C., Deyber S. Impact of contact size and complex
+gross-partial slip conditions on Ti-6Al-4V/Ti-6Al-4V fretting wear //
+Tribology International. -- 2009. -- Vol. 42(3). -- P. 461-474. DOI
+10.1016/j.triboint.2008.08.005
+
+33. Krasnov E.I., Serpova B.M., Hodykin L.F., Gololobov A.B.
+Metallicheskie kompozicionnye materialy na osnove titanovyh splavov,
+armirovannyh tugoplavkimi chasticami (Obzor) // Trudy VIAM. -- 2021. --
+No. 6 (100). -- S. 36-45. DOI 10.18577/2307-6046-2021-0-6-36-45. {[}in
+Russian{]}
+
+34. Soorya Prakash K., Gopal P.M., Anburose D., Kavimani V. Mechanical,
+corrosion and wear characteristics of powder metallurgy processed
+Ti-6Al-4V/B4C metal matrix composites // Ain Shams Engineering Journal.
+-- 2018. -- Vol. 9(4). -- P. 1489--1496. DOI 10.1016/j.asej.2016.11.003
+
+35. Qin Y.L., Geng L. Dry sliding wear behavior of titanium matrix
+composites hybrid-reinforced by in situ TiB whisker and TiC particle //
+Journal of Materials Science. -- 2011. -- Vol. 46. -- P. 4980-4985. DOI
+10.1007/s10853-011-5415-x
+
+36. Balaji V.S., Kumaran S. Dry sliding wear behavior of titanium (TiB +
+TiC) in situ composite developed by spark plasma sintering // Tribology
+Transactions. -- 2015. -- Vol. 58(4). -- P. 698--703. DOI
+10.1080/10402004.2014.993780
+
+37. Zheng B., Dong F., Yuan X. et al. Microstructure and tribological
+behavior of in situ synthesized (TiB + TiC)/Ti6Al4V (TiB/TiC = 1/1)
+composites // Tribology International. -- 2020. -- Vol. 145: 106177. DOI
+10.1016/j.triboint.2020.106177
+
+38. Yoganandam K., Mohanavel V., Vairamuthu J, Kannadhasan V. Mechanical
+properties of titanium matrix composites fabricated via powder
+metallurgy method // Materials Today: Proceedings. -- 2020. --Vol.
+33(7). -- P. 3243-3247. DOI 10.1016/j.matpr.2020.04.569
+
+39. Fereiduni E. Selective laser melting of hybrid ex-situ/in-situ
+reinforced titanium matrix composites: Laser/powder interaction,
+reinforcement formation mechanism, and non-equilibrium microstructural
+evolutions / E. Fereiduni, A. Ghasemi, M. Elbestawi // Materials \\&
+Design. -- 2019. -- Vol. 184:108185. DOI 10.1016/j.matdes.2019.108185
+
+40. Peters M. Titanium Metal Matrix Composites: An Overview / Leyens C.,
+Kumpfert C., Nickel R. B. // Composites Part A: Applied Science and
+Manufacturing. -- 2019. -- Vol. 121. -- P. 418-438. DOI
+10.1016/j.compositesa.2019.04.005
+
+41. Arvieu, C. Interaction between titanium and carbon at moderate
+temperatures {[}Text{]} / C. Arvieu, J.P. Manaud, J.M. Quenisset //
+Journal of Alloys and Compounds. -- 2004. -- Vol. 368 (1-2). -- P.
+116-122. DOI 10.1016/j.jallcom.2003.08.051
+
+42. Sidorov D.V. Issledovanie mezhfaznogo vzaimodejstvija na granice
+razdela v sisteme Ti-C s otechestvennymi titanovymi splavami α+β i
+psevdo-α / D.V. Sidorov, V.M. Serpova, A.V. Zavodov, A.A. Shavnev //
+Fizika i himija obrabotki materialov. -- 2020. -- No. 5. -- S. 75-81.
+DOI 10.30791/0015-3214-2020-5-75-81. {[}in Russian{]}
+
+43. Jiao F. Continuous carbon fiber reinforced Ti/Al3Ti
+metal-intermetallic laminate (MIL) composites fabricated using
+ultrasonic consolidation assisted hot pressing sintering / F. Jiao, M.
+Liu, F. Jiang {[}et al.{]} // Materials Science \\& Engineering A. --
+2019. -- Vol. 765: 138255. DOI 10.1016/j.msea.2019.138255.
+
+44. Han, Y. Fabrication, interfacial characterization and mechanical
+properties of continuous Al2O3 ceramic fiber reinforced Ti/Al3Ti
+metal-intermetallic laminated (CCFR-MIL) composite / Y. Han, C. Lin, X.
+Han {[}et al.{]} // Materials Science \\& Engineering A. -- 2017. -- Vol.
+688. -- P. 338--345. DOI 10.1016/j.msea.2017.02.024
+
+45. Ji. C., Wang. B., Hu. J., et al. Effect of different preparation
+methods on mechanical behaviors of carbon fiber-reinforced PEEK-Titanium
+hybrid laminates // Polymer Testing. -- 2020. -- Vol. 85: 106462. DOI
+10.1016/j.polymertesting.2020.106462.
+
+46. Vecchio, K.S., Jiang, F. Fracture toughness of
+Ceramic-Fiber-Reinforced Metallic-Intermetallic-Laminate (CFR-MIL)
+composites // Materials Science \\& Engineering A. -- 2016. -- Vol. 649.
+-- P. 407--416. DOI 10.1016/j.msea.2015.10.018.
+
+47. Mahaviradhan, N., Sivaganesan, S., Sravya, N.P., Parthiban, A.
+Experimental investigation on mechanical properties of carbon fiber
+reinforced aluminum metal matrix composite // Materials Today:
+Proceedings. -- 2021. -- Vol. 39(1). -- P. 743--747. DOI
+10.1016/j.matpr.2020.09.443
+
+48. Deshpande, M., Gondil, R., Rahul, S.V.S., et al. Processing and
+characterization of carbon fiber reinforced aluminium 7075 // Materials
+Today: Proceedings. -- 2018. -- Vol. 5(2). -- P. 7115--7122. DOI
+10.1016/j.matpr.2017.11.376
+
+49. Deshpande, M., Ramesh, S.V.S., Gondil, R., et al. Studies on 7075
+aluminum alloy MMCs with milled carbon fibers as reinforcements //
+Transactions of the Indian Institute of Metals. -- 2018. -- Vol. 71(4).
+-- P. 993--1002. DOI 10.1007/s12666-017-1233-4
+
+50. Tamilarasan U., Karunamoorthy L., Palanikumar K. Mechanical
+properties evaluation of the carbon fiber reinforced aluminum sandwich
+composites // Materials Research. -- 2015. -- Vol. 18(5). -- P.
+1029--1037. DOI 10.1590/1516-1439.017215.
+
+51. Shljamnev A.I. i dr. Korrozionnye, zharoprochnye i vysokoprochnye
+stali i splavy. -- M.: Intermet Inzhiniring-Ring, 2000. -- 232 s. ISBN
+5-89594-028-5. {[}in Russian{]}
+
+52. Hudjakov M.A. Materialovedenie: ucheb. posobie / M-vo obrazovanija i
+nauki Ros. Federacii, Feder. agentstvo po obrazovaniju, Gos. obrazovat.
+uchrezhdenie vyssh. prof. obrazovanija \"Ufim. gos. neftjanoj tehn.
+un-t\". - Ufa : Monografija. -- 2006 (Ufa : Ufimskij poligraficheskij
+kombinat). -- 237 s. ISBN 5-94920-048-9 (V per.)
+
+53. Korotkih M.T. Tehnologija konstrukcionnyh materialov i
+materialovedenie: Uchebnoe posobie. -- Sankt-Peterburg.: SPPU. -- 2004.
+-- 104 s. {[}in Russian{]}
+
+54. Tolkacheva A.S., Pavlova I.A. Obshhie voprosy tehnologii tonkoj
+keramiki: uchebnik. -- Ekaterinburg: Izd-vo Ural' skogo
+universiteta. -- 2018. -- 184 s. ISBN: 978-5-7996-2393-7. {[}in
+Russian{]}
+
+55. Bolton U. Strukturnye materialy: metally, splavy, polimery,
+keramika, kompozity / Per. s angl. -- M.: Dodeka-XXI. -- 2007. -- 319 s.
+ISBN: 978-5-94120-109-9. {[}in Russian{]}
+
+56. Ivanov D.A., Sitnikov A.I., Shljapin S.D. Kompozicionnye materialy /
+Pod red. avtor: A.A. Il' in. -- Moskva:
+Izdatel' stvo Jurajt. -- 2024. -- 253 s. ISBN:
+978-5-534-11618-2. {[}in Russian{]}
+
+57. Spravochnik po kompozicionnym materialam: v 2-h kn. Kn. 1 / Pod red.
+Dzh. Ljubina; Per s ang. A.B. Gellera, M.M. gel' monta;
+pod red. B.Je. Gellera. -- M.: Mashinostroenie. -- 1988. --488 s. ISBN
+5-217-00225-5. {[}in Russian{]}
+
+58. Ajler, Ral' f K. Himija kremnezema:
+rastvorimost', polimerizacija, kolloidnye i poverhnostnye
+svojstva, biohimija: v 2 chastjah / R. Ajler; per. s angl. L. T.
+Zhuravleva, pod red. V. P. Prjanishnikova. Ch. 1. -- Moskva: Mir. --
+1982. -- 416 s. (V per.)
+
+59. Kosicyn N.O. Povyshenie zharostojkosti i termostojkosti
+kompozicionnogo materiala sistemy metallokeramika //
+Vostochnoevropejskij zhurnal peredovyh tehnologij. -- 2013. -- No. 10
+(66). -S. 61--65. {[}in Russian{]}
+
+60. Nekrasov G.B., Odarchenko I.B. Osnovy litejnoj tehnologii. Plavka,
+zalivka metalla, lit' e pod davleniem. -- Minsk: Vysshaja
+shkola, 2013. -- 223 s. ISBN: 978-985-06-2365-2. {[}in Russian{]}
+
+61. Ibadullaev A., Teshabaeva Zh., Kaharov B., Nigmatova D. Composite
+elastomeric materials filled with modified mineral fillers// E3S Web of
+Conferences. -- 2021. -- Vol. 264 --. S. 1-9. DOI
+10.1051/e3sconf/202126405006
+
+62. Matthews F.L., Rawlings R.D. Composite Materials: Engineering and
+Science. -- CRC Press. -- 1999. -- 480 p. ISBN: 978-1-85573-473-9
+
+63. Simamora P. Mechanical properties of polypropylene composites with
+different reinforced natural fibers -- a comparative study / P.
+Simamora, J. Simanjuntak, K. Sinulingga, A. D. Laksono // Journal of
+Ecological Engineering. -- 2023. -- Vol. 24(7). -- P. 311--317. DOI
+10.12911/22998993/164757
+
+64. Mohammed J.K., Oleiwi A.M., Jawad A.J.M., et al. A Review on the
+Advancement of Renewable Natural Fiber Hybrid Composites: Prospects,
+Challenges, and Industrial Applications // Journal of Renewable
+Materials. -- 2024. -- Vol. 12(7). -- P. 1237--1290. DOI
+10.32604/jrm.2024.051201
+
+65. Nurazzi M.N., Moklis M.H., Demon S.Z.N., et al. Carbon nanotubes:
+functionalisation and their application in chemical sensors // The Royal
+Society of Chemistry. -- 2020. -- Vol. 10(71). -- P. 43704--43732. DOI
+10.1039/d0ra09438b
+
+66. Nedorezova P.M., Kljamkina A.N., Palaznik O.M., Shevchenko V.G.
+Kompozicionnye materialy na osnove polipropilena i uglerodnyh
+nanonapolnitelej, poluchennye metodom polimerizacii in situ // Nauka o
+polimerah. -- 2024. -- T. 66. -- No.2. -- S. 121--139. DOI
+10.31857/S2308113924020044. {[}in Russian{]}
+
+67. Lebedeva O.V., Sipkina E.I. Polimernye kompozity i ih svojstva. //
+Izvestija vuzov. prikladnaja himija i biotehnologija. - 2022. -- T. 12.
+-- No. 2. -- S. 192-207. DOI 10.21285/2227-2925-2022-12-2-192-207. {[}in
+Russian{]}
+
+68. Kirk‐Othmer Encyclopedia of Chemical Technology. --5th ed. --
+Hoboken : John Wiley \\& Sons, Inc., 2000. DOI 10.1002/0471238961
+
+69. Czakaj J., et al. Mechanical and Thermal Properties of
+Polypropylene, Polyoxymethylene and Poly(methyl methacrylate) Modified
+with Adhesive Resins // Journal of Composites Science. -2024. -Vol.
+8(10). -- P. 384--392. DOI 10.3390/jcs8100384
+
+70. Alsabri A., Tahir F., Al-Ghamdi S.G. Environmental impacts of
+polypropylene (PP) production and prospects of its recycling in the GCC
+region // Materials Today: Proceedings. -- 2022. -- Vol. 56. -- P.
+2245--2251. DOI 10.1016/j.matpr.2021.11.574
+
+71. Uyor U.O., et al. A review of recent advances on the properties of
+polypropylene-carbon nanotubes composites // Journal of Thermoplastic
+Composite Materials. -- 2023. -- Vol. 36(9). -- P. 3737--3770. DOI
+10.1177/08927057221077868
+
+72. Pötschke P., Mothes F., Krause В., et al. Melt-Mixed PP/MWCNT
+Composites: Influence of CNT Incorporation Strategy and Matrix Viscosity
+on Filler Dispersion and Electrical Resistivity // Polymers. -- 2019. --
+11(2). -- P. 1-13. DOI 10.3390/polym11020189
+
+73. Daulath Banu R., Karunanithi R., et al. Synthesis, characterization,
+thermal and mechanical behavior of polypropylene hybrid composites
+embedded with CaCO₃ and graphene nano-platelets for structural
+applications // AIMS Materials Science. -- 2024. -- Vol. 11(3). -- P.
+463--494. DOI 10.3934/matersci.2024024
+
+74. Krasnov K.V. Razrabotka kompozitov na osnove termojelastoplastov s
+uluchshennymi jekspluatacionnymi svojstvami: dis. ... kand. tehn. nauk /
+K.V. Krasnov. -Moskva : Rossijskij himiko-tehnologicheskij universitet
+im. D.I. Mendeleeva. -- 2023. --- 110 s. {[}in Russian{]}
+
+75. Serenko O.A., Goncharuk G.P., Nasrullaev I.N., Magomedov G.M. i dr.
+Vlijanie temperatury na mehanizm razrushenija kompozita
+polijetilen-rezina. // Vysokomolekuljarnye soedinenija. -- 2003. --
+T.45. -- No.11. -- S.1900-1908. {[}in Russian{]}
+
+76. Meng Ye, Mauro Pasta, Xing Xie. Charge-Free Mixing Entropy Battery
+Enabled by Low-Cost Electrode Materials // ACS Omega. -- 2024. -- Vol.
+4(7). -- P.\\,11785-11790. DOI 10.1021/acsomega.9b00863
+
+77. Zhong Hu, Haiping Hong. Review on Material Performance of Carbon
+Nanotube-Modified Polymeric Nanocomposites // Recent Progress in
+Materials. -- 2023, 5(3). P. 1-43. DOI 10.21926/rpm.2303031
+
+78. Koca А, Ureyen M, Yuksel G. Effects of Carbon Nanotube-Phosphorus
+Based Flame Retardant Combinations on Flammability of Polypropylene //
+International Periodical of Recent Technologies in Applied Engineering.
+-- 2019. -- Р. 19-24. DOI 10.35333/porta.2019.21
+
+79. Hisham A. Maddah. Polypropylene as a Promising Plastic: A Review //
+American Journal of Polymer Science. -- 2016. -- Vol. 6(1). -- P. 1-11.
+DOI 10.5923/j.ajps.20160601.01
+
+80. Changbo Zhang, Yongfang Jiang, Sh enghua Li, et al. Recent trends of
+phosphorus-containing flame retardants modified polypropylene composites
+processing // Heliyon. -- 2022. -- Vol. 8. -- P. 102--115. DOI
+10.1016/j.heliyon.2022.e11225
+
+81. Rogovina S.Z., Prut Je.V. Berlin A.A. Kompozicionnye materialy na
+osnove sinteticheskih polimerov, armirovannyh voloknami prirodnogo
+proishozhdenija// Vysokomolekuljarnye soedinenija, -- 2019. -- T. 61. --
+No. 4. -- S. 291-315. DOI 10.1134/S2308112019040084. {[}in Russian{]}
+
+82. Tanjung F., Kuswardani R., Karim А. Characterization of mechanical
+and thermal properties of esterified lignin modified polypropylene
+composites filled with chitosan fibers // Polymers and Polymer
+Composites. -- 2022. -- Vol. 30. DOI 10.1177/09673911221082482
+
+83. Salmah H., Faisal A., Kamarudin H. Chemical Modification of
+Chitosan--Filled Polypropylene (PP) Composites: The Effect of
+3-aminopropyltriethoxysilane on Mechanical and Thermal Properties //
+International Journal of Polymeric Materials and Polymeric Biomaterials.
+-- 2011. -- Vol. 60(7). -- P. 429-440. DOI 10.1080/00914037.2010.531812
+
+84. Nazrun T. Application of biopolymers as sustainable cladding
+materials: a review / T. Nazrun, Md K. Hassan, Md D. Hossain, B. Ahmed,
+Md R. Hasnat, S. Saha // Sustainability. -- 2024. - Vol. 16. DOI
+10.3390/su16010027
+
+85. Alam M.I., Maraz K.M., Khan R.A. A review on the application of
+high-performance fiber--reinforced polymer composite materials // GSC
+Advanced Research and Reviews. -- 2022. -- Vol. 10(2). -- P. 20--36. DOI
+10.30574/gscarr.2022.10.2.0036
+
+86. Kakhramanov N., Allahverdiyeva К., Gahramanli Y., Martynova G.
+Physical--mechanical properties of multifunctional thermoplastic
+elastomers based on polyolefins and styrene-butadiene elastomer //
+Journal of Elastomers \\& Plastics.-- 2022. -- Vol. 55, Issue 2. -- P.
+279-302. DOI 10.1177/00952443221147030
+
+87. Mărieș GRE, Abrudan A.M.. Thermoplastic polymers in product design
+// IOP Conference Series: Materials Science and Engineering. -- 2018. --
+Vol. 393: 012118. DOI 10.1088/1757-899X/393/1/012118
+
+88. Alshammari B.A., Alsuhybani M.S., Almushaikeh A.M., et al.
+Comprehensive Review of the Properties and Modifications of Carbon
+Fiber--Reinforced Thermoplastic Composites // Polymers. -- 2023. -- Vol.
+13(15): 2474. DOI 10.3390/polym13152474
+
+89. Shirvanimoghaddam, K. Balancing the toughness and strength in
+polypropylene composites / K. Shirvanimoghaddam, K. V. Balaji, R. Yadav,
+O. Zabihi, M. Ahmadi, P. Adetunji, M. Naebe // Composites. Part B,
+Engineering. -- 2021. -- Vol. 223: 109121. DOI
+10.1016/j.compositesb.2021.109121
+
+90. Varga L.J., Baranyi T. Development of recyclable, lightweight
+polypropylene--based single polymer composites with amorphous
+poly--α--olefin matrices // Composites Science and Technology. -- 2021.
+-- Vol. 201:108535. DOI 10.1016/j.compscitech.2020.108535
+
+91. Zhao W. Flame retardant treatments for polypropylene: strategies and
+recent advances / W. Zhao, C. K. Kundu, Z. Li, X. Li, Z. Zhang //
+Composites. Part A, Applied Science and Manufacturing. -- 2021. -- Vol.
+145: 106382. DOI 10.1016/j.compositesa.2021.106382
+
+92. Mojtaba Ajorloo, Maryam Ghodrat, Won-Hee Kang. Incorporation of
+Recycled Polypropylene and Fly Ash in Polypropylene-Based Composites for
+Automotive Applications // Journal of Polymers and the Environment. --
+2021. -- Vol. 29. -- P. 1298--1309. DOI 10.1007/s10924-020-01961-y
+
+93. Khan Т, M.S. Irfan, M. Ali, Y. Dong, S. Ramakrishna, R. Umer.
+Insights into Low Electrical Percolation Thresholds of Carbon-Based
+Polymer Nanocomposites // Carbon. -- 2021. -- Vol. 176. -- P. 602-631.
+DOI 10.1016/j.carbon.2021.01.158
+
+94. Umarov Sh.Sh., Kasimov Sh.A., Dzhalilov A.T.
+Napolnitel''{} dlja poluchenija polimera
+na osnove metalloorganicheskih soedinenij // Universum: tehnicheskie
+nauki: jelektron. nauchn. zhurn. -- 2022. -- No. 5(98). DOI
+10.32743/UniTech.2022.98.5.13636. {[}in Russian{]}
+
+95. M.V. Bazunova, A.V. Smirnov, A.R. Sadritdinov. Poluchenie i Svojstva
+Polimernyh Kompozitov na Osnove Polipropilena i Oksida Aljuminija //
+Vestnik Bashkirskogo Universiteta. -- 2021. -- T. 26. -- No.1. -- S.
+79--83. DOI 10.33184/bulletin-bsu-2021.1.13. {[}in Russian{]}
+
+96. Grinysa А., Sivilevicˇiusb H., Pupeikisa D., Ivanauskasc Е. Fracture
+of concrete containing crumb rubber. // Journal of Civil Engineering and
+Management. -- 2013. -- Vol. 19(3). -- Р.447-455 DOI
+10.3846/13923730.2013.782335
+
+97. Belal Aleemou, M.H. Yaacob, Lim H.N, Mohd Rosadi Hassan. Review of
+Electrical Properties of Graphene Conductive Composites // International
+Journal of Nanoelectronics and Materials. -- 2018. -- Vol. 11(4). -- P.
+371--398
+
+98. Laura D.M., Keskkula H. Effects of rubber particle size and rubber
+type on the mechanical properties of glass fiber reinforced,
+rubber-toughehed nylon 6 // Polymer. -- 2000. -- Vol. 41(19). --P.
+7165-7174. DOI 10.1016/S0032-3861(00)00049-5
+
+99. Abdukarimova S.A., Bozorova N.H., Turaev Je.R. Uluchshenie
+fiziko-mehanicheskih svojstv polipropilena s pomoshh' ju
+steklovolokna // Universum: tehnicheskie nauki: jelektron. nauchn.
+zhurn. -- 2021. -- No. 6(87).
+
+100. Ingole S. B. Enhancing mechanical and thermal properties of polymer
+matrix nanocomposites through tailored nanomaterial architectures / S.
+B. Ingole, P. Sharma, R. Verma, S. Chowdhury, P. P. Patil, S. P.
+Dwivedi, A. K. Khan // E3S Web of Conferences : proc. of the Int. Conf.
+``Advanced Materials for Green Chemistry and Sustainable Environment''
+(AMGSE-2024). -- 2024. -- Vol. 511: 01016. DOI
+10.1051/e3sconf/202451101016" 0 73 (fontified t) 73 140 (fontified t) 140 164 (fontified t) 164 165 (fontified t) 165 195 (fontified t) 195 1414 (fontified t) 1414 1415 (fontified t) 1415 1558 (fontified t) 1558 1560 (fontified t) 1560 1640 (fontified t) 1640 1702 (fontified t) 1702 1932 (fontified t) 1932 1934 (face font-lock-keyword-face fontified t) 1934 2008 (fontified t) 2008 2015 (fontified t) 2015 2016 (fontified t) 2016 2066 (fontified t) 2066 2309 (fontified t) 2309 2318 (fontified t) 2318 2319 (fontified t) 2319 2363 (fontified t) 2363 2388 (fontified t) 2388 2389 (fontified t) 2389 2396 (fontified t) 2396 2404 (fontified t) 2404 2405 (fontified t) 2405 2452 (fontified t) 2452 2511 (fontified t) 2511 2518 (fontified t) 2518 2519 (fontified t) 2519 2566 (fontified t) 2566 2840 (fontified t) 2840 2850 (fontified t) 2850 2985 (fontified t) 2985 3013 (fontified t) 3013 3024 (fontified t) 3024 3025 (fontified t) 3025 3060 (fontified t) 3060 3128 (fontified t) 3128 3181 (fontified t) 3181 3182 (fontified t) 3182 3185 (fontified t) 3185 3202 (fontified t) 3202 3231 (fontified t) 3231 3297 (fontified t) 3297 3302 (fontified t) 3302 3303 (fontified t) 3303 3348 (fontified t) 3348 3601 (fontified t) 3601 3608 (fontified t) 3608 3609 (fontified t) 3609 3658 (fontified t) 3658 4605 (fontified t) 4605 4616 (fontified t) 4616 4617 (fontified t) 4617 4662 (fontified t) 4662 4731 (fontified t) 4731 4798 (fontified t) 4798 4983 (fontified t) 4983 5016 (fontified t) 5016 5017 (fontified t) 5017 5037 (fontified t) 5037 5589 (fontified t) 5589 5606 (fontified t) 5606 5607 (fontified t) 5607 5646 (fontified t) 5646 6298 (fontified t) 6298 6354 (fontified t) 6354 7854 (fontified t) 7854 7905 (fontified t) 7905 9358 (fontified t) 9358 9360 (face font-lock-keyword-face fontified t) 9360 9405 (fontified t) 9405 9431 (fontified t) 9431 10478 (fontified t) 10478 10480 (face font-lock-keyword-face fontified t) 10480 10803 (fontified t) 10803 10805 (face font-lock-keyword-face fontified t) 10805 10931 (fontified t) 10931 10960 (fontified t) 10960 11292 (fontified t) 11292 11294 (face font-lock-keyword-face fontified t) 11294 12398 (fontified t) 12398 12460 (fontified t) 12460 12468 (fontified t) 12468 12645 (fontified t) 12645 12902 (fontified t) 12902 13062 (fontified t) 13062 13130 (fontified t) 13130 13178 (fontified t) 13178 13179 (fontified t) 13179 13186 (fontified t) 13186 13262 (fontified t) 13262 13515 (fontified t) 13515 13538 (fontified t) 13538 13539 (fontified t) 13539 13555 (fontified t) 13555 13562 (fontified t) 13562 13563 (fontified t) 13563 13602 (fontified t) 13602 13712 (fontified t) 13712 13759 (fontified t) 13759 13760 (fontified t) 13760 13768 (fontified t) 13768 13872 (fontified t) 13872 13886 (fontified t) 13886 13887 (fontified t) 13887 13912 (fontified t) 13912 13924 (fontified t) 13924 13925 (fontified t) 13925 13968 (fontified t) 13968 13970 (fontified t) 13970 14130 (fontified t) 14130 14313 (fontified t) 14313 14420 (fontified t) 14420 14440 (fontified t) 14440 14441 (fontified t) 14441 14478 (fontified t) 14478 14545 (fontified t) 14545 14837 (fontified t) 14837 15108 (fontified t) 15108 15404 (fontified t) 15404 15470 (fontified t) 15470 15486 (fontified t) 15486 15630 (fontified t) 15630 15721 (fontified t) 15721 16026 (fontified t) 16026 16254 (fontified t) 16254 16342 (fontified t) 16342 16344 (face font-lock-keyword-face fontified t) 16344 16446 (fontified t) 16446 16698 (fontified t) 16698 16986 (fontified t) 16986 17023 (fontified t) 17023 17256 (fontified t) 17256 17515 (fontified t) 17515 17688 (fontified t) 17688 17961 (fontified t) 17961 18207 (fontified t) 18207 18361 (fontified t) 18361 18363 (face font-lock-keyword-face fontified t) 18363 18405 (fontified t) 18405 18523 (fontified t) 18523 18540 (fontified t) 18540 18601 (fontified t) 18601 18864 (fontified t) 18864 19113 (fontified t) 19113 19417 (fontified t) 19417 19699 (fontified t) 19699 19952 (fontified t) 19952 20040 (fontified t) 20040 20094 (fontified t) 20094 20304 (fontified t) 20304 20457 (fontified t) 20457 20699 (fontified t) 20699 20853 (fontified t) 20853 20855 (face font-lock-keyword-face fontified t) 20855 21012 (fontified t) 21012 21269 (fontified t) 21269 21522 (fontified t) 21522 21594 (fontified t) 21594 21636 (fontified t) 21636 21737 (fontified t) 21737 22003 (fontified t) 22003 22334 (fontified t) 22334 22472 (fontified t) 22472 22473 (fontified t) 22473 22539 (fontified t) 22539 22607 (fontified t) 22607 22678 (fontified t) 22678 22711 (fontified t) 22711 22761 (fontified t) 22761 22771 (fontified t) 22771 22772 (fontified t) 22772 22773 (fontified t) 22773 22802 (fontified t) 22802 23503 (fontified t) 23503 23557 (fontified t) 23557 24020 (fontified t) 24020 24072 (fontified t) 24072 24073 (fontified t) 24073 24076 (fontified t) 24076 24077 (fontified t) 24077 24166 (fontified t) 24166 24174 (fontified t) 24174 24456 (fontified t) 24456 24458 (face font-lock-keyword-face fontified t) 24458 24524 (face font-lock-string-face fontified t) 24524 24526 (face font-lock-keyword-face fontified t) 24526 24574 (fontified t) 24574 24602 (fontified t)) . 1) (undo-tree-id0 . -24601) (undo-tree-id1 . -24601) (undo-tree-id2 . -27) (undo-tree-id3 . -24602) (undo-tree-id4 . -24602) (undo-tree-id5 . -24602) (undo-tree-id6 . -24602) (undo-tree-id7 . -24602) (undo-tree-id8 . -24602) (undo-tree-id9 . -24602) (undo-tree-id10 . -24602) (undo-tree-id11 . -24602) (undo-tree-id12 . -24602) (undo-tree-id13 . -24602) (undo-tree-id14 . -24601) (undo-tree-id15 . -24602) (undo-tree-id16 . -24602) (undo-tree-id17 . -24602) (undo-tree-id18 . -24602) (undo-tree-id19 . -24602) (undo-tree-id20 . -24602) (undo-tree-id21 . -24602) (undo-tree-id22 . -24602) (undo-tree-id23 . -24602) (undo-tree-id24 . -24602) (undo-tree-id25 . -24602) (undo-tree-id26 . -24602) (undo-tree-id27 . -24602) (undo-tree-id28 . -24602) (undo-tree-id29 . -24602) (undo-tree-id30 . -24602) (undo-tree-id31 . -24602) (undo-tree-id32 . -24602) (undo-tree-id33 . -24602) (undo-tree-id34 . -24602) (undo-tree-id35 . -24602) (undo-tree-id36 . -24602) (undo-tree-id37 . -24602) (undo-tree-id38 . -24602) (undo-tree-id39 . -24602) (undo-tree-id40 . -24602) (undo-tree-id41 . -24602) (undo-tree-id42 . -24602) (undo-tree-id43 . -24602) (undo-tree-id44 . -24602) (undo-tree-id45 . -24602) (undo-tree-id46 . -24602) (undo-tree-id47 . -24602) (undo-tree-id48 . -24602) (undo-tree-id49 . -24602) (undo-tree-id50 . -24602) (undo-tree-id51 . -24602) (undo-tree-id52 . -24602) (undo-tree-id53 . -24602) (undo-tree-id54 . -24602) (undo-tree-id55 . -24602) (undo-tree-id56 . -24602) (undo-tree-id57 . -24602) (undo-tree-id58 . -24602) (undo-tree-id59 . -24602) (undo-tree-id60 . -21138) (undo-tree-id61 . -21382) (undo-tree-id62 . -21670) (undo-tree-id63 . -21929) (undo-tree-id64 . -22192) (undo-tree-id65 . -22472) (undo-tree-id66 . -22711) (undo-tree-id67 . -22982) (undo-tree-id68 . -23256) (undo-tree-id69 . -23485) (undo-tree-id70 . -23711) (undo-tree-id71 . -23956) (undo-tree-id72 . -24174) (undo-tree-id73 . -24601) (undo-tree-id74 . -24601) (undo-tree-id75 . -24601) (undo-tree-id76 . -24020) (undo-tree-id77 . -27) 28) ((1 . 24603)) (26719 55737 500584 151000) 0 nil])
+nil
